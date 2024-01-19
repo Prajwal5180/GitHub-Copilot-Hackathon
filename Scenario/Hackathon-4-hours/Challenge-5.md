@@ -1,6 +1,6 @@
 # Challenge 5: Create Documentation Using Copilot
 
-### Estimated Time: Varies
+### Estimated Time: ?
 
 ## Introduction
 
