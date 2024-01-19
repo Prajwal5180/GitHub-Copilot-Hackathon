@@ -48,7 +48,7 @@ This hackathon follows a challenge-based format, presenting you with hands-on ta
 ### Challenge 5: Create documentation using Copilot
 - Leverage Copilot to generate documentation for a given project or codebase.
 
-Feel free to explore each challenge, learn, and experiment with GitHub Copilot during this hackathon! If you have any questions, don't hesitate to seek assistance.
+Feel free to explore each challenge, learn, and experiment with GitHub Copilot during this hackathon! If you have any questions, don't hesitate to seek assistance from your coach.
 
 Happy coding!
 
