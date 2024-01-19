@@ -4,11 +4,18 @@
 
 ## Introduction
 
-**GitHub Copilot** is an AI-powered coding assistant integrated into Visual Studio Code. It assists developers in writing code by providing suggestions and autocompletions based on the context of the code being written. In this challenge, you'll set up GitHub Copilot in Visual Studio Code, log in with your GitHub account, explore GitHub Codespaces integration, and try out Copilot in various coding scenarios.
+**GitHub Copilot** is a revolutionary AI-powered coding companion seamlessly integrated into Visual Studio Code, aiming to elevate the coding experience for developers. By harnessing the power of machine learning, Copilot assists developers in crafting code by intelligently suggesting completions and generating contextually relevant code snippets.
+
+Now, picture this coding scenario: you are working on a complex project, and you encounter a coding puzzle that requires meticulous attention to detail. GitHub Copilot steps in as your coding ally, providing insightful suggestions and autocompletions that align seamlessly with the coding context. This not only enhances your coding efficiency but also serves as a valuable learning tool, offering a deeper understanding of coding structures and patterns.
+But that's not all—explore the integration of GitHub Copilot with GitHub Codespaces, a feature that extends the collaborative potential of your coding environment. This integration opens up new avenues for collaborative coding, enabling teams to work seamlessly on projects regardless of geographical boundaries.
+
+In this challenge, your mission is to embark on a journey of exploration and implementation with GitHub Copilot. Begin by setting up this powerful coding assistant within Visual Studio Code, a popular choice among developers. As you dive into the setup process, you'll be prompted to log in with your GitHub account, establishing a bridge between your coding endeavors and the collaborative ecosystem of GitHub. You will explore GitHub Codespaces integration, and try out Copilot in various coding scenarios.
 
 ## Prerequisites
 
-Make sure you have the following installed on your system:
+Make sure you have the following from the CloudLabs provided integrated environment:
+
+> **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
@@ -21,7 +28,7 @@ Make sure you have the following installed on your system:
    - Configure the extension settings to suit your preferences.
 
 2. **Login with GitHub Account:**
-   - Log in to GitHub within Visual Studio Code using your GitHub credentials.
+   - Login to GitHub within Visual Studio Code using the provided GitHub credentials.
 
 3. **Using GitHub Codespaces with Copilot:**
    - Explore the integration of GitHub Codespaces with GitHub Copilot.

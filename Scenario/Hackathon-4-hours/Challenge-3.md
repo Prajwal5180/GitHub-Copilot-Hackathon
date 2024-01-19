@@ -10,14 +10,73 @@ GitHub Copilot, powered by advanced machine learning models, will assist you in 
 
 ## Challenge Objectives:
 
-1. **Task: Refactor a given piece of code:**
+1. **Refactor a given piece of code:**
    - Choose a section of code, and refactor it to improve readability, adhere to coding standards, and enhance overall code quality.
    - Experiment with different refactoring techniques, such as simplifying complex expressions, renaming variables, and extracting methods.
 
-2. **Task: Fix a given piece of code:**
+   ```
+   #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
+   
+   MAX = 100
+
+   def calculate_sum(arr):
+      result = 0
+      for num in arr:
+         result += num
+      return result
+
+   def main():
+      try:
+         n = int(input("Enter the number of elements (1-100): "))
+         if not 1 <= n <= MAX:
+               print("Invalid input. Please provide a digit ranging from 1 to 100.")
+               exit(1)
+
+         arr = []
+
+         print(f"Enter {n} integers:")
+         for _ in range(n):
+               try:
+                  arr.append(int(input()))
+               except ValueError:
+                  print("Invalid input. Please enter valid integers.")
+                  exit(1)
+
+         total = calculate_sum(arr)
+
+         print("Sum of the numbers:", total)
+
+      except KeyboardInterrupt:
+         print("\nProgram terminated by user.")
+         exit(1)
+
+   if __name__ == "__main__":
+      main()
+   ```
+
+2. **Fix a given piece of code:**
    - Identify a piece of code with intentional errors or issues.
    - Use GitHub Copilot to assist you in debugging and fixing the identified issues.
    - Explore Copilot's suggestions for error correction, and verify the effectiveness of the fixes.
+
+   ```
+   # Intentionally flawed Python program
+
+   # importing modules
+   import itertools, random
+
+   # make a deck of cards
+   deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
+
+   # shuffle the cards
+   random.shuffle(deck)
+
+   # draw five cards
+   print("You got:")
+   for i in range(5)
+      print(deck[i][0], "of", deck[i][1]
+
+   ```
 
 ## Success Criteria:
 
