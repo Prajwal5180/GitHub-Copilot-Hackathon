@@ -1,11 +1,11 @@
 # Challenge 1: Getting Started with GitHub Copilot - Solution Guide
 
-## Task 1: Install the GitHub Copilot extension in Visual Studio Code
+## Task 1: Setup Github Copilot in VS Code
 
 ### Step 1: Open Visual Studio Code
    - Open Visual Studio Code from the desktop screen.
    
-   ![VS Code](../media/vscode.png)
+   ![Picture1](../media/task1.1.png)
 
 ### Step 2: Install GitHub Copilot extension
    - Click on the **Extensions (1)** icon in the activity bar on the left side of the Visual Studio Code window.
