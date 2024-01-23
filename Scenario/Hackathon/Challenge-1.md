@@ -1,15 +1,16 @@
-# Challenge 1: Setup and Start using GitHub Copilot
+# Challenge 1: Getting Started with GitHub Copilot
 
-### Estimated Time: 30 minutes
+### Estimated Time: ? minutes
 
 ## Introduction
 
-**GitHub Copilot** is a revolutionary AI-powered coding companion seamlessly integrated into Visual Studio Code, aiming to elevate the coding experience for developers. By harnessing the power of machine learning, Copilot assists developers in crafting code by intelligently suggesting completions and generating contextually relevant code snippets.
+**GitHub Copilot** is a groundbreaking AI-powered coding companion seamlessly integrated into Visual Studio Code, designed to enhance your coding experience. By leveraging machine learning, Copilot assists developers in crafting code by intelligently suggesting completions and generating contextually relevant code snippets.
 
-Now, picture this coding scenario: you are working on a complex project, and you encounter a coding puzzle that requires meticulous attention to detail. GitHub Copilot steps in as your coding ally, providing insightful suggestions and autocompletions that align seamlessly with the coding context. This not only enhances your coding efficiency but also serves as a valuable learning tool, offering a deeper understanding of coding structures and patterns.
+Imagine navigating a complex coding project and encountering puzzles that demand meticulous attention to detail. GitHub Copilot steps in as your coding ally, offering insightful suggestions and autocompletions tailored to the coding context. This not only boosts coding efficiency but also serves as a valuable learning tool, providing a deeper understanding of coding structures and patterns.
+
 But that's not all—explore the integration of GitHub Copilot with GitHub Codespaces, a feature that extends the collaborative potential of your coding environment. This integration opens up new avenues for collaborative coding, enabling teams to work seamlessly on projects regardless of geographical boundaries.
 
-In this challenge, your mission is to embark on a journey of exploration and implementation with GitHub Copilot. Begin by setting up this powerful coding assistant within Visual Studio Code, a popular choice among developers. As you dive into the setup process, you'll be prompted to log in with your GitHub account, establishing a bridge between your coding endeavors and the collaborative ecosystem of GitHub. You will explore GitHub Codespaces integration, and try out Copilot in various coding scenarios.
+In this challenge series, you'll dive into GitHub Copilot's capabilities, starting with the setup and exploration of its features. From collaborative coding with GitHub Codespaces to experimenting with Copilot's suggestions and creating code for various tasks, you'll embark on a journey to harness the full potential of this revolutionary coding assistant.
 
 ## Prerequisites
 
@@ -34,9 +35,80 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Explore the integration of GitHub Codespaces with GitHub Copilot.
    - Understand how Copilot can be utilized in a collaborative coding environment.
 
-4. **Try out Copilot:**
+4. **Explore GitHub Copilot Features:**
    - Experiment with Copilot in various coding scenarios.
    - Use Copilot's suggestions to speed up your code writing process.
+
+5. **Code Generation with Copilot and Copilot Chat:**
+   - Create a Python/JS based code to build a calculator.
+      - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
+      - Experiment with different mathematical operations and user interactions.
+   - Create a Python/JS based app to get weather data from weather APIs.
+      - Leverage Copilot to generate Python code that interacts with weather APIs to retrieve weather data.
+      - Explore the integration of JSON for handling and parsing weather data.
+
+6. **Code Refactoring & Debugging:**
+   - Refactor given code snippets using Copilot, understanding the process of code improvement.
+
+      ```
+      #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
+      
+      MAX = 100
+
+      def calculate_sum(arr):
+         result = 0
+         for num in arr:
+            result += num
+         return result
+
+      def main():
+         try:
+            n = int(input("Enter the number of elements (1-100): "))
+            if not 1 <= n <= MAX:
+                  print("Invalid input. Please provide a digit ranging from 1 to 100.")
+                  exit(1)
+
+            arr = []
+
+            print(f"Enter {n} integers:")
+            for _ in range(n):
+                  try:
+                     arr.append(int(input()))
+                  except ValueError:
+                     print("Invalid input. Please enter valid integers.")
+                     exit(1)
+
+            total = calculate_sum(arr)
+
+            print("Sum of the numbers:", total)
+
+         except KeyboardInterrupt:
+            print("\nProgram terminated by user.")
+            exit(1)
+
+      if __name__ == "__main__":
+         main()
+      ```
+   - Debug code effectively with Copilot's assistance, addressing and fixing identified issues.
+
+      ```
+      # Intentionally flawed Python program
+
+      # importing modules
+      import itertools, random
+
+      # make a deck of cards
+      deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
+
+      # shuffle the cards
+      random.shuffle(deck)
+
+      # draw five cards
+      print("You got:")
+      for i in range(5)
+         print(deck[i][0], "of", deck[i][1]
+
+      ```
 
 ## Success Criteria:
 
@@ -44,6 +116,10 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - You have logged in to your GitHub account within VS Code.
 - You've explored GitHub Codespaces integration and understand its collaboration features.
 - Successfully tried out Copilot in coding scenarios, experiencing its code generation capabilities.
+- Created Python/JS code for a calculator and an app to get weather data using Copilot.
+- Successfully refactor a chosen piece of code, improving its readability and overall quality.
+- Successfully fix a piece of code with intentional errors using Copilot's suggestions.
+
 
 ## Additional Resources:
 
@@ -52,4 +128,4 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ### Conclusion
 
-In this challenge, you've set up and started using GitHub Copilot. You've explored its features and experienced how it can enhance your coding workflow. In the next challenge, you'll delve into code generation with Copilot.
+In this challenge, you successfully set up GitHub Copilot in Visual Studio Code, configured extension settings, and logged in with your GitHub account. You explored the integration of GitHub Codespaces with Copilot, experiencing its collaborative coding potential. Throughout the challenge, you experimented with Copilot's features, speeding up your coding process, and completed tasks such as creating Python/JS code for a calculator and an app to fetch weather data. Additionally, you refined your coding skills by refactoring code snippets and debugging with Copilot's assistance. These accomplishments provide a solid foundation for the upcoming challenges, where you'll further explore the capabilities of GitHub Copilot.

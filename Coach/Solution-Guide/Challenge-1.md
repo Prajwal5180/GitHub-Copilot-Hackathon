@@ -1,4 +1,4 @@
-# Challenge 1: Setup and Start using GitHub Copilot - Solution Guide
+# Challenge 1: Getting Started with GitHub Copilot - Solution Guide
 
 ## Task 1: Install the GitHub Copilot extension in Visual Studio Code
 
