@@ -5,7 +5,7 @@
 ### Step 1: Open Visual Studio Code
    - Open Visual Studio Code from the desktop screen.
    
-   ![Picture1](../media/task1.1.png)
+      ![Picture1](/media/task1.1.png)
 
 ### Step 2: Install GitHub Copilot extension
    - Click on the **Extensions (1)** icon in the activity bar on the left side of the Visual Studio Code window.
@@ -13,7 +13,7 @@
    - Select **GitHub Copilot (3)** from the list of results.
    - Click on the **Install (4)** button.
 
-   ![GitHub Copilot Extension](../media/task1.1.png)
+      ![Picture1](/media/task1.2.png)
 
 ### Step 3: Sign in to GitHub
    - After installation, at the bottom right corner, click on the **Sign in to GitHub** prompt.
