@@ -42,33 +42,33 @@ By participating in this hackathon, you will:
 
 2. **Getting Started with GitHub Copilot**
 
-   a. **Setup and Start using GitHub Copilot**
-      - i. Setup GitHub Copilot in VS Code
-      - ii. Login with GitHub Account
-      - iii. Using GitHub Codespaces with Copilot
-      - iv. Explore GitHub Copilot Features
+   - **Setup and Start using GitHub Copilot**
+      -  Setup GitHub Copilot in VS Code
+      -  Login with GitHub Account
+      -  Using GitHub Codespaces with Copilot
+      -  Explore GitHub Copilot Features
 
-   b. **Code Generation with Copilot and Copilot Chat**
-      - i. Create a Python/JS based code to build a calculator
-      - ii. Create a Python/JS based app to get weather data from weather APIs.
+   - **Code Generation with Copilot and Copilot Chat**
+      -  Create a Python/JS based code to build a calculator
+      -  Create a Python/JS based app to get weather data from weather APIs.
 
-   c. **Code Refactoring & Debugging**
+   - **Code Refactoring & Debugging**
 
 3. **Develop an App with GitHub Copilot**
 
-      - a. Choose a Scenario (To be finalized during content development stage)
-      - b. Use Copilot Chat to start a workspace
-      - c. Develop required features and test.
-      - d. Language – Python, HTML+JS
-      - e. Test and Get the App Ready.
-      - f. Use GitHub Copilot at each stage (create workspace, commit message, write code, generate test cases, etc.)
+      -  Choose a Scenario (To be finalized during content development stage)
+      -  Use Copilot Chat to start a workspace
+      -  Develop required features and test.
+      -  Language – Python, HTML+JS
+      -  Test and Get the App Ready.
+      -  Use GitHub Copilot at each stage (create workspace, commit message, write code, generate test cases, etc.)
 
 4. **Deploy the App to Azure**
 
-   a. Develop ARM Template to deploy an app to Azure
-   b. Create GitHub Actions Pipeline with Copilot
-   c. Create documentation using Copilot
-   d. Get the app working on Azure.
+   - Develop ARM Template to deploy an app to Azure
+   - Create GitHub Actions Pipeline with Copilot
+   - Create documentation using Copilot
+   - Get the app working on Azure.
 
 5. **Using GitHub Copilot workspace, file reference, and advanced context window.**
    
