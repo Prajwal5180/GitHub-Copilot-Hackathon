@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Embark on an exciting journey of developing a fully-functional application using the cutting-edge capabilities of GitHub Copilot. This challenge will guide you through creating a Python and HTML+JS-based application, utilizing GitHub Copilot at every stage of the development process.
+Embark on an exciting journey of developing a fully-functional application using the cutting-edge capabilities of GitHub Copilot. This challenge will guide you through creating a Python and Flask based application, utilizing GitHub Copilot at every stage of the development process.
 
 GitHub Copilot, a revolutionary AI-powered coding assistant, will assist you in crafting code for your chosen scenario. From setting up a workspace to committing changes and writing complex features, Copilot will be your intelligent companion throughout the development cycle. Let's dive into the world of application development and experience the seamless integration of AI with GitHub Copilot!
 
@@ -24,6 +24,16 @@ GitHub Copilot, a revolutionary AI-powered coding assistant, will assist you in 
 4. **Test and Get the App Ready:**
    - Use GitHub Copilot to generate test cases for your application.
    - Test the application and make necessary modifications based on Copilot's suggestions.
+
+## Success Criteria:
+
+- Successfully generate Python and Flask code for building a CRUD (Create, Read, Update, Delete) application using GitHub Copilot.
+- Ensure the application demonstrates functionality for each CRUD operation.
+- Successfully use Copilot Chat to initiate and configure the development workspace.
+- Effectively experiment with Copilot's suggestions for setting up the project structure and dependencies.
+- Utilize GitHub Copilot to generate accurate and contextually relevant code snippets for building essential features of the application.
+- Generate comprehensive test cases for the application using GitHub Copilot.
+- Utilize Copilot to draft comments, ensuring the codebase is well-documented.
 
 ## Additional Instructions:
 
