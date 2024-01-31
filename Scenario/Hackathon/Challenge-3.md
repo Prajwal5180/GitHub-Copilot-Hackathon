@@ -1,83 +1,24 @@
-# Challenge 3: Code Refactoring & Debugging
+# Challenge 3: Deploy the App to Azure  
 
 ### Estimated Time: ?
 
 ## Introduction
 
-In this challenge, you'll dive into the world of code refactoring and debugging using GitHub Copilot. Code refactoring involves restructuring existing code to improve its readability, maintainability, and efficiency, while debugging focuses on identifying and fixing issues within the code.
-
-GitHub Copilot, powered by advanced machine learning models, will assist you in both refactoring and debugging tasks. By leveraging Copilot's intelligent suggestions, you can enhance the quality of your code and resolve any issues efficiently.
+In this challenge, you will utilize GitHub Copilot to streamline the development of an Azure Resource Manager (ARM) template. ARM templates are Infrastructure as Code (IaC) files used to deploy and manage resources in Azure. By leveraging Copilot's code generation capabilities, you'll expedite the creation of an ARM template for deploying an application to Azure.
 
 ## Challenge Objectives:
 
-1. **Refactor a given piece of code:**
-   - Choose a section of code, and refactor it to improve readability, adhere to coding standards, and enhance overall code quality.
-   - Experiment with different refactoring techniques, such as simplifying complex expressions, renaming variables, and extracting methods.
+1. **Develop ARM Template to deploy an app to Azure:**
+   - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying an application to Azure.
+   - Define the necessary Azure resources such as App Service and any other components required for your application.
 
-   ```
-   #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
-   
-   MAX = 100
+2. **Create GitHub Actions Pipeline with Copilot** 
 
-   def calculate_sum(arr):
-      result = 0
-      for num in arr:
-         result += num
-      return result
+3. **Generate Documentation with Copilot:**
 
-   def main():
-      try:
-         n = int(input("Enter the number of elements (1-100): "))
-         if not 1 <= n <= MAX:
-               print("Invalid input. Please provide a digit ranging from 1 to 100.")
-               exit(1)
-
-         arr = []
-
-         print(f"Enter {n} integers:")
-         for _ in range(n):
-               try:
-                  arr.append(int(input()))
-               except ValueError:
-                  print("Invalid input. Please enter valid integers.")
-                  exit(1)
-
-         total = calculate_sum(arr)
-
-         print("Sum of the numbers:", total)
-
-      except KeyboardInterrupt:
-         print("\nProgram terminated by user.")
-         exit(1)
-
-   if __name__ == "__main__":
-      main()
-   ```
-
-2. **Fix a given piece of code:**
-   - Identify a piece of code with intentional errors or issues.
-   - Use GitHub Copilot to assist you in debugging and fixing the identified issues.
-   - Explore Copilot's suggestions for error correction, and verify the effectiveness of the fixes.
-
-   ```
-   # Intentionally flawed Python program
-
-   # importing modules
-   import itertools, random
-
-   # make a deck of cards
-   deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
-
-   # shuffle the cards
-   random.shuffle(deck)
-
-   # draw five cards
-   print("You got:")
-   for i in range(5)
-      print(deck[i][0], "of", deck[i][1]
-
-   ```
-
+4. **Get the app working on Azure.**
+   - Deploy the application to Azure using the ARM template you've created.
+   - Verify that the deployed resources match the specifications outlined in your ARM template.
 ## Success Criteria:
 
 - Successfully refactor a chosen piece of code, improving its readability and overall quality.

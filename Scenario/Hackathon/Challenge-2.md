@@ -1,37 +1,36 @@
-# Challenge 2: Code Generation with Copilot
+# Develop an App with GitHub Copilot Challenge Guide
 
 ### Estimated Time: ?
 
 ## Introduction
 
-In this challenge, you'll harness the capabilities of GitHub Copilot to revolutionize your coding experience. GitHub Copilot, an AI-powered coding assistant developed by GitHub in collaboration with OpenAI, will assist you in generating code for a Python/JS-based calculator and a Python/JSON-based app to retrieve weather data from weather APIs.
+Embark on an exciting journey of developing a fully-functional application using the cutting-edge capabilities of GitHub Copilot. This challenge will guide you through creating a Python and HTML+JS-based application, utilizing GitHub Copilot at every stage of the development process.
 
-GitHub Copilot's advanced code generation features enable you to seamlessly create functional code snippets by understanding the context and providing relevant suggestions. This challenge will allow you to experience the power of AI in code development and explore the potential of GitHub Copilot in automating the coding process.
-
-Whether you're a seasoned developer or just starting, GitHub Copilot aims to streamline your coding workflow, providing intelligent code suggestions and accelerating your development tasks. Let's dive into the world of AI-powered coding and see how GitHub Copilot can enhance your coding journey!
+GitHub Copilot, a revolutionary AI-powered coding assistant, will assist you in crafting code for your chosen scenario. From setting up a workspace to committing changes and writing complex features, Copilot will be your intelligent companion throughout the development cycle. Let's dive into the world of application development and experience the seamless integration of AI with GitHub Copilot!
 
 ## Challenge Objectives:
 
-1. **Create a Python/JS based code to build a calculator:**
-   - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
-   - Experiment with different mathematical operations and user interactions.
+1. **Create a CRUD application using Python and Flask**
+   - Leverage GitHub Copilot to generate code for building a CRUD (Create, Read, Update, Delete) application.
 
-2. **Create a Python/JSON based app to get weather data from weather APIs:**
-   - Leverage Copilot to generate Python code that interacts with weather APIs to retrieve weather data.
-   - Explore the integration of JSON for handling and parsing weather data.
+2. **Set Up a Workspace Using Copilot Chat:**
+   - Leverage Copilot Chat to initiate and configure your development workspace.
+   - Experiment with Copilot's suggestions for setting up the project structure and dependencies.
 
-## Success Criteria:
+3. **Develop Required Features:**
+   - Utilize GitHub Copilot to generate code snippets for building essential features of your chosen application.
+   - Explore Copilot's ability to understand your context and provide relevant code suggestions.
 
-- Successfully generate Python/JS code for a functional calculator using GitHub Copilot.
-- Generate Python/JSON code to interact with weather APIs and retrieve weather data using Copilot.
+4. **Test and Get the App Ready:**
+   - Use GitHub Copilot to generate test cases for your application.
+   - Test the application and make necessary modifications based on Copilot's suggestions.
 
 ## Additional Instructions:
 
-- Feel free to experiment with Copilot's suggestions and modify the generated code to meet your specific requirements.
-- If you encounter any challenges or have questions, refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for guidance.
+- Feel free to explore various application scenarios and customize the features based on your preferences.
+- Engage with Copilot Chat to enhance collaboration and receive real-time code suggestions.
+- Refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for any clarifications or guidance during the challenge.
 
 ## Conclusion
 
-In this challenge, you've effectively harnessed the power of GitHub Copilot to generate code for diverse tasks. You've experienced the efficiency and creativity it brings to the coding process. As you move forward, continue exploring and experimenting with GitHub Copilot to unlock its full potential in your coding endeavors.
-
-Happy coding!
+Through this challenge, you've harnessed the power of GitHub Copilot to develop a feature-rich application. You've experienced how Copilot seamlessly integrates into your workflow, providing intelligent suggestions and enhancing your overall coding experience. As you continue your journey, explore the vast capabilities of GitHub Copilot and unlock its potential in various development scenarios.

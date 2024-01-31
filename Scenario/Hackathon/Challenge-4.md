@@ -8,7 +8,7 @@ In this challenge, you will utilize GitHub Copilot to streamline the development
 
 ## Challenge Objectives:
 
-1. **Generate ARM Template with Copilot:**
+1. **Develop ARM Template to deploy an app to Azure:**
    - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying an application to Azure.
    - Define the necessary Azure resources such as App Service, Storage Account, and any other components required for your application.
 
