@@ -1,7 +1,7 @@
 # Develop an App with GitHub Copilot Challenge Guide
 
 ### Estimated Time: ?
-# Using GitHub Copilot Challenge  
+
   
 ## Introduction  
 In this challenge, we will explore GitHub Copilot, an AI-powered code completion tool. You will be tasked with building an application using Copilot. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities.  You will utilize GitHub Copilot at every stage of the development process. From setting up a workspace to committing changes and writing complex features, Copilot will be your intelligent companion throughout the development cycle. Let's dive into the world of application development and experience the seamless integration of AI with GitHub Copilot!
