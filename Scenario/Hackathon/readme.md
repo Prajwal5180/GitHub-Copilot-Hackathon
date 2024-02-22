@@ -25,35 +25,45 @@ This hackathon adopts a challenge-based format, offering you a unique opportunit
 
 ## Challenges Overview
 
-1. **Introduction to GitHub Copilot**
+<<<<<<< HEAD
+- **Azure Deployment with Copilot:**
+  - Utilize Copilot to create an ARM Template for deploying an application to Azure.
+  - Set up a GitHub Actions Pipeline using Copilot for automated deployment.
+  - Generate documentation for the deployed app effortlessly with Copilot's assistance.
 
-2. **Getting Started with GitHub Copilot**
-   - **Setup and Start using GitHub Copilot**
-      -  Setup GitHub Copilot in VS Code
-      -  Login with GitHub Account
-      -  Using GitHub Codespaces with Copilot
-      -  Explore GitHub Copilot Features
-   - **Code Generation with Copilot and Copilot Chat**
-      -  Create a Python/JS based code to build a calculator
-      -  Create a Python/JS based app to get weather data from weather APIs.
-   - **Code Refactoring & Debugging**
+- **Exploring Advanced Copilot Features:**
+  - Explore GitHub Copilot workspace, file references, and the advanced context window for a deeper understanding of advanced features.
 
-3. **Develop an App with GitHub Copilot**
-      -  Choose a Scenario (To be finalized during content development stage)
-      -  Use Copilot Chat to start a workspace
-      -  Develop required features and test.
-      -  Language – Python, HTML+JS
-      -  Test and Get the App Ready.
-      -  Use GitHub Copilot at each stage (create workspace, commit message, write code, generate test cases, etc.)
+## Challenges Overview
 
-4. **Deploy the App to Azure**
-   - Develop ARM Template to deploy an app to Azure
-   - Create GitHub Actions Pipeline with Copilot
-   - Create documentation using Copilot
-   - Get the app working on Azure.
+1. **Challenge 00: Introduction to GitHub Copilot**
 
-5. **Using GitHub Copilot workspace, file reference, and advanced context window**
+    The primary objective of this challenge is to provide a comprehensive understanding of GitHub Copilot, an AI-powered tool designed to assist developers in writing code faster and more efficiently. Participants will learn about the key features, benefits, and use cases of GitHub Copilot, particularly focusing on the Business variant. The challenge aims to provide insights into how GitHub Copilot can improve developer productivity, enhance code security, and offer satisfying work experiences. It also underscores the differences between GitHub Copilot for Business and GitHub Copilot for Individuals.
+
+2. **Challenge 01: Getting Started with GitHub Copilot**
+
+   In this challenge, you'll learn how to set up and use GitHub Copilot, an AI-powered coding assistant, within the Visual Studio Code environment. You'll start by installing and configuring the GitHub Copilot extension and logging in with your GitHub account. Then, you'll explore the integration of GitHub Copilot with GitHub Codespaces for collaborative coding. You will experiment with various features of Copilot, including code autocompletion, context-aware suggestions, and code generation. You'll also create simple Python and JavaScript scripts, such as a basic calculator and an application that retrieves weather data from APIs, using Copilot. Furthermore, you will explore the Copilot Chat feature for interactive code refinement and use Copilot for code refactoring and debugging. The objective is to understand how GitHub Copilot can enhance your coding experience and productivity.
+
+3. **Challenge 02: Develop an App with GitHub Copilot**
+
+      In this challenge, you'll use GitHub Copilot, an AI-powered code completion tool, to develop a C# application. Starting with an existing application skeleton, you'll complete the usercontroller.cs file by filling in code for the empty methods with the assistance of Copilot. You'll also develop and test essential features for the application using Copilot's code suggestions. Throughout the process, you'll utilize Copilot for creating a workspace, crafting commit messages, generating code, and forming test cases. The aim is to understand how AI can streamline the software development process, improve productivity, and provide context-aware coding assistance. The challenge will be successful when the methods are completed, the developed features work as expected, all test cases pass, and Copilot has been properly utilized.
+
+4. **Challenge 03: Deploy the App to Azure**
+
+   The objective of this challenge is to utilize GitHub Copilot to facilitate the development of an Azure Resource Manager (ARM) template, which is essential for deploying and managing resources in Azure. You'll use Copilot's code generation capabilities to create an ARM template and define necessary Azure resources. Additionally, you'll use Copilot to assist in creating a GitHub Actions pipeline. Then, you'll deploy the application to Azure using the created ARM template, and verify that the deployed resources match the specifications in your ARM template. The challenge aims to demonstrate how GitHub Copilot can streamline application deployment and infrastructure management in Azure. Successful completion of the challenge involves code refactoring, debugging, and successful deployment of the application to Azure.
+
+5. **Challenge 04: Using GitHub Copilot workspace, file reference, and advanced context window.**
+
+    In this challenge, you will explore and utilize advanced features of GitHub Copilot, including workspace, file reference, and the advanced context window. The objective is to understand how these features can enhance your coding process and efficiency. You'll learn how to use Copilot to navigate your workspace, reference files for context, and make the most out of the advanced context window for code generation and suggestions. The challenge aims to deepen your understanding of Copilot's capabilities and how it can assist in various aspects of the coding process.
+
+6. **Challenge 05: Generate Documentation using Github Copilot**
+
+    The objective of this challenge is to utilize GitHub Copilot to generate documentation for your code or project. You'll learn how to use Copilot's AI capabilities to create comprehensive, clear, and accurate documentation, enhancing understandability and maintainability of your code. The challenge aims to demonstrate how GitHub Copilot can streamline and enhance the often time-consuming process of documentation generation.
+
+7. **Challenge 06: Generate Scripts using Github Copilot**
    
-Feel free to explore each challenge, learn, and experiment with GitHub Copilot during this hackathon! If you have any questions, don't hesitate to seek assistance from your coach.
+    The objective of this challenge is to use GitHub Copilot to generate scripts for your projects. You'll leverage Copilot's AI capabilities to create scripts, thereby improving your coding efficiency and productivity. The challenge aims to demonstrate how GitHub Copilot can assist in automating repetitive tasks and speeding up the development process through the generation of scripts.
+
+Each challenge comes with its own set of tasks and objectives. Feel free to explore each challenge, learn, and experiment with GitHub Copilot during this hackathon! If you have any questions, don't hesitate to seek assistance from your coach.
 
 Happy coding!
