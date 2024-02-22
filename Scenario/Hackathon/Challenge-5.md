@@ -6,6 +6,12 @@
 
 In this challenge, you will leverage GitHub Copilot to expedite the creation of documentation for a given project or codebase. Documentation plays a crucial role in facilitating understanding, collaboration, and maintenance of software projects. By using Copilot's code generation capabilities, you'll explore how it can assist in creating descriptive and informative documentation.
 
+## Prerequisites
+
+Make sure you have the following from the CloudLabs provided integrated environment:
+
+> **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
+
 ## Challenge Objectives:
 
 1. **Generate Documentation with Copilot:**
