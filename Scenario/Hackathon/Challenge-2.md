@@ -14,7 +14,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 - Basic understanding of C# programming language.  
 - A GitHub account.  
-- GitHub Copilot installed on your Visual Studio Code.  
+- GitHub Copilot installed on your Visual Studio.  
   
 ## Challenge Objectives  
 1. **Develop an App:** The skeleton of the application already exists. You need to complete the `usercontroller.cs` file where methods are currently empty. Use GitHub Copilot to fill in the code for these methods based on the comments provided in the file.
