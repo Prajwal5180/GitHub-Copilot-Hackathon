@@ -6,6 +6,12 @@
 
 GitHub Copilot is an AI-powered code completion tool that assists sysadmins in automating tasks and creating scripts efficiently. Leveraging machine learning, Copilot suggests context-aware code snippets, streamlining the process of writing sysadmin scripts. This document outlines the objectives, success criteria, and a brief conclusion for the challenge of generating sysadmin scripts using GitHub Copilot.
 
+## Prerequisites
+
+Make sure you have the following from the CloudLabs provided integrated environment:
+
+> **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
+
 ## Challenge Objectives:
 
 1. **Generate Sysadmin scripts:**
