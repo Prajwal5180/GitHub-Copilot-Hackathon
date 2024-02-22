@@ -1,6 +1,6 @@
 # Challenge 1: Getting Started with GitHub Copilot
 
-### Estimated Time: ? minutes
+### Estimated Time: 60 minutes
 
 ## Introduction
 
@@ -112,14 +112,12 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Success Criteria:
 
-- GitHub Copilot is successfully installed and configured in Visual Studio Code.
-- You have logged in to your GitHub account within VS Code.
-- You've explored GitHub Codespaces integration and understand its collaboration features.
+- Verify that GitHub Copilot is successfully installed and configured in Visual Studio Code and logged in.
+- Successfully explored GitHub Codespaces integration and understood its collaboration features.
 - Successfully tried out Copilot in coding scenarios, experiencing its code generation capabilities.
-- Created Python/JS code for a calculator and an app to get weather data using Copilot.
-- Successfully refactor a chosen piece of code, improving its readability and overall quality.
-- Successfully fix a piece of code with intentional errors using Copilot's suggestions.
-
+- Verify that Python/JS code for a calculator and an app to get weather data using Copilot is created and run successfully.
+- Verify that your chosen piece of code is refactored successfully, with improved readability and overall quality.
+- Verify that a piece of code with intentional errors is fixed successfully using Copilot's suggestions.
 
 ## Additional Resources:
 
