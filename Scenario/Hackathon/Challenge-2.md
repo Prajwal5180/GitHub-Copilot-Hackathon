@@ -1,10 +1,9 @@
 # Challenge 2: Develop an App with GitHub Copilot
 
-### Estimated Time: ?
-
+### Estimated Time: 60 mins
   
 ## Introduction  
-In this challenge, you will explore GitHub Copilot, an AI-powered code completion tool. You will be tasked with building an application using Copilot. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities.  You will utilize GitHub Copilot at every stage of the development process. From setting up a workspace to committing changes and writing complex features, Copilot will be your intelligent companion throughout the development cycle. Let's dive into the world of application development and experience the seamless integration of AI with GitHub Copilot!
+In this challenge, you will explore GitHub Copilot, an AI-powered code completion tool. You will be tasked with building an Contact Database application using Copilot. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities.  You will utilize GitHub Copilot at every stage of the development process. From setting up a workspace to committing changes and writing complex features, Copilot will be your intelligent companion throughout the development cycle. Let's dive into the world of application development and experience the seamless integration of AI with GitHub Copilot!
   
 ## Prerequisites
 
@@ -17,18 +16,39 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - GitHub Copilot installed on your Visual Studio.  
   
 ## Challenge Objectives  
-1. **Develop an App:** The skeleton of the application already exists. You need to complete the `usercontroller.cs` file where methods are currently empty. Use GitHub Copilot to fill in the code for these methods based on the comments provided in the file.
+1. **Develop an App:** 
+
+      - Navigate to the below provided link and fork the repository in to the CloudLabs provided GitHub account.
+
+      ```
+      https://github.com/CloudLabsAI-Azure/CloudLabs-CRUD-application
+      ```
+      - Clone the forked Repository in to Visual Studio using the CloudLabs provided GitHub account.
+
+      - The skeleton of the application has been set up, leaving the `UserController.cs` file with empty methods. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
+
       - Explore Copilot's ability to understand your context and provide relevant code suggestions.  
-3. **Develop and Test Features:** Once the methods are completed, the next step is to develop the required features for the application and test them thoroughly.
+
+1. **Develop and Test Features:** 
+
+      - Once the methods are completed, the next step is to develop the required features for the application and test them thoroughly.
+
       - Utilize GitHub Copilot to generate code snippets for building essential features
+
       - Test the application and make necessary modifications based on Copilot's suggestions.
-4. **Use GitHub Copilot:** Utilize GitHub Copilot at each stage of the challenge. This includes creating a workspace, writing commit messages, writing code, and generating test cases.
+
+1. **Use GitHub Copilot at each stage of the challenge:** 
+
+      - Use GitHub Copilot to assist in writing meaningful commit messages that clearly describe the changes made.
+
+      - Throughout the development process, engage with Copilot Chat to enhance collaboration and receive insightful coding recommendations.
+
       - Use GitHub Copilot to generate test cases for your application.
   
 ## Success Criteria  
-- Successful completion of the methods in the `usercontroller.cs` file using GitHub Copilot.  
-- The developed features should work as expected.  
-- All the test cases should pass.  
+- Successful completion of the methods in the `UserController.cs` file using GitHub Copilot.  
+- Verify that the developed features should work as expected.  
+- Verify that the test cases should pass.  
 - Proper usage of GitHub Copilot throughout the challenge.
 
 ## Additional Instructions:
