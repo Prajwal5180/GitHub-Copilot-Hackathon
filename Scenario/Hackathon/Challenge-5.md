@@ -1,6 +1,6 @@
 # Challenge 5: Create Documentation Using Copilot
 
-### Estimated Time: ?
+### Estimated Time: 45 minutes
 
 ## Introduction
 
@@ -31,8 +31,8 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Success Criteria:
 
-- Successfully generate documentation using GitHub Copilot.
-- Customize and refine the documentation to meet the specific requirements of the code or project.
+- Verify that the documentation is generated successfully using GitHub Copilot.
+- Make sure the documentation is customized and refined to meet the specific requirements of the code or project.
 - Ensure that the documentation is clear, informative, and enhances the understanding of the associated code.
 
 ## Additional Instructions:
