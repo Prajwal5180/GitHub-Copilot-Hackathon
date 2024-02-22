@@ -1,6 +1,6 @@
-# Challenge 3: Deploy the App to Azure  
+# Challenge 3: Deploy the App to Azure
 
-### Estimated Time: ?
+### Estimated Time: 90 minutes
 
 ## Introduction
 
@@ -35,8 +35,8 @@ Make sure you have the following from the CloudLabs provided integrated environm
      
 ## Success Criteria:
 
-- Successfully refactor a chosen piece of code, improving its readability and overall quality.
-- Successfully fix a piece of code with intentional errors using Copilot's suggestions.
+- Verify that your chosen piece of code is refactored successfully, with improved readability and overall quality.
+- Verify that a piece of code with intentional errors is fixed successfully using Copilot's suggestions.
 
 ## Additional Instructions:
 
