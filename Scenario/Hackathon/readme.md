@@ -25,17 +25,6 @@ This hackathon adopts a challenge-based format, offering you a unique opportunit
 
 ## Challenges Overview
 
-<<<<<<< HEAD
-- **Azure Deployment with Copilot:**
-  - Utilize Copilot to create an ARM Template for deploying an application to Azure.
-  - Set up a GitHub Actions Pipeline using Copilot for automated deployment.
-  - Generate documentation for the deployed app effortlessly with Copilot's assistance.
-
-- **Exploring Advanced Copilot Features:**
-  - Explore GitHub Copilot workspace, file references, and the advanced context window for a deeper understanding of advanced features.
-
-## Challenges Overview
-
 1. **Challenge 00: Introduction to GitHub Copilot**
 
     The primary objective of this challenge is to provide a comprehensive understanding of GitHub Copilot, an AI-powered tool designed to assist developers in writing code faster and more efficiently. Participants will learn about the key features, benefits, and use cases of GitHub Copilot, particularly focusing on the Business variant. The challenge aims to provide insights into how GitHub Copilot can improve developer productivity, enhance code security, and offer satisfying work experiences. It also underscores the differences between GitHub Copilot for Business and GitHub Copilot for Individuals.
