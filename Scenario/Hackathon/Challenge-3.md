@@ -6,6 +6,12 @@
 
 In this challenge, you will utilize GitHub Copilot to streamline the development of an Azure Resource Manager (ARM) template. ARM templates are Infrastructure as Code (IaC) files used to deploy and manage resources in Azure. By leveraging Copilot's code generation capabilities, you'll expedite the creation of an ARM template for deploying an application to Azure.
 
+## Prerequisites
+
+Make sure you have the following from the CloudLabs provided integrated environment:
+
+> **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
+
 ## Challenge Objectives:
 
 1. **Develop ARM Template to deploy an app to Azure:**
