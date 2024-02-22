@@ -27,7 +27,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Effectively use Copilot's debugging support to identify and resolve any issues present in the generated scripts.
 
 3. **Execute the scripts:**
-   - Test out the geberated scripts in your environment and view the results.
+   - Test out the generated scripts in your environment and view the results.
 
 ## Success Criteria:
 
