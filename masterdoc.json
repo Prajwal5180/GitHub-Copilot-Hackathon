@@ -1,0 +1,45 @@
+[ 
+  {
+  "Name": "GithHub Copilot Challenge based Hackathon",
+  "Language": "English",
+  "BaseURL": "https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon",
+  "Files": [
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/readme.md",
+       "Order": 1
+     },
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Use-Case.md",
+       "Order": 2
+     },
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-0.md",
+        "Order": 3
+     },
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-1.md",
+        "Order": 4
+     },
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-2.md",
+        "Order": 5
+     },
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-3.md",
+        "Order": 6
+     },
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-4.md",
+        "Order": 7
+     },
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-5.md",
+        "Order": 8
+     },
+     {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-6.md",
+        "Order": 9
+     }
+   ]
+ }
+]
