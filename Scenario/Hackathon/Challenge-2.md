@@ -1,4 +1,4 @@
-# Develop an App with GitHub Copilot Challenge Guide
+# Challenge 2: Develop an App with GitHub Copilot
 
 ### Estimated Time: ?
 
@@ -6,7 +6,12 @@
 ## Introduction  
 In this challenge, we will explore GitHub Copilot, an AI-powered code completion tool. You will be tasked with building an application using Copilot. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities.  You will utilize GitHub Copilot at every stage of the development process. From setting up a workspace to committing changes and writing complex features, Copilot will be your intelligent companion throughout the development cycle. Let's dive into the world of application development and experience the seamless integration of AI with GitHub Copilot!
   
-## Prerequisites  
+## Prerequisites
+
+Make sure you have the following from the CloudLabs provided integrated environment:
+
+> **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
+
 - Basic understanding of C# programming language.  
 - A GitHub account.  
 - GitHub Copilot installed on your Visual Studio Code.  
