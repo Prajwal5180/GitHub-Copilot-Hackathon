@@ -1,6 +1,6 @@
 # Challenge 4: Using GitHub Copilot workspace, file reference and advanced context window
 
-### Estimated Time: ?
+### Estimated Time: 60 minutes
 
 ## Introduction
 
