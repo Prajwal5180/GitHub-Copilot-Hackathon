@@ -10,52 +10,35 @@ In this hackathon, you'll be delving into the functionalities of GitHub Copilot,
 
 By participating in this hackathon, you will:
 
-- **Understanding GitHub Copilot Basics:**
-  - Set up GitHub Copilot seamlessly in your Visual Studio Code environment.
-  - Explore the integration of GitHub Copilot with Visual Studio Code and GitHub Codespaces.
-  - Gain hands-on experience with Copilot in various coding scenarios.
+- Learn how AI can assist in code completion, suggesting patterns, and improving productivity.
+- Understand how GitHub Copilot generates code snippets based on context and inferred intentions.
+- Experiment with advanced use cases such as generating complex algorithms, refactoring codebases, or exploring new programming paradigms.
+- Learn to approach and solve real-world problems through challenge-based tasks.
 
-- **Code Generation Mastery:**
-  - Develop Python/JS-based code to build a calculator using Copilot.
-  - Create a Python/JS-based app to retrieve weather data from APIs with Copilot's assistance.
+## Hackathon Format: Challenge Based
+This hackathon adopts a challenge-based format, offering you a unique opportunity to learn while dealing with practical problems. Each challenge includes one or more self-contained tasks designed to test and enhance your skills and problem solving using GitHub Copilot. You will approach these challenges by:
 
-- **Refining Coding Skills:**
-  - Refactor given code snippets using Copilot, understanding the process of code improvement.
-  - Debug code effectively with Copilot's assistance, addressing and fixing identified issues.
+- Analyzing the problem statement.
+- Strategizing your approach to find the most effective solution.
+- Leveraging the provided lab environment and GitHub Copilot extensions/tools.
+- Collaborating with peers to refine and implement your solutions.
 
-- **Application Development with Copilot:**
-  - Choose a development scenario and initiate a workspace using Copilot Chat.
-  - Develop required features using Copilot, incorporating Python and HTML+JS languages.
-  - Test and finalize the application, leveraging Copilot at each stage.
-
-- **Azure Deployment with Copilot:**
-  - Utilize Copilot to create an ARM Template for deploying an application to Azure.
-  - Set up a GitHub Actions Pipeline using Copilot for automated deployment.
-  - Generate documentation for the deployed app effortlessly with Copilot's assistance.
-
-- **Exploring Advanced Copilot Features:**
-  - Explore GitHub Copilot workspace, file references, and the advanced context window for a deeper understanding of advanced features.
-
-## Hackathon Agenda
+## Challenges Overview
 
 1. **Introduction to GitHub Copilot**
 
 2. **Getting Started with GitHub Copilot**
-
    - **Setup and Start using GitHub Copilot**
       -  Setup GitHub Copilot in VS Code
       -  Login with GitHub Account
       -  Using GitHub Codespaces with Copilot
       -  Explore GitHub Copilot Features
-
    - **Code Generation with Copilot and Copilot Chat**
       -  Create a Python/JS based code to build a calculator
       -  Create a Python/JS based app to get weather data from weather APIs.
-
    - **Code Refactoring & Debugging**
 
 3. **Develop an App with GitHub Copilot**
-
       -  Choose a Scenario (To be finalized during content development stage)
       -  Use Copilot Chat to start a workspace
       -  Develop required features and test.
@@ -64,13 +47,12 @@ By participating in this hackathon, you will:
       -  Use GitHub Copilot at each stage (create workspace, commit message, write code, generate test cases, etc.)
 
 4. **Deploy the App to Azure**
-
    - Develop ARM Template to deploy an app to Azure
    - Create GitHub Actions Pipeline with Copilot
    - Create documentation using Copilot
    - Get the app working on Azure.
 
-5. **Using GitHub Copilot workspace, file reference, and advanced context window.**
+5. **Using GitHub Copilot workspace, file reference, and advanced context window**
    
 Feel free to explore each challenge, learn, and experiment with GitHub Copilot during this hackathon! If you have any questions, don't hesitate to seek assistance from your coach.
 
