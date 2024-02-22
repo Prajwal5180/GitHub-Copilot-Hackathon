@@ -2,10 +2,6 @@
 
 ### Estimated Time: ? minutes
 
-## Overview
-
-Getting started with GitHub Copilot involves a seamless setup process within Visual Studio Code (VS Code). To begin, install the GitHub Copilot extension from the VS Code marketplace and log in with your GitHub account for an enhanced coding experience. Familiarize yourself with the GitHub Codespaces integration, which facilitates collaborative coding in a cloud-based environment. As you delve into the features, GitHub Copilot showcases its prowess in code autocompletion, providing context-aware suggestions and streamlining the development process. Moving on to code generation, experiment with Copilot's capabilities by creating simple Python and JavaScript scripts. For instance, build a basic calculator or develop an application that retrieves weather data from APIs, witnessing Copilot's ability to generate code snippets based on your context. Additionally, explore Copilot Chat to interactively communicate and refine code generation through feedback. Lastly, embrace Copilot's support for code refactoring and debugging, empowering developers to enhance code quality and identify and fix issues efficiently. In essence, GitHub Copilot serves as a powerful coding companion, accelerating development workflows and fostering code quality and collaboration.
-
 ## Introduction
 
 **GitHub Copilot** is a groundbreaking AI-powered coding companion seamlessly integrated into Visual Studio Code, designed to enhance your coding experience. By leveraging machine learning, Copilot assists developers in crafting code by intelligently suggesting completions and generating contextually relevant code snippets.
