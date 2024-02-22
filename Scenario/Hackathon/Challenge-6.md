@@ -1,6 +1,6 @@
 # Challenge 5: Generate Scripts
 
-### Estimated Time: ?
+### Estimated Time: 60 minutes
 
 ## Introduction
 
@@ -31,9 +31,9 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Success Criteria:
 
-- Successfully generate sysdamin scripts using GitHub Copilot.
-- Refactor or debug the generated scripts.
-- Execute the scripts and view the results.
+- Verify that sysdamin scripts are generated successfully using GitHub Copilot.
+- Verify that the generated scripts are refactored or debugged successfully.
+- Make sure the scripts are executed successfully and the results are verified.
 
 ## Conclusion
 
