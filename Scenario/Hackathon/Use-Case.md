@@ -1,4 +1,4 @@
-# GitHub Copilot Hackathon: Use-Case Scenarios
+# Hackathon Mission and Use-Case
 
 Welcome to the GitHub Copilot Hackathon, where we embark on a journey to unravel the capabilities of GitHub Copilot, an AI-powered coding assistant. This exploration is designed to provide hands-on experiences, fostering a deep understanding of Copilot's potential in various coding scenarios. As developers, your mission is to delve into Copilot's functionalities, leverage its code generation prowess, and reshape coding practices through intelligent assistance.
 
