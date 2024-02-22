@@ -49,7 +49,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - Successful completion of the methods in the `UserController.cs` file using GitHub Copilot.  
 - Verify that the developed features should work as expected.  
 - Verify that the test cases should pass.  
-- Proper usage of GitHub Copilot throughout the challenge.
+- Successfully utilized GitHub Copilot to write commit messages.
 
 ## Additional Instructions:
 
