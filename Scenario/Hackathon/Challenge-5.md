@@ -1,4 +1,4 @@
-# Challenge 5: Create Documentation Using Copilot
+# Challenge 5: Create Documentation using GitHub Copilot
 
 ### Estimated Time: 45 minutes
 
