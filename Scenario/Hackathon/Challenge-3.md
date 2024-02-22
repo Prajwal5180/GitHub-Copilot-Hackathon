@@ -12,6 +12,10 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 > **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
 
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub account](https://github.com/)
+- [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
+
 ## Challenge Objectives:
 
 1. **Develop ARM Template to deploy an app to Azure:**
