@@ -45,11 +45,11 @@ This hackathon adopts a challenge-based format, offering you a unique opportunit
 
     In this challenge, you will explore and utilize advanced features of GitHub Copilot, including workspace, file reference, and the advanced context window. The objective is to understand how these features can enhance your coding process and efficiency. You'll learn how to use Copilot to navigate your workspace, reference files for context, and make the most out of the advanced context window for code generation and suggestions. The challenge aims to deepen your understanding of Copilot's capabilities and how it can assist in various aspects of the coding process.
 
-6. **Challenge 05: Generate Documentation using Github Copilot**
+6. **Challenge 05: Generate Documentation using GitHub Copilot**
 
     The objective of this challenge is to utilize GitHub Copilot to generate documentation for your code or project. You'll learn how to use Copilot's AI capabilities to create comprehensive, clear, and accurate documentation, enhancing understandability and maintainability of your code. The challenge aims to demonstrate how GitHub Copilot can streamline and enhance the often time-consuming process of documentation generation.
 
-7. **Challenge 06: Generate Scripts using Github Copilot**
+7. **Challenge 06: Generate Scripts using GitHub Copilot**
    
     The objective of this challenge is to use GitHub Copilot to generate scripts for your projects. You'll leverage Copilot's AI capabilities to create scripts, thereby improving your coding efficiency and productivity. The challenge aims to demonstrate how GitHub Copilot can assist in automating repetitive tasks and speeding up the development process through the generation of scripts.
 
