@@ -22,13 +22,17 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying an application to Azure.
    - Define the necessary Azure resources such as App Service and any other components required for your application.
 
-2. **Create GitHub Actions Pipeline with Copilot** 
+2. **Create GitHub Actions Pipeline with Copilot**
+   - Create a GitHub Actions pipeline using GitHub Copilot to automate the build and testing process of your code using Copilot-generated scripts. 
 
-3. **Generate Documentation with Copilot:**
+4. **Generate Documentation with Copilot:**
+   - Use GitHub Copilot to assist you in generating a detailed and accurate documentation specifically for this challenge.
+   - Create a MD file which guides in creating the ARM template to deploy the app, create GitHub actions pipeline and getting the app working on Azure.
 
-4. **Get the app working on Azure.**
+6. **Get the app working on Azure.**
    - Deploy the application to Azure using the ARM template you've created.
    - Verify that the deployed resources match the specifications outlined in your ARM template.
+     
 ## Success Criteria:
 
 - Successfully refactor a chosen piece of code, improving its readability and overall quality.
