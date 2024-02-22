@@ -1,4 +1,4 @@
-# Challenge 5: Generate Scripts
+# Challenge 5: Generate Scripts using GitHub Copilot
 
 ### Estimated Time: 60 minutes
 
