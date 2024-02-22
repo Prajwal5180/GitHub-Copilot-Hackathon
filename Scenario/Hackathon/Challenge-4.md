@@ -4,36 +4,57 @@
 
 ## Introduction
 
-In this challenge, you will utilize GitHub Copilot to streamline the development of an Azure Resource Manager (ARM) template. ARM templates are Infrastructure as Code (IaC) files used to deploy and manage resources in Azure. By leveraging Copilot's code generation capabilities, you'll expedite the creation of an ARM template for deploying an application to Azure.
+In this challenge, you will specifically focus on three key features - the **workspace**, **file reference**, and the **advanced context window**. Understanding and utilizing these features can significantly boost your productivity and efficiency in coding.
+
+- **Github Copilot Workspace:** **GitHub Copilot Workspace** is an advanced feature of **GitHub Copilot**, an AI-powered code completion tool. The workspace in GitHub Copilot refers to the current working directory where your code files reside.
+
+   When you're coding, **GitHub Copilot** utilizes the information in your workspace to generate contextually relevant code suggestions. This means that it takes into account the specifics of your current project, such as the code files, libraries, and dependencies that are present in your workspace, to provide you with the most suitable code completions. This feature makes **GitHub Copilot** an intelligent coding assistant that not only understands the syntax and language semantics but also the context of your project, which results in more accurate and helpful code suggestions.
+   By effectively using the **workspace** feature, developers can improve their coding efficiency, reduce errors, and create higher quality code.
+
+- **File referencing in Github Copilot:** **File referencing in GitHub Copilot** refers to the AI's ability to understand and interpret the context of your project by considering the information in other files within your workspace.
+
+   When you're working on a specific file in your codebase, **GitHub Copilot** can take into account the information, functions, classes, or variables defined in other files of your project. This means it doesn't just provide suggestions based on the current file you're working on, but it can also reference other files to give you more accurate and relevant code completions. This feature is particularly useful when you're working on large projects where code is spread across multiple files. GitHub Copilot's ability to reference other files allows it to better understand the bigger picture of your project, resulting in more context-aware suggestions. This can significantly improve your coding efficiency and the overall quality of your code.
+
+- **Advanced context window:** The **advanced context window in GitHub Copilot** refers to the broader view of your code that the AI takes into account while providing code suggestions. When you're coding, **GitHub Copilot** doesn't just consider the line you're currently working on to generate suggestions. Instead, it looks at a larger context window, which includes several lines of code both before and after the cursor. This allows Copilot to gain a deeper understanding of what you're trying to achieve in your code, thus enabling it to provide more accurate and relevant code completions.
+
+   The advanced context window feature is part of what makes **GitHub Copilot** a powerful tool for developers. It ensures that the AI's code suggestions are not just syntactically correct, but also semantically appropriate for the current context of your code. This can greatly enhance your coding efficiency and the overall quality of your code.
+
+Whether you are a seasoned developer looking to enhance your coding efficiency or a beginner seeking to improve your coding skills, this lab will provide valuable insights into how **GitHub Copilot** can be a powerful tool in your coding journey. Let's get started!
 
 ## Challenge Objectives:
 
-1. **Develop ARM Template to deploy an app to Azure:**
-   - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying an application to Azure.
-   - Define the necessary Azure resources such as App Service, Storage Account, and any other components required for your application.
+1. **Utilize Github Copilot Workspace:**
 
-2. **Customize and Refine Template:**
-   - Review the generated ARM template and customize it based on the specific requirements of your application.
-   - Add any additional resources, parameters, or configurations necessary for a successful deployment.
+   - Understand and explore on how Workspace feature works
 
-3. **Deploy Application to Azure:** **(check if this is required!!!)**
-   - Deploy the application to Azure using the ARM template you've created.
-   - Verify that the deployed resources match the specifications outlined in your ARM template.
+   - Give some prompts to the workspace agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating a new functionality, identifying issues in any file and more.
+
+2. **Utilize the capabilities of File referencing:**
+
+   - Understand how Github Copilot refrences files in your documents and how it helps in codeflow
+
+   - Provide some prompts that require Github Copilot to reference multiple files in your multi-file project, and analyze the refrences properly
+
+3. **Utilze capabilities of Advanced Context Window in Github Copilot**
+
+   - Understand how advanced context window works in providing context-aware suggestions
+
+   - Practice writing code with different types of files and observe how Copilot uses lines of code both before and after the cursor to provide suggestions based on the workspace context and file referencing.
 
 ## Success Criteria:
 
-- Successfully generate an ARM template using GitHub Copilot.
-- Customize and refine the template to match the specific requirements of the application.
-- Successfully deploy the application to Azure using the generated ARM template.
+- Make sure you understood the functioning of Github Copilot Workspace, File referencing and Advanced context window.
 
-## Additional Instructions:
+- Make sure you successfully provided the relevant prompts to test the working of workspace agent, file referencing and advanced context window.
 
-- Experiment with Copilot's suggestions to explore different configurations within the ARM template.
-- Ensure that your ARM template adheres to best practices for Azure resource deployment.
-- If you encounter any challenges or have questions, refer to the [Azure Resource Manager documentation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/) for guidance.
+- Verify the outputs generated by your prompts and verify their accuracy.
+
+## Additional Resources:
+
+- Refer [here](https://githubnext.com/projects/copilot-workspace/) for more information.
 
 ## Conclusion
 
-In this challenge, you've harnessed the power of GitHub Copilot to expedite the development of an Azure Resource Manager (ARM) template. By leveraging Copilot's code generation capabilities, you've efficiently defined the infrastructure for deploying an application to Azure. Moving forward, consider integrating this streamlined approach into your regular IaC practices for more efficient resource management.
+In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace, File referencing and Advanced context window** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.
 
-Happy coding!
+Keep practicing, keep learning, and continue exploring the capabilities of **GitHub Copilot!**
