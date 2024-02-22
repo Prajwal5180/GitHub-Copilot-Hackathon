@@ -46,15 +46,14 @@ Make sure you have the following from the CloudLabs provided integrated environm
       - Use GitHub Copilot to generate test cases for your application.
   
 ## Success Criteria  
-- Successful completion of the methods in the `UserController.cs` file using GitHub Copilot.  
-- Verify that the developed features should work as expected.  
-- Verify that the test cases should pass.  
-- Successfully utilized GitHub Copilot to write commit messages.
 
-## Additional Instructions:
+- Verify that the methods in the `UserController.cs` file are completed successfully using GitHub Copilot.  
+- Verify that the developed features are working as expected.  
+- Verify that all the test cases are passed.  
+- Make sure to successfully utilize GitHub Copilot to write commit messages.
 
-- Feel free to explore various application scenarios and customize the features based on your preferences.
-- Engage with Copilot Chat to enhance collaboration and receive real-time code suggestions.
+## Additional Resources:
+
 - Refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for any clarifications or guidance during the challenge.
   
 ## Conclusion  
