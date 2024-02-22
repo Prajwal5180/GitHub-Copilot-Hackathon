@@ -1,4 +1,4 @@
-# Challenge 4: Develop ARM Template to Deploy an App to Azure
+# Challenge 4: Using GitHub Copilot workspace, file reference and advanced context window
 
 ### Estimated Time: ?
 
