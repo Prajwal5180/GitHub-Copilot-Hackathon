@@ -84,5 +84,7 @@
 
 - Ensure that the contact is removed from the list after deletion.
 
-By following these steps meticulously, users can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning. Additionally, verifying deletion confirms that the application accurately handles data removal and maintains data integrity.
+By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning..
+
+## Task 2: Develop and Test Features
 
