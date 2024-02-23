@@ -67,7 +67,28 @@ In this task, you'll be signing in to your GitHub account through GitHub Copilot
 
 ## Task 3: Using GitHub Codespaces with Copilot
 
-...
+In this task, you'll create a new codespace for your GitHub repository and use GitHub Codespaces extension to commit and push changes directly from VS Code to your chosen GitHub repository.
+
+1. On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+
+1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
+
+   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+
+1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
+
+1. At the bottom right corner, you will get a prompt to sign in to GitHub.
+
+1. Next, once you get the popup, click on **Allow**
+
+   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+
+1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+
+1. Verify your codespace is running.
+
+1. You can now edit your GitHub repository files, commit and push the changes directly to GitHub through VS Code.
+
 
 ## Task 4: Explore GitHub Copilot Features
 
