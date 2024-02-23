@@ -4,7 +4,9 @@
 
 ## Introduction
 
-In this challenge, you will specifically focus on three key features - the **workspace**, **file reference**, and the **advanced context window**. Understanding and utilizing these features can significantly boost your productivity and efficiency in coding.
+As a software developer at **Contoso Ltd.**, a leading software development company, you are always looking for ways to enhance your coding efficiency and the overall quality of your code. After successfully exploring the basic features of **GitHub Copilot** and using it to develop and deploy an application to Azure, you now turn your focus to some of the advanced features of this AI-powered coding assistant.
+
+In this challenge, you are specifically tasked with exploring and utilizing the three key features of the **GitHub Copilot** - the **workspace**, **file reference**, and the **advanced context window**. Understanding and utilizing these features can significantly boost your productivity and efficiency in coding by providing more accurate, context-aware code suggestions.
 
 - **Github Copilot Workspace:** **GitHub Copilot Workspace** is an advanced feature of **GitHub Copilot**, an AI-powered code completion tool. The workspace in GitHub Copilot refers to the current working directory where your code files reside.
 
@@ -19,7 +21,7 @@ In this challenge, you will specifically focus on three key features - the **wor
 
    The advanced context window feature is part of what makes **GitHub Copilot** a powerful tool for developers. It ensures that the AI's code suggestions are not just syntactically correct, but also semantically appropriate for the current context of your code. This can greatly enhance your coding efficiency and the overall quality of your code.
 
-Whether you are a seasoned developer looking to enhance your coding efficiency or a beginner seeking to improve your coding skills, this lab will provide valuable insights into how **GitHub Copilot** can be a powerful tool in your coding journey. Let's get started!
+Whether you are a seasoned developer looking to enhance your coding efficiency or a beginner seeking to improve your coding skills, this lab will provide valuable insights into how **GitHub Copilot** can be a powerful tool in your coding journey. By the end of this challenge, you aim to demonstrate to **Contoso Ltd.** how these advanced features of **GitHub Copilot** can significantly enhance coding efficiency and the overall quality of code, further reinforcing the benefits of integrating AI into the development workflow. Let's get started!
 
 ## Challenge Objectives:
 
