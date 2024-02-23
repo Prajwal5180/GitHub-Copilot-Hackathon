@@ -3,11 +3,14 @@
 ### Estimated Time: 60 mins
   
 ## Introduction  
-In this challenge, you will explore GitHub Copilot, an AI-powered code completion tool. You will be tasked with building an Contact Database application using Copilot. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities.  You will utilize GitHub Copilot at every stage of the development process, from generating code for empty methods to building essential features and testing the application thoroughly.
+
+At **Contoso Ltd.**, a leading software development company, you, as a **software developer**, are given the task to explore the capabilities of **GitHub Copilot**, an AI-powered coding assistant, and leverage it in the company's software development process. The company believes that integrating AI in the development process can significantly enhance the efficiency and productivity of the development teams.
+
+As part of this mission, you are assigned to develop a **Contact Database application** using **GitHub Copilot**. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities. With the assistance of GitHub Copilot, you are expected to generate the necessary code, guided by the comments provided in the file. You will utilize GitHub Copilot at every stage of the development process, from generating code for empty methods to building essential features and testing the application thoroughly.
 
 Throughout the challenge, you'll leverage Copilot's ability to understand context and provide relevant code suggestions. By engaging with Copilot Chat, you'll enhance collaboration and receive insightful coding recommendations, further enriching your coding experience.
 
-Upon completion, you'll have not only developed a feature-rich application but also gained valuable insights into how AI can be seamlessly integrated into the development workflow. This hands-on experience with GitHub Copilot will empower you to explore its vast capabilities and unlock its potential in various development scenarios.
+By the end of this challenge, your goal is to have a fully functional **Contact Database application**, developed mainly with the assistance of **GitHub Copilot**. Upon completion, you'll have not only developed a feature-rich application but also gained valuable insights into how AI can be seamlessly integrated into the development workflow. This hands-on experience with GitHub Copilot will empower you to explore its vast capabilities and unlock its potential in various development scenarios. This will demonstrate the potential of AI in software development and provide valuable insights into its practical implementation at **Contoso Ltd**.
   
 ## Prerequisites
 
