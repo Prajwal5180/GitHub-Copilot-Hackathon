@@ -44,9 +44,7 @@
 
 ### Create a New Contact
 
-- In the opened web browser, navigate to the homepage of the application.
-
-- Locate the "Create New" button and click on it.
+- In the opened web browser, locate the "Create New" button and click on it.
 
 - Fill in the required fields for Name and Email in the form provided.
 
