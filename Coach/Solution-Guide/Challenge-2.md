@@ -121,4 +121,8 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 1. Save both the files after making the changes. Run the application by clicking on the IIS Express button. This action starts the application on localhost in a web browser.
 
-1. 
+1. Let's add couple of contact entries in the application by clicking on the Create New button and filling the Name and Email fields.
+
+1. Now that we have contacts present in the application, let us test the Search functionality we implemented in to the application. In the search field type a contact name you had added in the previous step. Then, click on Search button to search the contact. 
+
+1. If the feature was implemented properly, you should be able to see the contact you searched for. 
