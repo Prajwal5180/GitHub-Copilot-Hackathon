@@ -3,7 +3,11 @@
 ### Estimated Time: 60 mins
   
 ## Introduction  
-In this challenge, you will explore GitHub Copilot, an AI-powered code completion tool. You will be tasked with building an Contact Database application using Copilot. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities.  You will utilize GitHub Copilot at every stage of the development process. From setting up a workspace to committing changes and writing complex features, Copilot will be your intelligent companion throughout the development cycle. Let's dive into the world of application development and experience the seamless integration of AI with GitHub Copilot!
+In this challenge, you will explore GitHub Copilot, an AI-powered code completion tool. You will be tasked with building an Contact Database application using Copilot. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities.  You will utilize GitHub Copilot at every stage of the development process, from generating code for empty methods to building essential features and testing the application thoroughly.
+
+Throughout the challenge, you'll leverage Copilot's ability to understand context and provide relevant code suggestions. By engaging with Copilot Chat, you'll enhance collaboration and receive insightful coding recommendations, further enriching your coding experience.
+
+Upon completion, you'll have not only developed a feature-rich application but also gained valuable insights into how AI can be seamlessly integrated into the development workflow. This hands-on experience with GitHub Copilot will empower you to explore its vast capabilities and unlock its potential in various development scenarios.
   
 ## Prerequisites
 
