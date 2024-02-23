@@ -29,6 +29,8 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
       - Explore Copilot's ability to understand your context and provide relevant code suggestions.  
 
+      - Test the application thoroughly and ensure all functionalities work as expected
+
 1. **Develop and Test Features:** 
 
       - Once the methods are completed, the next step is to develop the required features for the application and test them thoroughly.
