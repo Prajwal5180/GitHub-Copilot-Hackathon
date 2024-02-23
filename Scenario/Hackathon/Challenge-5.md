@@ -4,7 +4,11 @@
 
 ## Introduction
 
-In this challenge, you will leverage GitHub Copilot to expedite the creation of documentation for a given project or codebase. Documentation plays a crucial role in facilitating understanding, collaboration, and maintenance of software projects. By using Copilot's code generation capabilities, you'll explore how it can assist in creating descriptive and informative documentation.
+**Contoso Ltd.**, a leading software development company, is working on a significant software development project. You have previously developed an application that integrates several complex features and functionality. However, the project lacks comprehensive documentation, making it difficult for new team members to understand the code and contribute effectively. The project leads recognize this issue and decide to leverage GitHub Copilot to generate documentation and make the project more accessible and maintainable.
+
+In this challenge, you, as a developer at **Contoso Ltd.**, will leverage **GitHub Copilot** to expedite the creation of documentation for a given project or codebase. Documentation plays a crucial role in facilitating understanding, collaboration, and maintenance of software projects. By using Copilot's code generation capabilities, you'll explore how it can assist in creating descriptive and informative documentation. You will also review the generated documentation, refining and customizing it to suit the specific requirements of the project and ensure that the documentation provides clear explanations, usage instructions, and any other relevant details that would be helpful to developers.
+
+By the end of this exercise, you will have a well-documented project that can be easily understood and maintained by other developers at **Contoso Ltd**. This scenario illustrates how **GitHub Copilot** can expedite and simplify the documentation process, thereby improving the efficiency and maintainability of software projects.
 
 ## Prerequisites
 
