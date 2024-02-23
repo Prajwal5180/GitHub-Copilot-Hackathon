@@ -88,3 +88,39 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 ## Task 2: Develop and Test Features
 
+1. For developing features for the application we will utilize GitHub Copilot Chat. On the top panel click on View and from the options click on GitHub Copilot Chat to open the GitHub Copilot Chat.
+
+1. Let's ask GitHub Copilot Chat "How can we add search feature/functionality to our application?"
+
+1. GitHub Copilot will generate a response accordingly, in this case GitHub Copilot suggested us to add a new method to accept a search string as a parameter. Then, filter the userlist based on this search string before passing it to the view. It has provided us the below code that we need to add in to the `UserController.cs` file. In this code, if a searchString is provided, the userlist is filtered to only include users whose Name contains the searchString. If no searchString is provided, all users are returned.
+
+    ```
+    // GET: User
+    public ActionResult Index(string searchString)
+    {
+        var users = from u in userlist
+                    select u;
+        if (!String.IsNullOrEmpty(searchString))
+        {
+            users = users.Where(s => s.Name.Contains(searchString));
+        }
+        return View(users.ToList());
+    }
+    ```
+
+1. GitHub Copilot also suggested us to modify your Index view to include a form for the search string. It has provided us the below code that we need to add in the `Index.cshtml` file which is present in the path **Views\User\Index.cshtml**. This form sends a GET request to the Index action method, passing the search string as a query string parameter.
+
+
+    ```
+    @using (Html.BeginForm("Index", "User", FormMethod.Get))
+    {
+        <p>
+            Find by name: @Html.TextBox("searchString") 
+            <input type="submit" value="Search" />
+        </p>
+    }
+    ``` 
+
+1. Save both the files after making the changes. Run the application by clicking on the IIS Express button. This action starts the application on localhost in a web browser.
+
+1. 
