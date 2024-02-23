@@ -96,7 +96,137 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
 ## Task 5: Code Generation with Copilot and Copilot Chat
 
-...
+In this task, you'll create a Python/JS code to build a calculator and use OpenWeatherMap API keys to get the weather data from weather APIs.
+
+1. Open GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator.
+
+1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages.
+
+   - Python code to build a calculator:
+     ```
+     def add(x, y):
+         return x + y
+
+     def subtract(x, y):
+         return x - y
+
+     def multiply(x, y):
+         return x * y
+
+     def divide(x, y):
+         if y == 0:
+             return "Error! Division by zero."
+         else:
+             return x / y
+
+     print("Select operation:")
+     print("1.Add")
+     print("2.Subtract")
+     print("3.Multiply")
+     print("4.Divide")
+
+     while True:
+         choice = input("Enter choice(1/2/3/4): ")
+
+         if choice in ('1', '2', '3', '4'):
+             num1 = float(input("Enter first number: "))
+             num2 = float(input("Enter second number: "))
+
+              if choice == '1':
+                 print(num1, "+", num2, "=", add(num1, num2))
+
+             elif choice == '2':
+                 print(num1, "-", num2, "=", subtract(num1, num2))
+
+             elif choice == '3':
+                 print(num1, "*", num2, "=", multiply(num1, num2))
+
+             elif choice == '4':
+                 print(num1, "/", num2, "=", divide(num1, num2))
+             break
+         else:
+     print("Invalid Input")
+     ```
+
+   - JS code to build a calculator
+     ```
+      // Function to add two numbers
+      function add(a, b) {
+        return a + b;
+      }
+
+      // Function to subtract two numbers
+      function subtract(a, b) {
+        return a - b;
+      }
+
+      // Function to multiply two numbers
+      function multiply(a, b) {
+        return a * b;
+      }
+
+      // Function to divide two numbers
+      function divide(a, b) {
+        if (b === 0) {
+          return "Error: Division by zero";
+        }
+        return a / b;
+      }
+
+      // Declare and assign values to num1 and num2
+      var num1 = 5;
+      var num2 = 3;
+
+      console.log("Addition:", add(num1, num2));
+      console.log("Subtraction:", subtract(num1, num2));
+      console.log("Multiplication:", multiply(num1, num2));
+      console.log("Division:", divide(num1, num2));
+     ```
+   > **Note:** Declare the two variables/numbers before running tests through JS.
+
+1. You can also enhance the code to be more accurate by using GitHub Copilot inline chat.
+
+1. To get the weather data from weather APIs, first sign in to the OpenWeatherMap API website (https://openweathermap.org/) and on the dropdown of your user profile in the top right, click **My API keys**. You can either use the default API key or create a new one for to get the weather data using code.
+
+1. Open GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS based app to get weather data from weather APIs..
+
+1. Notice how GitHub Copilot creates codes to get weather data from weather APIs in both Python and JS languages.
+
+   - Python:
+     ```
+     import requests
+
+     def get_weather(city):
+       API_KEY = 'ENTER YOUR WEATHER API KEY HERE'
+       BASE_URL = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
+       response = requests.get(BASE_URL)
+       data = response.json()
+       main = data['main']
+       print(f"Temperature: {main['temp']}")
+       print(f"Humidity: {main['humidity']}")
+       print(f"Weather: {data['weather'][0]['description']}")
+
+     city = input("Enter the city: ")
+     get_weather(city)
+     ```
+   - JS:
+     ```
+     async function getWeather(city) {
+        const API_KEY = 'ENTER YOUR WEATHER API KEY HERE';
+        const BASE_URL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`;
+        const response = await fetch(BASE_URL);
+        const data = await response.json();
+        console.log(`Temperature: ${data.main.temp}`);
+        console.log(`Humidity: ${data.main.humidity}`);
+        console.log(`Weather: ${data.weather[0].description}`);
+     }
+
+     const city = 'Mumbai';  // Replace with the city you want to get the weather for
+     getWeather(city);
+     ```
+   > **Note:** Enter the name of the city before running tests through JS.
+
+1. You can also enhance the code to be more accurate by using GitHub Copilot inline chat.
 
 ## Task 6: Code Refactoring & Debugging
 
