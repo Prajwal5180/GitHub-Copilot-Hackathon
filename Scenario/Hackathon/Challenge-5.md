@@ -39,11 +39,9 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - Make sure the documentation is customized and refined to meet the specific requirements of the code or project.
 - Ensure that the documentation is clear, informative, and enhances the understanding of the associated code.
 
-## Additional Instructions:
+## Additional Resources:
 
-- While using Copilot for documentation, pay attention to the clarity and coherence of the generated content.
-- Experiment with different types of comments and annotations to find the most suitable style for the given code.
-- Consider the target audience of the documentation and adjust the level of detail accordingly.
+- Reefer to [this link](https://learn.microsoft.com/en-us/shows/introduction-to-github-copilot/how-to-write-documentation-with-copilot-suggestions-5-of-6) for more information.
 
 ## Conclusion
 
