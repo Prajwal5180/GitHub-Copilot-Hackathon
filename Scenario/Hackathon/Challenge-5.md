@@ -48,5 +48,3 @@ Make sure you have the following from the CloudLabs provided integrated environm
 ## Conclusion
 
 In this challenge, you've explored the capabilities of GitHub Copilot in generating documentation for a codebase. Documentation is a vital aspect of software development, and by leveraging Copilot's assistance, you've streamlined the process of creating clear and informative documentation. As you continue with your projects, consider incorporating Copilot into your documentation practices for increased efficiency.
-
-Happy documenting!
