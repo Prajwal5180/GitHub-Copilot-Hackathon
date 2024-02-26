@@ -92,7 +92,9 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
 ## Task 4: Explore GitHub Copilot Features
 
-...
+In this task, you'll explore on various GitHub Copilot features.
+
+
 
 ## Task 5: Code Generation with Copilot and Copilot Chat
 
