@@ -53,5 +53,3 @@ Make sure you have the following from the CloudLabs provided integrated environm
 ## Conclusion
 
 In this challenge, you've experienced the power of GitHub Copilot in assisting with code refactoring and debugging tasks. By leveraging Copilot's suggestions, you've not only enhanced the quality of your code but also efficiently addressed code issues. As you continue your coding journey, remember to integrate these learnings into your regular development practices for more effective and error-free coding.
-
-Happy coding!
