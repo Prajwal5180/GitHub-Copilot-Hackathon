@@ -44,7 +44,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - Verify that your chosen piece of code is refactored successfully, with improved readability and overall quality.
 - Verify that a piece of code with intentional errors is fixed successfully using Copilot's suggestions.
 
-## Additional Instructions:
+## Additional Resources:
 
 - Refer [here](https://learn.microsoft.com/en-us/azure/developer/github/deploy-to-azure) for additional help.
 - If you encounter any challenges or have questions, refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for guidance.
