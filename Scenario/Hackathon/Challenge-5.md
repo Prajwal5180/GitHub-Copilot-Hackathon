@@ -30,7 +30,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Ensure that the documentation provides clear explanations, usage instructions, and any relevant details for developers.
 
 3. **Explore Various Documentation Styles:**
-   - Experiment with Copilot's suggestions to explore different styles of documentation, such as Javadoc, Markdown, or inline comments.
+   - Experiment with GitHub Copilot to explore different styles of documentation, such as Javadoc, Markdown, or inline comments.
    - Consider the best-suited documentation style for the given context.
 
 ## Success Criteria:
