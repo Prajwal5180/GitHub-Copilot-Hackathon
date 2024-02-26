@@ -117,3 +117,39 @@ In this task, you'll utilize GitHub Copilot to generate comments and markdown do
 
    To run the program, execute the `main()` function.
    ```
+
+## Task 2: Customize and Refine Documentation
+
+In this task, you'll customize and refine your documentation process by utilizing GitHub Copilot Inline Chat, Suggestions and Explain feature.
+
+1. Select the entire code (from the above task), right click and select **Copilot** and **Start Inline Chat**. Ask the GitHub Copilot to generate descriptive comments for the selected code.
+
+1. You'll notice that the GitHub Copilot has generated descriptive comments for each class, definition and function.
+
+1. You can also enhance the documentation and the code through GitHub Copilot's Suggestion window. Select the code and click **Ctrl+Enter** to view Suggestions provided by GitHub Copilot to refine the document or code.
+
+1. You'll find a number of suggestions for the selected document or code which will enhance and refine the same.
+
+1. To get more elaborated explanation about any code, select the code, right click and select **Copilot** and **Explain This**.
+
+1. You'll notice in the GitHub Copilot Chat window, provides a detailed and clear explanation of the code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
