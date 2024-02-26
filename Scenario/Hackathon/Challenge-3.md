@@ -46,8 +46,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Additional Instructions:
 
-- Feel free to explore additional refactoring techniques beyond the provided tasks.
-- Experiment with different debugging scenarios to understand Copilot's capabilities in identifying and fixing code issues.
+- Refer [here](https://learn.microsoft.com/en-us/azure/developer/github/deploy-to-azure) for additional help.
 - If you encounter any challenges or have questions, refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for guidance.
 
 ## Conclusion
