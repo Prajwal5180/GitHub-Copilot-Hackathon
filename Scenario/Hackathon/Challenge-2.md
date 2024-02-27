@@ -66,7 +66,10 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - Refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for any clarifications or guidance during the challenge.
   
 ## Conclusion  
-By the end of this challenge, you will have a good understanding of how GitHub Copilot can assist you in your coding journey. You will have a working application developed with the help of an AI-powered code assistant. This will give you insights into how AI can be integrated into the development process to improve efficiency and productivity. Through this challenge, you've harnessed the power of GitHub Copilot to develop a feature-rich application. You've experienced how Copilot seamlessly integrates into your workflow, providing intelligent suggestions and enhancing your overall coding experience. As you continue your journey, explore the vast capabilities of GitHub Copilot and unlock its potential in various development scenarios.
+In this challenge, you've managed to develop a fully functional Contact Database application predominantly through the assistance of GitHub Copilot, demonstrating its practical usefulness in a real-world software development scenario.
+You've successfully navigated through the development process, from generating code for empty methods in the UserController.cs file to building essential features for the application. You've utilized GitHub Copilot to understand your context and provide relevant code suggestions, enhancing your coding experience.
+
+The engagement with Copilot Chat has enriched your collaboration and provided insightful coding recommendations, showcasing how AI can be seamlessly integrated into the development workflow. The test cases generated with GitHub Copilot's assistance have ensured the robustness and reliability of your application. Your achievements in this challenge have demonstrated the potential of AI in software development and provided valuable insights into its practical implementation. You've shown that with the right tools, such as GitHub Copilot, the development process can be made more efficient and productive.
   
 
 
