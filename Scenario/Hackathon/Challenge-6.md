@@ -23,8 +23,8 @@ Make sure you have the following from the CloudLabs provided integrated environm
 ## Challenge Objectives:
 
 1. **Generate Sysadmin scripts:**
-   - Generate sysadmin scripts using GitHub Copilot for common tasks such as monitoring, automation, and configuration management.
-   - Utilize Copilot to expedite the creation of scripts in languages like Python, JavaScript, or Bash.
+   - Generate a sysadmin resource monitoring bash script using GitHub Copilot for CPU and Memory usage for a Linux VM.
+   - Generate a sysadmin monitoring powershell script using GitHub Copilot for disk usage for a Windows VM.
 
 2. **Refactor or debug the generated scripts:**
    - Apply Copilot's suggestions for code refactoring, leading to improved readability and maintainability of the scripts.
