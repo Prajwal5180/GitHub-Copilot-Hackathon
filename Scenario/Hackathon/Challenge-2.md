@@ -28,7 +28,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
       - Navigate to the below provided link and fork the repository in to the CloudLabs provided GitHub account.
 
       ```
-      https://github.com/CloudLabsAI-Azure/CloudLabs-CRUD-application
+      https://github.com/CloudLabsAI-Azure/Contact-Database-Application
       ```
       - Clone the forked Repository in to Visual Studio using the CloudLabs provided GitHub account.
 
