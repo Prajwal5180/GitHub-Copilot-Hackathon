@@ -44,6 +44,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - Verify that the web app from Azure App Services containing your application code is present in Azure.
 - Veify that the Github action pipeline is created successfully.
 - Verify that the documentation is created successfully.
+- Verify that the **Contact Database application** is deployed successfully on Azure and test the functionality.
 
 ## Additional Resources:
 
