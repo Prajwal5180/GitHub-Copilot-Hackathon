@@ -8,7 +8,7 @@ In the previous challenge, you successfully developed a fully functional **Conta
 
 As a software developer at **Contoso Ltd.**, a leading software development company, in this challenge, you are tasked with exploring innovative technologies and tools that can enhance the company's software development process and infrastructure management. **Contoso Ltd.** recognizes the potential of Infrastructure as Code (IaC) in managing and provisioning its computing resources and is particularly interested in Azure Resource Manager (ARM) templates for deploying applications to Azure.
 
-In this challenge, you will utilize **GitHub Copilot** to streamline the development of an **Azure Resource Manager (ARM)** template. ARM templates are Infrastructure as Code (IaC) files used to deploy and manage resources in Azure. By leveraging Copilot's code generation capabilities, you'll expedite the creation of an ARM template for deploying an application to Azure. In addition to this, you will also automate the build and testing process of your code. You will create a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. To document the knowledge and insights gained from this exercise, you will use **GitHub Copilot** to generate comprehensive and accurate documentation for this challenge. This documentation will serve as a guide for creating the ARM template, setting up the GitHub Actions pipeline, and deploying the application to Azure.
+In this challenge, you will utilize **GitHub Copilot** to streamline the development of an **Azure Resource Manager (ARM)** template to deploy the fully functional **Contact Database application** which you developed earlier. ARM templates are Infrastructure as Code (IaC) files used to deploy and manage resources in Azure. By leveraging Copilot's code generation capabilities, you'll expedite the creation of an ARM template for deploying an application to Azure. In addition to this, you will also automate the build and testing process of your code. You will create a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. To document the knowledge and insights gained from this exercise, you will use **GitHub Copilot** to generate comprehensive and accurate documentation for this challenge. This documentation will serve as a guide for creating the ARM template, setting up the GitHub Actions pipeline, and deploying the fully functional **Contact Database application** application to Azure.
 
 By completing this challenge, you aim to demonstrate to Contoso Ltd. how **GitHub Copilot** can streamline the development of ARM templates, automate build and testing processes with GitHub Actions, and generate insightful documentation. This will further highlight the value of integrating AI into the development workflow, following the successful development of the Contact Database application in the previous challenge.
 
@@ -26,10 +26,10 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 1. **Develop ARM Template to deploy an app to Azure:**
    - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying an application to Azure.
-   - Define the necessary Azure resources such as App Service and any other components required for your application.
+   - Define the necessary Azure resources in the ARM template, that is, a Web app present in Azure App Services required to deploy your application.
 
 2. **Create GitHub Actions Pipeline with Copilot**
-   - Create a GitHub Actions pipeline using GitHub Copilot to automate the build and testing process of your code using Copilot-generated scripts. 
+   - Create a GitHub Actions pipeline using GitHub Copilot to automate the build and testing process of your code using Copilot-generated scripts.
 
 4. **Generate Documentation with Copilot:**
    - Use GitHub Copilot to assist you in generating a detailed and accurate documentation specifically for this challenge.
@@ -41,8 +41,9 @@ Make sure you have the following from the CloudLabs provided integrated environm
      
 ## Success Criteria:
 
-- Verify that your chosen piece of code is refactored successfully, with improved readability and overall quality.
-- Verify that a piece of code with intentional errors is fixed successfully using Copilot's suggestions.
+- Verify that the web app from Azure App Services containing your application code is present in Azure.
+- Veify that the Github action pipeline is created successfully.
+- Verify that the documentation is created successfully.
 
 ## Additional Resources:
 
@@ -51,4 +52,6 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Conclusion
 
-In this challenge, you've experienced the power of GitHub Copilot in assisting with code refactoring and debugging tasks. By leveraging Copilot's suggestions, you've not only enhanced the quality of your code but also efficiently addressed code issues. As you continue your coding journey, remember to integrate these learnings into your regular development practices for more effective and error-free coding.
+In this challenge,  You've demonstrated how AI can significantly aid in the development and deployment of applications, specifically through the use of GitHub Copilot. Not only did you develop a fully-functional Contact Database application in the previous challenge, but you also effectively deployed it to Azure using an ARM template generated with the help of GitHub Copilot. You've utilized GitHub Copilot to streamline the creation of the ARM template, which is a powerful example of Infrastructure as Code (IaC) and also automated the build and testing process of your code by creating a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. Furthermore, you've produced comprehensive and accurate documentation for this challenge, serving as a valuable guide for future projects.
+
+Through this challenge, you've showcased to Contoso Ltd. the potential of integrating AI into the development workflow. You've demonstrated how GitHub Copilot can aid in not only the development of applications but also in the deployment and management of infrastructure, thus highlighting its versatility and value. By successfully deploying the Contact Database application to Azure and verifying its functionality, you've provided a tangible demonstration of the benefits of AI in software development.
