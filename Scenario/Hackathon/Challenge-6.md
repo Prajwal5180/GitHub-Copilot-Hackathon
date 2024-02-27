@@ -41,4 +41,4 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Conclusion
 
-GitHub Copilot serves as a valuable tool for sysadmins, empowering them to expedite script development, enhance code quality, and streamline day-to-day tasks. Through the generation of functional sysadmin scripts, code refactoring, and efficient debugging, Copilot demonstrates its effectiveness in simplifying the scripting process. As sysadmins embrace this innovative tool, the overall efficiency and productivity of scripting workflows are expected to witness significant improvements.
+In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for Linux & Windows VMs, enhanced the scripts using GitHub Copilot's suggestions and inline chat and veified that the generated scripts executed successfully.
