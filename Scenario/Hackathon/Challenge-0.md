@@ -10,15 +10,6 @@ Research has found GitHub Copilot helps developers code faster, focus on solving
 
 Powered by OpenAI Codex and GitHub Copilot's generative, pretrained language model was created by OpenAI. An extension is available for Visual Studio Code, Visual Studio, Neovim, and the JetBrains suite of integrated development environments (IDEs).
 
-## Prerequisites
-
-Make sure you have the following from the CloudLabs provided integrated environment:
-
->**Note:** Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
-
- - Basic understanding of GitHub fundamentals
- - A GitHub Enterprise Cloud administrator account
-
 ## GitHub Copilot for Business
 
 GitHub Copilot is available through GitHub personal accounts with GitHub Copilot for Individuals or through organization or enterprise accounts with GitHub Copilot for Business.
