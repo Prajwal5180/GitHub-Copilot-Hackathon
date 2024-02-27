@@ -45,7 +45,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Create a Python/JS based code to build a calculator.
       - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
       - Experiment with different mathematical operations and user interactions.
-   - Create a Python/JS based app to get weather data from weather APIs.
+   - Create a Python/JS based app to get weather data from OpenWeatherMap APIs.
       - Leverage Copilot to generate Python code that interacts with weather APIs to retrieve weather data.
       - Explore the integration of JSON for handling and parsing weather data.
 
