@@ -25,7 +25,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 ## Challenge Objectives:
 
 1. **Develop ARM Template to deploy an app to Azure:**
-   - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying an application to Azure.
+   - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying the **Contact Database application** application to Azure.
    - Define the necessary Azure resources in the ARM template, that is, a Web app present in Azure App Services required to deploy your application.
 
 2. **Create GitHub Actions Pipeline with Copilot**
@@ -36,7 +36,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Create a MD file which guides in creating the ARM template to deploy the app, create GitHub actions pipeline and getting the app working on Azure.
 
 6. **Get the app working on Azure.**
-   - Deploy the application to Azure using the ARM template you've created.
+   - Deploy the application to Azure using the ARM template you've created and test the **Contact Database application's** functionality.
    - Verify that the deployed resources match the specifications outlined in your ARM template.
      
 ## Success Criteria:
