@@ -35,7 +35,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Success Criteria:
 
-- Verify that sysdamin scripts are generated successfully using GitHub Copilot.
+- Verify that sysdamin scripts for both Linux & Windows VMs are generated successfully using GitHub Copilot.
 - Verify that the generated scripts are refactored or debugged successfully.
 - Make sure the scripts are executed successfully and the results are verified.
 
