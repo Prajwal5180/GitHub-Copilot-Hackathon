@@ -46,8 +46,8 @@ Make sure you have the following from the CloudLabs provided integrated environm
       - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
       - Experiment with different mathematical operations and user interactions.
    - Create a Python/JS based app to get weather data from OpenWeatherMap APIs.
-      - Leverage Copilot to generate Python code that interacts with weather APIs to retrieve weather data.
-      - Explore the integration of JSON for handling and parsing weather data.
+      - Sign Up to OpenWeatherMap website (https://openweathermap.org/).
+      - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
 
 6. **Code Refactoring & Debugging:**
    - Refactor given code snippets using Copilot, understanding the process of code improvement.
@@ -128,4 +128,4 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ### Conclusion
 
-In this challenge, you successfully set up GitHub Copilot in Visual Studio Code, configured extension settings, and logged in with your GitHub account. You explored the integration of GitHub Codespaces with Copilot, experiencing its collaborative coding potential. Throughout the challenge, you experimented with Copilot's features, speeding up your coding process, and completed tasks such as creating Python/JS code for a calculator and an app to fetch weather data. Additionally, you refined your coding skills by refactoring code snippets and debugging with Copilot's assistance. These accomplishments provide a solid foundation for the upcoming challenges, where you'll further explore the capabilities of GitHub Copilot.
+In this challenge, you successfully set up GitHub Copilot in Visual Studio Code, configured extension settings, and logged in with your GitHub account. You were also successful in creating Python/JS code for a calculator and an app to fetch weather data from OpenWeatherMap APIs. Additionally, you refined your coding skills by refactoring code snippets and debugging with Copilot's assistance.
