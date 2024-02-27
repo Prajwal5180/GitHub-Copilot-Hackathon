@@ -27,7 +27,7 @@ This hackathon adopts a challenge-based format, offering you a unique opportunit
 
 1. **Challenge 00: Introduction to GitHub Copilot**
 
-    The primary objective of this challenge is to provide a comprehensive understanding of GitHub Copilot, an AI-powered tool designed to assist developers in writing code faster and more efficiently. Participants will learn about the key features, benefits, and use cases of GitHub Copilot, particularly focusing on the Business variant. The challenge aims to provide insights into how GitHub Copilot can improve developer productivity, enhance code security, and offer satisfying work experiences. It also underscores the differences between GitHub Copilot for Business and GitHub Copilot for Individuals.
+    The primary objective of this challenge is to provide a comprehensive understanding of GitHub Copilot, an AI-powered tool designed to assist developers in writing code faster and more efficiently. You will learn about the key features, benefits, and use cases of GitHub Copilot, particularly focusing on the Business variant. The challenge aims to provide insights into how GitHub Copilot can improve developer productivity, enhance code security, and offer satisfying work experiences. It also underscores the differences between GitHub Copilot for Business and GitHub Copilot for Individuals.
 
 2. **Challenge 01: Getting Started with GitHub Copilot**
 
