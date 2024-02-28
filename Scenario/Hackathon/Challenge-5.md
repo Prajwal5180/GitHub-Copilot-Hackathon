@@ -43,7 +43,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 ## Additional Resources:
 
-- Reefer to [this link](https://learn.microsoft.com/en-us/shows/introduction-to-github-copilot/how-to-write-documentation-with-copilot-suggestions-5-of-6) for more information.
+- Refer to [this link](https://learn.microsoft.com/en-us/shows/introduction-to-github-copilot/how-to-write-documentation-with-copilot-suggestions-5-of-6) for more information.
 
 ## Conclusion
 
