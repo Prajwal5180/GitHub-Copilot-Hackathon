@@ -223,17 +223,17 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 1. Copy the below code in a new file in VS Code.
 
    ```
-      #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
+   #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
       
-      MAX = 100
+   MAX = 100
 
-      def calculate_sum(arr):
+   def calculate_sum(arr):
          result = 0
          for num in arr:
             result += num
          return result
 
-      def main():
+   def main():
          try:
             n = int(input("Enter the number of elements (1-100): "))
             if not 1 <= n <= MAX:
@@ -258,7 +258,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
             print("\nProgram terminated by user.")
             exit(1)
 
-      if __name__ == "__main__":
+   if __name__ == "__main__":
          main()
    ```
 1. Select the entire code, right click and click **Refactor** using Copilot and ask the Copilot to refactor the selected code.
@@ -307,22 +307,21 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 1. Copy the below code in a new file in VS Code.
 
    ```
-      # Intentionally flawed Python program
+   # Intentionally flawed Python program
 
-      # importing modules
-      import itertools, random
+   # importing modules
+   import itertools, random
 
-      # make a deck of cards
-      deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
+   # make a deck of cards
+   deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
 
-      # shuffle the cards
-      random.shuffle(deck)
+   # shuffle the cards
+   random.shuffle(deck)
 
-      # draw five cards
-      print("You got:")
-      for i in range(5)
-         print(deck[i][0], "of", deck[i][1]
-
+   # draw five cards
+   print("You got:")
+   for i in range(5)
+      print(deck[i][0], "of", deck[i][1]
    ```
 
 1. Select the entire code, right click and click **Copilot** and then click **Fix This** to debug the selected code.
