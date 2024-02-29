@@ -23,47 +23,18 @@ In this task, you'll be installing GitHub Copilot extension in VS Code.
 In this task, you'll be signing in to your GitHub account through GitHub Copilot extension.
 
 1. After installation, at the bottom right corner, click on the **Sign in to GitHub** prompt.
-
+   
+   ![Sign in to GitHub](/media/signingit.png)
+   
 1. Click on **Allow** in the popup.
 
-   ![Sign in to GitHub](../media/signingin.png)
+   ![Allow](/media/allow.png)
 
-1. In the GitHub sign-in page, enter your GitHub credentials.
-   
-1. Click on **Sign in**.
+1. In the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
 
-   ![Enter GitHub Credentials](../media/gisignin.png)
-
-   > **Note:** To view GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials** in the third learning path.
-
-   ![GitHub Credentials Lab](../media/git-odl-cred-1.png)
-
-   > **Note:** Copy the GitHub UserEmail and GitHub Password for reference.
-
-1. Sign in to Outlook in the Lab VM through an **InPrivate** window (https://outlook.office365.com/mail/) using GitHub credentials.
-
-1. Locate the email containing the verification code and select **Verify**.
-
-   ![Get Authentication Code](../media/verify1.png)
+1. To verify your GitHub account login, sign in to Outlook in the Lab VM through an **InPrivate** window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code and select **Verify**.
 
 1. Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for VS Code.
-
-   ![Authorize VS Code](../media/1-2.png)
-
-1. Click **Open** on the pop-up prompt.
-
-   ![Open Pop-up Prompt](../media/1-10.png)
-
-1. GitHub Copilot will be activated, and you'll see the icon in the bottom right corner.
-
-   ![GitHub Copilot Activated](../media/icon.png)
-
-   > **Note:** If the activation status isn't visible, restart Visual Studio Code.
-
-1. Verify if **GitHub Copilot Chat** is installed. If installed, the icon should appear in the left navigation pane.
-
-   ![GitHub Copilot Chat](../media/chatnew.png)
-
 
 ## Task 3: Using GitHub Codespaces with Copilot
 
@@ -71,11 +42,19 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
 1. On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
+   ![GitHub-Code](/media/github-code.png)
+
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
+   ![GitHub-Codespaces](/media/github-codespaces.png)
+
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
+
+   ![](/media/open.png)
+
+   ![](/media/codespaces.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
@@ -83,12 +62,13 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
+   ![](/media/allow.png)
+
 1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
 1. Verify your codespace is running.
 
 1. You can now edit your GitHub repository files, commit and push the changes directly to GitHub through VS Code.
-
 
 ## Task 4: Explore GitHub Copilot Features
 
