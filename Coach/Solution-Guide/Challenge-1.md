@@ -349,5 +349,3 @@ In this task, you'll be refactoring and debugging the poorly written Python code
 
 1. Save the file and run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
 
-This completes Challenge 1. You've successfully set up GitHub Copilot and explored its basic functionalities. In the next challenge, you'll delve into more advanced features and code generation with Copilot.
-
