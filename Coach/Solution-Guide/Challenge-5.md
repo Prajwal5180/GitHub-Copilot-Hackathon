@@ -2,137 +2,51 @@
 
 ## Task 1: Generate Documentation with Copilot
 
-In this task, you'll utilize GitHub Copilot to generate comments and markdown documentation for a selected piece of code.
+In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make us of GitHub Copilot features to generate comments for codes.
 
-1. Open Visual Studio Code and copy the below python code in a new file.
+1. Open Visual Studio Code and clone the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
 
-   > **Note:** This code defines classes for a bank account and a customer, demonstrating basic banking operations like deposit, withdrawal, and checking the balance. It also creates two customers with their respective accounts and performs some transactions.
+1. In the GitHub Copilot Chat window, ask the GitHub Copilot to generate a README.md file for the backend application, copy the code in a new file and save as **README.md**. You can acheive this by refering to your workspace.
 
-   ```
-    class BankAccount:
-      def __init__(self, account_holder, balance=0):
-            self.account_holder = account_holder
-            self.balance = balance
+   - @workspace generate a README.md file for the directory app/backend
 
-        def deposit(self, amount):
-            if amount > 0:
-                self.balance += amount
-                print(f"Deposited ${amount}. New balance: ${self.balance}")
-            else:
-                print("Invalid deposit amount.")
+   ![](/media/backend-app-readme.png)
 
-        def withdraw(self, amount):
-            if 0 < amount <= self.balance:
-                self.balance -= amount
-                print(f"Withdrew ${amount}. New balance: ${self.balance}")
-            else:
-                print("Invalid withdrawal amount or insufficient funds.")
+1. Notice how GitHub Copilot uses the worspace reference to create a markdown documentation for a specific directory.
 
-        def check_balance(self):
-            print(f"Current balance for {self.account_holder}: ${self.balance}")
+1. Navigate to the *app/backend/requirements.txt* file and browse through the requirements. 
 
-    class Customer:
-        def __init__(self, name):
-            self.name = name
-            self.accounts = []
+   ![](/media/backend-requirements.png)
 
-        def add_account(self, account):
-            self.accounts.append(account)
-            print(f"Added account for {self.name}")
+1. Now select the entire file, right click and then select **Copilot** and **Generate Docs**.
 
-    def main():
-        customer1 = Customer("Alice")
-        customer2 = Customer("Bob")
+   ![](/media/backend-requirements-generate-docs.png)
 
-        account1 = BankAccount("Checking", 1000)
-        account2 = BankAccount("Savings", 500)
+1. Notice how GitHub Copilot lists out all the requirements in the file at the beginning.
 
-        customer1.add_account(account1)
-        customer2.add_account(account2)
+   ![](/media/backend-requirements-list.png)
 
-        account1.deposit(200)
-        account2.withdraw(100)
+1. Navigate to *app/backend/approaches/approach.py* file. You will notice that there are no comments for the either of the modules, functions or classes.
 
-        account1.check_balance()
-        account2.check_balance()
+1. Now select the entire file, right click and then select **Copilot** and **Start Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
 
-    if __name__ == "__main__":
-        main()
-   ```
+   ![](/media/backend-approach-chat.png)
 
-1. Select the entire code, right click and select **Copilot** and **Generate Docs**.
+1. Notice how GitHub Copilot generate comments for the classes, functions and modules present in the code.
 
-1. You'll notice that GitHub Copilot has generated comments for the class **BankAccount**.
+## Task 2: Enhance and Refine Documentation
 
-   ```
-   """
-   A class representing a bank account.
+In this task, you'll enhance and refine your README.md documentation by utilizing GitHub Copilot Suggestions feature.
 
-   Attributes:
-   - account_holder (str): The name of the account holder.
-   - balance (float): The current balance of the account.
+1. Open your **README.md** file which you saved in the previous task.
 
-   Methods:
-   - deposit(amount): Deposits the specified amount into the account.
-   - withdraw(amount): Withdraws the specified amount from the account.
-   - check_balance(): Prints the current balance of the account.
-   """
-   ```
+1. Select the entire documentation and click **Ctrl+Enter** to view Suggestions provided by GitHub Copilot to enhance the documentation.
 
-1. To generate a markdown documentation for the above code, select the entire code, right click and select **Copilot** and **Start Inline Chat** and ask the GitHub Copilot to generate a markdown documentation for the selected code.
+   ![](/media/backend-readme-suggestions.png)
 
-1. You'll notice that GitHub Copilot has generated a Markdown documentation specifically for the selected code.
+1. You'll find a number of suggestions for the selected document which help you refine the same.
 
-   ```
-   """
-   # Bank Account System
-
-   ## BankAccount Class
-
-   A class representing a bank account.
-
-   ### Attributes:
-   - `account_holder` (str): The name of the account holder.
-   - `balance` (float): The current balance of the account.
-
-   ### Methods:
-   - `deposit(amount)`: Deposits the specified amount into the account.
-   - `withdraw(amount)`: Withdraws the specified amount from the account.
-   - `check_balance()`: Prints the current balance of the account.
-
-   ## Customer Class
-
-   A class representing a customer.
-
-   ### Attributes:
-   - `name` (str): The name of the customer.
-   - `accounts` (list): A list of bank accounts associated with the customer.
-
-   ### Methods:
-   - `add_account(account)`: Adds a bank account to the customer's list of accounts.
-
-   ## Main Function
-
-   The main function creates two customers, each with their own bank account. It performs some operations on the accounts, such as depositing and withdrawing money, and then checks the balances.
-
-   To run the program, execute the `main()` function.
-   ```
-
-## Task 2: Customize and Refine Documentation
-
-In this task, you'll customize and refine your documentation process by utilizing GitHub Copilot Inline Chat, Suggestions and Explain feature.
-
-1. Select the entire code (from the above task), right click and select **Copilot** and **Start Inline Chat**. Ask the GitHub Copilot to generate descriptive comments for the selected code.
-
-1. You'll notice that the GitHub Copilot has generated descriptive comments for each class, definition and function.
-
-1. You can also enhance the documentation and the code through GitHub Copilot's Suggestion window. Select the code and click **Ctrl+Enter** to view Suggestions provided by GitHub Copilot to refine the document or code.
-
-1. You'll find a number of suggestions for the selected document or code which will enhance and refine the same.
-
-1. To get more elaborated explanation about any code, select the code, right click and select **Copilot** and **Explain This**.
-
-1. You'll notice in the GitHub Copilot Chat window, provides a detailed and clear explanation of the code.
+1. Browse through the GitHub Copilot Suggestions and **Accept** the best suited suggestions suitable.
 
 ## Task 3: Explore Various Documentation Styles
 
@@ -192,7 +106,7 @@ In this task, you'll explore on various styles of documentation that you can gen
    - Explore advanced networking features in Azure.
    ```
 
-1. You can also utilize GitHub Copilot to generate a Javadoc to create a calculator.
+1. You can also utilize GitHub Copilot Chat to generate a Javadoc to create a calculator.
 
    ```
    /**
