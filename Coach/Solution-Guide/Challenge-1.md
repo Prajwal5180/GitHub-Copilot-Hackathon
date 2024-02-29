@@ -82,6 +82,8 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Open GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator.
 
+   ![](/media/coppilot-calculator.png)
+
 1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages.
 
    - Python code to build a calculator:
