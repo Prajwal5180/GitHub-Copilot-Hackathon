@@ -84,7 +84,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
    ![](/media/coppilot-calculator.png)
 
-1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages.
+1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages. Save the files to run tests.
 
    - Python code to build a calculator:
      ```
@@ -167,8 +167,6 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
       console.log("Division:", divide(num1, num2));
      ```
    > **Note:** Declare the two variables/numbers before running tests through JS.
-
-1. You can also enhance the code to be more accurate by using GitHub Copilot inline chat.
 
 1. To get the weather data from weather APIs, first sign in to the OpenWeatherMap API website (https://openweathermap.org/) and on the dropdown of your user profile in the top right, click **My API keys**. You can either use the default API key or create a new one for to get the weather data using code.
 
