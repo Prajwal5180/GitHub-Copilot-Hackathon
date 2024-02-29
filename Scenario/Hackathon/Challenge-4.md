@@ -1,4 +1,4 @@
-# Challenge 4: Using GitHub Copilot workspace, file reference and advanced context window
+# Challenge 4: Using GitHub Copilot workspace and file reference
 
 ### Estimated Time: 60 minutes
 
@@ -6,7 +6,7 @@
 
 As a software developer at **Contoso Ltd.**, a leading software development company, you are always looking for ways to enhance your coding efficiency and the overall quality of your code. After successfully exploring the basic features of **GitHub Copilot** and using it to develop and deploy an application to Azure, you now turn your focus to some of the advanced features of this AI-powered coding assistant.
 
-In this challenge, you are specifically tasked with exploring and utilizing the three key features of the **GitHub Copilot** - the **workspace**, **file reference**, and the **advanced context window**. Understanding and utilizing these features can significantly boost your productivity and efficiency in coding by providing more accurate, context-aware code suggestions.
+In this challenge, you are specifically tasked with exploring and utilizing the three key features of the **GitHub Copilot** - the **workspace** and the **file reference**. Understanding and utilizing these features can significantly boost your productivity and efficiency in coding by providing more accurate, context-aware code suggestions.
 
 - **Github Copilot Workspace:** **GitHub Copilot Workspace** is an advanced feature of **GitHub Copilot**, an AI-powered code completion tool. The workspace in GitHub Copilot refers to the current working directory where your code files reside.
 
@@ -17,37 +17,39 @@ In this challenge, you are specifically tasked with exploring and utilizing the 
 
    When you're working on a specific file in your codebase, **GitHub Copilot** can take into account the information, functions, classes, or variables defined in other files of your project. This means it doesn't just provide suggestions based on the current file you're working on, but it can also reference other files to give you more accurate and relevant code completions. This feature is particularly useful when you're working on large projects where code is spread across multiple files. GitHub Copilot's ability to reference other files allows it to better understand the bigger picture of your project, resulting in more context-aware suggestions. This can significantly improve your coding efficiency and the overall quality of your code.
 
-- **Advanced context window:** The **advanced context window in GitHub Copilot** refers to the broader view of your code that the AI takes into account while providing code suggestions. When you're coding, **GitHub Copilot** doesn't just consider the line you're currently working on to generate suggestions. Instead, it looks at a larger context window, which includes several lines of code both before and after the cursor. This allows Copilot to gain a deeper understanding of what you're trying to achieve in your code, thus enabling it to provide more accurate and relevant code completions.
-
-   The advanced context window feature is part of what makes **GitHub Copilot** a powerful tool for developers. It ensures that the AI's code suggestions are not just syntactically correct, but also semantically appropriate for the current context of your code. This can greatly enhance your coding efficiency and the overall quality of your code.
-
 Whether you are a seasoned developer looking to enhance your coding efficiency or a beginner seeking to improve your coding skills, this lab will provide valuable insights into how **GitHub Copilot** can be a powerful tool in your coding journey. By the end of this challenge, you aim to demonstrate to **Contoso Ltd.** how these advanced features of **GitHub Copilot** can significantly enhance coding efficiency and the overall quality of code, further reinforcing the benefits of integrating AI into the development workflow. Let's get started!
 
 ## Challenge Objectives:
 
-1. **Utilize Github Copilot Workspace:**
+1. **Utilize Github Copilot Workspace in the existing Contact Database application:**
 
    - Understand and explore on how Workspace feature works
 
    - Give some prompts to the workspace agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating a new functionality, identifying issues in any file and more.
 
-2. **Utilize the capabilities of File referencing:**
+1. **Utilize Github Copilot Workspace to create a new app named Expense Tracker:**
+
+   - Create the fundamental workspace structure using **Github Copilot Workspace** feature.
+
+   - Develop the individual components required in the Expense Tracker app outline using **Github Copilot's** transformative capabilities.
+
+   - Debug all the possible errors coming out while running the Expense tracker app using Github Copilot Workspace.
+
+   - Run the application in your local system successfully.
+
+1. **Utilize the capabilities of File referencing:**
 
    - Understand how Github Copilot refrences files in your documents and how it helps in codeflow
 
    - Provide some prompts that require Github Copilot to reference multiple files in your multi-file project, and analyze the refrences properly
 
-3. **Utilze capabilities of Advanced Context Window in Github Copilot**
-
-   - Understand how advanced context window works in providing context-aware suggestions
-
-   - Practice writing code with different types of files and observe how Copilot uses lines of code both before and after the cursor to provide suggestions based on the workspace context and file referencing.
-
 ## Success Criteria:
 
-- Make sure you understood the functioning of Github Copilot Workspace, File referencing and Advanced context window.
+- Make sure you understood the functioning of Github Copilot Workspace and File referencing.
 
-- Make sure you successfully provided the relevant prompts to test the working of workspace agent, file referencing and advanced context window.
+- Make sure you successfully provided the relevant prompts to test the working of workspace agent and file referencing.
+
+- Verify that the Expense tracker application is running properly.
 
 - Verify the outputs generated by your prompts and verify their accuracy.
 
@@ -57,4 +59,4 @@ Whether you are a seasoned developer looking to enhance your coding efficiency o
 
 ## Conclusion
 
-In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace, File referencing and Advanced context window** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.
+In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace and File referencing** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.
