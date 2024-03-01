@@ -24,7 +24,7 @@ In this task, you'll be signing in to your GitHub account through GitHub Copilot
 
 1. After installation, at the bottom right corner, click on the **Sign in to GitHub** prompt.
    
-   ![Sign in to GitHub](/media/signingit.png)
+   ![Sign in to GitHub](../../media/signingit.png)
    
 1. Click on **Allow** in the popup.
 
