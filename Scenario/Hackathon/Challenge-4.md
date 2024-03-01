@@ -19,6 +19,16 @@ In this challenge, you are specifically tasked with exploring and utilizing the 
 
 Whether you are a seasoned developer looking to enhance your coding efficiency or a beginner seeking to improve your coding skills, this lab will provide valuable insights into how **GitHub Copilot** can be a powerful tool in your coding journey. By the end of this challenge, you aim to demonstrate to **Contoso Ltd.** how these advanced features of **GitHub Copilot** can significantly enhance coding efficiency and the overall quality of code, further reinforcing the benefits of integrating AI into the development workflow. Let's get started!
 
+## Prerequisites
+
+Make sure you have the following from the CloudLabs provided integrated environment:
+
+> **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub account](https://github.com/)
+- [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
+
 ## Challenge Objectives:
 
 1. **Utilize Github Copilot Workspace in the existing Contact Database application:**
