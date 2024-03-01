@@ -16,7 +16,7 @@ In this task, you'll be installing GitHub Copilot extension in VS Code.
 
 1. Click on the **Install (4)** button.
 
-   ![Picture1](/media/task1.2.png)
+   ![Picture1](../../media/task1.2.png)
 
 ## Task 2: Login with GitHub Account
 
