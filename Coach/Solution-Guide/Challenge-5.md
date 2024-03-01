@@ -22,7 +22,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](/media/backend-requirements-generate-docs.png)
 
-1. Notice how GitHub Copilot lists out all the requirements in the file at the beginning.
+1. Notice how the GitHub Copilot lists out all the requirements in the file at the beginning.
 
    ![](/media/backend-requirements-list.png)
 
@@ -32,7 +32,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](/media/backend-approach-chat.png)
 
-1. Notice how GitHub Copilot generate comments for the classes, functions and modules present in the code.
+1. Notice how the GitHub Copilot generate comments for the classes, functions and modules present in the code.
 
 ## Task 2: Enhance and Refine Documentation
 
