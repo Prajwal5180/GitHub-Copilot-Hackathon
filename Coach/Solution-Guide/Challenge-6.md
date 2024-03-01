@@ -1,4 +1,4 @@
-# Challenge 5: Create Documentation using GitHub Copilot - Solution Guide
+# Challenge 6: Generate Scripts using GitHub Copilot - Solution Guide
 
 ## Task 1: Generate Sysadmin scripts
 
