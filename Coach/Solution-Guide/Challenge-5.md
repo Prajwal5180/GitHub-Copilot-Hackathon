@@ -12,7 +12,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](/media/backend-app-readme.png)
 
-1. Notice how GitHub Copilot uses the worspace reference to create a markdown documentation for a specific directory.
+1. Notice how the GitHub Copilot uses the workspace reference to create a markdown documentation for a specific directory.
 
 1. Navigate to the *app/backend/requirements.txt* file and browse through the requirements. 
 
