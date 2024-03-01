@@ -28,7 +28,7 @@ In this task, you'll be signing in to your GitHub account through GitHub Copilot
    
 1. Click on **Allow** in the popup.
 
-   ![Allow](/media/allow.png)
+   ![Allow](../../media/allow.png)
 
 1. In the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
 
@@ -42,19 +42,19 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
 1. On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![GitHub-Code](/media/github-code.png)
+   ![GitHub-Code](../../media/github-code.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
-   ![GitHub-Codespaces](/media/github-codespaces.png)
+   ![GitHub-Codespaces](../../media/github-codespaces.png)
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
 
-   ![](/media/open.png)
+   ![](../../media/open.png)
 
-   ![](/media/codespaces.png)
+   ![](../../media/codespaces.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
@@ -62,7 +62,7 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-   ![](/media/allow.png)
+   ![](../../media/allow.png)
 
 1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
@@ -82,7 +82,7 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Open GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator.
 
-   ![](/media/copilot-calculator.png)
+   ![](../../media/copilot-calculator.png)
 
 1. Notice how GitHub Copilot creates codes to build a calculator in both Python and JS languages. Save the files to run tests.
 
@@ -172,11 +172,11 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. To get the weather data from weather APIs, first sign in to the OpenWeatherMap API website (https://openweathermap.org/) and on the dropdown of your user profile in the top right, click **My API keys**. You can either use the default API key or create a new one for to get the weather data using code.
 
-   ![](/media/weather-api-keys.png)
+   ![](../../media/weather-api-keys.png)
 
 1. Open GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS based app to get weather data from weather APIs.
 
-   ![](/media/copilot-weather-api.png)
+   ![](../../media/copilot-weather-api.png)
 
 1. Notice how GitHub Copilot creates codes to get weather data from weather APIs in both Python and JS languages.
 
