@@ -10,27 +10,27 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    - @workspace generate a README.md file for the directory app/backend
 
-   ![](/media/backend-app-readme.png)
+   ![](../../media/backend-app-readme.png)
 
 1. Notice how the GitHub Copilot uses the workspace reference to create a markdown documentation for a specific directory.
 
 1. Navigate to the *app/backend/requirements.txt* file and browse through the requirements. 
 
-   ![](/media/backend-requirements.png)
+   ![](../../media/backend-requirements.png)
 
 1. Now select the entire file, right click and then select **Copilot** and **Generate Docs**.
 
-   ![](/media/backend-requirements-generate-docs.png)
+   ![](../../media/backend-requirements-generate-docs.png)
 
 1. Notice how the GitHub Copilot lists out all the requirements in the file at the beginning.
 
-   ![](/media/backend-requirements-list.png)
+   ![](../../media/backend-requirements-list.png)
 
 1. Navigate to *app/backend/approaches/approach.py* file. You will notice that there are no comments for the either of the modules, functions or classes.
 
 1. Now select the entire file, right click and then select **Copilot** and **Start Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
 
-   ![](/media/backend-approach-chat.png)
+   ![](../../media/backend-approach-chat.png)
 
 1. Notice how the GitHub Copilot generate comments for the classes, functions and modules present in the code.
 
@@ -42,7 +42,7 @@ In this task, you'll enhance and refine your README.md documentation by utilizin
 
 1. Select the entire documentation and click **Ctrl+Enter** to view Suggestions provided by GitHub Copilot to enhance the documentation.
 
-   ![](/media/backend-readme-suggestions.png)
+   ![](../../media/backend-readme-suggestions.png)
 
 1. You'll find a number of suggestions for the selected document which help you refine the same.
 
