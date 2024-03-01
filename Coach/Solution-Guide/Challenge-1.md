@@ -42,7 +42,7 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
 1. On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![GitHub-Code](../../media/github-code.png)
+   ![](../../media/signingit.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
