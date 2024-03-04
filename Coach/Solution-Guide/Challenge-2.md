@@ -10,13 +10,23 @@
 
 - Navigate to the provided GitHub repository link: [CloudLabs-CRUD-application](https://github.com/CloudLabsAI-Azure/CloudLabs-CRUD-application).
 
+    ![](../../media/crud2.1.png)
+
 - Fork the repository into the CloudLabs provided GitHub account.
+
+    ![](../../media/crud2.2.png)
 
 ### Open Visual Studio and Clone Repository
 
 - Launch Visual Studio and log in using the CloudLabs provided GitHub account credentials.
 
-- Clone the forked repository by clicking on "Clone a repository" and then selecting "GitHub" under Browse a repository.
+- Clone the forked repository by clicking on "Clone a repository".
+
+    ![](../../media/crud2.3.png)
+
+- Then, select "GitHub" under Browse a repository.
+
+    ![](../../media/crud2.4.png)
 
 - Choose the repository you forked earlier and click on "Clone".
 
