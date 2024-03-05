@@ -28,7 +28,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying the **Contact Database application** application to Azure.
    - Define the necessary Azure resources in the ARM template, that is, a Web app present in Azure App Services required to deploy your application.
 
-2. **Generate GitHub Action Workflow using Deployment Center from Web App in Azure portal**
+2. **Generate GitHub Action Workflow using Deployment Center from Web App in Azure portal:**
    - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **Contact Database Application** GitHub repository to start the workflow pipeline to deploy your web app to Azure.
 
 3. **Get the app working on Azure.**
