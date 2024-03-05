@@ -48,6 +48,26 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 - Refer to [this link](https://learn.microsoft.com/en-us/shows/introduction-to-github-copilot/how-to-write-documentation-with-copilot-suggestions-5-of-6) for more information.
 
+### Challenge Validation
+ 
+1. After completing the challenge, you need to visit the **Lab Validation (1)** tab and click on the **VALIDATE (2)** button under Actions to perform the validation steps. Verify that you have met the success criteria of the challenge. 
+ 
+    ![azure](../Media/validate01.png)
+ 
+1. If the validation status displays **Success** for all the validation steps, **congratulations!** This means that you have completed the challenge.
+ 
+     ![azure](../Media/validate02.png)
+   
+1. If the validation status displays **Fail**, **don't worry!** This could mean that you did not perform the challenge correctly.
+ 
+     ![azure](../Media/validate03.png)
+ 
+1. Hover your mouse over the `i` **(1)** icon to see the error message and determine the root cause of the failure. Based on the error message, revisit the challenge as necessary, and redo the validation by clicking on the **VALIDATE (3)** button again.
+   
+     ![azure](../Media/validate04.png)
+   
+1. If you are still having trouble, you can reach out to the support team via `labs-support@spektrasystems.com` for further assistance. The support team is available to help you troubleshoot and resolve any technical issues or validation issues that may arise while the lab environment is live.
+
 ## Conclusion
 
 In this challenge, you've utilized GitHub Copilot to generate comments and markdown documentation for the backend app through GitHUb Copilot features. You also enhanced and refined your newly generated markdown documentation for the backend app through GitHUb Copilot Suggestions and explored on various documentation styles that GitHub Copilot provides by generating markdown documents to deploy a VNet in Azure and a Javadoc to create a calculator from scratch.
