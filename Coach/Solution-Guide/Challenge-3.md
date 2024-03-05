@@ -133,3 +133,46 @@ In this task you'll be generating an ARM template to deploy a web application to
 1. Wait for the deployment to succeed and verify that your web app service and app service plan resources exist in the resource group.
 
    ![](../../media/challenge3-custom-deploy-verify.png)
+
+## Task 2: Generate GitHub Action Workflow using Deployment Center from Web App in Azure portal
+
+In this task, you'll generate a GitHub Action workflow pipeline using Deployment Center from Web App in Azure portal.
+
+1. Navigate to your web app service, under the **Deployment** settings, select **Deployment Center**.
+
+   ![](../../media/challenge3-deployment-center.png)
+
+1. Specify the following settings to generate a GitHub Action workflow YAML file and click **Save**:
+
+   * **Source**: GitHub
+   * **Signed in as**: Your GitHub Account
+   * **Organization**: Your Github Organization
+   * **Repository**: Your Github Repository (**Contact Database Application**)
+   * **Branch**: Your GitHub Repository Branch
+   * **Authentication type**: Basic authentication
+  
+   ![](../../media/challenge3-deployment-center01.png)
+
+   ![](../../media/challenge3-deployment-center02.png)
+
+1. Navigate to your GitHub repository and under **Actions** tab, you'll notice that the build has started for your web app. Wait for GitHub action workflow build and deploy to succeed
+
+   ![](../../media/challenge3-github-build.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
