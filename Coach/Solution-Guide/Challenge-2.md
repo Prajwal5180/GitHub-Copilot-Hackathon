@@ -75,31 +75,33 @@
 
     ![](../../media/crud1.7.png)
 
-- Fill in the required fields for Name and Email in the form provided.
+- Fill in the required fields for Name and Email in the form provided. Click on the "Create" button to submit the form and create a new contact.
 
-- Click on the "Create" button to submit the form and create a new contact.
+    ![](../../media/crud1.8.png)
 
 ### Edit a Contact
 
 - After creating a contact, return to the homepage.
 
-- Find the contact you created in the list and locate the "Edit" button associated with it.
+- Find the contact you created in the list and locate the "Edit" button associated with it. Click on the "Edit" button.
 
-- Click on the "Edit" button.
+    ![](../../media/crud1.9.png)
 
-- Modify the existing details (Name or Email) as desired.
+- Modify the existing details (Name or Email) as desired. Save the changes by clicking on the "Save" button.
 
-- Save the changes by clicking on the "Save" button.
+    ![](../../media/crud1.10.png)
 
 ### Verify Details of a Contact
 
 - Once again, return to the homepage.
 
-- Locate the contact whose details you want to verify.
+- Locate the contact whose details you want to verify. Click on the "Details" button associated with that contact.
 
-- Click on the "Details" button associated with that contact.
+    ![](../../media/crud1.11.png)
 
 - Verify that the displayed details match the information you entered earlier.
+
+    ![](../../media/crud1.12.png)
 
 ### Delete a Contact
 
@@ -107,23 +109,79 @@
 
 - Click on the "Delete" button associated with that contact.
 
+    ![](../../media/crud1.13.png)
+
 - A confirmation dialog will appear asking if you're sure you want to delete the contact. Confirm the action.
 
+    ![](../../media/crud1.14.png)
+
 - Ensure that the contact is removed from the list after deletion.
+
+    ![](../../media/crud1.15.png)
 
 By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning..
 
 # Task 2: Generate Unit Test Cases
 
+- To generate unit test cases, we need to add a new project. In the solution explorer, right click on the Solution.
 
+    ![](../../media/crud3.1.png)
+
+- Click on Add and then click on New Project.
+
+    ![](../../media/crud3.2.png)
+
+- Now search for Unit test in the search box and select the Unit Test Project (.Net Framework) and then click on Next.
+
+    ![](../../media/crud3.3.png)
+
+- Name the project as Usercontrollertest and then click on Create.
+
+    ![](../../media/crud3.4.png)
+
+- Rename the UnitTest1.cs file to UserControllerTests.cs.
+
+- Now lets ask Github Copilot Chat to generate test cases. Click on the "View" option on the top panel of Visual Studio. From the options, select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
+
+    ![](../../media/crud3.5.png)
+
+- Open the UserController.cs file and select/highlight the entire code in it.
+
+    ![](../../media/crud3.6.png)
+
+- Once the entire code is highlighted, in the Github Copilot Chat provide an prompt as "generate unit test cases for usercontroller.cs"
+
+    ![](../../media/crud3.7.png)
+
+- Github Copilot will start generate unit test cases for the usercontroller.cs.
+
+    ![](../../media/crud3.8.png)
+
+- Now copy the code provided by Github Copilot by clicking on the copy icon.
+
+    ![](../../media/crud3.9.png)
+
+- Remove the existing code and paste the code that we copied in the file.
+
+    ![](../../media/crud3.10.png)
+
+- Let us now add references to the project. Locate the References for UserControllertest and then right click on it. Then click on Add Reference.
+
+    ![](../../media/crud3.11.png)
+
+- Now in the Projects check the check box and then click on OK.
+
+    ![](../../media/crud3.12.png)
+
+-     
 
 # Task 3: Develop and Test Features
 
 ### Utilize GitHub Copilot Chat for Feature Development:
   
-   - Click on the "View" option on the top panel of Visual Studio.
+   - Click on the "View" option on the top panel of Visual Studio. From the options, select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
   
-   - From the options, select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
+        ![](../../media/crud3.5.png)
 
 ### Ask GitHub Copilot Chat for Feature Implementation:
    
