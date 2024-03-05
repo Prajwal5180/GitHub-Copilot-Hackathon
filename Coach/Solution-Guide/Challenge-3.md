@@ -1,1 +1,122 @@
+# Challenge 3: Deploy the App to Azure - Solution Guide
 
+## Task 1: Develop ARM Template to deploy an app to Azure
+
+In this task you'll be generating an ARM template to deploy a web application to Azure using Azure App Services and define the necessary resources.
+
+1. In your GitHub Copilot Chat window, ask the GitHub Copilot to generate an ARM template to deploy a web app with necessary resources defined (basic/free pricing plan, basic authentication enabled and GitHub actions setting disabled).
+
+   ![](../../media/challenge3-generate-arm.png)
+
+1. GitHub Copilt will generate a basic ARM template (which might be not accurate). Copy and paste the ARM template in a new file named **deploy.json**, utilize GitHub Copilot Suggestions and Chat to refactor the template to your specifications. Your ARM template must resemble as given below wth the resources and specifications.
+
+   ```
+   {
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "type": "String"
+        },
+        "resourceGroupName": {
+            "type": "String"
+        },
+        "name": {
+            "type": "String"
+        },
+        "location": {
+            "type": "String"
+        },
+        "hostingPlanName": {
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Web/sites",
+            "apiVersion": "2018-11-01",
+            "name": "[parameters('name')]",
+            "location": "[parameters('location')]",
+            "dependsOn": [
+                "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]"
+            ],
+            "tags": {},
+            "properties": {
+                "name": "[parameters('name')]",
+                "siteConfig": {
+                    "appSettings": [],
+                    "metadata": [
+                        {
+                            "name": "CURRENT_STACK",
+                            "value": "dotnet"
+                        }
+                    ],
+                    "phpVersion": "OFF",
+                    "netFrameworkVersion": "v4.0",
+                    "alwaysOn": false,
+                    "ftpsState": "FtpsOnly"
+                },
+                "serverFarmId": "[concat('/subscriptions/', parameters('subscriptionId'),'/resourcegroups/', parameters('resourceGroupName'), '/providers/Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]",
+                "clientAffinityEnabled": true,
+                "virtualNetworkSubnetId": null,
+                "httpsOnly": true,
+                "publicNetworkAccess": "Enabled"
+            },
+            "resources": [
+                {
+                    "type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+                    "apiVersion": "2022-09-01",
+                    "name": "[concat(parameters('name'), '/scm')]",
+                    "dependsOn": [
+                        "[resourceId('Microsoft.Web/Sites', parameters('name'))]"
+                    ],
+                    "properties": {
+                        "allow": true
+                    }
+                },
+                {
+                    "type": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+                    "apiVersion": "2022-09-01",
+                    "name": "[concat(parameters('name'), '/ftp')]",
+                    "dependsOn": [
+                        "[resourceId('Microsoft.Web/Sites', parameters('name'))]"
+                    ],
+                    "properties": {
+                        "allow": true
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-11-01",
+            "name": "[parameters('hostingPlanName')]",
+            "location": "[parameters('location')]",
+            "dependsOn": [],
+            "tags": {},
+            "sku": {
+                "Tier": "Basic",
+                "Name": "B1"
+            },
+            "kind": "",
+            "properties": {
+                "name": "[parameters('hostingPlanName')]",
+                "workerSize": "0",
+                "workerSizeId": "0",
+                "numberOfWorkers": "1",
+                "zoneRedundant": false
+            }
+         }
+      ] 
+   }
+   ```
+
+1. In your VS Code, create a new file **deploy.parameters.json** to define the parameters from your *deploy.json* file.
+
+1. In your Azure portal, search for **Deploy a custom template** service. You will use this Azure service to deploy your custom ARM template.
+
+   ![](../../media/challenge3-azure-custom.png)
+
+1. 
+   
