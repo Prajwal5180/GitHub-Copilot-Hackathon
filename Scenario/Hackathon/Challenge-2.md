@@ -27,9 +27,9 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
       - Navigate to the below provided link and fork the repository in to the CloudLabs provided GitHub account.
 
-      ```
-      https://github.com/CloudLabsAI-Azure/Contact-Database-Application
-      ```
+        ```
+        https://github.com/CloudLabsAI-Azure/Contact-Database-Application
+        ```
       - Clone the forked Repository in to Visual Studio using the CloudLabs provided GitHub account.
 
       - You will be creating an application named **Contact Database Application**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements, and also carry out the basic functioning like editing their details, deleting their profiles and so. You will be provided with the skeleton of the application already, but will need to build the functionalities inside **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
