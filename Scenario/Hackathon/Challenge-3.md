@@ -28,23 +28,23 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying the **Contact Database application** application to Azure.
    - Define the necessary Azure resources in the ARM template, that is, a Web app present in Azure App Services required to deploy your application.
 
-2. **Create GitHub Actions Pipeline with Copilot**
-   - Create a GitHub Actions pipeline using GitHub Copilot to automate the build and testing process of your code using Copilot-generated scripts.
+2. **Generate GitHub Action Workflow using Deployment Center from Web App in Azure portal**
+   - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **Contact Database Application** GitHub repository to start the workflow pipeline to deploy your web app to Azure.
 
-4. **Generate Documentation with Copilot:**
+3. **Get the app working on Azure.**
+   - Verify if the GitHub Actions pipeline build is succeeded.
+   - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
+  
+4. **Generate Documentation with Copilot for the App:**
    - Use GitHub Copilot to assist you in generating a detailed and accurate documentation specifically for this challenge.
    - Create a MD file which guides in creating the ARM template to deploy the app, create GitHub actions pipeline and getting the app working on Azure.
-
-6. **Get the app working on Azure.**
-   - Deploy the application to Azure using the ARM template you've created and test the **Contact Database application's** functionality.
-   - Verify that the deployed resources match the specifications outlined in your ARM template.
      
 ## Success Criteria:
 
 - Verify that the web app from Azure App Services containing your application code is present in Azure.
 - Veify that the Github action pipeline is created successfully.
-- Verify that the documentation is created successfully.
 - Verify that the **Contact Database application** is deployed successfully on Azure and test the functionality.
+- Verify that the documentation is created successfully.
 
 ## Additional Resources:
 
