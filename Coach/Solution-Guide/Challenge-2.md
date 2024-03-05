@@ -173,7 +173,22 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
     ![](../../media/crud3.12.png)
 
--     
+- Now lets fix the issues in the file by hovering the cursor at the Test Fixture and then clicking Show potential fixes.
+
+    ![](../../media/crud3.13.png)
+
+- Click on "Install package NUnit" and then click on "Find and install latest version".
+
+    ![](../../media/crud3.14.png)
+
+- Similarly, hover the cursor on the controller.Index() click on show potential fixes and then click on "Install package 'Microsoft.ASPNet.Mvc'" and then click on "Use Local version '5.2.7'"
+
+    ![](../../media/crud3.15.png)
+
+- Again for the RouteValues, hover the cursor and then click on show potential fixes and then click on Add reference.
+
+    ![](../../media/crud3.16.png)
+
 
 # Task 3: Develop and Test Features
 
