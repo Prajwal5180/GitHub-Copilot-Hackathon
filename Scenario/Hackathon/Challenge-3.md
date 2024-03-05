@@ -31,7 +31,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 2. **Generate GitHub Action Workflow using Deployment Center from Web App in Azure portal:**
    - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **Contact Database Application** GitHub repository to start the workflow pipeline to deploy your web app to Azure.
 
-3. **Get the app working on Azure.**
+3. **Get the app working on Azure:**
    - Verify if the GitHub Actions pipeline build is succeeded.
    - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
   
