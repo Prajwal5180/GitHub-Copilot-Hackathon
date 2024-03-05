@@ -162,6 +162,21 @@ In this task, you'll generate a GitHub Action workflow pipeline using Deployment
    ![](../../media/challenge3-github-build.png)
 
 
+## Task 3: Get the app working on Azure
+
+In this task, you'll verify that the GitHub action pipeline build is succeeded, the workflow file is created and if your  web app is working as expected on Azure.
+
+1. In your GitHub repository Actions setting, verify that the pipeline build of both the jobs succeeded **(1)**.
+
+   ![](../../media/challenge3-github-build-verify.png)
+
+1. Verify that your web app is working as expected by navigating to the web application **(2)** in a different tab.
+
+   ![](../../media/challenge3-web-app.png)
+
+1. Also verify that your workflow file has been created in a new directory **.github/workflows**.
+
+   ![](../../media/challenge3-github-workflows.png)
 
 
 
