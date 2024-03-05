@@ -32,6 +32,12 @@ Make sure you have the following from the CloudLabs provided integrated environm
         ```
       - Clone the forked Repository in to Visual Studio using the CloudLabs provided GitHub account.
 
+      - Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager" and then click on "Package Manager Console". Run the below command in the console.
+
+      ```
+      Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+      ```
+
       - You will be creating an application named **Contact Database Application**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements, and also carry out the basic functioning like editing their details, deleting their profiles and so. You will be provided with the skeleton of the application already, but will need to build the functionalities inside **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
 
       - Explore Copilot's ability to understand your context and provide relevant code suggestions.  
@@ -57,8 +63,6 @@ Make sure you have the following from the CloudLabs provided integrated environm
       - Use GitHub Copilot to assist in writing meaningful commit messages that clearly describe the changes made.
 
       - Throughout the development process, engage with Copilot Chat to enhance collaboration and receive insightful coding recommendations.
-
-      - Use GitHub Copilot to generate test cases for your application.
   
 ## Success Criteria  
 

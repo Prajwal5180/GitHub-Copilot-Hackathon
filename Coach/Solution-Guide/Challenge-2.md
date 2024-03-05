@@ -40,6 +40,18 @@
 
     ![](../../media/crud2.6.png)
 
+- Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager" and then click on "Package Manager Console".
+
+    ![](../../media/crud5.5.png)
+
+- Run the below command in the console.
+
+    ```
+    Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+    ```
+
+    ![](../../media/crud5.6.png)
+
 ### Implement Methods using GitHub Copilot
 
 - Navigate to the `UserController.cs` file within the `Controllers` folder.
@@ -284,3 +296,23 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
         ![](../../media/crud4.8.png)
 
 By following these steps, you can effectively utilize GitHub Copilot to implement and test new features in your application, enhancing its functionality and usability.
+
+# Task 4: Generating Commit Messages
+
+The new Generated Commit Message feature uses GitHub Copilot AI to describe your code changes.  This makes writing descriptive and helpful commit messages as easy as clicking a button, then adding your explanation.
+
+- Locate the Git Changes, and click on it.
+
+    ![](../../media/crud5.1.png)
+
+- Use the new “Add AI Generated Commit Message” sparkle pen icon in the Git Changes window to generate a suggestion.
+
+    ![](../../media/crud5.2.png)
+
+- GitHub Copilot will look at the file changes in your commit, summarize them, and then describe each change. You can then “Insert AI Suggestion” or “Discard.” Click on Commit All.
+
+    ![](../../media/crud5.3.png)
+
+- Once it is commited locally, click on Push to push the changes in to the repository.
+
+    ![](../../media/crud5.4.png)
