@@ -155,6 +155,8 @@ In this task, you'll generate a GitHub Action workflow pipeline using Deployment
 
    ![](../../media/challenge3-deployment-center02.png)
 
+1. You can also view your workflow configuration by clicking on the **Preview file** button.
+
 1. Navigate to your GitHub repository and under **Actions** tab, you'll notice that the build has started for your web app. Wait for GitHub action workflow build and deploy to succeed
 
    ![](../../media/challenge3-github-build.png)
