@@ -38,7 +38,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
   
 4. **Generate Documentation with Copilot for the App:**
    - Use GitHub Copilot to assist you in generating a detailed and accurate documentation specifically for this challenge.
-   - Create a MD file which guides in creating the ARM template to deploy the app, create GitHub actions pipeline and getting the app working on Azure.
+   - Create a MD file which guides in creating the ARM template to deploy the app and GitHub actions pipeline workflow file.
      
 ## Success Criteria:
 
