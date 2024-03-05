@@ -114,6 +114,30 @@ In this task you'll be generating an ARM template to deploy a web application to
 
 1. In your VS Code, create a new file **deploy.parameters.json** to define the parameters from your *deploy.json* file.
 
+   ```
+   {
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "type": "String"
+        },
+        "resourceGroupName": {
+            "type": "String"
+        },
+        "name": {
+            "type": "String"
+        },
+        "location": {
+            "type": "String"
+        },
+        "hostingPlanName": {
+            "type": "String"
+        }
+     }
+   }
+   ```
+
 1. In your Azure portal, search for **Deploy a custom template** service. You will use this Azure service to deploy your custom ARM template.
 
    ![](../../media/challenge3-azure-custom.png)
