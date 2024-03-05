@@ -178,7 +178,7 @@ In this task, you'll verify that the GitHub action pipeline build is succeeded, 
 
    ![](../../media/challenge3-github-workflows.png)
 
-1. Your GitHub workflow file will be in the belwo format:
+1. Your GitHub workflow file will be in the below format:
 
    ```
    # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
