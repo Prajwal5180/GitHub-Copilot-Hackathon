@@ -268,6 +268,63 @@ In this task, you'll verify that the GitHub action pipeline build is succeeded, 
 
    ![](../../media/challenge3-default-domain.png)
 
+## Task 4: Generate Documentation with Copilot for the App
+
+In this task, you'll utilize GitHub Copilot to generate a documentation specific for this challenge which will include the ARM template and GitHub action worflow file to deploy the web app to Azure.
+
+1. In your GitHub Copilot Chat window, ask the GitHub Copilot to generate a documentation which specifies about the ARM template deployment and GitHub action worflow file to deploy the web app to Azure for your workspace.
+
+   * @workspace generate a documentation which will include the ARM template deployment process and GitHub action worflow file in .github/workflows directory to deploy the web app to Azure
+
+1. You'll notice that the GitHub Copilot generate a breif documentation about your workspace's ARM template deployment to Azure and the working of the workflow file and a few config files.
+
+   ```
+   # Deployment of Web Application to Azure
+   This document outlines the process of deploying the web application to Azure using ARM templates and GitHub Actions.
+
+   ## ARM Template Deployment
+   ARM templates are defined in deploy.json and deploy.parameters.json files.
+
+   ### ARM Template File - deploy.json
+
+   This file contains the Azure Resource Manager (ARM) template which describes the resources that are needed for the application.
+
+   ### Parameters File - deploy.parameters.json
+
+   This file contains the values for the parameters that are used in the ARM template.
+
+   ### To deploy the ARM template, you can use the Azure CLI with the following command:
+
+   az deployment group create --name ExampleDeployment --resource-group ExampleGroup --template-file ./deploy.json --parameters ./deploy.parameters.json
+
+   ## GitHub Actions Workflow
+   The GitHub Actions workflow is defined in the .github/workflows directory.
+
+   #### Workflow File - .github/workflows/workflow.yml
+
+   This file contains the GitHub Actions workflow that automates the deployment process. It is triggered on a push to the main branch and it runs the Azure CLI command to deploy the ARM template.
+
+   In this workflow, replace ExampleDeployment and ExampleGroup with your actual deployment name and resource group name. Also, make sure to store your Azure credentials as a secret in your GitHub repository.
+
+   ## Web Configuration
+   The web application's configuration is defined in the Web.config, Web.Debug.config, and Web.Release.config files.
+
+   ### Web Configuration File - Web.config
+
+   This file contains the main configuration for the web application.
+
+   ### Debug Configuration File - Web.Debug.config
+
+   This file contains the configuration for the web application when it is in debug mode.
+
+   ### Release Configuration File - Web.Release.config
+
+   This file contains the configuration for the web application when it is in release mode.
+   ```
+
+   ![](../../media/challenge3-copilot-doc-generate.png)
+
+
 
 
 
