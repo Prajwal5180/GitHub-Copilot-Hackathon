@@ -118,5 +118,18 @@ In this task you'll be generating an ARM template to deploy a web application to
 
    ![](../../media/challenge3-azure-custom.png)
 
-1. 
-   
+1. In your Custom deployment tab, click on **Build your own template in editor**.
+
+   ![](../../media/challenge3-custom-deploy.png)
+
+1. In your Edit Template tab, delete the existing skeleton ARM template, copy & paste the newly generate ARM template using GitHub Copilot and click **Save**.
+
+   ![](../../media/challenge3-custom-deploy-save.png)
+
+1. Enter the specifications to deploy your web app. Make sure to deploy the web app in the existing resource group named **GitHub-Copilot-Challenges**.
+
+1. Once you have specified all the parameters, click **Review and Create** and **Create**.
+
+1. Wait for the deployment to succeed and verify that your web app service and app service plan resources exist in the resource group.
+
+   ![](../../media/challenge3-custom-deploy-verify.png)
