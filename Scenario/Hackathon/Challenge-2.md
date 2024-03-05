@@ -71,6 +71,26 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 - Refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for any clarifications or guidance during the challenge.
   
+### Challenge Validation
+ 
+1. After completing the challenge, you need to visit the **Lab Validation (1)** tab and click on the **VALIDATE (2)** button under Actions to perform the validation steps. Verify that you have met the success criteria of the challenge. 
+ 
+    ![azure](../Media/validate01.png)
+ 
+1. If the validation status displays **Success** for all the validation steps, **congratulations!** This means that you have completed the challenge.
+ 
+     ![azure](../Media/validate02.png)
+   
+1. If the validation status displays **Fail**, **don't worry!** This could mean that you did not perform the challenge correctly.
+ 
+     ![azure](../Media/validate03.png)
+ 
+1. Hover your mouse over the `i` **(1)** icon to see the error message and determine the root cause of the failure. Based on the error message, revisit the challenge as necessary, and redo the validation by clicking on the **VALIDATE (3)** button again.
+   
+     ![azure](../Media/validate04.png)
+   
+1. If you are still having trouble, you can reach out to the support team via `labs-support@spektrasystems.com` for further assistance. The support team is available to help you troubleshoot and resolve any technical issues or validation issues that may arise while the lab environment is live.
+
 ## Conclusion  
 In this challenge, you've managed to develop a fully functional Contact Database application predominantly through the assistance of GitHub Copilot, demonstrating its practical usefulness in a real-world software development scenario.
 You've successfully navigated through the development process, from generating code for empty methods in the UserController.cs file to building essential features for the application. You've utilized GitHub Copilot to understand your context and provide relevant code suggestions, enhancing your coding experience.
