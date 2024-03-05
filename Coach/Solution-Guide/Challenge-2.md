@@ -20,6 +20,8 @@
 
 - Launch Visual Studio and log in using the CloudLabs provided GitHub account credentials.
 
+    ![](../../media/crud1.1.png)
+
 - Clone the forked repository by clicking on "Clone a repository".
 
     ![](../../media/crud2.3.png)
@@ -30,19 +32,32 @@
 
 - Choose the repository you forked earlier and click on "Clone".
 
+    ![](../../media/crud2.5.png)
+
 ### Navigate to Project Files
 
 - Once the repository is cloned, locate and open the `Contact Database application.sln` file from the Solution Explorer.
+
+    ![](../../media/crud2.6.png)
 
 ### Implement Methods using GitHub Copilot
 
 - Navigate to the `UserController.cs` file within the `Controllers` folder.
 
-- Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot, Select/highlight the lines of the empty method and then Right-click on the highlighted lines to open the context menu. From the context menu, choose the "Ask Copilot" option. In the Prompt box, type "Fill in the Index method"
+    ![](../../media/crud2.7.png)
 
-- GitHub Copilot will generate a code suggestion based on the context of the method.
+- Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot, Select/highlight the lines of the empty method and then Right-click on the highlighted lines to open the context menu. 
 
-- Review the suggestion provided by GitHub Copilot and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+    ![](../../media/crud1.2.png)
+    ![](../../media/crud1.3.png)
+
+- From the context menu, choose the "Ask Copilot" option. In the Prompt box, type "Fill in the Index method"
+
+    ![](../../media/crud1.4.png)
+
+- GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+
+    ![](../../media/crud1.5.png)
 
 - Repeat this process for each empty method in the UserController.cs file until all methods are implemented.
 
@@ -52,9 +67,13 @@
 
 - Locate the IIS Express button (a green play button) in the toolbar and click on it. This action starts the application on localhost in a web browser.
 
+    ![](../../media/crud1.6.png)
+
 ### Create a New Contact
 
 - In the opened web browser, locate the "Create New" button and click on it.
+
+    ![](../../media/crud1.7.png)
 
 - Fill in the required fields for Name and Email in the form provided.
 
@@ -94,7 +113,11 @@
 
 By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning..
 
-# Task 2: Develop and Test Features
+# Task 2: Generate Unit Test Cases
+
+
+
+# Task 3: Develop and Test Features
 
 ### Utilize GitHub Copilot Chat for Feature Development:
   
