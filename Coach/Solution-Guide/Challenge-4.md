@@ -136,25 +136,33 @@ When you're working on a specific file in your codebase, **GitHub Copilot** can 
 
 In this task, you will be utilizing the **Github Copilot File referencing** capability to enhance coding efficiency by providing contextually relevant code suggestions. To use the File referencing feature, follow the below steps:
 
-1. Open your project in **VS Code** where you are signed in using the CloudLabs provided Github account details.
+1. Open your Expense Tracker project in **VS Code** where you are signed in using the CloudLabs provided Github account details.
+
+    ![](../../media/vscode-launch.png)
 
 1. From the left pane, select **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
 
+    ![](../../media/vscode-copilot-chat.png)
+
 1. In the textbox, enter **@** and select **Workspace** to activate the **Github Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
-1. Now, you can use the following prompt to to understand how the file referencing feature in **Github Copilot** can accurately provide the answer for the file which you refer to it: `What is the purpose of the RouteConfig.cs file in my project?`
+    ![](../../media/@workspace.png)
+
+1. Now, you can use the following prompt to to understand how the file referencing feature in **Github Copilot** can accurately provide the answer for the file which you refer to it: `What is the purpose of the index.js file in my project?`
 
     The **Github Copilot** will take reference of the information, functions, classes, or variables defined in the file you asked the question about, and will provide you a detailed explanation of what all is there in the **RouteConfig.cs**. Not just the explanation, it will also provide you the related code accompanied with the answer, referenced from the provided file.
 
     The **Github Copilot** also automatically references the additional files in your project that may be required to provide you the best answer. To get information of those files, select **Used n references** (where **n** is the total number of files referenced from your current project) present at the start of the answer and see all the files that **Github Copilot** referenced tp provide yoy the answer.
 
+    ![](../../media/files-referred-2.png)
+
     Some more prompts that you can provide to understand the feature of file referencing are:
 
     ```
-    @workspace What does the BundleConfig.cs file do in my ASP.NET MVC application?
+    @workspace What does the ExpenseList.js file do in my application?
     ```
     ```
-    @workspace What is the purpose of the CRUD application 2.sln file in my project?
+    @workspace What is the purpose of the app.js file in my project?
     ```
     ```
     @workspace How can I change the CSS for my application?
@@ -162,4 +170,26 @@ In this task, you will be utilizing the **Github Copilot File referencing** capa
     
 #### **Adding a new feature in the application using File Reference:**
 
-In this task, you will be utilizing the File reference capability to integrate a new feature in your **Expense Tracker** application. You will be 
+In this task, you will be utilizing the File reference capability to integrate a new feature in your **Expense Tracker** application. You wil include a **Date** field in **ExpenseForm** document and display it in **ExpenseItem** and then, will be able to sort the expenses by date in the **ExpenseList** component.
+
+To do so, follow the below steps:
+
+1. Open your project in VS Code where you are signed in using the CloudLabs provided Github account details.
+
+    ![](../../media/vscode-launch.png)
+
+1. From the left pane, select **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
+
+    ![](../../media/vscode-copilot-chat.png)
+
+1. In the textbox, enter **@** and select **Workspace** to activate the **Github Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
+
+    ![](../../media/@workspace.png)
+
+1. Now, provide this prompt to include a new **Data** field in the components and let users sort their expenses accordingly: `How can I modify the ExpenseForm component to include a date field, display this date in the ExpenseItem component, and sort the expenses by date in the ExpenseList component?`
+
+1. The **Github Copilot**  feature will reference the files you asked in the prompts as well as analyze your whole workspace and will provide you with the best possible answer. It will provide you with the code snippets that you can add in the **ExpenseForm**, **ExpenseItem** and **ExpenseList** components accordingly. You can also view the files it referenced while providing you with the answer by selecting **Used n references** (where n is the number of files referred) present at the starting of the respone.
+
+    ![](../../media/files-referred.png)
+
+1. You can go through the response and make the changes suggested by the **Github Copilot** using its file referencing feature and edit the components as provided in the answer.
