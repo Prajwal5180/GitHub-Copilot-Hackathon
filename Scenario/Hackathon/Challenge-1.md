@@ -23,7 +23,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
-- Python and NodeJs modules installed in your VM.
+- Python and NodeJs modules installed in your Lab-VM on the directory **C:\Program Files**.
 
 ## Challenge Objectives:
 
