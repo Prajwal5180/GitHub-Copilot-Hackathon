@@ -6,7 +6,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Open Visual Studio Code and clone the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
 
-1. In the GitHub Copilot Chat window, ask the GitHub Copilot to generate a README.md file for the backend application, copy the code in a new file and save as **Copilot_README.md**. You can acheive this by refering to your workspace.
+1. In the GitHub Copilot Chat window, ask the GitHub Copilot to generate a README.md file for the backend application, copy the code in a new file and save as **README.md**. You can acheive this by refering to your workspace.
 
    - @workspace generate a README.md file for the directory app/backend
 
@@ -38,7 +38,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 In this task, you'll enhance and refine your README.md documentation by utilizing GitHub Copilot Suggestions feature.
 
-1. Open your **Copilot_README.md** file which you saved in the previous task.
+1. Open your **README.md** file which you saved in the previous task.
 
 1. Select the entire documentation and click **Ctrl+Enter** to view Suggestions provided by GitHub Copilot to enhance the documentation.
 
