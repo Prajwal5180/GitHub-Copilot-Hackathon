@@ -55,7 +55,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Provide some prompts that require GitHub Copilot to reference multiple files in your multi-file project and analyze the references properly, i.e., provide such prompts that describe the uses of the **index.js** file in the **Expense Tracker** application you built earlier.
 
-   - Provide such a prompt using file references that integrate the **Date** field in the **ExpenseForm** document in your **Expense Tracker Application** and display it in the **ExpenseItem** and then you will be able to sort the expenses by date in the **ExpenseList** component.
+   - Provide such a prompt using file references that integrate the **Date** field in the **ExpenseForm** document in your **Expense Tracker Application** and display it in the **ExpenseItem**, and then you will be able to sort the expenses by date in the **ExpenseList** component.
 
       The output should be similar to what is given below:
 
