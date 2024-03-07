@@ -18,7 +18,7 @@
 
 ### Open Visual Studio and Clone Repository
 
-- Launch Visual Studio and log in using the CloudLabs provided GitHub account credentials.
+- Launch Visual Studio and login using the CloudLabs provided GitHub account credentials.
 
     ![](../../media/crud1.1.png)
 
@@ -40,11 +40,11 @@
 
     ![](../../media/crud2.6.png)
 
-- Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager" and then click on "Package Manager Console".
+- Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager", and then click on "Package Manager Console".
 
     ![](../../media/crud5.5.png)
 
-- Run the below command in the console.
+- Run the below command on the console.
 
     ```
     Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
@@ -58,16 +58,16 @@
 
     ![](../../media/crud2.7.png)
 
-- Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot, Select/highlight the lines of the empty method and then Right-click on the highlighted lines to open the context menu. 
+- Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu. 
 
     ![](../../media/crud1.2.png)
     ![](../../media/crud1.3.png)
 
-- From the context menu, choose the "Ask Copilot" option. In the Prompt box, type "Fill in the Index method"
+- From the context menu, choose the "Ask Copilot" option. In the prompt box, type "Fill in the Index method"
 
     ![](../../media/crud1.4.png)
 
-- GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+- GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
 
     ![](../../media/crud1.5.png)
 
@@ -131,29 +131,29 @@
 
     ![](../../media/crud1.15.png)
 
-By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning..
+By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning.
 
 # Task 2: Generate Unit Test Cases
 
-- To generate unit test cases, we need to add a new project. In the solution explorer, right click on the Solution.
+- To generate unit test cases, we need to add a new project. In the solution explorer, right-click on the Solution.
 
     ![](../../media/crud3.1.png)
 
-- Click on Add and then click on New Project.
+- Click on Add, and then click on New Project.
 
     ![](../../media/crud3.2.png)
 
-- Now search for Unit test in the search box and select the Unit Test Project (.Net Framework) and then click on Next.
+- Now search for Unit test in the search box select the Unit Test Project (.Net Framework) and then click on Next.
 
     ![](../../media/crud3.3.png)
 
-- Name the project as Usercontrollertest and then click on Create.
+- Name the project Usercontrollertest and then click on Create.
 
     ![](../../media/crud3.4.png)
 
 - Rename the UnitTest1.cs file to UserControllerTests.cs.
 
-- Now lets ask Github Copilot Chat to generate test cases. Click on the "View" option on the top panel of Visual Studio. From the options, select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
+- Now let's ask Github Copilot Chat to generate test cases. Click on the "View" option on the top panel of Visual Studio. From the options, select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
 
     ![](../../media/crud3.5.png)
 
@@ -161,11 +161,11 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
     ![](../../media/crud3.6.png)
 
-- Once the entire code is highlighted, in the Github Copilot Chat provide an prompt as "generate unit test cases for usercontroller.cs"
+- Once the entire code is highlighted, in the Github Copilot Chat, provide a prompt as "generate unit test cases for usercontroller.cs"
 
     ![](../../media/crud3.7.png)
 
-- Github Copilot will start generate unit test cases for the usercontroller.cs.
+- Github Copilot will start generating unit test cases for the usercontroller.cs.
 
     ![](../../media/crud3.8.png)
 
@@ -173,19 +173,19 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
     ![](../../media/crud3.9.png)
 
-- Remove the existing code and paste the code that we copied in the file.
+- Remove the existing code and paste the code that we copied into the file.
 
     ![](../../media/crud3.10.png)
 
-- Let us now add references to the project. Locate the References for UserControllertest and then right click on it. Then click on Add Reference.
+- Let us now add references to the project. Locate the References for UserControllertest and then right-click on it. Then click on Add Reference.
 
     ![](../../media/crud3.11.png)
 
-- Now in the Projects check the check box and then click on OK.
+- Now in the Projects, check the check box, and then click on OK.
 
     ![](../../media/crud3.12.png)
 
-- Now lets fix the issues in the file by hovering the cursor at the Test Fixture and then clicking Show potential fixes.
+- Now let's fix the issues in the file by hovering the cursor at the Test Fixture and then clicking Show potential fixes.
 
     ![](../../media/crud3.13.png)
 
@@ -193,27 +193,27 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
     ![](../../media/crud3.14.png)
 
-- Similarly, hover the cursor on the controller.Index() click on show potential fixes and then click on "Install package 'Microsoft.ASPNet.Mvc'" and then click on "Use Local version '5.2.7'"
+- Similarly, hover the cursor on the controller.Index() click on Show potential fixes, and then click on "Install package 'Microsoft.ASPNet.Mvc'" and then click on "Use Local version '5.2.7'"
 
     ![](../../media/crud3.15.png)
 
-- Again for the RouteValues, hover the cursor and then click on show potential fixes and then click on Add reference.
+- Again, for the RouteValues, hover the cursor and then click on show potential fixes, and then click on Add reference.
 
     ![](../../media/crud3.16.png)
 
-- Again for the Assert, hover the cursor and then click on show potential fixes and then click on ussing Assert.
+- Again, for the Assert, hover the cursor and then click on show potential fixes and then click on ussing Assert.
 
     ![](../../media/crud3.17.png)
 
-- After resolving all the issues in the file, you click on Test option on the top panel of Visual Studio. Then click on Test Explorer. 
+- After resolving all the issues in the file, you click on the Test option on the top panel of Visual Studio. Then click on Test Explorer. 
 
     ![](../../media/crud3.18.png)
 
-- In the Test explorer, click on the Run All button to run the test cases.
+- In the Test Explorer, click on the Run All button to run the test cases.
 
     ![](../../media/crud3.19.png)
 
-- Verify that all the test cases are passed.
+- Verify that all the test cases have passed.
 
     ![](../../media/crud3.20.png)
 
@@ -233,11 +233,11 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
    - Based on the response generated by GitHub Copilot, proceed with implementing the suggested code.
   
-   - In this case GitHub Copilot suggested adding a new method to accept a search string as a parameter and filter the user list based on the search string before passing it to the view.
+   - In this case, GitHub Copilot suggested adding a new method to accept a search string as a parameter and filter the user list based on the search string before passing it to the view.
 
         ![](../../media/crud4.2.png)
   
-   - Copy and paste the provided code snippet into the `UserController.cs` file within the appropriate action method, typically the `Index` method. In this code, if a searchString is provided, the userlist is filtered to only include users whose Name contains the searchString. If no searchString is provided, all users are returned.
+   - Copy and paste the provided code snippet into the `UserController.cs` file within the appropriate action method, typically the `Index` method. In this code, if a searchString is provided, the user list is filtered to only include users whose names contain the searchString. If no searchString is provided, all users are returned.
 
         ```
         // GET: User
@@ -283,7 +283,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 ### Test the Search Functionality:
 
-   - Add a couple of contact entries in the application by clicking on the "Create New" button and filling the Name and Email fields.
+   - Add a couple of contact entries to the application by clicking on the "Create New" button and filling in the Name and Email fields.
 
         ![](../../media/crud4.6.png)
 
@@ -299,9 +299,9 @@ By following these steps, you can effectively utilize GitHub Copilot to implemen
 
 # Task 4: Generating Commit Messages
 
-The new Generated Commit Message feature uses GitHub Copilot AI to describe your code changes.  This makes writing descriptive and helpful commit messages as easy as clicking a button, then adding your explanation.
+The new Generated Commit Message feature uses GitHub Copilot AI to describe your code changes.  This makes writing descriptive and helpful commit messages as easy as clicking a button, and then adding your explanation.
 
-- Locate the Git Changes, and click on it.
+- Locate the Git Changes and click on it.
 
     ![](../../media/crud5.1.png)
 
@@ -313,6 +313,6 @@ The new Generated Commit Message feature uses GitHub Copilot AI to describe your
 
     ![](../../media/crud5.3.png)
 
-- Once it is commited locally, click on Push to push the changes in to the repository.
+- Once it is committed locally, click on Push to push the changes into the repository.
 
     ![](../../media/crud5.4.png)
