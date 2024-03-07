@@ -8,7 +8,7 @@ As a software developer at **Contoso Ltd.**, a leading software development comp
 
 **Contoso Ltd.** has identified **GitHub Copilot**, an AI-powered coding assistant, as a potential solution and enrolled you in a challenge series to explore and understand its capabilities. Your mission is to get started with **GitHub Copilot**, setting it up in your coding environment, exploring its features, and using it for code generation and suggestions. **GitHub Copilot** is a groundbreaking AI-powered coding companion seamlessly integrated into **Visual Studio Code**, designed to enhance your coding experience. By leveraging machine learning, Copilot assists developers in crafting code by intelligently suggesting completions and generating contextually relevant code snippets.
 
-Imagine navigating a complex coding project and encountering puzzles that demand meticulous attention to detail. **GitHub Copilot** steps in as your coding ally, offering insightful suggestions and autocompletion tailored to the coding context. This not only boosts coding efficiency but also serves as a valuable learning tool, providing a deeper understanding of coding structures and patterns.
+Imagine navigating a complex coding project and encountering puzzles that demand meticulous attention to detail. **GitHub Copilot** steps in as your coding ally, offering insightful suggestions and autocompletions tailored to the coding context. This not only boosts coding efficiency but also serves as a valuable learning tool, providing a deeper understanding of coding structures and patterns.
 
 You will experiment with **GitHub Copilot** in various coding scenarios, such as creating a Python/JavaScript-based calculator and an application that fetches weather data from APIs. You will also leverage GitHub Copilot to refactor given code snippets and debug intentionally flawed code, thereby understanding the process of code improvement and effective debugging. Moreover, you will explore the integration of **GitHub Copilot** with GitHub Codespaces, a feature that extends the collaborative potential of your coding environment. This will allow you to understand how Copilot can be utilized in a collaborative coding environment, enabling teams to work seamlessly on projects regardless of geographical boundaries.
 
@@ -18,12 +18,12 @@ In this challenge series, you'll dive into **GitHub Copilot's** capabilities, st
 
 Make sure you have the following from the CloudLabs provided integrated environment:
 
-> **Note**: Pre-requisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
+> **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
-- Python and NodeJs modules are installed in your Lab-VM on the directory **C:\Program Files**.
+- Python and NodeJs modules installed in your Lab-VM on the directory **C:\Program Files**.
 
 ## Challenge Objectives:
 
@@ -31,10 +31,10 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Install the GitHub Copilot extension from the VS Code Marketplace.
    - Configure the extension settings to suit your preferences.
 
-2. **Login with a GitHub Account:**
+2. **Login with GitHub Account:**
    - Login to GitHub within Visual Studio Code using the provided GitHub credentials.
 
-3. **Use GitHub Codespaces with Copilot:**
+3. **Using GitHub Codespaces with Copilot:**
    - Explore the integration of GitHub Codespaces with GitHub Copilot.
    - Understand how Copilot can be utilized in a collaborative coding environment.
 
@@ -43,11 +43,11 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Use Copilot's suggestions to speed up your code writing process.
 
 5. **Code Generation with Copilot and Copilot Chat:**
-   - Create Python/JS-based code to build a calculator.
+   - Create a Python/JS based code to build a calculator.
       - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
       - Experiment with different mathematical operations and user interactions.
-   - Create Python/JS-based app to get weather data from OpenWeatherMap APIs.
-      - Sign Up for the OpenWeatherMap website (https://openweathermap.org/).
+   - Create a Python/JS based app to get weather data from OpenWeatherMap APIs.
+      - Sign Up to OpenWeatherMap website (https://openweathermap.org/).
       - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
 
 6. **Code Refactoring & Debugging:**
