@@ -16,14 +16,14 @@ In this challenge series, you'll dive into **GitHub Copilot's** capabilities, st
 
 ## Prerequisites
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+Make sure you have the following from the CloudLabs provided integrated environment:
 
-> **Note**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
+> **Note**: Pre-requisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
-- Python and NodeJs modules are installed in your VM.
+- Python and NodeJs modules are installed in your Lab-VM on the directory **C:\Program Files**.
 
 ## Challenge Objectives:
 
@@ -40,13 +40,13 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 4. **Explore GitHub Copilot Features:**
    - Experiment with Copilot in various coding scenarios.
-   - Use Copilot's suggestions to speed up your code-writing process.
+   - Use Copilot's suggestions to speed up your code writing process.
 
 5. **Code Generation with Copilot and Copilot Chat:**
    - Create Python/JS-based code to build a calculator.
       - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
       - Experiment with different mathematical operations and user interactions.
-   - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
+   - Create Python/JS-based app to get weather data from OpenWeatherMap APIs.
       - Sign Up for the OpenWeatherMap website (https://openweathermap.org/).
       - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
 
@@ -54,13 +54,13 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Refactor given code snippets using Copilot, understanding the process of code improvement.
 
       ```
-      #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases.
+      #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
       
       MAX = 100
 
       def calculate_sum(arr):
          result = 0
-         For num in arr:
+         for num in arr:
             result += num
          return result
 
@@ -77,7 +77,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
             for _ in range(n):
                   try:
                      arr.append(int(input()))
-                  Except ValueError:
+                  except ValueError:
                      print("Invalid input. Please enter valid integers.")
                      exit(1)
 
@@ -85,7 +85,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
             print("Sum of the numbers:", total)
 
-         Except KeyboardInterrupt:
+         except KeyboardInterrupt:
             print("\nProgram terminated by user.")
             exit(1)
 
@@ -133,15 +133,15 @@ Make sure you have the following from the CloudLabs-provided integrated environm
  
     ![azure](../../media/validate01.png)
  
-1. If the validation status displays **SUCCESS** for all the validation steps, **Congratulations!** This means that you have completed the challenge.
+1. If the validation status displays **Success** for all the validation steps, **congratulations!** This means that you have completed the challenge.
  
      ![azure](../../media/validate02.png)
    
-1. If the validation status displays **FAIL**, **don't worry!** This could mean that you did not perform the challenge correctly.
+1. If the validation status displays **Fail**, **don't worry!** This could mean that you did not perform the challenge correctly.
  
      ![azure](../../media/validate03.png)
  
-1. Hover your mouse over the **`i`** **(1)** icon to see the error message and determine the root cause of the failure. Based on the error message, revisit the challenge as necessary and redo the validation by clicking on the **VALIDATE (3)** button again.
+1. Hover your mouse over the `i` **(1)** icon to see the error message and determine the root cause of the failure. Based on the error message, revisit the challenge as necessary, and redo the validation by clicking on the **VALIDATE (3)** button again.
    
      ![azure](../../media/validate04.png)
    
