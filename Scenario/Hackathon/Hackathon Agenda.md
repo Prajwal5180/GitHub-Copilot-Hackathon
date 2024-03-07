@@ -16,7 +16,7 @@
 | 03:30 - 04:30 | **Challenge 04: Using GitHub Copilot workspace, file reference and advanced context window - 60 min**   | Complete [Challenge 04](https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/blob/main/Scenario/Hackathon/Challenge-4.md)             |
 | 04:30 - 04:45 | **Validate Challenge 04 Completion, Q&A** | Discussion, etc.           |
 | 04:45 - 05:00 | **Break**                                           |                                  |
-| 05:00 - 05:45 | **Challenge 05: Create Documentation using GitHub Copilot - 45 min**   | Complete [Challenge 05](https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/blob/main/Scenario/Hackathon/Challenge-5.md)             |
+| 05:00 - 05:45 | **Challenge 05: Create Documentation Using GitHub Copilot - 45 min**   | Complete [Challenge 05](https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/blob/main/Scenario/Hackathon/Challenge-5.md)             |
 | 05:45 - 06:00 | **Validate Challenge 05 Completion, Q&A** | Discussion, etc.           |
 | 06:00 - 06:15 | **Break**                                           |                                  |
 | 06:15 - 07:15 | **Challenge 06: Generate Scripts using GitHub Copilot - 60 min**   | Complete [Challenge 06](https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/blob/main/Scenario/Hackathon/Challenge-6.md)             |
