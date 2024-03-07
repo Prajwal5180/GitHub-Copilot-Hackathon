@@ -4,11 +4,11 @@
 
 >**Note:** This challenge is for read-only purposes and exploration only.
 
-GitHub Copilot is the world's first at-scale AI developer tool that can help you write code faster with less work. GitHub Copilot uses comments and code context to instantly suggest specific lines of code and the entire functions.
+GitHub Copilot is the world's first at-scale AI developer tool that can help you write code faster with less work. GitHub Copilot uses comments and code context to instantly suggest specific lines of code and the entire function.
 
-Research has found GitHub Copilot helps developers code faster, focus on solving bigger problems, stay in the flow longer, and feel more fulfilled with their work.
+Research has found that GitHub Copilot helps developers code faster, focus on solving bigger problems, stay in the flow longer, and feel more fulfilled with their work.
 
-Powered by OpenAI Codex and GitHub Copilot's generative, pretrained language model was created by OpenAI. An extension is available for Visual Studio Code, Visual Studio, Neovim, and the JetBrains suite of integrated development environments (IDEs).
+Powered by OpenAI Codex, GitHub Copilot's generative, pre-trained language model was created by OpenAI. An extension is available for Visual Studio Code, Visual Studio, Neovim, and the JetBrains suite of integrated development environments (IDEs).
 
 ## GitHub Copilot for Business
 
@@ -24,19 +24,19 @@ Here are some features you can expect from Copilot for Business:
 
  - A robust AI model: New modeling algorithms improve the quality of code suggestions.
  - AI-based security vulnerability filtering: GitHub Copilot automatically blocks common insecure code suggestions by targeting issues such as hardcoded credentials, SQL injections, and path injections.
- - VPN proxy support: GitHub Copilot works with VPNs, including with self-signed certificates, so developers can use it in any working environment.
+ - VPN proxy support: GitHub Copilot works with VPNs, including self-signed certificates, so that developers can use it in any working environment.
  - Simple sign-up: Regardless of whether a business does not use the GitHub service for its source code, it can easily buy Copilot for Business licenses online and assign seats.
 
 ### GitHub Copilot for Business vs. GitHub Copilot for Individuals
 
-|                                                            | GitHub Copilot for Business | GitHub Copilot for Individuals  |
+|                                                            | GitHub Copilot for Business |GitHub Copilot for Individuals  |
 | ---------------------------------------------------------- | --------------------------- | ------------------------------- |
-| Zero data retention for code snippets and usage telemetry	 |             ✓	             |               ✕                 |
+| Zero data retention for code snippets and usage telemetry	|             ✓              |              ✕                  |
 | Blocks suggestions matching public code                 	 |             ✓	             |               ✓                 |
 | Plugs right into your editor                            	 |             ✓	             |               ✓                 |
 | Offers multiline function suggestions                   	 |             ✓	             |               ✓                 |
 | Organization-wide policy management                     	 |             ✓	             |               ✕                 |
-| VPN proxy support via self-signed certificates           	 |             ✓	             |               ✕                 |
+| VPN proxy support via self-signed certificates           	|             ✓	             |               ✕                 |
 
 ### GitHub Copilot for Business Use-Cases 
 
@@ -50,6 +50,6 @@ Here are some features you can expect from Copilot for Business:
 
 1. **Accelerating Project Delivery:** An IT services company is working on a tight deadline for a client project. Using GitHub Copilot, the team can speed up the development process, ensuring that they meet the deadline without compromising on code quality.
 
-1. **Enhancing Collaborative Coding:** A global company with developers working in different geographical locations uses GitHub Copilot to ensure consistency in coding practices across the team, thus improving collaboration and reducing the likelihood of conflicts or misunderstandings.
+1. **Enhancing Collaborative Coding:** A global company with developers working in different geographical locations uses GitHub Copilot to ensure consistency in coding practices across the team. Thus improving collaboration and reducing the likelihood of conflicts or misunderstandings.
 
 1. **Building Prototype Quickly:** A startup wants to demonstrate a prototype of their app to potential investors. GitHub Copilot can help them quickly generate the necessary code, allowing them to focus on the business logic and unique aspects of their app.
