@@ -1,24 +1,24 @@
-# Challenge 5: Create Documentation using GitHub Copilot - Solution Guide
+# Challenge 5: Create Documentation Using GitHub Copilot - Solution Guide
 
 ## Task 1: Generate Documentation with Copilot
 
-In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make us of GitHub Copilot features to generate comments for codes.
+In this task, you'll utilize GitHub Copilot to generate markdown documentation for the backend application for the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) and will also make use of GitHub Copilot features to generate comments for codes.
 
 1. Open Visual Studio Code and clone the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
 
-1. In the GitHub Copilot Chat window, ask the GitHub Copilot to generate a README.md file for the backend application, copy the code in a new file and save as **README.md**. You can acheive this by refering to your workspace.
+1. In the GitHub Copilot Chat window, ask the GitHub Copilot to generate a README.md file for the backend application, copy the code into a new file, and save it as **README.md**. You can achieve this by referring to your workspace.
 
-   - @workspace generate a README.md file for the directory app/backend
+   - @workspace generates a README.md file for the directory app/backend
 
    ![](../../media/backend-app-readme.png)
 
-1. Notice how the GitHub Copilot uses the workspace reference to create a markdown documentation for a specific directory.
+1. Notice how the GitHub Copilot uses the workspace reference to create markdown documentation for a specific directory.
 
 1. Navigate to the *app/backend/requirements.txt* file and browse through the requirements. 
 
    ![](../../media/backend-requirements.png)
 
-1. Now select the entire file, right click and then select **Copilot** and **Generate Docs**.
+1. Now select the entire file, right-click, and then select **Copilot** and **Generate Docs**.
 
    ![](../../media/backend-requirements-generate-docs.png)
 
@@ -26,37 +26,37 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](../../media/backend-requirements-list.png)
 
-1. Navigate to *app/backend/approaches/approach.py* file. You will notice that there are no comments for the either of the modules, functions or classes.
+1. Navigate to *app/backend/approaches/approach.py* file. You will notice that there are no comments for either of the modules, functions, or classes.
 
-1. Now select the entire file, right click and then select **Copilot** and **Start Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
+1. Now select the entire file, right-click, and then select **Copilot** and **Start Inline Chat**. Ask the GitHub Copilot to generate comments for the selected code.
 
    ![](../../media/backend-approach-chat.png)
 
-1. Notice how the GitHub Copilot generate comments for the classes, functions and modules present in the code.
+1. Notice how the GitHub Copilot generates comments for the classes, functions, and modules present in the code.
 
 ## Task 2: Enhance and Refine Documentation
 
-In this task, you'll enhance and refine your README.md documentation by utilizing GitHub Copilot Suggestions feature.
+In this task, you'll enhance and refine your README.md documentation by utilizing the GitHub Copilot Suggestions feature.
 
-1. Open your **README.md** file which you saved in the previous task.
+1. Open your **README.md** file, which you saved in the previous task.
 
-1. Select the entire documentation and click **Ctrl+Enter** to view Suggestions provided by GitHub Copilot to enhance the documentation.
+1. Select the entire documentation and click **Ctrl+Enter** to view suggestions provided by GitHub Copilot to enhance the documentation.
 
    ![](../../media/backend-readme-suggestions.png)
 
-1. You'll find a number of suggestions for the selected document which help you refine the same.
+1. You'll find a number of suggestions for the selected document that will help you refine it.
 
-1. Browse through the GitHub Copilot Suggestions and **Accept** the best suited suggestions suitable.
+1. Browse through the GitHub Copilot suggestions and **Accept** the best-suited suggestions.
 
 ## Task 3: Explore Various Documentation Styles
 
-In this task, you'll explore on various styles of documentation that you can generate by utilizing GitHub Copilot.
+In this task, you'll explore the various styles of documentation that you can generate by utilizing GitHub Copilot.
 
-1. In your VS Code, create a new file, right click anywhere on the new file and select **Copilot** and **Start Inline Chat**.
+1. In your VS Code, create a new file, right-click anywhere on the new file, and select **Copilot** and **Start Inline Chat**.
 
-1. Ask the GitHub Copilot to generate a markdown docmentation to deploy a VNet in Azure and click **Accept**.
+1. Ask the GitHub Copilot to generate markdown documentation to deploy a VNet in Azure and click **Accept**.
 
-1. You'll notice that the GitHub Copilot has generated a step by step markdown documentation to deploy a VNet in Azure.
+1. You'll notice that the GitHub Copilot has generated step-by-step markdown documentation to deploy a VNet in Azure.
 
    ```
    # Deploy a Virtual Network (VNet) in Azure
