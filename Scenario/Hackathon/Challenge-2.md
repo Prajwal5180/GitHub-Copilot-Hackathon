@@ -16,7 +16,7 @@ By the end of this challenge, your goal is to have a fully functional **Contact 
 
 Make sure you have the following from the CloudLabs-provided integrated environment:
 
-> **Note**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
+> **Note**: Prerequisites are already set up in the CloudLabs-provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
 
 - Basic understanding of the C# programming language.  
 - GitHub account.  
