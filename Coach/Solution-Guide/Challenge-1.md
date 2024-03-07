@@ -2,7 +2,7 @@
 
 ## Task 1: Setup Github Copilot in VS Code
 
-In this task, you'll be installing GitHub Copilot extension in VS Code.
+In this task, you'll be installing the GitHub Copilot extension in VS Code.
 
 1. Open Visual Studio Code from the desktop screen.
    
@@ -18,9 +18,9 @@ In this task, you'll be installing GitHub Copilot extension in VS Code.
 
    ![Picture1](../../media/task1.2.png)
 
-## Task 2: Login with GitHub Account
+## Task 2: Login with a GitHub Account
 
-In this task, you'll be signing in to your GitHub account through GitHub Copilot extension.
+In this task, you'll be signing in to your GitHub account through the GitHub Copilot extension.
 
 1. After installation, at the bottom right corner, click on the **Sign in to GitHub** prompt.
    
@@ -30,23 +30,23 @@ In this task, you'll be signing in to your GitHub account through GitHub Copilot
 
    ![Allow](../../media/allow.png)
 
-1. In the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
+1. On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
 
-1. To verify your GitHub account login, sign in to Outlook in the Lab VM through an **InPrivate** window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code and select **Verify**.
+1. To verify your GitHub account login, sign in to Outlook in the Lab VM through an **InPrivate** window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
 
 1. Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for VS Code.
 
 ## Task 3: Using GitHub Codespaces with Copilot
 
-In this task, you'll create a new codespace for your GitHub repository and use GitHub Codespaces extension to commit and push changes directly from VS Code to your chosen GitHub repository.
+In this task, you'll create a new codespace for your GitHub repository and use the GitHub Codespaces extension to commit and push changes directly from VS Code to your chosen GitHub repository.
 
 1. On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
    ![](../../media/signingit.png)
 
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
+1. Click the **Codespaces (1)** tab on the box that pops up, and then click the **Create codespace on main (2)** button.
 
-   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+   >**Note**: If a pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
    ![GitHub-Codespaces](../../media/github-codespaces.png)
 
@@ -58,7 +58,7 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-1. Next, once you get the popup, click on **Allow**
+1. Next, once you get the popup, click on **Allow**.
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
@@ -68,11 +68,11 @@ In this task, you'll create a new codespace for your GitHub repository and use G
 
 1. Verify your codespace is running.
 
-1. You can now edit your GitHub repository files, commit and push the changes directly to GitHub through VS Code.
+1. You can now edit your GitHub repository files, commit, and push the changes directly to GitHub through VS Code.
 
 ## Task 4: Explore GitHub Copilot Features
 
-In this task, you'll explore on various GitHub Copilot features through a simple Python script that defines a function to calculate the factorial of a number.
+In this task, you'll explore various GitHub Copilot features through a simple Python script that defines a function to calculate the factorial of a number.
 
 1. Below is a simple Python script that defines a function to calculate the factorial of a number. Let's use this to explore the GitHub Copilot features.
 
@@ -87,13 +87,13 @@ In this task, you'll explore on various GitHub Copilot features through a simple
    print(f"The factorial of {choice} is {factorial(choice)}")
    ```
 
-1. Select the entire code, right click and view the **Copilot** features.
+1. Select the entire code, right-click, and view the **Copilot** features.
 
    ![](../../media/copilot-features.png)
 
 1. **Start Inline Chat (1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
 
-1. **Explain This (2)** feature gives a detailed explanation of how the code works and it's functionality.
+1. **Explain This (2)** feature gives a detailed explanation of how the code works and its functionality.
 
    ![](../../media/copilot-features-explain.png)
 
@@ -105,23 +105,23 @@ In this task, you'll explore on various GitHub Copilot features through a simple
 
    ![](../../media/copilot-features-docs.png)
 
-1. **Generate Tests (5)** feature generates unit tests for the selected code. In this case, the GitHub Copilot generates a test cases Python script after which you can execute the script and view the results.
+1. **Generate Tests (5)** feature generates unit tests for the selected code. In this case, the GitHub Copilot generates a test case Python script, after which you can execute the script and view the results.
 
    ![](../../media/copilot-features-tests.png)
 
    ![](../../media/copilot-features-tests-cmd.png)
 
-1. You can also ask how to do something in terminal, ask about VS Code and ask about your workspace simply by entering **@** special character in your GitHub Copilot Chat window.
+1. You can also ask how to do something in the terminal, ask about VS Code, and ask about your workspace simply by entering **@** special character in your GitHub Copilot Chat window.
 
    ![](../../media/copilot-features-chat.png)
 
-1. GitHub Copilot also assists you in scaffolding code for a new workspace, generate a new Jupyter notebook and various types of documentations like Markdown and Javadoc.
+1. GitHub Copilot also assists you in scaffolding code for a new workspace, generating a new Jupyter notebook, and various types of documentation like Markdown and Javadoc.
 
 ## Task 5: Code Generation with Copilot and Copilot Chat
 
-In this task, you'll create a Python/JS code to build a calculator and use OpenWeatherMap API keys to get the weather data from weather APIs.
+In this task, you'll create a Python/JS code to build a calculator and use OpenWeatherMap API keys to get weather data from weather APIs.
 
-1. Open GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator.
+1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator.
 
    ![](../../media/copilot-calculator.png)
 
@@ -211,11 +211,11 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Run tests for the files by experimenting with different operations to verify the working of the calculator.
 
-1. To get the weather data from weather APIs, first sign in to the OpenWeatherMap API website (https://openweathermap.org/) and on the dropdown of your user profile in the top right, click **My API keys**. You can either use the default API key or create a new one for to get the weather data using code.
+1. To get the weather data from weather APIs, first sign in to the OpenWeatherMap API website (https://openweathermap.org/), and on the dropdown of your user profile in the top right, click **My API keys**. You can either use the default API key or create a new one to get the weather data using code.
 
    ![](../../media/weather-api-keys.png)
 
-1. Open GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS based app to get weather data from weather APIs.
+1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS-based app to get weather data from weather APIs.
 
    ![](../../media/copilot-weather-api.png)
 
@@ -259,9 +259,9 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 ## Task 6: Code Refactoring & Debugging
 
-In this task, you'll be refactoring and debugging the poorly written Python codes using GitHub Copilot and test out a few scenarios.
+In this task, you'll be refactoring and debugging the poorly written Python codes using GitHub Copilot and testing out a few scenarios.
 
-1. Copy the below code in a new file in VS Code.
+1. Copy the below code into a new file in VS Code.
 
    ```
    #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
@@ -302,7 +302,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
    if __name__ == "__main__":
          main()
    ```
-1. Select the entire code, right click and click **Refactor** using Copilot and ask the Copilot to refactor the selected code.
+1. Select the entire code, right-click, and click **Refactor** using Copilot, and ask the Copilot to refactor the selected code.
 
 1. You'll notice that GitHub Copilot has refactored and fixed the code.
 
@@ -365,7 +365,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
       print(deck[i][0], "of", deck[i][1]
    ```
 
-1. Select the entire code, right click and click **Copilot** and then click **Fix This** to debug the selected code.
+1. Select the entire code, right-click and click **Copilot**, and then click **Fix This** to debug the selected code.
 
 1. You'll notice that GitHub Copilot has debugged and fixed the code.
 
