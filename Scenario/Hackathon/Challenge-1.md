@@ -8,7 +8,7 @@ As a software developer at **Contoso Ltd.**, a leading software development comp
 
 **Contoso Ltd.** has identified **GitHub Copilot**, an AI-powered coding assistant, as a potential solution and enrolled you in a challenge series to explore and understand its capabilities. Your mission is to get started with **GitHub Copilot**, setting it up in your coding environment, exploring its features, and using it for code generation and suggestions. **GitHub Copilot** is a groundbreaking AI-powered coding companion seamlessly integrated into **Visual Studio Code**, designed to enhance your coding experience. By leveraging machine learning, Copilot assists developers in crafting code by intelligently suggesting completions and generating contextually relevant code snippets.
 
-Imagine navigating a complex coding project and encountering puzzles that demand meticulous attention to detail. **GitHub Copilot** steps in as your coding ally, offering insightful suggestions and autocompletions tailored to the coding context. This not only boosts coding efficiency but also serves as a valuable learning tool, providing a deeper understanding of coding structures and patterns.
+Imagine navigating a complex coding project and encountering puzzles that demand meticulous attention to detail. **GitHub Copilot** steps in as your coding ally, offering insightful suggestions and autocompletion tailored to the coding context. This not only boosts coding efficiency but also serves as a valuable learning tool, providing a deeper understanding of coding structures and patterns.
 
 You will experiment with **GitHub Copilot** in various coding scenarios, such as creating a Python/JavaScript-based calculator and an application that fetches weather data from APIs. You will also leverage GitHub Copilot to refactor given code snippets and debug intentionally flawed code, thereby understanding the process of code improvement and effective debugging. Moreover, you will explore the integration of **GitHub Copilot** with GitHub Codespaces, a feature that extends the collaborative potential of your coding environment. This will allow you to understand how Copilot can be utilized in a collaborative coding environment, enabling teams to work seamlessly on projects regardless of geographical boundaries.
 
@@ -16,14 +16,14 @@ In this challenge series, you'll dive into **GitHub Copilot's** capabilities, st
 
 ## Prerequisites
 
-Make sure you have the following from the CloudLabs provided integrated environment:
+Make sure you have the following from the CloudLabs-provided integrated environment:
 
-> **Note**: Pre-requisites are already set-up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this Hackathon.
+> **Note**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
-- Python and NodeJs modules installed in your Lab-VM on the directory **C:\Program Files**.
+- Python and NodeJs modules are installed in your Lab-VM in the directory **C:\Program Files**.
 
 ## Challenge Objectives:
 
@@ -31,7 +31,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
    - Install the GitHub Copilot extension from the VS Code Marketplace.
    - Configure the extension settings to suit your preferences.
 
-2. **Login with GitHub Account:**
+2. **Login with a GitHub account:**
    - Login to GitHub within Visual Studio Code using the provided GitHub credentials.
 
 3. **Using GitHub Codespaces with Copilot:**
@@ -40,14 +40,14 @@ Make sure you have the following from the CloudLabs provided integrated environm
 
 4. **Explore GitHub Copilot Features:**
    - Experiment with Copilot in various coding scenarios.
-   - Use Copilot's suggestions to speed up your code writing process.
+   - Use Copilot's suggestions to speed up your code-writing process.
 
 5. **Code Generation with Copilot and Copilot Chat:**
-   - Create a Python/JS based code to build a calculator.
+   - Create Python/JS-based code to build a calculator.
       - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
       - Experiment with different mathematical operations and user interactions.
-   - Create a Python/JS based app to get weather data from OpenWeatherMap APIs.
-      - Sign Up to OpenWeatherMap website (https://openweathermap.org/).
+   - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
+      - Sign up for the OpenWeatherMap website (https://openweathermap.org/).
       - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
 
 6. **Code Refactoring & Debugging:**
@@ -118,7 +118,7 @@ Make sure you have the following from the CloudLabs provided integrated environm
 - Verify that GitHub Copilot is successfully installed and configured in Visual Studio Code and logged in.
 - Successfully explored GitHub Codespaces integration and understood its collaboration features.
 - Successfully tried out Copilot in coding scenarios, experiencing its code generation capabilities.
-- Verify that Python/JS code for a calculator and an app to get weather data using Copilot is created and run successfully.
+- Verify that Python/JS code for a calculator and an app to get weather data using Copilot were created and run successfully.
 - Verify that your chosen piece of code is refactored successfully, with improved readability and overall quality.
 - Verify that a piece of code with intentional errors is fixed successfully using Copilot's suggestions.
 
@@ -133,15 +133,15 @@ Make sure you have the following from the CloudLabs provided integrated environm
  
     ![azure](../../media/validate01.png)
  
-1. If the validation status displays **Success** for all the validation steps, **congratulations!** This means that you have completed the challenge.
+1. If the validation status displays **SUCCESS** for all the validation steps, **congratulations!** This means that you have completed the challenge.
  
      ![azure](../../media/validate02.png)
    
-1. If the validation status displays **Fail**, **don't worry!** This could mean that you did not perform the challenge correctly.
+1. If the validation status displays **FAIL**, **don't worry!** This could mean that you did not perform the challenge correctly.
  
      ![azure](../../media/validate03.png)
  
-1. Hover your mouse over the `i` **(1)** icon to see the error message and determine the root cause of the failure. Based on the error message, revisit the challenge as necessary, and redo the validation by clicking on the **VALIDATE (3)** button again.
+1. Hover your mouse over the **`i`** **(1)** icon to see the error message and determine the root cause of the failure. Based on the error message, revisit the challenge as necessary and redo the validation by clicking on the **VALIDATE (3)** button again.
    
      ![azure](../../media/validate04.png)
    
