@@ -13,7 +13,7 @@
 | 01:30 - 03:00 | **Challenge 03: Deploy the App to Azure - 90 min** | Complete [Challenge 03](https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/blob/main/Scenario/Hackathon/Challenge-3.md) |
 | 03:00 - 03:15 | **Validate Challenge 03 Completion, Q&A** | Discussion, etc.                  |
 | 03:15 - 03:30 | **Break**                                           |                                  |
-| 03:30 - 04:30 | **Challenge 04: Using GitHub Copilot workspace, file reference and advanced context window - 60 min**   | Complete [Challenge 04](https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/blob/main/Scenario/Hackathon/Challenge-4.md)             |
+| 03:30 - 04:30 | **Challenge 04: Using GitHub Copilot workspace and file reference - 60 min**   | Complete [Challenge 04](https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/blob/main/Scenario/Hackathon/Challenge-4.md)             |
 | 04:30 - 04:45 | **Validate Challenge 04 Completion, Q&A** | Discussion, etc.           |
 | 04:45 - 05:00 | **Break**                                           |                                  |
 | 05:00 - 05:45 | **Challenge 05: Create Documentation Using GitHub Copilot - 45 min**   | Complete [Challenge 05](https://github.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/blob/main/Scenario/Hackathon/Challenge-5.md)             |
