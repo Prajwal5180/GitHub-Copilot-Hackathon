@@ -34,7 +34,7 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     ![](../../media/workspace-solution1.png)
 
-1. Besides that, you can also run the command `Tell me the current workspace structure.` without the help of the **Workspace agent**, and compare the outputs.
+1. Besides that, you can also run the command `Tell me the current workspace structure.` Without the help of the **Workspace agent**, and compare the outputs.
 
     ![](../../media/basic-prompt.png)
 
@@ -60,9 +60,9 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
 ### Task 2: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
 
-The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
+The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot Workspace**, follow the below steps:
 
-1. Open a new window in the **VS code** by choosing **File** from the topmost bar and then selecting **New Window**.
+1. Open a new window in the **VS code** by choosing **File** from the topmost bar and then select **New Window**.
 
     ![](../../media/new-window.png)
 
@@ -70,11 +70,11 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/vscode-open-folder.png)
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
+1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
 
     ![](../../media/vscode-copilot-chat.png)
 
-1. In the textbox, enter **@** and select **Workspace** to start working with the **Github Copilot Workspace** agent.
+1. In the textbox, enter **@** and select **Workspace** to start working with the **GitHub Copilot Workspace** agent.
 
     ![](../../media/@workspace.png)
 
@@ -82,7 +82,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/expense-tracker-workspace.png)
 
-    >**Note:** The **Github Copilot Workspace** will not literally create the workspace with all the file structure on your disk, but rather will only provide you with the blueprints you need for creating the workspace for your application. Thus, you need to manually create the workspace in your directory by yourself.
+    >**Note:** The **GitHub Copilot Workspace** will not literally create the workspace with all the file structures on your disk but rather will only provide you with the blueprints you need for creating the workspace for your application. Thus, you need to manually create the workspace in your directory by yourself.
 
 1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, select **Explorer** from the left pane, and choose the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
 
@@ -122,7 +122,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/run-app.png)
 
-1. You can also check if all the pre-requisites required to run your **Expense Tracker** app are already in place by providing the Copilot with the prompt `@workspace. What are the prerequisites I should install to run this app?`
+1. You can also check if all the prerequisites required to run your **Expense Tracker** app are already in place by providing the Copilot with the prompt `@workspace. What are the prerequisites I should install to run this app?`
 
     ![](../../media/app-prerequisites.png)
 
@@ -174,11 +174,11 @@ In this task, you will be utilizing the **GitHub Copilot File Referencing** capa
     
 #### **Adding a new feature in the application using File Reference:**
 
-In this task, you will be utilizing the file reference capability to integrate a new feature in your **Expense Tracker** application. You will include a **Date** field in the **ExpenseForm** document and display it in **ExpenseItem**, and then you, will be able to sort the expenses by date in the **ExpenseList** component.
+In this task, you will be utilizing the file reference capability to integrate a new feature in your **Expense Tracker** application. You will include a **Date** field in the **ExpenseForm** document and display it in **ExpenseItem**, and then you will be able to sort the expenses by date in the **ExpenseList** component.
 
 To do so, follow the below steps:
 
-1. Open your project in VS Code, where you are signed in using the CloudLabs provided Github account details.
+1. Open your project in VS Code, where you are signed in using the CloudLabs provided GitHub account details.
 
     ![](../../media/vscode-launch.png)
 
