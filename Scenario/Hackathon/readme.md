@@ -39,17 +39,17 @@ This hackathon adopts a challenge-based format, offering you a unique opportunit
 
 4. **Challenge 03: Deploy the App to Azure**
 
-   The objective of this challenge is to utilize GitHub Copilot to facilitate the development of an Azure Resource Manager (ARM) template, which is essential for deploying and managing resources in Azure. You'll use Copilot's code generation capabilities to create an ARM template and define necessary Azure resources. Additionally, you'll use Copilot to assist in creating a GitHub Actions pipeline. Then, you'll deploy the application to Azure using the created ARM template, and verify that the deployed resources match the specifications in your ARM template. The challenge aims to demonstrate how GitHub Copilot can streamline application deployment and infrastructure management in Azure. Successful completion of the challenge involves code refactoring, debugging, and successful deployment of the application to Azure.
+   The objective of this challenge is to utilize GitHub Copilot to facilitate the development of an Azure Resource Manager (ARM) template, which is essential for deploying and managing resources in Azure. You'll use Copilot's code generation capabilities to create an ARM template and define necessary Azure resources. Additionally, you will architect a GitHub Actions pipeline, a popular tool in the DevOps landscape, with GitHub Copilot providing assistance in generating the necessary scripts. Then, you'll deploy the application to Azure using the created ARM template, and verify that the deployed resources match the specifications in your ARM template. The challenge aims to demonstrate how GitHub Copilot can streamline application deployment and infrastructure management in Azure. In line with the best practices of DevOps, GitHub Copilot will aid you in producing extensive and precise documentation for this challenge. This documentation serves as a guide for crafting the ARM template, orchestrating the GitHub Actions pipeline, and deploying the application to Azure.
+ 
+6. **Challenge 04: Using GitHub Copilot workspace and file reference.**
 
-5. **Challenge 04: Using GitHub Copilot workspace, file reference, and advanced context window.**
+    In this challenge, you will explore and utilize advanced features of GitHub Copilot, including workspace and file reference. The objective is to understand how these features can enhance your coding process and efficiency. You'll learn how to use Copilot to navigate your workspace, reference files for context, and make the most out of it for code generation and suggestions. The challenge aims to deepen your understanding of Copilot's capabilities and how it can assist in various aspects of the coding process.
 
-    In this challenge, you will explore and utilize advanced features of GitHub Copilot, including workspace, file reference, and the advanced context window. The objective is to understand how these features can enhance your coding process and efficiency. You'll learn how to use Copilot to navigate your workspace, reference files for context, and make the most out of the advanced context window for code generation and suggestions. The challenge aims to deepen your understanding of Copilot's capabilities and how it can assist in various aspects of the coding process.
-
-6. **Challenge 05: Create Documentation using GitHub Copilot**
+7. **Challenge 05: Create Documentation using GitHub Copilot**
 
     The objective of this challenge is to utilize GitHub Copilot to generate documentation for your code or project. You'll learn how to use Copilot's AI capabilities to create comprehensive, clear, and accurate documentation, enhancing understandability and maintainability of your code. The challenge aims to demonstrate how GitHub Copilot can streamline and enhance the often time-consuming process of documentation generation.
 
-7. **Challenge 06: Generate Scripts using GitHub Copilot**
+8. **Challenge 06: Generate Scripts using GitHub Copilot**
    
     The objective of this challenge is to use GitHub Copilot to generate scripts for your projects. You'll leverage Copilot's AI capabilities to create scripts, thereby improving your coding efficiency and productivity. The challenge aims to demonstrate how GitHub Copilot can assist in automating repetitive tasks and speeding up the development process through the generation of scripts.
 
