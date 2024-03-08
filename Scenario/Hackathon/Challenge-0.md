@@ -67,3 +67,18 @@ Enterprise owners can allow some or all organizations in the enterprise to acces
 1. **Enhancing Collaborative Coding:** A global company with developers working in different geographical locations uses GitHub Copilot to ensure consistency in coding practices across the team. Thus improving collaboration and reducing the likelihood of conflicts or misunderstandings.
 
 1. **Building a Prototype Quickly:** A startup wants to demonstrate a prototype of their app to potential investors. GitHub Copilot can help them quickly generate the necessary code, allowing them to focus on the business logic and unique aspects of their app.
+
+### Enabling GitHub Copilot Enterprise
+
+To enable users to use Copilot Enterprise features, your GitHub Enterprise Cloud enterprise must have a subscription to Copilot Enterprise.
+
+Access to Copilot is determined at the enterprise and organization levels:
+
+- Enterprise owners can allow some or all of the organizations in the enterprise to access Copilot.
+- Owners of organizations that have been granted access to Copilot can assign GitHub Copilot Enterprise seats to some or all members of their organization. 
+
+When access to Copilot has been enabled, features such as the ability to use Copilot on GitHub.com, can be configured. Features are enabled or disabled at the enterprise or organization level:
+
+- Enterprise owners can set Copilot features to be enabled or disabled for all organizations in the enterprise that have access to Copilot. Alternatively, they can allow each organization to set its own policy for each feature.
+- If the enterprise owner has permitted it, organization owners can enable or disable Copilot features for their organization.
+
