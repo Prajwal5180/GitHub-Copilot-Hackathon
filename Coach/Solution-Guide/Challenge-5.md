@@ -8,7 +8,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. In the GitHub Copilot Chat window, ask the GitHub Copilot to generate a README.md file for the backend application, copy the code into a new file, and save it as **README.md**. You can achieve this by referring to your workspace.
 
-   - @workspace generates a README.md file for the directory app/backend
+   - @workspace generates a README.md file for the directory app/backend.
 
    ![](../../media/backend-app-readme.png)
 
@@ -54,7 +54,7 @@ In this task, you'll explore the various styles of documentation that you can ge
 
 1. In your VS Code, create a new file, right-click anywhere on the new file, and select **Copilot** and **Start Inline Chat**.
 
-1. Ask the GitHub Copilot to generate markdown documentation to deploy a VNet in Azure and click **Accept**.
+1. Ask the GitHub Copilot to generate markdown documentation to deploy a VNet in Azure, and click **Accept**.
 
 1. You'll notice that the GitHub Copilot has generated step-by-step markdown documentation to deploy a VNet in Azure.
 
