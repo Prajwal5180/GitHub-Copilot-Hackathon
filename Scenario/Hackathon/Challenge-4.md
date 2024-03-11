@@ -39,7 +39,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. **Utilize the GitHub Copilot Workspace to create a new app named Expense Tracker:**
 
-   - Create the fundamental workspace structure using the **GitHub Copilot Workspace** feature.
+   - Create the fundamental workspace structure using the **GitHub Copilot Workspace** feature in `C:/users/azureuser/DemoApp`.
 
    - Develop the individual components required in the Expense Tracker app outline using **GitHub Copilot's** transformative capabilities.
 
