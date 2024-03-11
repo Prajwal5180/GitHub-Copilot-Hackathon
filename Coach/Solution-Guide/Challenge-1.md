@@ -121,7 +121,11 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
 In this task, you'll create a Python/JS code to build a calculator and use OpenWeatherMap API keys to get weather data from weather APIs.
 
-1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator.
+1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS code to build a calculator using the below prompt.
+
+   ```
+   Create a Python/JS based code to build a calculator 
+   ```
 
    ![](../../media/copilot-calculator.png)
 
@@ -216,6 +220,10 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
    ![](../../media/weather-api-keys.png)
 
 1. Open the GitHub Copilot chat window and ask GitHub Copilot to create a Python/JS-based app to get weather data from weather APIs.
+
+   ```
+   Create a Python/JS based app to get weather data from weather APIs
+   ```
 
    ![](../../media/copilot-weather-api.png)
 
