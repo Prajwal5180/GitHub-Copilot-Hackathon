@@ -23,6 +23,26 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
 - Make sure to deploy the web app in the existing resource group named **GitHub-Copilot-Challenges**.
 
+## Accessing Azure Portal
+
+1. To access the Azure portal, open a private/incognito window in your browser and navigate to **[Azure Portal](https://portal.azure.com)**.
+
+1. On the **Sign in to Microsoft Azure** tab, you will see a login screen. Enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+        
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+     
+1. If you see the pop-up **Stay Signed in?** click No.
+
+1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+
+1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Maybe Later** to skip the tour.
+   
+1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the Navigate panel to see the resource groups.
+  
+1. Confirm you have a resource group **GitHub-Copilot-Challenges** present, as shown in the below screenshot. You need to use the **GitHub-Copilot-Challenges** resource group throughout this challenge.
+
 ## Challenge Objectives:
 
 1. **Develop an ARM template to deploy an app to Azure:**
