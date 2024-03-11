@@ -1,6 +1,6 @@
 # Challenge 3: Deploy the App to Azure
 
-### Estimated Time: 90 minutes
+### Estimated Time: 60 minutes
 
 ## Introduction
 
