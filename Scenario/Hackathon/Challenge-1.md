@@ -45,10 +45,12 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 5. **Code Generation with Copilot and Copilot Chat:**
    - Create Python/JS-based code to build a calculator.
       - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
+      - Save the files as *calculator.py / calculator.js* at **C:\Users\azureuser**.
       - Experiment with different mathematical operations and user interactions.
    - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
       - Sign up for the OpenWeatherMap website (https://openweathermap.org/).
       - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
+      - Save the files as *weather_script.py / weather_script.js* at **C:\Users\azureuser**.
 
 6. **Code Refactoring & Debugging:**
    - Refactor given code snippets using Copilot, understanding the process of code improvement.
