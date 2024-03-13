@@ -24,9 +24,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Challenge Objectives:
 
 1. **Generate documentation with Copilot:**
-   - Utilize the GitHub Copilot chat to generate markdown documentation for the **backend** app and copy the documentation to a new file, **README.md**.
-   - Make use of the GitHub Copilot Generate Docs feature to list out the requirements in the *app/backend/requirements.txt* file.
-   - Generate comments for the *app/backend/approaches/approach.py* file through GitHub Copilot Inline Chat.
+   - Utilize the GitHub Copilot chat to generate markdown documentation for the **backend** app and copy the documentation to a new file, **README.md** in the ***app/backend/*** directory.
+   - Make use of the GitHub Copilot Generate Docs feature to list out the requirements in the ***app/backend/requirements.txt*** file.
+   - Generate comments for the ***app/backend/approaches/approach.py*** file through GitHub Copilot Inline Chat.
 
 2. **Enhance and refine documentation:**
    - Enhance the **README.md** markdown documentation generated in the previous challenge utilizing GitHub Copilot Suggestions.
