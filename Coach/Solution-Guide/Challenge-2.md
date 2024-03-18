@@ -34,11 +34,25 @@
 
     ![](../../media/crud2.5.png)
 
-### Navigate to Project Files
+### Setting Up Visual Studio 2022
 
-- Once the repository is cloned, locate and open the `Contact Database application.sln` file from the Solution Explorer.
+- Once the repository is cloned, locate and open the `CRUD application.sln` file from the Solution Explorer.
 
     ![](../../media/crud2.6.png)
+
+- To install GitHub Copilot extension, in the Visual Studio menu bar, click Extensions, then click Manage Extensions.
+
+- In the "Manage Extensions" window, click Visual Studio Marketplace, search for the GitHub Copilot extension, then click Download.
+
+- Close the "Manage Extensions" window, then exit and relaunch Visual Studio.
+
+- Optionally, to check that GitHub Copilot is installed and enabled, go back to Manage Extensions, click Installed to view your currently installed extensions, then click GitHub Copilot to see status information.
+
+- To install GitHub Copilot Chat extension, in the Visual Studio menu bar, click Extensions, then click Manage Extensions.
+
+- In the "Manage Extensions" window, click Visual Studio Marketplace, search for "GitHub Copilot Chat", then click Download.
+
+- Close the "Manage Extensions" window, then exit and relaunch Visual Studio.
 
 - Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager", and then click on "Package Manager Console".
 

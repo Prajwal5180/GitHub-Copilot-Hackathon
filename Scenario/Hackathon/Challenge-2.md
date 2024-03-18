@@ -20,23 +20,47 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 - Basic understanding of the C# programming language.  
 - GitHub account.  
-- GitHub Copilot is installed in Visual Studio.  
-  
+- [GitHub Copilot extension is installed in Visual Studio 2022.](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=visualstudio#installing-the-github-copilot-extension-in-visual-studio)
+- [GitHub Copilot chat extension is installed in Visual Studio 2022.](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide#installing-the-github-copilot-chat-extension-in-visual-studio)
+
+## Setting Up Visual Studio 2022
+
+1.  To install GitHub Copilot extension, you can follow the below steps.
+
+      - In the Visual Studio menu bar, click Extensions, then click Manage Extensions.
+
+      - In the "Manage Extensions" window, click Visual Studio Marketplace, search for the GitHub Copilot extension, then click Download.
+
+      - Close the "Manage Extensions" window, then exit and relaunch Visual Studio.
+
+      - Optionally, to check that GitHub Copilot is installed and enabled, go back to Manage Extensions, click Installed to view your currently installed extensions, then click GitHub Copilot to see status information.
+
+2. To install GitHub Copilot Chat extension, you can follow the below steps.
+
+      - In the Visual Studio menu bar, click Extensions, then click Manage Extensions.
+
+      - In the "Manage Extensions" window, click Visual Studio Marketplace, search for "GitHub Copilot Chat", then click Download.
+
+      - Close the "Manage Extensions" window, then exit and relaunch Visual Studio.
+
+3. Navigate to the below-provided link and fork the repository into the CloudLabs-provided GitHub account.
+
+      ```
+      https://github.com/CloudLabsAI-Azure/Contact-Database-Application
+      ```
+
+4. Clone the forked repository into Visual Studio using the CloudLabs-provided GitHub account.
+
+5. Once the repository is cloned, locate and open the `CRUD application.sln` file from the Solution Explorer.
+
+6. Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager," and then click on "Package Manager Console." Run the below command on the console.
+
+      ```
+      Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+      ```
+
 ## Challenge Objectives  
 1. **Develop an app:** 
-
-      - Navigate to the below-provided link and fork the repository into the CloudLabs-provided GitHub account.
-
-        ```
-        https://github.com/CloudLabsAI-Azure/Contact-Database-Application
-        ```
-      - Clone the forked repository into Visual Studio using the CloudLabs-provided GitHub account.
-
-      - Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager," and then click on "Package Manager Console." Run the below command on the console.
-
-        ```
-        Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
-        ```
 
       - You will be creating an application named **Contact Database Application**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements and also carry out the basic functions like editing their details, deleting their profiles, and so on. You will be provided with the skeleton of the application already, but you will need to build the functionalities inside the **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
 
