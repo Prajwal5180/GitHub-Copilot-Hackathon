@@ -26,7 +26,19 @@
       },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-2.md",
-        "Order": 6
+        "Order": 6,
+        "UnlockingRules": [
+          {
+            "UnlockDependency": "Validations",
+            "UnlockCriteria": "Completion Percentage",
+            "UnlockPercentageThreshold": 50,
+            "DependentValidations": [
+              "afc73673-26ad-4c49-b013-4632e09d8634",
+              "74421c5f-2301-4e21-a3a9-f1926fb28142",
+              "b5244888-2b42-4686-b326-465182a86561"
+            ]
+          }
+        ]
       },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-3.md",
