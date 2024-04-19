@@ -27,23 +27,79 @@
      },
      {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-2.md",
-        "Order": 6
+        "Order": 6,
+         "UnlockingRules": [
+                    {
+                        "UnlockDependency": "Validations",
+                        "UnlockCriteria": "Completion Percentage",
+                        "UnlockPercentageThreshold": 50,
+                        "DependentValidations": [
+                            "f42aa485-2434-4ae5-b2e5-475b215cae63",
+                            "74421c5f-2301-4e21-a3a9-f1926fb28142",
+                            "b5244888-2b42-4686-b326-465182a86561"
+                        ]
+                    }
+                ]
      },
      {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-3.md",
-        "Order": 7
+        "Order": 7,
+         "UnlockingRules": [
+                    {
+                        "UnlockDependency": "Validations",
+                        "UnlockCriteria": "Completion Percentage",
+                        "UnlockPercentageThreshold": 50,
+                        "DependentValidations": [
+                            "daaa3f6f-00f1-437a-8f35-01b59fb2da41",
+                            "c7f107a0-97a2-4442-9cef-b14297fd5b7a"
+                        ]
+                    }
+                ]
      },
      {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-4.md",
-        "Order": 8
+        "Order": 8,
+         "UnlockingRules": [
+                    {
+                        "UnlockDependency": "Validations",
+                        "UnlockCriteria": "Completion Percentage",
+                        "UnlockPercentageThreshold": 50,
+                        "DependentValidations": [
+                            "93dbb711-57a3-462c-8ffe-699f1208865e",
+                            "019351e9-84ff-4623-a26c-66afe706bf66"
+                        ]
+                    }
+                ]
      },
      {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-5.md",
-        "Order": 9
+        "Order": 9,
+         "UnlockingRules": [
+                    {
+                        "UnlockDependency": "Validations",
+                        "UnlockCriteria": "Completion Percentage",
+                        "UnlockPercentageThreshold": 50,
+                        "DependentValidations": [
+                            "76e12adb-fdce-4aea-a013-b0f721a72995",
+                            "2458065d-db29-4909-a6a8-6be48c96d04b"
+                        ]
+                    }
+                ]
      },
      {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-6.md",
-        "Order": 10
+        "Order": 10,
+         "UnlockingRules": [
+                    {
+                        "UnlockDependency": "Validations",
+                        "UnlockCriteria": "Completion Percentage",
+                        "UnlockPercentageThreshold": 50,
+                        "DependentValidations": [
+                            "96b4e044-86fc-4209-9733-e422716a27d7",
+                            "f42aa485-2434-4ae5-b2e5-475b215cae63"
+                        ]
+                    }
+                ]
      }
    ]
  }
