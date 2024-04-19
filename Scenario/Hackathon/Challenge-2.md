@@ -68,6 +68,10 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       - Test the application thoroughly and ensure all functionalities work as expected.
 
+   <validation step="daaa3f6f-00f1-437a-8f35-01b59fb2da41" />
+
+   <validation step="c7f107a0-97a2-4442-9cef-b14297fd5b7a" />
+
 1. **Generate unit test case scripts and validate them**:
 
       - For each of the features in the **Contact Database Application** you built inside the **UserController.cs** file, generate the scripts for unit test cases with the help of **Github Copilot**.
