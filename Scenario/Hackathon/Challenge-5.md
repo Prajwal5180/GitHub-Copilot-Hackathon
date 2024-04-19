@@ -28,9 +28,13 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Make use of the GitHub Copilot Generate Docs feature to list out the requirements in the ***app/backend/requirements.txt*** file.
    - Generate comments for the ***app/backend/approaches/approach.py*** file through GitHub Copilot Inline Chat.
 
+   <validation step="96b4e044-86fc-4209-9733-e422716a27d7" />
+
 2. **Enhance and refine documentation:**
    - Enhance the **README.md** markdown documentation generated in the previous challenge utilizing GitHub Copilot Suggestions.
    - Use the appropriate suggestions, which will refine the documentation.
+
+   <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
 
 3. **Explore Various Documentation Styles:**
    - Utilize GitHub Copilot to generate a Javadoc to create a calculator.
