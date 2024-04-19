@@ -31,6 +31,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Install the GitHub Copilot extension from the VS Code Marketplace.
    - Configure the extension settings to suit your preferences.
 
+   <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
+
 2. **Login with a GitHub account:**
    - Login to GitHub within Visual Studio Code using the provided GitHub credentials.
 
@@ -51,6 +53,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Sign up for the OpenWeatherMap website (https://openweathermap.org/).
       - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
       - Save the files as *weather_script.py / weather_script.js* at **C:\Users\azureuser**.
+
+   <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
 6. **Code Refactoring & Debugging:**
    - Refactor given code snippets using Copilot, understanding the process of code improvement.
