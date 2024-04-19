@@ -33,7 +33,7 @@
             "UnlockCriteria": "Completion Percentage",
             "UnlockPercentageThreshold": 50,
             "DependentValidations": [
-              "f42aa485-2434-4ae5-b2e5-475b215cae63",
+              "afc73673-26ad-4c49-b013-4632e09d8634",
               "74421c5f-2301-4e21-a3a9-f1926fb28142",
               "b5244888-2b42-4686-b326-465182a86561"
             ]
