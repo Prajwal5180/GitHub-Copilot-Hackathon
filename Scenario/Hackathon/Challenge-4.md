@@ -37,7 +37,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Give some prompts to the workspace agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating new functionality, identifying issues in any file, and more.
 
-1. **Utilize the GitHub Copilot Workspace to create a new app named Expense Tracker:**
+2. **Utilize the GitHub Copilot Workspace to create a new app named Expense Tracker:**
 
    - Create the fundamental workspace structure using the **GitHub Copilot Workspace** feature in `C:/users/azureuser/DemoApp`.
 
@@ -53,7 +53,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
 
-1. **Utilize the capabilities of file referencing:**
+3. **Utilize the capabilities of file referencing:**
 
    - Understand how GitHub Copilot references files in your documents and how it helps with code flow.
 
