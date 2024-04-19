@@ -49,6 +49,10 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       ![](../../media/app-working.png)
 
+   <validation step="76e12adb-fdce-4aea-a013-b0f721a72995" />
+
+   <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
+
 1. **Utilize the capabilities of file referencing:**
 
    - Understand how GitHub Copilot references files in your documents and how it helps with code flow.
