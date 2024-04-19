@@ -27,7 +27,7 @@
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-2.md",
         "Order": 6,
-         "UnlockingRules": [
+        "UnlockingRules": [
                     {
                         "UnlockDependency": "Validations",
                         "UnlockCriteria": "Completion Percentage",
@@ -39,7 +39,7 @@
                         ]
                     }
                 ]
-     },
+      },
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/GitHub-Copilot-Hackathon/main/Scenario/Hackathon/Challenge-3.md",
         "Order": 7,
