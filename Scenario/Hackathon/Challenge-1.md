@@ -37,6 +37,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 2. **Login with a GitHub account:**
    - Login to GitHub within Visual Studio Code using the provided GitHub credentials.
+   - On the GitHub sign-in page, enter your GitHub credentials and click on Sign in.
+   - To verify your GitHub account login, sign in to Outlook in the Lab VM through in a Private window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select Verify.
+   - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
 
 3. **Using GitHub Codespaces with Copilot:**
    - Explore the integration of GitHub Codespaces with GitHub Copilot.
