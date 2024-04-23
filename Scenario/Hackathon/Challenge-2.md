@@ -19,9 +19,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 > **Note**: Prerequisites are already set up in the CloudLabs-provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
 
 - Basic understanding of the C# programming language.  
-- GitHub account.  
-- [GitHub Copilot extension is installed in Visual Studio 2022.](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=visualstudio#installing-the-github-copilot-extension-in-visual-studio)
-- [GitHub Copilot chat extension is installed in Visual Studio 2022.](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide#installing-the-github-copilot-chat-extension-in-visual-studio)
+- GitHub account.
 
 ## Setting Up Visual Studio 2022
 
