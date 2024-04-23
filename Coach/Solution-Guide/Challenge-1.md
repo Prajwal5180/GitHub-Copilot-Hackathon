@@ -32,7 +32,7 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
 
 1. On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
 
-1. To verify your GitHub account login, sign in to Outlook in the Lab VM through an **InPrivate** window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
+1. To verify your GitHub account login, sign in to Outlook in the Lab VM in a **Private** window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
 
 1. Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for VS Code.
 
