@@ -31,6 +31,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    https://github.com/CloudLabsAI-Azure/Contact-Database-Application
    ```
 
+   > **Note:** If the GitHub repository is already forked then proceed with the next steps.
+
 3. Clone the forked repository into Visual Studio using the CloudLabs-provided GitHub account.
 
 4. In the Visual Studio, navigate and click on the **GitHub Copilot** option located at the top right and select **Install Copilot**.
