@@ -82,7 +82,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/expense-tracker-workspace.png)
 
-    >**Note:** The **Github Copilot Workspace** will not literally create the workspace with all the file structure on your disk, but rather will only provide you with the blueprints you need for creating the workspace for your application. Thus, you need to manually create the workspace in your directory by yourself.
+    >**Note:** The currrent version of **Github Copilot Workspace** allows you to create the workspace automatically with all the file structure, just click on **Create Workspace**.
 
 1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, select **Explorer** from the left pane, and choose the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
 
