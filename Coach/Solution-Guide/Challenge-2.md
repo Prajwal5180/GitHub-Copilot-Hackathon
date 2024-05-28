@@ -91,6 +91,12 @@
 
     ![](../../media/crud1.6.png)
 
+- Once you run the application in a local web browser through IIS Express, then a couple of pop-ups will appear which will allow the application to run with a self-signed certificate that the IIS Express has generated.
+
+    ![](../../media/ssl-yes.png)
+
+    ![](../../media/ssl-yes01.png)
+
 ### Create a New Contact
 
 - In the opened web browser, locate the "Create New" button and click on it.
@@ -195,9 +201,11 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
     ![](../../media/crud3.12.png)
 
-- Now let's fix the issues in the file by hovering the cursor at the Test Fixture and then clicking Show potential fixes.
+- Now let's fix the issues in the file by hovering the cursor at the Test Fixture and then clicking on either Ask Copilot (1) or Quick Actions and Refactoring... (2) features.
+  
+    ![](../../media/ask-copilot.png)
 
-    ![](../../media/crud3.13.png)
+    ![](../../media/quick-actions.png)
 
 - Click on "Install package NUnit" and then click on "Find and install latest version".
 
