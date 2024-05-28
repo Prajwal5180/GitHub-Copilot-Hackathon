@@ -43,6 +43,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 3. **Using GitHub Codespaces with Copilot:**
    - Explore the integration of GitHub Codespaces with GitHub Copilot.
    - Understand how Copilot can be utilized in a collaborative coding environment.
+   - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub.
 
 4. **Explore GitHub Copilot Features:**
    - Experiment with Copilot in various coding scenarios.
