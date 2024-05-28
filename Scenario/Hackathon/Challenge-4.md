@@ -37,9 +37,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Give some prompts to the workspace agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating new functionality, identifying issues in any file, and more.
 
-2. **Utilize the GitHub Copilot Workspace to create a new app named Expense Tracker:**
+2. **Utilize the GitHub Copilot Workspace to create a new React app named Expense Tracker:**
 
-   - Create the fundamental workspace structure using the **GitHub Copilot Workspace** feature in `C:/users/azureuser/DemoApp`.
+   - Create the fundamental workspace structure from scratch using the **GitHub Copilot Workspace** feature in `C:/users/azureuser/DemoApp`.
 
    - Develop the individual components required in the Expense Tracker app outline using **GitHub Copilot's** transformative capabilities.
 
