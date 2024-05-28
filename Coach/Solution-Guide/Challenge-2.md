@@ -36,23 +36,23 @@
 
 ### Setting Up Visual Studio 2022
 
+- In the Visual Studio, navigate and click on the **GitHub Copilot** option located at the top right and select **Install Copilot**.
+
+- In the Visual Studio Installer pane, make sure that the **GitHub Copilot** is selected and click **Install**. This will close the Visual Studio application.
+
+- Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Installer pane.
+
+  > **Note:** Ignore the error message 'Couldn't install Microsoft.Net.4.8.1.FullRedist', this won't affect the challenges.
+
+- Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Installer pane.
+
+   > **Note:** Ignore the error message 'Couldn't install Microsoft.Net.4.8.1.FullRedist', this won't affect the challenges.
+
+- Re-launch the Visual Studio and verify that the GitHub Copilot is active. The GitHub Copilot Chat window can now be utlized.
+
 - Once the repository is cloned, locate and open the `CRUD application.sln` file from the Solution Explorer.
 
-    ![](../../media/crud2.6.png)
-
-- To install GitHub Copilot extension, in the Visual Studio menu bar, click Extensions, then click Manage Extensions.
-
-- In the "Manage Extensions" window, click Visual Studio Marketplace, search for the GitHub Copilot extension, then click Download.
-
-- Close the "Manage Extensions" window, then exit and relaunch Visual Studio.
-
-- Optionally, to check that GitHub Copilot is installed and enabled, go back to Manage Extensions, click Installed to view your currently installed extensions, then click GitHub Copilot to see status information.
-
-- To install GitHub Copilot Chat extension, in the Visual Studio menu bar, click Extensions, then click Manage Extensions.
-
-- In the "Manage Extensions" window, click Visual Studio Marketplace, search for "GitHub Copilot Chat", then click Download.
-
-- Close the "Manage Extensions" window, then exit and relaunch Visual Studio.
+  ![](../../media/crud2.6.png)
 
 - Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager", and then click on "Package Manager Console".
 
