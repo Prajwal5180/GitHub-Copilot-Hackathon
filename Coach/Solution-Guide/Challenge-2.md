@@ -44,10 +44,6 @@
 
   > **Note:** Ignore the error message 'Couldn't install Microsoft.Net.4.8.1.FullRedist', this won't affect the challenges.
 
-- Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Installer pane.
-
-   > **Note:** Ignore the error message 'Couldn't install Microsoft.Net.4.8.1.FullRedist', this won't affect the challenges.
-
 - Re-launch the Visual Studio and verify that the GitHub Copilot is active. The GitHub Copilot Chat window can now be utlized.
 
 - Once the repository is cloned, locate and open the `CRUD application.sln` file from the Solution Explorer.
