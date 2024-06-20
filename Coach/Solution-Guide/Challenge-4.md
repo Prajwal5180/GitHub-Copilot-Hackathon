@@ -8,15 +8,15 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
 1. Open your project in VS Code, where you are signed in using the CloudLabs provided GithHub account details.
 
-    ![](../media/vscode-launch.png)
+    ![](../../media/vscode-launch.png)
 
 1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
 
-    ![](../media/file1.png)
+    ![](../../media/file1.png)
 
 1. In the textbox, enter **@** and select **Workspace** to start working with the **GitHub Copilot Workspace** agent.
 
-    ![](../media/file2.png)
+    ![](../../media/file2.png)
 
 1. Now, you can provide your own prompts and select **Submit** to get the response. To start with, you can ask **GitHub Copilot Chat** how to start your current project by providing this prompt: `How do I start the current project?`. As you submit your prompt, Copilot will automatically analyze the current workspace files and directories, split into chunks of steps:
 
@@ -28,21 +28,21 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     1. Starts responding, combining the context from the prompt with the one it was able to gain.
 
-    ![](../media/file3.png)
+    ![](../../media/file3.png)
 
 1. The **GitHub Copilot** would provide you with a step-by-step explanation of how to run your project. You can follow the same steps and verify that your project is running successfully.
 
-    ![](../media/file4.png)
+    ![](../../media/file4.png)
 
 1. Besides that, you can also run the command `Tell me the current workspace structure.` without the help of the **Workspace agent**, and compare the outputs.
 
-    ![](../media/file5.png)
+    ![](../../media/file5.png)
 
     The output provided is extremely abstract, and in the end, it tells you it can't provide you with the exact solution and generates only a generic solution.
 
 1. After this, you can try the prompt using the **Workspace** feature and get complete information about your current working project by providing the following prompt: `@workspace Tell me about the current workspace structure.`
 
-    ![](../media/file6.png)
+    ![](../../media/file6.png)
 
     Analyze the generated output and verify that the structure is aligned with your actual project structure.
 
