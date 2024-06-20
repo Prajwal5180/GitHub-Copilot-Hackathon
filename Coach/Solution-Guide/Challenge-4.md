@@ -2,63 +2,7 @@
 
 >**Note:** The results produced by **GitHub Copilot** for this particular task may not precisely align with your outcomes. This discrepancy occurs because **Github Copilot** is an AI-driven tool that can yield variable outputs from time to time.
 
-### Task 1: Utilizing the GitHub Copilot Workspace
-
-In this task, you will be utilizing the GitHub Copilot Workspace to enhance coding efficiency by providing contextually relevant code suggestions.
-
-1. Open your project in VS Code, where you are signed in using the CloudLabs provided GithHub account details.
-
-    ![](../../media/vscode-launch.png)
-
-1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
-
-    ![](../../media/vscode-copilot-chat.png)
-
-1. In the textbox, enter **@** and select **Workspace** to start working with the **GitHub Copilot Workspace** agent.
-
-    ![](../../media/@workspace.png)
-
-1. Now, you can provide your own prompts and select **Submit** to get the response. To start with, you can ask **GitHub Copilot Chat** how to start your current project by providing this prompt: `How do I start the current project?`. As you submit your prompt, Copilot will automatically analyze the current workspace files and directories, split into chunks of steps:
-
-    1. Scans the file or directory names to understand which of them are potentially relevant to providing a response.
-
-    1. Reads file contents. Sometimes the whole file, sometimes only parts of them (due to the token memory limits).
-
-    1. Creates context from everything it was able to collect.
-
-    1. Starts responding, combining the context from the prompt with the one it was able to gain.
-
-    ![](../../media/workspace-prompt1.png)
-
-1. The **GitHub Copilot** would provide you with a step-by-step explanation of how to run your project. You can follow the same steps and verify that your project is running successfully.
-
-    ![](../../media/workspace-solution1.png)
-
-1. Besides that, you can also run the command `Tell me the current workspace structure.` without the help of the **Workspace agent**, and compare the outputs.
-
-    ![](../../media/basic-prompt.png)
-
-    The output provided is extremely abstract, and in the end, it tells you it can't provide you with the exact solution and generates only a generic solution.
-
-1. After this, you can try the prompt using the **Workspace** feature and get complete information about your current working project by providing the following prompt: `@workspace Tell me about the current workspace structure.`
-
-    ![](../../media/workspace-solution2.png)
-
-    Analyze the generated output and verify that the structure is aligned with your actual project structure.
-
-1. You can also try out the following example prompts, provide your own prompts as well as per your curiosity and requirements, and verify the output:
-
-    ```
-    @workspace Create a new lazy-loaded page with the path “/faq.”
-    ```
-    ```
-    @workspace How can I add a new route to my ASP.NET MVC application?
-    ```
-    ```
-    @workspace How can I handle form submissions in ASP.NET MVC?
-    ```
-
-### Task 2: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
+### Task 1: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
 
 The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
 
@@ -132,7 +76,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/app-working.png)
 
-### Task 3: Utilize the Capabilities of File Referencing
+### Task 2: Utilize the Capabilities of File Referencing
 
 **File Referencing in GitHub Copilot** refers to the AI's ability to understand and interpret the context of your project by considering the information in other files within your workspace.
 
