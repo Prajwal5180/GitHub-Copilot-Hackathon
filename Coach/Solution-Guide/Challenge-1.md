@@ -50,6 +50,8 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
    ![GitHub-Codespaces](../../media/github-codespaces.png)
 
+1. If the Codespace does not open in your Visual Studio Code, then navigate to your GitHub repository, click on **Code**, click on the **ellipsis** button for your current codespace and then click on **Open in Visual Studio Code**.
+
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
 
    ![](../../media/open.png)
