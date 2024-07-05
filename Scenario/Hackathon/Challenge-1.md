@@ -58,19 +58,21 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    <validation step="74421c5f-2301-4e21-a3a9-f1926fb28142" />
 
 2. **Login with a GitHub account:**
-   - Login to GitHub within Visual Studio Code using the provided GitHub credentials.
-   - On the GitHub sign-in page, enter your GitHub credentials and click on Sign in.
-   - To verify your GitHub account login, sign in to Outlook in the Lab VM through in a Private window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select Verify.
+   - Login to GitHub within Visual Studio Code using the provided GitHub credentials. You can find these credentials under **Environment > GitHub Credentials** tab.
+   - On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
+   - To verify your GitHub account login, sign in to **Outlook** in the Lab VM through in a Private window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
    - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
 
 3. **Using GitHub Codespaces with Copilot:**
-   - Explore the integration of GitHub Codespaces with GitHub Copilot.
+   - Create a Codespace for your GitHub repository.
+     >**Hint:** Use **https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application** repository to create a codespace. You will use this repository in Challenge 02.
    - Understand how Copilot can be utilized in a collaborative coding environment.
    - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
 4. **Explore GitHub Copilot Features:**
    - Experiment with Copilot in various coding scenarios.
    - Use Copilot's suggestions to speed up your code-writing process.
+     >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
 
 5. **Code Generation with Copilot and Copilot Chat:**
    - Create Python/JS-based code to build a calculator.
@@ -86,6 +88,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 6. **Code Refactoring & Debugging:**
    - Refactor given code snippets using Copilot, understanding the process of code improvement.
+     >**Hint:** Utilize GitHub Copilot's **Refactor** feature.
 
       ```
       #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
@@ -127,6 +130,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
          main()
       ```
    - Debug code effectively with Copilot's assistance, addressing and fixing identified issues.
+     >**Hint:** Utilize GitHub Copilot's **Fix This** feature.
 
       ```
       # Intentionally flawed Python program
