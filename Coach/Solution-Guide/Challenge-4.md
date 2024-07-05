@@ -78,7 +78,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../../media/@workspace.png)
 
-1. Provide the prompt, `@workspace Create a workspace for the Expense Tracker application with all the necessary files and code.` In the test box, select **Submit** to generate the complete workspace of your Expense Tracker application, along with a couple of component files.
+1. Provide the prompt, `**Create a workspace for the Expense Tracker React application with all the necessary files and code**.` In the test box, select **Submit** to generate the complete workspace of your Expense Tracker React application, along with a couple of component files.
 
     ![](../../media/expense-tracker-workspace.png)
 
