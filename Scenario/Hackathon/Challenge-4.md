@@ -28,6 +28,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
+- Create a new folder named **DemoApp** in **C:/users/azureuser**.
 
 ## Challenge Objectives:
 
