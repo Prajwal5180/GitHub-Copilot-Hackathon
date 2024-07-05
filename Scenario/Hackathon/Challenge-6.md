@@ -26,6 +26,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 1. **Generate Sysadmin scripts:**
    - Generate a sysadmin resource monitoring bash script using GitHub Copilot for CPU and memory usage for a Linux VM.
    - Generate a sysadmin monitoring PowerShell script using GitHub Copilot for disk usage for a Windows VM.
+     >**Hint:** Utilize GitHub Copilot Chat to generate the above sysadmin resource monitoring scripts.
 
 2. **Refactor or debug the generated scripts:**
    - Apply Copilot's suggestions for code refactoring, leading to improved readability and maintainability of the scripts.
