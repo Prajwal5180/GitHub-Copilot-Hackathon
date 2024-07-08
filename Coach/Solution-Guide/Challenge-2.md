@@ -18,9 +18,9 @@
 
 ### Open Visual Studio and Clone Repository
 
-- Launch Visual Studio and login using the CloudLabs provided GitHub account credentials.
+- Launch Visual Studio and click on ""Clone a repository".
 
-    ![](../../media/crud1.1.png)
+    ![](../../media/Clone-Git-repo.png)
 
 - Clone the forked repository by clicking on "Clone a repository".
 
