@@ -28,7 +28,7 @@
 
 - The window will look like this.
 
-    ![](../../media/Cloned-repo.png)
+    ![](../../media/Cloned-rep.png)
 
 
 ### Setting Up Visual Studio 2022
@@ -45,7 +45,7 @@
 
 - Once the repository is cloned, locate and open the `MyMvcApp.sln` file from the Solution Explorer.
 
-  ![](../../media/MyMvcApp.png)
+  ![](../../media/MyMvcApp_ss.png)
 
 - Navigate to Extentions 
 
