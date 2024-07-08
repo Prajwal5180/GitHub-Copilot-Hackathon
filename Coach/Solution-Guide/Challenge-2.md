@@ -45,11 +45,15 @@
 
 - Once the repository is cloned, locate and open the `MyMvcApp.sln` file from the Solution Explorer.
 
-  ![](../../media/crud2.6.png)
+  ![](../../media/MyMvcApp.png)
 
-- Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager", and then click on "Package Manager Console".
+- Navigate to Extentions 
 
-    ![](../../media/crud5.5.png)
+  ![](../../media/Extension.png)
+
+- Install **Nuget Gallery** and **C# Dev Kit**
+
+  ![](../../media/NuGet.png)         ![](../../media/C#.png)
 
 - Run the below command on the console.
 
