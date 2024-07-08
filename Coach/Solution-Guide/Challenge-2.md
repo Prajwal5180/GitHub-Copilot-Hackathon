@@ -10,11 +10,11 @@
 
 - Navigate to the provided GitHub repository link: [MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
 
-    ![](../../media/crud2.1.png)
+    ![](../../media/Repo-info.png)
 
 - Fork the repository into the CloudLabs provided GitHub account.
 
-    ![](../../media/crud2.2.png)
+    ![](../../media/Fork-repo.png)
 
 ### Open Visual Studio and Clone Repository
 
