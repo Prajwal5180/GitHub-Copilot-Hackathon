@@ -26,13 +26,10 @@
 
     ![](../../media/URL-Repo.png)
 
-- Then, select "GitHub" under Browse a repository.
+- The window will look like this.
 
-    ![](../../media/crud2.4.png)
+    ![](../../media/Cloned-repo.png)
 
-- Choose the repository you forked earlier and click on "Clone".
-
-    ![](../../media/crud2.5.png)
 
 ### Setting Up Visual Studio 2022
 
@@ -46,7 +43,7 @@
 
 - Re-launch the Visual Studio and verify that the GitHub Copilot is active. The GitHub Copilot Chat window can now be utlized.
 
-- Once the repository is cloned, locate and open the `CRUD application.sln` file from the Solution Explorer.
+- Once the repository is cloned, locate and open the `MyMvcApp.sln` file from the Solution Explorer.
 
   ![](../../media/crud2.6.png)
 
