@@ -20,7 +20,7 @@
 
 - Launch Visual Studio and click on ""Clone a repository".
 
-   ![](media/Clone-Git-repo.png)
+   ![](../../media/Clone-Git-repo.png)
 
 - Clone the forked repository by clicking on "Clone a repository".
 
