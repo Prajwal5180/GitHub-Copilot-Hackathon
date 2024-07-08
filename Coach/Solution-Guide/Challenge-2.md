@@ -53,9 +53,7 @@
 
 - Install **Nuget Gallery** and **C# Dev Kit**
 
-  ![](../../media/NuGet.png) 
-  
-  ![](../../media/C#.png)
+  ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
 
 - Run the below command on the console.
 
