@@ -22,9 +22,9 @@
 
    ![](../../media/Clone-Git-repo.png)
 
-- Enter the Git Repository URL 
+- Enter the Git Repository URL and click enter
 
-    ![](../../media/crud2.3.png)
+    ![](../../media/URL-Repo.png)
 
 - Then, select "GitHub" under Browse a repository.
 
