@@ -8,7 +8,7 @@
 
 ### Fork the Repository
 
-- Navigate to the provided GitHub repository link: [CloudLabs-CRUD-application](https://github.com/CloudLabsAI-Azure/CloudLabs-CRUD-application).
+- Navigate to the provided GitHub repository link: [MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
 
     ![](../../media/crud2.1.png)
 
@@ -18,11 +18,11 @@
 
 ### Open Visual Studio and Clone Repository
 
-- Launch Visual Studio and click on ""Clone a repository".
+- Launch Visual Studio and click on ""Clone Git repository".
 
    ![](../../media/Clone-Git-repo.png)
 
-- Clone the forked repository by clicking on "Clone a repository".
+- Enter the Git Repository URL 
 
     ![](../../media/crud2.3.png)
 
