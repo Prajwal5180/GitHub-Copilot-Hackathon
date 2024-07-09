@@ -89,15 +89,14 @@
 
 ### Run and test the Application
 
-- Locate the IIS Express button (a green play button) in the toolbar and click on it. This action starts the application on localhost in a web browser.
+- Locate the app file **MyMvcApp.csproj** and run the code.
 
-    ![](../../media/crud1.6.png)
+    ![](../../media/Appter01.png)
 
-- Once you run the application in a local web browser through IIS Express, then a couple of pop-ups will appear which will allow the application to run with a self-signed certificate that the IIS Express has generated.
+- Once the code runs and the build is sucesseful you can navigate to the URL for the app.
+  
+    ![](../../media/apprun.png)
 
-    ![](../../media/ssl-yes.png)
-
-    ![](../../media/ssl-yes01.png)
 
 ### Create a New Contact
 
