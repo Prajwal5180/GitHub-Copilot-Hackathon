@@ -67,16 +67,16 @@
 
 - Navigate to the `UserController.cs` file within the `Controllers` folder.
 
-    ![](../../media/crud2.7.png)
+    ![](../../UserController.png)
 
 - Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu. 
 
-    ![](../../media/crud1.2.png)
-    ![](../../media/crud1.3.png)
+    ![](../../media/UserController1.png)
+    ![](../../media/UserController2.png)
 
 - From the context menu, choose the "Ask Copilot" option. In the prompt box, type "Fill in the Index method"
 
-    ![](../../media/crud1.4.png)
+    ![](../../media/UserController3.png)
 
 - GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
 
