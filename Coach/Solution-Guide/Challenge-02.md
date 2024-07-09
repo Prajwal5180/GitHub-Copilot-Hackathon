@@ -18,7 +18,7 @@
 
 ### Open Visual Studio and Clone Repository
 
-- Launch Visual Studio and click on ""Clone Git repository".
+- Launch Visual Studio and click on **Clone Git repository**.
 
    ![](../../media/Clone-Git-repo.png)
 
