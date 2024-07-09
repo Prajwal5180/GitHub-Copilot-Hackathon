@@ -75,13 +75,13 @@
 
     ![](../../media/Exx2.png)
 
-- From the context menu, choose the "Ask Copilot" option. In the prompt box, type "Fill in the Index method"
+- From the context menu, choose the "Copilot" option and click on "Fix This"
 
     ![](../../media/exxx3.png)
 
 - GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
 
-    ![](../../media/crud1.5.png)
+    ![](../../media/Exxxx4.png)
 
 - Repeat this process for each empty method in the UserController.cs file until all methods are implemented.
 
