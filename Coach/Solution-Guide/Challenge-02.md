@@ -35,23 +35,15 @@
     ![](../../media/Cloned-rep.png)
 
 
-### Setting Up Visual Studio 2022
+### Setting Up Visual Studio Code
 
-- In the Visual Studio, navigate and click on the **GitHub Copilot** option located at the top right and select **Install Copilot**.
+- In the Visual Studio Code select the **Extensions option**, search for **GitHub Copilot** and click **Install**.
 
-- In the Visual Studio Installer pane, make sure that the **GitHub Copilot** is selected and click **Install**. This will close the Visual Studio application.
-
-- Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Installer pane.
-
-  > **Note:** Ignore the error message 'Couldn't install Microsoft.Net.4.8.1.FullRedist', this won't affect the challenges.
+- Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Code Extension.
 
 - Re-launch the Visual Studio and verify that the GitHub Copilot is active. The GitHub Copilot Chat window can now be utlized.
 
-- Once the repository is cloned, locate and open the `MyMvcApp.sln` file from the Solution Explorer.
-
-  ![](../../media/MyMvcApp_ss.png)
-
-- Navigate to Extentions 
+- Lets Navigate to Extentions 
 
   ![](../../media/Extension.png)
 
