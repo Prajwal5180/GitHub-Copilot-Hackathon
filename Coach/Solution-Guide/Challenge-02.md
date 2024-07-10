@@ -85,9 +85,15 @@
 
 ### Run and test the Application
 
-- Locate the app file **MyMvcApp.csproj** and run the code.
+- Locate the app file **MyMvcApp.csproj** and right click **run in integreted terminal**.
 
-    ![](../../media/Appter01.png)
+   ![](../../media/OpenTerminal.png)
+
+- We will have to run the code by the command **dotnet run**
+
+- Sucessfull run will look like this
+
+  ![](../../media/Coderun.png)
 
 - Once the code runs and the build is sucesseful you can navigate to the URL for the app.
   
