@@ -20,11 +20,15 @@
 
 - Launch Visual Studio and click on **Clone Git repository**.
 
-   ![](../../media/Clone-Git-repo.png)
+   ![](../../media/CloneRepo.png)
 
 - Enter the Git Repository URL and click enter
 
-    ![](../../media/URL-Repo.png)
+    ![](../../media/CloneURL.png)
+
+- You will have create a folder and select it.
+
+    ![](../../media/Folder.png)
 
 - The window will look like this.
 
