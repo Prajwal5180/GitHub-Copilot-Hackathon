@@ -191,20 +191,41 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
    * **Source**: GitHub
    * **Signed in as**: Your GitHub Account
    * **Organization**: Your GitHub Organization
-   * **Repository**: Your Github Repository (**Contact Database Application**)
+   * **Repository**: Your Github Repository (**MyMvcApp-Contact-Database-Application**)
    * **Branch**: Your GitHub Repository Branch
+   * **Runtime stack**: .NET
+   * **Version**: v8.0
    * **Authentication type**: Basic authentication
   
-   ![](../../media/challenge3-deployment-center01.png)
+   ![](../../media/challenge3-deployment-center-01.png)
 
-   ![](../../media/challenge3-deployment-center02.png)
+   ![](../../media/challenge3-deployment-center-02.png)
 
 1. You can also view your workflow configuration by clicking on the **Preview file** button.
 
-1. Navigate to your GitHub repository, and under the **Actions** tab, you'll notice that the build has started for your web app. Wait for the GitHub action workflow to be built and deployed to succeed.
+1. Navigate to your GitHub repository, and under the **Actions** tab, you'll notice that the build has started for your web app. 
 
    ![](../../media/challenge3-github-build.png)
 
+1. The workflow will fail with the **build** error stating that the process completed with exit code 1 due to the undefined path issue in your workflow YAML file.
+
+   ![](../../media/challenge3-github-build-fail.png)
+
+   ![](../../media/challenge3-github-build-fail-error.png)
+
+1. Now let us navigate to the workflow YAML file by editing the file and defining the paths for the steps **dotnet publish** and **Upload artifact for deployment job**.
+
+   ![](../../media/challenge3-github-workflow-edit.png)
+
+1. Locate the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file and replace the **${{env.DOTNET_ROOT}}/myapp** paths with **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** and click on **Commit changes**.
+
+   ![](../../media/challenge3-github-workflow-edit-01.png)
+
+   ![](../../media/challenge3-github-workflow-edit-02.png)
+
+1. Navigate back to the **Actions** tab, you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed.
+
+   ![](../../media/challenge3-github-build-succeed.png)
 
 ## Task 3: Get the app working on Azure
 
@@ -216,7 +237,7 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
 
 1. Verify that your web app is working as expected by navigating to the web application **(2)** in a different tab.
 
-   ![](../../media/challenge3-web-app.png)
+   ![](../../media/challenge3-web-app-01.png)
 
 1. Also, verify that your workflow file has been created in a new directory **.github/workflows**.
 
@@ -228,12 +249,12 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
    # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
    # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-   name: Build and deploy ASP app to Azure Web App - contactdatabaseapp497743
+   name: Build and deploy ASP.Net Core app to Azure Web App - mymvcapp-webapp949348
 
    on:
      push:
        branches:
-         - dev
+         - main
      workflow_dispatch:
 
    jobs:
@@ -243,23 +264,22 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
        steps:
          - uses: actions/checkout@v4
 
-         - name: Setup MSBuild path
-           uses: microsoft/setup-msbuild@v1.0.2
-
-         - name: Setup NuGet
-           uses: NuGet/setup-nuget@v1.0.5
-
-         - name: Restore NuGet packages
-           run: nuget restore
-
-         - name: Publish to folder
-           run: msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
-   
-         - name: Upload artifact for deployment job
-           uses: actions/upload-artifact@v3
+         - name: Set up .NET Core
+           uses: actions/setup-dotnet@v4
            with:
-             name: ASP-app
-             path: '/published/**'
+             dotnet-version: '8.x'
+
+         - name: Build with dotnet
+           run: dotnet build --configuration Release
+
+         - name: dotnet publish
+           run: dotnet publish -c Release -o D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp
+
+         - name: Upload artifact for deployment job
+           uses: actions/upload-artifact@v4
+           with:
+             name: .net-app
+             path: D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp
 
      deploy:
        runs-on: windows-latest
@@ -270,18 +290,18 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
     
        steps:
          - name: Download artifact from build job
-           uses: actions/download-artifact@v3
+           uses: actions/download-artifact@v4
            with:
-             name: ASP-app
+             name: .net-app
       
          - name: Deploy to Azure Web App
            id: deploy-to-webapp
-           uses: azure/webapps-deploy@v2
+           uses: azure/webapps-deploy@v3
            with:
-             app-name: 'contactdatabaseapp497743'
+             app-name: 'mymvcapp-webapp949348'
              slot-name: 'Production'
              package: .
-             publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9F0403D6030744CF902D4FDC5870C440 }}
+             publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA47AEBAC2C64100A420A4304676DAF5 }}
    ```
 
 1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the Overview setting and clicking on the **Default Domain**.
