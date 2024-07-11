@@ -73,7 +73,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
                         }
                     ],
                     "phpVersion": "OFF",
-                    "netFrameworkVersion": "v4.0",
+                    "netFrameworkVersion": "v8.0",
                     "alwaysOn": false,
                     "ftpsState": "FtpsOnly"
                 },
