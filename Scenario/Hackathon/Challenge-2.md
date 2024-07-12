@@ -46,7 +46,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 5. Wait for the GitHub Copilot extension to download completely (this might take a few minutes).
 
-6. In your Visual Studio Code, locate the **MyMvcApp.Tests** foler in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
+6. In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
 
       ```
       dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
