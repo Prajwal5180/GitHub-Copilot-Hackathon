@@ -91,9 +91,9 @@
 
 - We will have to run the code by the command 
 
- ...
- dotnet run
- ...
+  ```
+    dotnet run
+    ```
 
 - Sucessfull run will look like this
 
