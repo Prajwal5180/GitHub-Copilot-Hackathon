@@ -22,7 +22,7 @@
 
    ![](../../media/CloneRepo.png)
 
-- Enter the Git Repository URL and click enter
+- In the search bar, enter the Git Repository URL and click enter.
 
     ![](../../media/CloneURL.png)
 
