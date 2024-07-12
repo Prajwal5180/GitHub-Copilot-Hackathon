@@ -24,15 +24,20 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Challenge Objectives:
 
 1. **Generate Sysadmin scripts:**
+
    - Generate a sysadmin resource monitoring bash script using GitHub Copilot for CPU and memory usage for a Linux VM.
+
    - Generate a sysadmin monitoring PowerShell script using GitHub Copilot for disk usage for a Windows VM.
      >**Hint:** Utilize GitHub Copilot Chat to generate the above sysadmin resource monitoring scripts.
 
-2. **Refactor or debug the generated scripts:**
+3. **Refactor or debug the generated scripts:**
+
    - Apply Copilot's suggestions for code refactoring, leading to improved readability and maintainability of the scripts.
+
    - Effectively use Copilot's debugging support to identify and resolve any issues present in the generated scripts.
 
-3. **Execute the scripts:**
+5. **Execute the scripts:**
+
    - Execute and test out the generated scripts in your environment, and view the results.
 
 ## Success Criteria:
