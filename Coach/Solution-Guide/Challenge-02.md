@@ -16,7 +16,7 @@
 
     ![](../../media/Fork-repo.png)
 
-### Open Visual Studio and Clone Repository
+### Open Visual Studio Code and Clone Repository
 
 - Launch Visual Studio and click on **Clone Git repository**.
 
