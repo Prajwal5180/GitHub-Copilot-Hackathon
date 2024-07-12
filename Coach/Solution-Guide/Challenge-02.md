@@ -59,13 +59,13 @@
 
     ![](../../media/crud5.6.png)
 
-#### Implement Methods using GitHub Copilot
+### Implement Methods using GitHub Copilot
 
 - Navigate to the `UserController.cs` file within the `Controllers` folder.
 
     ![](../../media/ABC.png)
 
- ### Scenario 1
+#### Scenario 1
 
 - Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu. 
 
@@ -81,7 +81,7 @@
 
     ![](../../media/Exxxx4.png)
 
-### Scenario 2
+#### Scenario 2
 
 - Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
   
@@ -95,7 +95,7 @@
 
    ![](../../media/accept.png)
 
-### Scenario 3
+#### Scenario 3
 
 - Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot.
 
