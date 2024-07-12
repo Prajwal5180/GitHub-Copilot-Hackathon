@@ -28,7 +28,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
   dotnet new xunit -n MyMvcApp.Tests
   ```
 
-## Setting Up Visual Studio 2022
+## Setting Up Visual Studio Code
 
 1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment Details > Licenses** tab.
 
