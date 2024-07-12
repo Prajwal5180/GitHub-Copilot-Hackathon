@@ -73,7 +73,7 @@
 
     ![](../../media/Exx2.png)
 
-- From the context menu, choose the "Copilot" option and click on "Fix This"
+- From the context menu, choose the **Copilot** option and click on **Fix This**
 
     ![](../../media/exxx3.png)
 
@@ -87,13 +87,23 @@
   
    ![](../../media/Ex1.png)
 
- - From the context menu, choose the "Copilot" option and click on "Start in Editor" 
+ - From the context menu, choose the **Copilot** option and click on **Start in Editor**
    
    ![](../../media/Startedit.png)
       
  - GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
 
    ![](../../media/accept.png)
+
+### Scenario 3
+
+- Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot.
+
+- Open GitHub Copilot chat and ask Copilot to **Generate the code for UserController.cs file**
+
+  ![](../../media/result.png)
+
+- Copy the code and replace it in the UserController.cs file's code.
   
 - Repeat this process for each empty method in the UserController.cs file until all methods are implemented.
 
