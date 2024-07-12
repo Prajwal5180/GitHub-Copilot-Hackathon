@@ -4,11 +4,11 @@
 
 ## Introduction
 
-In the previous challenge, you successfully developed a fully functional **Contact Database application**, developed mainly with the assistance of **GitHub Copilot**, and also gained valuable insights into how AI can be seamlessly integrated into the development workflow.
+In the previous challenge, you successfully developed a fully functional **MyMvcApp CRUD Application**, developed mainly with the assistance of **GitHub Copilot**, and also gained valuable insights into how AI can be seamlessly integrated into the development workflow.
 
 As a software developer at **Contoso Ltd.**, a leading software development company, you are tasked with exploring innovative technologies and tools that can enhance the company's software development process and infrastructure management. **Contoso Ltd.** recognizes the potential of Infrastructure as Code (IaC) in managing and provisioning its computing resources and is particularly interested in Azure Resource Manager (ARM) templates for deploying applications to Azure.
 
-In this challenge, you will utilize **GitHub Copilot** to streamline the development of an **Azure Resource Manager (ARM)** template to deploy the fully functional **Contact Database application** that you developed earlier. ARM templates are Infrastructure as Code (IaC) files used to deploy and manage resources in Azure. By leveraging Copilot's code generation capabilities, you'll expedite the creation of an ARM template for deploying an application to Azure. In addition to this, you will also automate the build and testing processes of your code. You will create a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. To document the knowledge and insights gained from this exercise, you will use **GitHub Copilot** to generate comprehensive and accurate documentation for this challenge. This documentation will serve as a guide for creating the ARM template, setting up the GitHub Actions pipeline, and deploying the fully functional **Contact Database application** to Azure.
+In this challenge, you will utilize **GitHub Copilot** to streamline the development of an **Azure Resource Manager (ARM)** template to deploy the fully functional **MyMvcApp CRUD Application** that you developed earlier. ARM templates are Infrastructure as Code (IaC) files used to deploy and manage resources in Azure. By leveraging Copilot's code generation capabilities, you'll expedite the creation of an ARM template for deploying an application to Azure. In addition to this, you will also automate the build and testing processes of your code. You will create a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. To document the knowledge and insights gained from this exercise, you will use **GitHub Copilot** to generate comprehensive and accurate documentation for this challenge. This documentation will serve as a guide for creating the ARM template, setting up the GitHub Actions pipeline, and deploying the fully functional **MyMvcApp CRUD Application** to Azure.
 
 By completing this challenge, you aim to demonstrate to Contoso Ltd. how **GitHub Copilot** can streamline the development of ARM templates, automate build and testing processes with GitHub Actions, and generate insightful documentation. This will further highlight the value of integrating AI into the development workflow, following the successful development of the Contact Database application in the previous challenge.
 
@@ -46,23 +46,36 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Challenge Objectives:
 
 1. **Develop an ARM template to deploy an app to Azure:**
-   - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying the **Contact Database application** to Azure.
-   - Define the necessary Azure resources in the ARM template, that is, a Web app present in Azure App Services required to deploy your application.
-   - Save the ARM template and parameters files in your **Contact Database application** GitHub repository as **deploy.json** and **deploy.parameters.json** files on the **master** branch.
+   
+   - Use GitHub Copilot to assist you in generating the initial structure of an ARM template for deploying the **MyMvcApp CRUD Application** to Azure.
+     
+   - Define the necessary Azure resources in the ARM template, that is, a **Web App** present in **Azure App Services** required to deploy your application.
+     
+   - Save the ARM template and parameters files in your **MyMvcApp CRUD Application** GitHub repository as **deploy.json** and **deploy.parameters.json** files on the **master** branch.
 
    <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
 
-2. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
-   - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **Contact Database Application** GitHub repository to start the workflow pipeline to deploy your Web app to Azure.
+3. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
+   
+   - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **MyMvcApp-Contact-Database-Application** GitHub repository to start the workflow pipeline to deploy your Web app to Azure.
+     >**Note:** The build will fail due to the undefined path in your workflow YAML file.
+  
+   - Specify the path as **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** for the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file.
 
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
-3. **Get the app working on Azure:**
-   - Verify if the GitHub Actions pipeline build has succeeded.
+5. **Get the app working on Azure:**
+   
+   - Verify that the GitHub Actions pipeline build has succeeded and the app is working as expected through the Web App.
+  
+     ![](../../media/challenge3-web-app-01.png)
+     
    - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
   
-4. **Generate documentation with Copilot for the app:**
+7. **Generate documentation with Copilot for the app:**
+   
    - Use GitHub Copilot to assist you in generating detailed and accurate documentation specifically for this challenge.
+     
    - Create an MD file in your **Contact Database Application** GitHub repository as a **README.md** file on the **master** branch. This will act as a guide in creating an ARM template to deploy the app and the GitHub actions pipeline workflow file.
      
 ## Success Criteria:
