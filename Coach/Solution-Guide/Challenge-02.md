@@ -95,10 +95,7 @@
  
 - Copy the code and replace it in the UserController.cs file's code.
  
-- Repeat this process for each empty method in the UserController.cs file until all methods are implemented.
- 
 - Following these steps will allow you to efficiently utilize GitHub Copilot to generate code for each empty method in the UserController.cs file.
-has context menu
 
 ### Run and test the Application
 
