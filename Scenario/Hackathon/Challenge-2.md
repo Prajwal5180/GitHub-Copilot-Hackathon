@@ -62,7 +62,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       - Test the application thoroughly and ensure all functionalities work as expected.
   
-        ![](../../media/challenge3-mymvcapp.png)
+        ![](../../media/challenge3-mymvcapp-localhost.png)
 
    <validation step="daaa3f6f-00f1-437a-8f35-01b59fb2da41" />
 
