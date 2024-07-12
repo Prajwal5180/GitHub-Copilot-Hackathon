@@ -19,7 +19,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - Basic understanding of the C# programming language.  
 - GitHub account.
 - Create a folder named **GitHub Copilot** in **C:\azureuser**.
-- Run the below commands to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
+- Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
 
   ```
   cd "C:\azureuser\GitHub Copilot"
