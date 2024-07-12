@@ -57,7 +57,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       - You will be creating a CRUD application named **MyMvcApp**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements and also carry out the basic functions like editing their details, deleting their profiles, and so on. You will be provided with the skeleton of the application already, but you will need to build the functionalities inside the **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
 
-      - Explore Copilot's ability to understand your context and provide relevant code suggestions.  
+      - Explore Copilot's ability to understand your context and provide relevant code suggestions.
+        >**Hint:** Utilize GitHub Copilot's **Start in Editor**, **Fix This** and **GitHub Copilot chat** features to develop the necessary code.
 
       - Test the application thoroughly and ensure all functionalities work as expected.
 
