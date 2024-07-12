@@ -76,13 +76,13 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    
    - Use GitHub Copilot to assist you in generating detailed and accurate documentation specifically for this challenge.
      
-   - Create an MD file in your **Contact Database Application** GitHub repository as a **README.md** file on the **master** branch. This will act as a guide in creating an ARM template to deploy the app and the GitHub actions pipeline workflow file.
+   - Create an MD file in your **MyMvcApp-Contact-Database-Application** GitHub repository as a **README.md** file on the **master** branch. This will act as a guide in creating an ARM template to deploy the app and the GitHub actions pipeline workflow file.
      
 ## Success Criteria:
 
 - Verify that the web app from Azure App Services containing your application code is present in Azure.
 - Verify that the Github action pipeline was created successfully.
-- Verify that the **Contact Database application** is deployed successfully on Azure and test the functionality.
+- Verify that the **MyMvcApp CRUD Application** is deployed successfully on Azure and test the functionality.
 - Verify that the documentation was created successfully.
 
 ## Additional Resources:
