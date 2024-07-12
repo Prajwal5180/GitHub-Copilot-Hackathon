@@ -10,29 +10,29 @@
 
 - Navigate to the provided GitHub repository link: [MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
 
-    ![](../../media/Repo-info.png)
+  ![](../../media/Repo-info.png)
 
 - Fork the repository into the CloudLabs provided GitHub account.
 
-    ![](../../media/Fork-repo.png)
+  ![](../../media/Fork-repo.png)
 
 ### Open Visual Studio Code and Clone Repository
 
 - Launch Visual Studio and click on **Clone Git repository**.
 
-   ![](../../media/CloneRepo.png)
+  ![](../../media/CloneRepo.png)
 
 - In the search bar, enter the Git Repository URL and click enter.
 
-    ![](../../media/CloneURL.png)
+  ![](../../media/CloneURL.png)
 
-- You will have create a folder and select it.
+- Select the **GitHub Copilot** folder in **C:\azureuser** as the repository destination.
 
-    ![](../../media/Folder.png)
+  ![](../../media/Folder.png)
 
 - The window will look like this.
 
-    ![](../../media/Cloned-rep.png)
+  ![](../../media/Cloned-rep.png)
 
 
 ### Setting Up Visual Studio Code
@@ -41,9 +41,7 @@
 
 - Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Code Extension.
 
-- Re-launch the Visual Studio and verify that the GitHub Copilot is active. The GitHub Copilot Chat window can now be utlized.
-
-- Lets Navigate to Extentions 
+- Navigate to **Extentions**. 
 
   ![](../../media/Extension.png)
 
@@ -51,83 +49,76 @@
 
   ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
 
-- Run the below command on the console.
-
-    ```
-    Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
-    ```
-
-    ![](../../media/crud5.6.png)
-
 ### Implement Methods using GitHub Copilot
-
+ 
 - Navigate to the `UserController.cs` file within the `Controllers` folder.
-
+ 
     ![](../../media/ABC.png)
-
+ 
 #### Scenario 1
-
-- Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu. 
-
-    ![](../../media/Ex1.png)
-
-    ![](../../media/Exx2.png)
-
-- From the context menu, choose the **Copilot** option and click on **Fix This**
-
-    ![](../../media/exxx3.png)
-
-- GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
-
-    ![](../../media/Exxxx4.png)
-
-#### Scenario 2
-
+ 
 - Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
-  
+ 
+    ![](../../media/Ex1.png)
+ 
+    ![](../../media/Exx2.png)
+ 
+- From the context menu, choose the **Copilot** option and click on **Fix This**
+ 
+    ![](../../media/exxx3.png)
+ 
+- GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+ 
+    ![](../../media/Exxxx4.png)
+ 
+#### Scenario 2
+ 
+- Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
+ 
    ![](../../media/Ex1.png)
-
+ 
  - From the context menu, choose the **Copilot** option and click on **Start in Editor**
    
    ![](../../media/Startedit.png)
-      
+     
  - GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
-
+ 
    ![](../../media/accept.png)
-
+ 
 #### Scenario 3
-
+ 
 - Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot.
-
+ 
 - Open GitHub Copilot chat and ask Copilot to **Generate the code for UserController.cs file**
-
+ 
   ![](../../media/result.png)
-
+ 
 - Copy the code and replace it in the UserController.cs file's code.
-  
+ 
 - Repeat this process for each empty method in the UserController.cs file until all methods are implemented.
-
+ 
 - Following these steps will allow you to efficiently utilize GitHub Copilot to generate code for each empty method in the UserController.cs file.
+has context menu
 
 ### Run and test the Application
 
-- Locate the app file **MyMvcApp.csproj** and right click **run in integreted terminal**.
+- Locate the app file **MyMvcApp.csproj** and right click **Open in Integreted Terminal**.
 
-   ![](../../media/OpenTerminal.png)
+  ![](../../media/OpenTerminal.png)
 
-- We will have to run the code by the command 
+- Run the below command to run the application in local host. 
 
   ```
-    dotnet run
-    ```
+  dotnet run
+  ```
 
-- Sucessfull run will look like this
+- Sucessfull run will look like this.
 
   ![](../../media/Coderun.png)
 
 - Once the code runs and the build is sucesseful you can navigate to the URL for the app.
   
-    ![](../../media/apprun.png)
+  ![](../../media/apprun.png)
 
 
 ### Create a New Contact
@@ -184,21 +175,40 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 # Task 2: Generate Unit Test Cases
 
-- To generate unit test cases, we need to add a new Folder outside the exisiting project. Click on **Terminal** and use "dotnet new xunit -n MyMvcApp.Tests" a new file will be created.
+- Create a folder named **GitHub Copilot** in **C:\azureuser**.
 
-   ![](../../media/Newfile.png)
+- Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
 
-- We will have to refer the new project with the previous project **MyMvcApp-Contact-Databse-Application**
+  ```
+  cd "C:\azureuser\GitHub Copilot"
+  ```
+  ```
+  dotnet new xunit -n MyMvcApp.Tests
+  ```
 
-- Run the command dotnet add reference ../MyMvcApp-Contact-Databse-Application\MyMvcApp.csproj
+- In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
+
+  ```
+  dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+  ```
+
+- Locate the **MyMvcApp.Tests** folder in the Solution Explorer and rename the **UnitTest1.cs** file to **UserControllerTests.cs**.
+  
+  ![](../../media/Newfile.png)
+
+- Run the below command in terminal to add your **MyMvcApp.csproj** project as a reference to generate unit test cases for `UserController.cs`.
+
+  ```
+  dotnet add reference ../MyMvcApp-Contact-Databse-Application\MyMvcApp.csproj
+  ```
 
   ![](../../media/prom.png)
 
-- Open Copilot and ask to *Generate test cases using xunit
+- In the **Github Copilot chat** window, ask the GitHub Copilot to **Generate test cases to UserControllerTests for the MyMvcApp.csproj app by using xunit**.
 
   ![](../../media/Genetest.png)
 
-- Copy the code generated by Copilot which looks like the below code.
+- Copy the code generated by Copilot in the **UserControllerTests.cs** file which will be similar to the below code.
 
   ```
    using Xunit;
@@ -293,9 +303,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
         }
       }
    }
-
-
-- Rename the **UnitTest1.cs** file to **UserControllertest.cs** and paste the code inside that file.
+  ```
 
   ![](../../media/Testfilegene.png)
     
@@ -303,10 +311,13 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
   ![](../../media/Opengene.png)
 
-- Run the command dotnet test.
+- Run the below command in terminal to fetch the unit test results.
+
+  ```
+  dotnet test
+  ```
 
   ![](../../media/RunGene.png)
-
 
 
 # Task 3: Develop and Test Features
@@ -388,22 +399,3 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 By following these steps, you can effectively utilize GitHub Copilot to implement and test new features in your application, enhancing its functionality and usability.
 
-# Task 4: Generating Commit Messages
-
-The new Generated Commit Message feature uses GitHub Copilot AI to describe your code changes.  This makes writing descriptive and helpful commit messages as easy as clicking a button, and then adding your explanation.
-
-- Locate the Git Changes and click on it.
-
-    ![](../../media/crud5.1.png)
-
-- Use the new “Add AI Generated Commit Message” sparkle pen icon in the Git Changes window to generate a suggestion.
-
-    ![](../../media/crud5.2.png)
-
-- GitHub Copilot will look at the file changes in your commit, summarize them, and then describe each change. You can then “Insert AI Suggestion” or “Discard.” Click on Commit All.
-
-    ![](../../media/crud5.3.png)
-
-- Once it is committed locally, click on Push to push the changes into the repository.
-
-    ![](../../media/crud5.4.png)
