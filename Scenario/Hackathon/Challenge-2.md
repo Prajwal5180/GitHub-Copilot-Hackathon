@@ -82,6 +82,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Utilize GitHub Copilot to generate code snippets for building the search feature.
 
       - Test the application and make sure that the search functionality is working as expected.
+  
+        ![](../../media/challenge3-mymvcapp-search.png)
 
 4. **Use GitHub Copilot at each stage of the challenge:** 
 
