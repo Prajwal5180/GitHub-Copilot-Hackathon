@@ -6,57 +6,56 @@
 
 At **Contoso Ltd.**, a leading software development company, you, as a **software developer**, are given the task of exploring the capabilities of **GitHub Copilot**, an AI-powered coding assistant, and leveraging them in the company's software development process. The company believes that integrating AI into the development process can significantly enhance the efficiency and productivity of the development teams.
 
-As part of this mission, you are assigned to develop a **Contact Database Application** using **GitHub Copilot**. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities. With the assistance of GitHub Copilot, you are expected to generate the necessary code, guided by the comments provided in the file. You will utilize GitHub Copilot at every stage of the development process, from generating code for empty methods to building essential features and testing the application thoroughly.
+As part of this mission, you are assigned to develop a CRUD application named **MyMvcApp** using **GitHub Copilot**. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities. With the assistance of GitHub Copilot, you are expected to generate the necessary code, guided by the comments provided in the file. You will utilize GitHub Copilot at every stage of the development process, from generating code for empty methods to building essential features and testing the application thoroughly.
 
 Throughout the challenge, you'll leverage Copilot's ability to understand context and provide relevant code suggestions. By engaging with Copilot Chat, you'll enhance collaboration and receive insightful coding recommendations, further enriching your coding experience.
 
-By the end of this challenge, your goal is to have a fully functional **Contact Database Application**, developed mainly with the assistance of **GitHub Copilot**. Upon completion, you'll have not only developed a feature-rich application but also gained valuable insights into how AI can be seamlessly integrated into the development workflow. This hands-on experience with GitHub Copilot will empower you to explore its vast capabilities and unlock its potential in various development scenarios. This will demonstrate the potential of AI in software development and provide valuable insights into its practical implementation at **Contoso Ltd**.
+By the end of this challenge, your goal is to have a fully functional **MyMvcApp CRUD Application**, developed mainly with the assistance of **GitHub Copilot**. Upon completion, you'll have not only developed a feature-rich application but also gained valuable insights into how AI can be seamlessly integrated into the development workflow. This hands-on experience with GitHub Copilot will empower you to explore its vast capabilities and unlock its potential in various development scenarios. This will demonstrate the potential of AI in software development and provide valuable insights into its practical implementation at **Contoso Ltd**.
   
 ## Prerequisites
 
 Make sure you have the following from the CloudLabs-provided integrated environment:
 
-> **Note**: Prerequisites are already set up in the CloudLabs-provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
-
 - Basic understanding of the C# programming language.  
 - GitHub account.
+- Create a folder named **GitHub Copilot** in **C:\azureuser**.
+- Run the below commands to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
+
+  ```
+  cd "C:\azureuser\GitHub Copilot"
+  ```
+  ```
+  dotnet new xunit -n MyMvcApp.Tests
+  ```
 
 ## Setting Up Visual Studio 2022
 
-1. Sign in to Visual Studio using your GitHub User credentials from the **Environment Details > Licenses tab**.
+1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment Details > Licenses** tab.
 
-2. Navigate to the below-provided link and fork the repository into the CloudLabs-provided GitHub account.
+2. Navigate to the below GitHub link and fork the repository into the CloudLabs-provided GitHub account.
 
    ```
-   https://github.com/CloudLabsAI-Azure/Contact-Database-Application
+   https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application
    ```
 
    > **Note:** If the GitHub repository is already forked then proceed with the next steps.
 
-3. Clone the forked repository into Visual Studio using the CloudLabs-provided GitHub account.
+3. Clone the forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
 
-4. In the Visual Studio, navigate and click on the **GitHub Copilot** option located at the top right and select **Install Copilot**.
+4. In the Visual Studio Code, navigate to **Extensions**, search for **GitHub Copilot** and click on **Install**.
 
-5. In the Visual Studio Installer pane, make sure that the **GitHub Copilot** is selected and click **Install**. This will close the Visual Studio application.
+5. Wait for the GitHub Copilot extension to download completely (this might take a few minutes).
 
-6. Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Installer pane.
-
-   > **Note:** Ignore the error message 'Couldn't install Microsoft.Net.4.8.1.FullRedist', this won't affect the challenges.
-
-7. Re-launch the Visual Studio and verify that the GitHub Copilot is active. The GitHub Copilot Chat window can now be utlized.
-
-8. Once the repository is cloned, locate and open the `CRUD application.sln` file from the Solution Explorer.
-
-9. Navigate to Tools on the top panel of Visual Studio. Then click on "Nuget Package Manager," and then click on "Package Manager Console." Run the below command on the console.
+6. In your Visual Studio Code, locate the **MyMvcApp.Tests** foler in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
 
       ```
-      Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+      dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
       ```
 
 ## Challenge Objectives  
 1. **Develop an app:** 
 
-      - You will be creating an application named **Contact Database Application**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements and also carry out the basic functions like editing their details, deleting their profiles, and so on. You will be provided with the skeleton of the application already, but you will need to build the functionalities inside the **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
+      - You will be creating a CRUD application named **MyMvcApp**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements and also carry out the basic functions like editing their details, deleting their profiles, and so on. You will be provided with the skeleton of the application already, but you will need to build the functionalities inside the **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
 
       - Explore Copilot's ability to understand your context and provide relevant code suggestions.  
 
@@ -68,7 +67,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 2. **Generate unit test case scripts and validate them**:
 
-      - For each of the features in the **Contact Database Application** you built inside the **UserController.cs** file, generate the scripts for unit test cases with the help of **Github Copilot**.
+      - For each of the features in the **MyMvcApp** you built inside the **UserController.cs** file, generate the scripts for unit test cases with the help of **Github Copilot**.
 
       - Run the required scripts generated by the **Github Copilot** and verify that the output is coming as required.
 
