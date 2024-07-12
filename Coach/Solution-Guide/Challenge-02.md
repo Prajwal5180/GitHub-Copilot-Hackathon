@@ -162,6 +162,8 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 - Run the command dotnet add reference ../MyMvcApp-Contact-Databse-Application\MyMvcApp.csproj
 
+  ![](../../media/prom.png)
+
 - Open Copilot and ask to *Generate test cases using xunit
 
   ![](../../media/Genetest.png)
