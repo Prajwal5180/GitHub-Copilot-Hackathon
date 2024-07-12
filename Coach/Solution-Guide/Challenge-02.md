@@ -89,7 +89,11 @@
 
    ![](../../media/OpenTerminal.png)
 
-- We will have to run the code by the command **dotnet run**
+- We will have to run the code by the command 
+
+ ...
+ dotnet run
+ ...
 
 - Sucessfull run will look like this
 
