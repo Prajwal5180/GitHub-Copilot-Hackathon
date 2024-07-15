@@ -6,13 +6,19 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Open Visual Studio Code and clone the GitHub repository [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo).
 
-1. In the GitHub Copilot Chat window, ask the GitHub Copilot to generate a README.md file for the backend application, copy the code into a new file, and save it as **README.md**. You can achieve this by referring to your workspace.
+1. Navigate to the folder **C:\Users\azureuser\azure-search-openai-demo\app\backend** and create a new **README.md** file.
 
-   - @workspace generates a README.md file for the directory app/backend
+1. Click Ctrl+I on the empty code space on the README.md file, a Copilot chat window will appear.
 
-   ![](../../media/backend-app-readme.png)
+1. Ask the GitHub Copilot to **generate a README.md file for the directory app/backend**
 
-1. Notice how the GitHub Copilot uses the workspace reference to create markdown documentation for a specific directory.
+   ![](../../media/Generate.png)
+
+1. Once it generates the code, click on accept and verify the code is reflecting in the README.md file.
+
+   ![](../../media/Acceptgene.png)
+
+   ![](../../media/Codegood.png)
 
 1. Navigate to the *app/backend/requirements.txt* file and browse through the requirements. 
 
