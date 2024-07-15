@@ -237,7 +237,7 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
 
 1. Verify that your web app is working as expected by navigating to the web application **(2)** in a different tab.
 
-   ![](../../media/challenge3-web-app-01.png)
+   ![](../../media/challenge3-web-app-001.png)
 
 1. Also, verify that your workflow file has been created in a new directory **.github/workflows**.
 
