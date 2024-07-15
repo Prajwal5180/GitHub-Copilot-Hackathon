@@ -388,7 +388,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
    - Once contacts are added, test the search functionality by typing a contact name in the search field that was previously added. Click on the "Search" button to execute the search.
 
-        ![](../../media/crud4.7.png)
+        ![](../../media/crud4.07.png)
 
    - If the feature was implemented properly, you should be able to see the searched contact in the results.
 
