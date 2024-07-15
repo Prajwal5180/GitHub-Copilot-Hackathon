@@ -177,7 +177,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 - Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
 
   ```
-  cd "C:\azureuser\GitHub Copilot"
+  cd C:\azureuser\GitHub Copilot
   ```
   ```
   dotnet new xunit -n MyMvcApp.Tests
