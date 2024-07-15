@@ -17,7 +17,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
-- GitHub repo [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) was forked to your GitHub user organization and cloned in your environment.
+- Fork the GitHub repo [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) to your GitHub provided account and clone it in VS Code in your environment.
 
 ## Challenge Objectives:
 
