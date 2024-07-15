@@ -91,7 +91,7 @@ In this task, you'll explore various GitHub Copilot features through a simple Py
 
 1. Select the entire code, right-click, and view the **Copilot** features.
 
-   ![](../../media/copilot-features.png)
+   ![](../../media/CopilotFeatures.png)
 
 1. **Start Inline Chat (1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
 
