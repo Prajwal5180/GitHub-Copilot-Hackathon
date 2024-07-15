@@ -38,8 +38,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application
    ```
 
-   > **Note:** If the GitHub repository is already forked then proceed with the next steps.
-
+   > **Note:** You have already forked the provided GitHub repository in Challenge 01.
+   
 3. Clone the forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
 
 4. In the Visual Studio Code, navigate to **Extensions**, search for **GitHub Copilot** and click on **Install**.
