@@ -68,7 +68,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    
    - Verify that the GitHub Actions pipeline build has succeeded and the app is working as expected through the Web App.
   
-     ![](../../media/challenge3-web-app-01.png)
+     ![](../../media/challenge3-web-app-001.png)
      
    - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
   
