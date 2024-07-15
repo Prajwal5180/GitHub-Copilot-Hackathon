@@ -65,7 +65,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 3. **Using GitHub Codespaces with Copilot:**
    - Create a Codespace for your GitHub repository.
-     >**Hint:** Use **https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application** repository to create a codespace. You will use this repository in Challenge 02.
+     >**Note:** Navigate to **https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace. You will use this repository in Challenge 02.
    - Understand how Copilot can be utilized in a collaborative coding environment.
    - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
