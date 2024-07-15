@@ -14,9 +14,9 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Accept the generated code from Copilot to reflect in the README.md file
 
-   ![](../../media/Acceptcode.png)
+   ![](../../media/Code3.png)
 
-   ![](../../media/Codegoood.png)
+   ![](../../media/Code2.png)
 
 1. Navigate to the *app/backend/requirements.txt* file and browse through the requirements. 
 
