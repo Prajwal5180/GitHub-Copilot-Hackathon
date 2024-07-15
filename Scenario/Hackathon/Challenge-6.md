@@ -46,26 +46,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - Verify that the generated scripts are refactored or debugged successfully.
 - Make sure the scripts are executed successfully, and the results are verified.
 
-### Challenge Validation
- 
-1. After completing the challenge, you need to visit the **Lab Validation (1)** tab and click on the **VALIDATE (2)** button under Actions to perform the validation steps. Verify that you have met the success criteria of the challenge. 
- 
-    ![azure](../../media/validate01.png)
- 
-1. If the validation status displays **SUCCESS** for all the validation steps, **congratulations!** This means that you have completed the challenge.
- 
-     ![azure](../../media/validate02.png)
-   
-1. If the validation status displays **FAIL**, **don't worry!** This could mean that you did not perform the challenge correctly.
- 
-     ![azure](../../media/validate03.png)
- 
-1. Hover your mouse over the **`i`** **(1)** icon to see the error message and determine the root cause of the failure. Based on the error message, revisit the challenge as necessary, and redo the validation by clicking on the **VALIDATE (3)** button again.
-   
-     ![azure](../../media/validate04.png)
-   
-1. If you are still having trouble, you can reach out to the support team via `labs-support@spektrasystems.com` for further assistance. The support team is available to help you troubleshoot and resolve any technical issues or validation issues that may arise while the lab environment is live.
-
 ## Conclusion
 
 In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for Linux & Windows VMs, enhanced the scripts using GitHub Copilot's suggestions and inline chat, and verified that the generated scripts executed successfully.
