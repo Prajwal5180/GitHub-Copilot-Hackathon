@@ -34,7 +34,9 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
 1. Now select the entire file, right-click, and then select **Copilot** and **Start in Editor**. Ask the GitHub Copilot to generate comments for the selected code.
 
-   ![](../../media/backend-approach-chat.png)
+   ![](../../media/snap.png)
+
+   ![](../../media/snap2.png)
 
 1. Notice how the GitHub Copilot generates comments for the classes, functions, and modules present in the code.
 
