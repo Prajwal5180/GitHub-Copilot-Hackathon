@@ -38,7 +38,7 @@ In this task, you'll utilize GitHub Copilot to generate markdown documentation f
 
    ![](../../media/snap2.png)
 
-1. Notice how the GitHub Copilot generates comments for the classes, functions, and modules present in the code.
+1. Notice how the GitHub Copilot generates comments in the code.
 
 ## Task 2: Enhance and Refine Documentation
 
