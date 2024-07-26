@@ -114,5 +114,5 @@ When access to Copilot has been enabled, features such as the ability to use Cop
 
 - [Say hello to GitHub Copilot Enterprise!](https://www.youtube.com/watch?v=vUX5u_4B2AM)
 
-  >**Note**: Above Video is for watch & learn, which covers Introduction to GitHub Copilot Enetrprise.
+  >**Note**: Above Video is for watch & learn, which covers Introduction to GitHub Copilot Enterprise. In this Hackathon, you will be using GitHub Copilot Business.
 
