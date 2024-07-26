@@ -32,7 +32,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
         
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
-     
+
+1. **Skip** the MFA registration if the pop-up appears while logging in to the Azure portal.
+
 1. If you see the pop-up **Stay Signed in?** click No.
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
