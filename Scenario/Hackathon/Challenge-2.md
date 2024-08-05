@@ -1,25 +1,25 @@
-# Challenge 2: Develop an App with GitHub Copilot
+# Desafío 2: Desarrollar una Aplicación con GitHub Copilot
 
-### Estimated Time: 60 mins
+### Tiempo Estimado: 60 minutos
+
+## Introducción
+
+En **Contoso Ltd.**, una empresa líder en desarrollo de software, usted, como **desarrollador de software**, tiene la tarea de explorar las capacidades de **GitHub Copilot**, un asistente de programación impulsado por IA, y aprovecharlas en el proceso de desarrollo de software de la compañía. La empresa cree que la integración de la IA en el proceso de desarrollo puede mejorar significativamente la eficiencia y la productividad de los equipos de desarrollo.
+
+Como parte de esta misión, se le asigna desarrollar una aplicación CRUD llamada **MyMvcApp** utilizando **GitHub Copilot**. El objetivo de este desafío es comprender el potencial de la IA en el desarrollo de software y familiarizarse con las capacidades de GitHub Copilot. Con la ayuda de GitHub Copilot, se espera que genere el código necesario, guiándose por los comentarios proporcionados en el archivo. Utilizará GitHub Copilot en todas las fases del proceso de desarrollo, desde la generación de código para métodos vacíos hasta la creación de funciones esenciales y la prueba exhaustiva de la aplicación.
+
+A lo largo del desafío, aprovechará la capacidad de Copilot para entender el contexto y brindar sugerencias de código relevantes. Al interactuar con Copilot Chat, mejorará la colaboración y recibirá recomendaciones de codificación útiles, lo que enriquecerá aún más su experiencia de programación.
+
+Al finalizar este desafío, su objetivo es tener una **Aplicación CRUD MyMvcApp** completamente funcional, desarrollada principalmente con la ayuda de **GitHub Copilot**. Al finalizar, no solo habrá desarrollado una aplicación con muchas funciones, sino que también habrá obtenido valiosos conocimientos sobre cómo la IA se puede integrar sin problemas en el flujo de trabajo de desarrollo. Esta experiencia práctica con GitHub Copilot le permitirá explorar sus amplias capacidades y desbloquear su potencial en diversos escenarios de desarrollo. Esto demostrará el potencial de la IA en el desarrollo de software y brindará información valiosa sobre su implementación práctica en **Contoso Ltd**.
   
-## Introduction  
+## Requisitos previos
 
-At **Contoso Ltd.**, a leading software development company, you, as a **software developer**, are given the task of exploring the capabilities of **GitHub Copilot**, an AI-powered coding assistant, and leveraging them in the company's software development process. The company believes that integrating AI into the development process can significantly enhance the efficiency and productivity of the development teams.
+Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado por CloudLabs:
 
-As part of this mission, you are assigned to develop a CRUD application named **MyMvcApp** using **GitHub Copilot**. The aim of this challenge is to understand the potential of AI in software development and to familiarize you with GitHub Copilot's capabilities. With the assistance of GitHub Copilot, you are expected to generate the necessary code, guided by the comments provided in the file. You will utilize GitHub Copilot at every stage of the development process, from generating code for empty methods to building essential features and testing the application thoroughly.
-
-Throughout the challenge, you'll leverage Copilot's ability to understand context and provide relevant code suggestions. By engaging with Copilot Chat, you'll enhance collaboration and receive insightful coding recommendations, further enriching your coding experience.
-
-By the end of this challenge, your goal is to have a fully functional **MyMvcApp CRUD Application**, developed mainly with the assistance of **GitHub Copilot**. Upon completion, you'll have not only developed a feature-rich application but also gained valuable insights into how AI can be seamlessly integrated into the development workflow. This hands-on experience with GitHub Copilot will empower you to explore its vast capabilities and unlock its potential in various development scenarios. This will demonstrate the potential of AI in software development and provide valuable insights into its practical implementation at **Contoso Ltd**.
-  
-## Prerequisites
-
-Make sure you have the following from the CloudLabs-provided integrated environment:
-
-- Basic understanding of the C# programming language.  
-- GitHub account.
-- Create a folder named **GitHub Copilot** in **C:\azureuser**.
-- Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
+- Conocimientos básicos del lenguaje de programación C#.
+- Cuenta de GitHub.
+- Cree una carpeta denominada **GitHub Copilot** en **C:\azureuser**.
+- Ejecute los siguientes comandos en el símbolo del sistema para crear una nueva carpeta llamada **MyMvcApp.Tests** en **C:\azureuser\GitHub Copilot** para generar casos de pruebas unitarias.
 
   ```
   cd "C:\azureuser\GitHub Copilot"
@@ -28,39 +28,39 @@ Make sure you have the following from the CloudLabs-provided integrated environm
   dotnet new xunit -n MyMvcApp.Tests
   ```
 
-## Setting Up Visual Studio Code
+## Configurando Visual Studio Code
 
-1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment Details > Licenses** tab.
+1. Inicie sesión en Visual Studio Code con sus credenciales de Usuario de GitHub desde la pestaña **Detalles del Ambiente > Licencias**.
 
-2. Navigate to the below GitHub link and fork the repository into the CloudLabs-provided GitHub account.
+2. Navegue hasta el siguiente enlace de GitHub y bifurque (haga fork) el repositorio en la cuenta de GitHub proporcionada por CloudLabs.
 
    ```
    https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application
    ```
 
-   > **Note:** You have already forked the provided GitHub repository in Challenge 01.
+   > **Nota:** Ya ha hecho fork del repositorio de GitHub proporcionado en el Desafío 01.
    
-3. Clone the forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
+3. Clone el repositorio bifurcado en Visual Studio Code con la cuenta de GitHub proporcionada por CloudLabs.
 
-4. In the Visual Studio Code, navigate to **Extensions**, search for **GitHub Copilot** and click on **Install**.
+4. En Visual Studio Code, diríjase a **Extensiones**, busque **GitHub Copilot** y haga clic en **Instalar**.
 
-5. Wait for the GitHub Copilot extension to download completely (this might take a few minutes).
+5. Espere a que la extensión GitHub Copilot se descargue por completo (esto puede tardar unos minutos).
 
-6. In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
+6. En Visual Studio Code, busque la carpeta **MyMvcApp.Tests** en el Explorador de soluciones, haga clic derecho y seleccione **Abrir en terminal integrado**. Ejecute el siguiente comando en la terminal para agregar el paquete dotnet.
 
       ```
       dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
       ```
 
-## Challenge Objectives  
-1. **Develop an app:** 
+## Objetivos del Desafío
+1. **Desarrollar una aplicación:** 
 
-      - You will be creating a CRUD application named **MyMvcApp**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements and also carry out the basic functions like editing their details, deleting their profiles, and so on. You will be provided with the skeleton of the application already, but you will need to build the functionalities inside the **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
+      - Creará una aplicación CRUD llamada **MyMvcApp**, una aplicación C#, con la ayuda de **Github Copilot**, que permitirá a los usuarios guardar los datos de contacto de las personas de acuerdo a los requisitos y también llevar a cabo funciones básicas, tales como editar sus datos, eliminar sus perfiles, etc. Se le proporcionará el esqueleto de la aplicación, pero deberá crear las funcionalidades dentro del archivo **UserController.cs** por su cuenta. Su tarea es completar estos métodos utilizando GitHub Copilot para generar el código necesario, guiado por los comentarios proporcionados en el archivo.
 
-      - Explore Copilot's ability to understand your context and provide relevant code suggestions.
-        >**Hint:** Utilize GitHub Copilot's **Start in Editor**, **Fix This** and **GitHub Copilot chat** features to develop the necessary code.
+      - Explore la capacidad de Copilot para comprender su contexto y proporcionar sugerencias de código relevantes.
+        >**Sugerencia:** Utilice las funciones **Iniciar en el Editor**, **Corregir esto** y **Chat de GitHub Copilot** de GitHub Copilot para desarrollar el código necesario.
 
-      - Test the application thoroughly and ensure all functionalities work as expected.
+      - Pruebe la aplicación a fondo y asegúrese de que todas las funcionalidades funcionen como se espera.
   
         ![](../../media/challenge3-mymvcapp-localhost.png)
 
@@ -68,49 +68,49 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="c7f107a0-97a2-4442-9cef-b14297fd5b7a" />
 
-2. **Generate unit test case scripts and validate them**:
+2. **Generar scripts de casos de pruebas unitarias y valídelos**:
 
-      - For each of the features in the **MyMvcApp** you built inside the **UserController.cs** file, generate unit test cases for the **UserControllerTests.cs** file by using **xunit** by utilizing **Github Copilot**.
-        >**Hint:** Rename the **UnitTest1.cs** file to **UserControllerTests.cs** after creating the **MyMvcApp.Test** folder.
+      - Para cada una de las características de **MyMvcApp** que creó dentro del archivo **UserController.cs**, genere casos de pruebas unitarias para el archivo **UserControllerTests.cs** usando **xunit** mediante **Github Copilot**.
+        >**Sugerencia:** Cambie el nombre del archivo **UnitTest1.cs** a **UserControllerTests.cs** después de crear la carpeta **MyMvcApp.Test**.
 
-      - Run the required scripts generated by the **Github Copilot** and verify that all the unit test cases have passed.
+      - Ejecute los scripts requeridos generados por **Github Copilot** y compruebe que todos los casos de pruebas unitarias hayan pasado.
 
-3. **Develop and test features:** 
+3. **Desarrollar y probar características:** 
 
-      - Once the methods are completed, the next step is to develop and add a search feature/functionality to the application and test out this feature thoroughly.
+      - Una vez que completados los métodos, el siguiente paso es desarrollar y agregar una característica/funcionalidad de búsqueda en la aplicación y probar esta función a fondo.
         
-      - Utilize GitHub Copilot to generate code snippets for building the search feature.
+      - Utilice GitHub Copilot para generar fragmentos de código para construir la función de búsqueda.
 
-      - Test the application and make sure that the search functionality is working as expected.
+      - Pruebe la aplicación y asegúrese de que la función de búsqueda funciona como se espera.
   
         ![](../../media/challenge3-mymvcapp-search.png)
 
-4. **Use GitHub Copilot at each stage of the challenge:** 
+4. **Usar GitHub Copilot en cada etapa del desafío:**
 
-      - Use GitHub Copilot to assist in writing meaningful commit messages that clearly describe the changes made.
+      - Utilice GitHub Copilot para ayudar a escribir mensajes de confirmación significativos que describan claramente los cambios realizados.
 
-      - Throughout the development process, engage with Copilot Chat to enhance collaboration and receive insightful coding recommendations.
+      - A lo largo del proceso de desarrollo, interactúe con Copilot Chat para mejorar la colaboración y recibir recomendaciones de codificación útiles y perspicaces.
   
-## Success Criteria  
+## Criterios de Éxito
 
-- Verify that the methods in the `UserController.cs` file are completed successfully using GitHub Copilot.
-- Verify that all the test cases generated by Copilot have passed.  
-- Verify that the developed search feature is working as expected.    
-- Make sure to successfully utilize GitHub Copilot to write commit messages.
+- Verifique que los métodos en el archivo `UserController.cs` se completen correctamente usando GitHub Copilot.
+- Compruebe que todos los casos de prueba generados por Copilot hayan pasado.
+- Verifique que la función de búsqueda desarrollada esté funcionando como se esperaba.
+- Asegúrese de utilizar correctamente GitHub Copilot para escribir mensajes de confirmación.
 
-## Additional Resources:
+## Recursos Adicionales:
 
-- Refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for any clarifications or guidance during the challenge.
+- Consulte la [documentación de GitHub Copilot](https://github.com/github/copilot-docs) para cualquier aclaración u orientación durante el desafío.
   
-### Challenge Validation
+### Validación del Desafío
 
-Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format for the **Validate the cloned Repo** validation step.
+Proporcione el parámetro de Nombre de Usuario de GitHub en el formato **github-cloudlabsuser-XXXX** para el paso de validación **Validate the cloned Repo**.
 
-## Conclusion  
-In this challenge, you've managed to develop a fully functional Contact Database application predominantly with the assistance of GitHub Copilot, demonstrating its practical usefulness in a real-world software development scenario.
-You've successfully navigated through the development process, from generating code for empty methods in the UserController.cs file to building essential features for the application. You've utilized GitHub Copilot to understand your context and provide relevant code suggestions, enhancing your coding experience.
+## Conclusión  
+En este desafío, ha conseguido desarrollar una aplicación de Base de Datos de Contactos completamente funcional principalmente con la ayuda de GitHub Copilot, demostrando su utilidad práctica en un escenario de desarrollo de software del mundo real.
+Ha navegado con éxito a través del proceso de desarrollo, desde la generación de código para métodos vacíos en el archivo UserController.cs hasta la construcción de características esenciales para la aplicación. Ha utilizado GitHub Copilot para comprender su contexto y brindar sugerencias de código relevantes, mejorando su experiencia de programación.
 
-The engagement with Copilot Chat has enriched your collaboration and provided insightful coding recommendations, showcasing how AI can be seamlessly integrated into the development workflow. The test cases generated with GitHub Copilot's assistance have ensured the robustness and reliability of your application. Your achievements in this challenge have demonstrated the potential of AI in software development and provided valuable insights into its practical implementation. You've shown that with the right tools, such as GitHub Copilot, the development process can be made more efficient and productive.
+La interacción con Copilot Chat ha enriquecido su colaboración y ha proporcionado recomendaciones de codificación útiles, mostrando cómo la IA puede integrarse perfectamente en el flujo de trabajo de desarrollo. Los casos de prueba generados con la ayuda de GitHub Copilot han garantizado la solidez y fiabilidad de su aplicación. Sus logros en este desafío han demostrado el potencial de la IA en el desarrollo de software y han proporcionado información valiosa sobre su implementación práctica. Ha demostrado que con las herramientas adecuadas, como GitHub Copilot, el proceso de desarrollo se puede volver más eficiente y productivo.
   
 
 

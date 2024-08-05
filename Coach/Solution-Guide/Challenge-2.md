@@ -1,61 +1,61 @@
-# Challenge 2: Develop an App with GitHub Copilot - Solution Guide
+# Desafío 2: Desarrollar una Aplicación con GitHub Copilot - Guía de Soluciones
 
-## Task 1: Develop an App
+## Tarea 1: Desarrollar una Aplicación
 
-### Login to GitHub
+### Iniciar sesión en GitHub
 
-- Login to [GitHub](https://github.com/login) with the CloudLabs provided GitHub account. Ensure that you are logged in to the correct GitHub account provided for this lab session.
+- Inicie sesión en [GitHub](https://github.com/login) con la cuenta de GitHub proporcionada por CloudLabs. Asegúrese de haber iniciado sesión en la cuenta de GitHub correcta proporcionada para esta sesión de laboratorio.
 
-### Fork the Repository
+### Bifurcar (Hacer fork) el Repositorio
 
-- Navigate to the provided GitHub repository link: [MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
+- Navegue hasta el enlace del repositorio de GitHub proporcionado: [MyMvcApp-Contact-Database-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application.git).
 
     ![](../../media/Repo-info.png)
 
-- Fork the repository into the CloudLabs provided GitHub account.
+- Bifurque (haga fork) el repositorio en la cuenta de GitHub proporcionada por CloudLabs.
 
     ![](../../media/Fork-repo.png)
 
-### Open Visual Studio and Clone Repository
+### Abrir Visual Studio y Clonar el Repositorio
 
-- Launch Visual Studio and click on ""Clone Git repository".
+- Inicie Visual Studio y haga clic en ""Clonar el repositorio Git".
 
    ![](../../media/Clone-Git-repo.png)
 
-- Enter the Git Repository URL and click enter
+- Ingrese la URL del Repositorio Git y haga presione Enter
 
     ![](../../media/URL-Repo.png)
 
-- The window will look like this.
+- La ventana se verá así.
 
     ![](../../media/Cloned-rep.png)
 
 
-### Setting Up Visual Studio 2022
+### Configurar Visual Studio 2022
 
-- In the Visual Studio, navigate and click on the **GitHub Copilot** option located at the top right and select **Install Copilot**.
+- En Visual Studio, navegue y haga clic en la opción **GitHub Copilot** ubicada en la parte superior derecha y seleccione **Instalar Copilot**.
 
-- In the Visual Studio Installer pane, make sure that the **GitHub Copilot** is selected and click **Install**. This will close the Visual Studio application.
+- En el panel Instalador de Visual Studio, asegúrese de que **GitHub Copilot** esté seleccionado y haga clic en **Instalar**. Esto cerrará la aplicación Visual Studio.
 
-- Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Installer pane.
+- Espere a que la extensión GitHub Copilot se descargue por completo (esto puede tardar unos minutos) y cierre el panel del Instalador de Visual Studio.
 
-  > **Note:** Ignore the error message 'Couldn't install Microsoft.Net.4.8.1.FullRedist', this won't affect the challenges.
+  > **Nota:** Ignore el mensaje de error 'Couldn't install Microsoft.Net.4.8.1.FullRedist', esto no afectará los desafíos.
 
-- Re-launch the Visual Studio and verify that the GitHub Copilot is active. The GitHub Copilot Chat window can now be utlized.
+- Vuelva a iniciar Visual Studio y verifique que GitHub Copilot esté activo. Ahora se puede utilizar la ventana GitHub Copilot Chat.
 
-- Once the repository is cloned, locate and open the `MyMvcApp.sln` file from the Solution Explorer.
+- Una vez que se haya clonado el repositorio, busque y abra el archivo `MyMvcApp.sln` desde el Explorador de Soluciones.
 
   ![](../../media/MyMvcApp_ss.png)
 
-- Navigate to Extentions 
+- Vaya a Extensiones 
 
   ![](../../media/Extension.png)
 
-- Install **Nuget Gallery** and **C# Dev Kit**
+- Instale **Nuget Gallery** y **C# Dev Kit**
 
   ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
 
-- Run the below command on the console.
+- Ejecute el siguiente comando en la consola.
 
     ```
     Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
@@ -63,200 +63,200 @@
 
     ![](../../media/crud5.6.png)
 
-### Implement Methods using GitHub Copilot
+### Implementar Métodos usando GitHub Copilot
 
-- Navigate to the `UserController.cs` file within the `Controllers` folder.
+- Navegue hasta el archivo `UserController.cs` dentro de la carpeta `Controllers`.
 
     ![](../../media/crud2.7.png)
 
-- Use GitHub Copilot to generate code for each empty method in the `UserController.cs` file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu. 
+- Utilice GitHub Copilot para generar código para cada método vacío en el archivo `UserController.cs`. Para generar código para cada método vacío con GitHub Copilot, seleccione o resalte las líneas del método vacío y luego haga clic derecho en las líneas resaltadas para abrir el menú contextual.
 
     ![](../../media/crud1.2.png)
     ![](../../media/crud1.3.png)
 
-- From the context menu, choose the "Ask Copilot" option. In the prompt box, type "Fill in the Index method"
+- En el menú contextual, seleccione la opción "Preguntar a Copilot". En el cuadro de mensaje, escriba "Fill in the Index method".
 
     ![](../../media/crud1.4.png)
 
-- GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+- GitHub Copilot generará una sugerencia de código basada en el contexto del método. Revise la sugerencia proporcionada por GitHub Copilot y podrá elegir aceptarla o descartarla según su relevancia para sus requisitos.
 
     ![](../../media/crud1.5.png)
 
-- Repeat this process for each empty method in the UserController.cs file until all methods are implemented.
+- Repita este proceso para cada método vacío en el archivo UserController.cs hasta que se hayan implementado todos los métodos.
 
-- Following these steps will allow you to efficiently utilize GitHub Copilot to generate code for each empty method in the UserController.cs file.
+- Siguiendo estos pasos, podrá utilizar eficientemente GitHub Copilot para generar código para cada método vacío en el archivo UserController.cs.
 
-### Run and test the Application
+### Ejecutar y probar la Aplicación
 
-- Locate the IIS Express button (a green play button) in the toolbar and click on it. This action starts the application on localhost in a web browser.
+- Localice el botón IIS Express (un botón de reproducción verde) en la barra de herramientas y haga clic en él. Esta acción inicia la aplicación en localhost en un navegador web.
 
     ![](../../media/crud1.6.png)
 
-- Once you run the application in a local web browser through IIS Express, then a couple of pop-ups will appear which will allow the application to run with a self-signed certificate that the IIS Express has generated.
+- Una vez que ejecute la aplicación en un navegador web local a través de IIS Express, aparecerán un par de ventanas emergentes que permitirán que la aplicación se ejecute con un certificado autofirmado que IIS Express ha generado.
 
     ![](../../media/ssl-yes.png)
 
     ![](../../media/ssl-yes01.png)
 
-### Create a New Contact
+### Crear un Nuevo Contacto
 
-- In the opened web browser, locate the "Create New" button and click on it.
+- En el navegador web abierto, localice el botón "Create New" y haga clic en él.
 
     ![](../../media/crud1.7.png)
 
-- Fill in the required fields for Name and Email in the form provided. Click on the "Create" button to submit the form and create a new contact.
+- Complete los campos obligatorios de Name y Email en el formulario proporcionado. Haga clic en el botón "Create" para enviar el formulario y crear un nuevo contacto.
 
     ![](../../media/crud1.8.png)
 
-### Edit a Contact
+### Editar un Contacto
 
-- After creating a contact, return to the homepage.
+- Después de crear un contacto, vuelva a la página de inicio.
 
-- Find the contact you created in the list and locate the "Edit" button associated with it. Click on the "Edit" button.
+- Busque el contacto que creó en la lista y localice el botón "Edit" asociado a él. Haga clic en el botón "Edit".
 
     ![](../../media/crud1.9.png)
 
-- Modify the existing details (Name or Email) as desired. Save the changes by clicking on the "Save" button.
+- Modifique los detalles existentes (Name o Email) como desee. Guarde los cambios haciendo clic en el botón "Save".
 
     ![](../../media/crud1.10.png)
 
-### Verify Details of a Contact
+### Verificar los Detalles de un Contacto
 
-- Once again, return to the homepage.
+- Una vez más, vuelva a la página de inicio.
 
-- Locate the contact whose details you want to verify. Click on the "Details" button associated with that contact.
+- Localice el contacto cuyos datos desea verificar. Haga clic en el botón "Details" asociado a ese contacto.
 
     ![](../../media/crud1.11.png)
 
-- Verify that the displayed details match the information you entered earlier.
+- Compruebe que los detalles que se muestran coincidan con la información que introdujo anteriormente.
 
     ![](../../media/crud1.12.png)
 
-### Delete a Contact
+### Eliminar un Contacto
 
-- From the homepage, find the contact you wish to delete.
+- Desde la página de inicio, busque el contacto que desea eliminar.
 
-- Click on the "Delete" button associated with that contact.
+- Haga clic en el botón "Delete" asociado a ese contacto.
 
     ![](../../media/crud1.13.png)
 
-- A confirmation dialog will appear asking if you're sure you want to delete the contact. Confirm the action.
+- Aparecerá un cuadro de diálogo de confirmación que le preguntará si está seguro de que desea eliminar el contacto. Confirme la acción.
 
     ![](../../media/crud1.14.png)
 
-- Ensure that the contact is removed from the list after deletion.
+- Asegúrese de que el contacto se remueva de la lista después de la eliminación.
 
     ![](../../media/crud1.15.png)
 
-By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning.
+Siguiendo estos pasos meticulosamente, podrá probar a fondo las funcionalidades CRUD (Crear, Leer, Actualizar, Borrar) de la aplicación y garantizar su correcto funcionamiento.
 
-# Task 2: Generate Unit Test Cases
+# Tarea 2: Generar Casos de Pruebas Unitarias
 
-- To generate unit test cases, we need to add a new project. In the solution explorer, right-click on the Solution.
+- Para generar casos de pruebas unitarias, necesitamos agregar un nuevo proyecto. En el explorador de soluciones, haga clic derecho en la Solución.
 
     ![](../../media/crud3.1.png)
 
-- Click on Add, and then click on New Project.
+- Haga clic en Agregar y luego en Nuevo Proyecto.
 
     ![](../../media/crud3.2.png)
 
-- Now search for Unit test in the search box select the Unit Test Project (.Net Framework) and then click on Next.
+- Ahora busque Unit Test (Prueba Unitaria) en el cuadro de búsqueda, seleccione Unit Test Project (.NET Framework) (Proyecto de Prueba Unitaria) y luego haga clic en Siguiente.
 
     ![](../../media/crud3.3.png)
 
-- Name the project Usercontrollertest and then click on Create.
+- Nombre al proyecto como Usercontrollertest y luego haga clic en Crear.
 
     ![](../../media/crud3.4.png)
 
-- Rename the UnitTest1.cs file to UserControllerTests.cs.
+- Cambie el nombre del archivo UnitTest1.cs a UserControllerTests.cs.
 
-- Now let's ask Github Copilot Chat to generate test cases. Click on the "View" option on the top panel of Visual Studio. From the options, select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
+- Ahora, pidamos a Github Copilot Chat que genere casos de prueba. Haga clic en la opción "Ver" en el panel superior de Visual Studio. En las opciones, seleccione "Chat de GitHub Copilot" para abrir la ventana de GitHub Copilot Chat.
 
     ![](../../media/crud3.5.png)
 
-- Open the UserController.cs file and select/highlight the entire code in it.
+- Abra el archivo UserController.cs y seleccione/resalte todo el código que contiene.
 
     ![](../../media/crud3.6.png)
 
-- Once the entire code is highlighted, in the Github Copilot Chat, provide a prompt as "generate unit test cases for usercontroller.cs"
+- Una vez que se haya resaltado todo el código, en Github Copilot Chat, proporcione un prompt como "generate unit test cases for usercontroller.cs"
 
     ![](../../media/crud3.7.png)
 
-- Github Copilot will start generating unit test cases for the usercontroller.cs.
+- Github Copilot comenzará a generar casos de prueba unitaria para usercontroller.cs.
 
     ![](../../media/crud3.8.png)
 
-- Now copy the code provided by Github Copilot by clicking on the copy icon.
+- Ahora copie el código proporcionado por Github Copilot haciendo clic en el ícono de copiar.
 
     ![](../../media/crud3.9.png)
 
-- Remove the existing code and paste the code that we copied into the file.
+- Elimine el código existente y pegue el código que copiamos en el archivo.
 
     ![](../../media/crud3.10.png)
 
-- Let us now add references to the project. Locate the References for UserControllertest and then right-click on it. Then click on Add Reference.
+- Ahora agreguemos referencias al proyecto. Localice las Referencias para UserControllertest y luego haga clic derecho sobre ellas. Luego haga clic en Agregar referencia.
 
     ![](../../media/crud3.11.png)
 
-- Now in the Projects, check the check box, and then click on OK.
+- Ahora, en Proyectos, marque la casilla de verificación y luego haga clic en Aceptar.
 
     ![](../../media/crud3.12.png)
 
-- Now let's fix the issues in the file by hovering the cursor at the Test Fixture and then clicking on either Ask Copilot (1) or Quick Actions and Refactoring... (2) features.
+- Ahora, solucionemos los problemas del archivo colocando el cursor sobre TestFixture y luego haciendo clic en las funciones Preguntar a Copilot (1) o Acciones rápidas y refactorizaciones... (2).
   
     ![](../../media/ask-copilot.png)
 
     ![](../../media/quick-actions.png)
 
-- Click on "Install package NUnit" and then click on "Find and install latest version".
+- Haga clic en "Instalar paquete NUnit" y luego en "Buscar e instalar la última versión".
 
     ![](../../media/crud3.14.png)
 
-- Similarly, hover the cursor on the controller.Index() click on Show potential fixes, and then click on "Install package 'Microsoft.ASPNet.Mvc'" and then click on "Use Local version '5.2.7'"
+- De manera similar, pase el cursor sobre controller.Index(), haga clic en Mostrar posibles correcciones y, a continuación, haga clic en "Instalar paquete 'Microsoft.ASPNet.Mvc'" y luego en "Usar la versión local '5.2.7'"
 
     ![](../../media/crud3.15.png)
 
-- Again, for the RouteValues, hover the cursor and then click on show potential fixes, and then click on Add reference.
+- Nuevamente, para RouteValues pase el cursor por encima y luego haga clic en Mostrar posibles correcciones, y luego haga clic en Agregar referencia.
 
     ![](../../media/crud3.16.png)
 
-- Again, for the Assert, hover the cursor and then click on show potential fixes and then click on ussing Assert.
+- De nueva cuenta, para Assert, pase el cursor por encima y haga clic en Mostrar posibles correcciones y luego en using Assert.
 
     ![](../../media/crud3.17.png)
 
-- After resolving all the issues in the file, you click on the Test option on the top panel of Visual Studio. Then click on Test Explorer. 
+- Después de resolver todos los problemas en el archivo, haga clic en la opción Prueba (Test) en el panel superior de Visual Studio. Luego haga clic en Explorador de pruebas.
 
     ![](../../media/crud3.18.png)
 
-- In the Test Explorer, click on the Run All button to run the test cases.
+- En el Explorador de pruebas, haga clic en el botón Ejecutar Todo para ejecutar los casos de prueba.
 
     ![](../../media/crud3.19.png)
 
-- Verify that all the test cases have passed.
+- Verifique que se hayan aprobado todos los casos de prueba.
 
     ![](../../media/crud3.20.png)
 
-# Task 3: Develop and Test Features
+# Tarea 3: Desarrollar y Probar funciones
 
-### Utilize GitHub Copilot Chat for Feature Development:
+### Utilizar GitHub Copilot Chat para el Desarrollo de Funciones:
   
-   - Click on the "View" option on the top panel of Visual Studio. From the options, select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
+   - Haga clic en la opción "Ver" en el panel superior de Visual Studio. De las opciones, seleccione "Chat de GitHub Copilot" para abrir la ventana de GitHub Copilot Chat.
   
         ![](../../media/crud3.5.png)
 
-### Ask GitHub Copilot Chat for Feature Implementation:
+### Solicitar a GitHub Copilot Chat la Implementación de Funciones:
    
-   - Initiate a conversation with GitHub Copilot Chat by asking, "How can we add a search feature/functionality to our application?"
+   - Inicie una conversación con GitHub Copilot Chat preguntando "How can we add a search feature/functionality to our application?"
 
         ![](../../media/crud4.1.png)
 
-   - Based on the response generated by GitHub Copilot, proceed with implementing the suggested code.
+   - Según la respuesta generada por GitHub Copilot, proceda a implementar el código sugerido.
   
-   - In this case, GitHub Copilot suggested adding a new method to accept a search string as a parameter and filter the user list based on the search string before passing it to the view.
+   - En este caso, GitHub Copilot sugirió agregar un nuevo método para aceptar una cadena de búsqueda como parámetro y filtrar la lista de usuarios según la cadena de búsqueda antes de pasarla a la vista.
 
         ![](../../media/crud4.2.png)
   
-   - Copy and paste the provided code snippet into the `UserController.cs` file within the appropriate action method, typically the `Index` method. In this code, if a searchString is provided, the user list is filtered to only include users whose names contain the searchString. If no searchString is provided, all users are returned.
+   - Copie y pegue el fragmento de código proporcionado en el archivo `UserController.cs` dentro del método de acción apropiado, generalmente el método `Index`. En este código, si se proporciona una cadena de búsqueda (searchString), la lista de usuarios se filtra para incluir solo los usuarios cuyos nombres contienen la cadena de búsqueda. Si no se proporciona ninguna cadena de búsqueda, se devuelven todos los usuarios.
 
         ```
         // GET: User
@@ -274,11 +274,11 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
         ![](../../media/crud4.3.png)
 
-   - GitHub Copilot also suggested modifying the `Index.cshtml` file located in the path **Views\User\Index.cshtml** to include a form for the search string.
+   - GitHub Copilot también sugirió modificar el archivo `Index.cshtml` ubicado en la ruta **Views\User\Index.cshtml** a fin de incluir un formulario para la cadena de búsqueda.
 
         ![](../../media/crud4.4.png)
 
-   - Copy and paste the provided code snippet into the `Index.cshtml` file. This form sends a GET request to the Index action method, passing the search string as a query string parameter.
+   - Copie y pegue el fragmento de código proporcionado en el archivo `Index.cshtml`. Este formulario envía una solicitud GET al método de acción Index, pasando la cadena de búsqueda como un parámetro de cadena de consulta.
 
         ```
         @using (Html.BeginForm("Index", "User", FormMethod.Get))
@@ -292,46 +292,46 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
         ![](../../media/crud4.5.png)
 
-### Save Changes and Run the Application:
+### Guardar los Cambios y Ejecutar la Aplicación:
 
-   - Save both the `UserController.cs` and `Index.cshtml` files after making the necessary changes.
+   - Guarde los archivos `UserController.cs` e `Index.cshtml` después de realizar los cambios necesarios.
 
-   - Run the application by clicking on the IIS Express button. This action starts the application on localhost in a web browser.
+   - Ejecute la aplicación haciendo clic en el botón IIS Express. Esta acción inicia la aplicación en localhost en un navegador web.
 
         ![](../../media/crud1.6.png)
 
-### Test the Search Functionality:
+### Probar la Función de Búsqueda:
 
-   - Add a couple of contact entries to the application by clicking on the "Create New" button and filling in the Name and Email fields.
+   - Agregue un par de entradas de contacto a la aplicación haciendo clic en el botón "Create New" y rellenando los campos Name y Email.
 
         ![](../../media/crud4.6.png)
 
-   - Once contacts are added, test the search functionality by typing a contact name in the search field that was previously added. Click on the "Search" button to execute the search.
+   - Una vez que añadidos los contactos, pruebe la funcionalidad de búsqueda escribiendo el nombre de un contacto en el campo de búsqueda previamente añadido. Haga clic en el botón "Search" para ejecutar la búsqueda.
 
         ![](../../media/crud4.7.png)
 
-   - If the feature was implemented properly, you should be able to see the searched contact in the results.
+   - Si la función se ha implementado correctamente, debería poder ver el contacto buscado en los resultados.
 
         ![](../../media/crud4.8.png)
 
-By following these steps, you can effectively utilize GitHub Copilot to implement and test new features in your application, enhancing its functionality and usability.
+Siguiendo estos pasos, puede utilizar GitHub Copilot de manera efectiva para implementar y probar nuevas características en su aplicación, mejorando su funcionalidad y usabilidad.
 
-# Task 4: Generating Commit Messages
+# Tarea 4: Generar Mensajes de Confirmación (Commit)
 
-The new Generated Commit Message feature uses GitHub Copilot AI to describe your code changes.  This makes writing descriptive and helpful commit messages as easy as clicking a button, and then adding your explanation.
+La nueva función Generated Commit Message utiliza GitHub Copilot AI para describir los cambios de código. Esto hace que escribir mensajes de confirmación descriptivos y útiles sea tan fácil como hacer clic en un botón y luego agregar una explicación.
 
-- Locate the Git Changes and click on it.
+- Localice Cambios de GIT y haga clic en él.
 
     ![](../../media/crud5.1.png)
 
-- Use the new “Add AI Generated Commit Message” sparkle pen icon in the Git Changes window to generate a suggestion.
+- Use el nuevo ícono de lápiz brillante “Add AI Generated Commit Message” en la ventana Cambios de GIT para generar una sugerencia.
 
     ![](../../media/crud5.2.png)
 
-- GitHub Copilot will look at the file changes in your commit, summarize them, and then describe each change. You can then “Insert AI Suggestion” or “Discard.” Click on Commit All.
+- GitHub Copilot analizará los cambios en los archivos de su confirmación, los resumirá y luego describirá cada cambio. Luego puede “Insert AI Suggestion” o “Discard”. Haga clic en Commit All.
 
     ![](../../media/crud5.3.png)
 
-- Once it is committed locally, click on Push to push the changes into the repository.
+- Una vez confirmado localmente, haga clic en Push para insertar los cambios en el repositorio.
 
     ![](../../media/crud5.4.png)

@@ -1,9 +1,9 @@
-## Getting Started with the Lab
+## Primeros Pasos con el Laboratorio
 
-1. You can see a virtual machine desktop 💻 **(LABVM)** loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
+1. Puede ver un escritorio de máquina virtual 💻 **(LABVM)** cargado en la parte izquierda de su navegador. Utilice esta máquina virtual durante todo el taller para realizar el laboratorio. También puede conectarse a la máquina virtual mediante cualquier cliente RDP utilizando las credenciales de **LABVM** proporcionadas en la pestaña **Detalles del ambiente**.
 
     ![](../../media/env-ready.png)
 
-1. Once you are in the **Environment Details** tab, the credentials will also be emailed to your registered email address. Click on the **GitHub Credentials** option to get GitHub user credentials. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
+1. Una vez que esté en la pestaña **Detalles del ambiente**, las credenciales también se enviarán por correo electrónico a su dirección de correo electrónico registrada. Haga clic en la opción **Credenciales de GitHub** para obtener las credenciales de usuario de GitHub. También puede abrir la Guía de Laboratorio en una ventana separada y completa seleccionando **Ventana Dividida** en la esquina inferior derecha. Además, puede iniciar, detener y reiniciar máquinas virtuales desde la pestaña **Recursos**.
 
     ![](../../media/git-creds.png)

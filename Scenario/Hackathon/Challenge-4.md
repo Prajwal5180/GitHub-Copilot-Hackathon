@@ -1,53 +1,53 @@
-# Challenge 4: Using GitHub Copilot workspace and file reference
+# Desafío 4: Usando el espacio de trabajo y la referencia de archivos de GitHub Copilot
 
-### Estimated Time: 60 minutes
+### Tiempo Estimado: 60 minutos
 
-## Introduction
+## Introducción
 
-As a software developer at **Contoso Ltd.**, a leading software development company, you are always looking for ways to enhance your coding efficiency and the overall quality of your code. After successfully exploring the basic features of **GitHub Copilot** and using it to develop and deploy an application to Azure, you now turn your focus to some of the advanced features of this AI-powered coding assistant.
+Como desarrollador de software en **Contoso Ltd.**, una empresa líder en desarrollo de software, siempre está buscando formas de mejorar su eficiencia de codificación y la calidad general de su código. Después de explorar con éxito las características básicas de **GitHub Copilot** y usarlo para desarrollar e implementar una aplicación en Azure, ahora se centra en algunas de las características avanzadas de este asistente de programación impulsado por IA.
 
-In this challenge, you are specifically tasked with exploring and utilizing the three key features of the **GitHub Copilot**: the **workspace** and the **file reference**. Understanding and utilizing these features can significantly boost your productivity and efficiency in coding by providing more accurate, context-aware code suggestions.
+En este desafío, se le asigna específicamente la tarea de explorar y utilizar las tres características clave de **GitHub Copilot**: el **espacio de trabajo** y la **referencia a archivo**. La comprensión y utilización de estas características puede aumentar significativamente su productividad y eficiencia en la programación al proporcionar sugerencias de código más precisas y contextualizadas.
 
-- **GitHub Copilot Workspace:** **GitHub Copilot Workspace** is an advanced feature of **GitHub Copilot**, an AI-powered code completion tool. The workspace in GitHub Copilot refers to the current working directory where your code files reside.
+- **GitHub Copilot Workspace:** **GitHub Copilot Workspace** es una característica avanzada de **GitHub Copilot**, una herramienta de completado de código impulsada por IA. El espacio de trabajo en GitHub Copilot se refiere al directorio de trabajo actual donde residen sus archivos de código.
 
-   When you're coding, **GitHub Copilot** utilizes the information in your workspace to generate contextually relevant code suggestions. This means that it takes into account the specifics of your current project, such as the code files, libraries, and dependencies that are present in your workspace, to provide you with the most suitable code completions. This feature makes **GitHub Copilot** an intelligent coding assistant that not only understands the syntax and language semantics but also the context of your project, which results in more accurate and helpful code suggestions.
-   By effectively using the **Workspace** feature, developers can improve their coding efficiency, reduce errors, and create higher-quality code.
+   Cuando está programando, **GitHub Copilot** utiliza la información en su espacio de trabajo para generar sugerencias de código contextualmente relevantes. Esto significa que tiene en cuenta los detalles de su proyecto actual, tales como los archivos de código, las bibliotecas y las dependencias que están presentes en su espacio de trabajo, a fin de proporcionarle las terminaciones de código más adecuadas. Esta característica convierte a **GitHub Copilot** en un asistente de programación inteligente que no solo entiende la sintaxis y la semántica del lenguaje, sino también el contexto de su proyecto, lo que se traduce en sugerencias de código más precisas y útiles.
+   Mediante el uso eficaz de la característica **Workspace**, los desarrolladores pueden mejorar su eficiencia de codificación, reducir errores y crear código de mayor calidad.
 
-- **File referencing in GitHub Copilot:** **File referencing in GitHub Copilot** refers to the AI's ability to understand and interpret the context of your project by considering the information in other files within your workspace.
+- **Referencias a archivos en GitHub Copilot:** La **referencia a archivos en GitHub Copilot** se refiere a la capacidad de la IA de comprender e interpretar el contexto de su proyecto teniendo en cuenta la información en otros archivos dentro de su espacio de trabajo.
 
-   When you're working on a specific file in your codebase, **GitHub Copilot** can take into account the information, functions, classes, or variables defined in other files of your project. This means it doesn't just provide suggestions based on the current file you're working on; it can also reference other files to give you more accurate and relevant code completions. This feature is particularly useful when you're working on large projects where code is spread across multiple files. GitHub Copilot's ability to reference other files allows it to better understand the bigger picture of your project, resulting in more context-aware suggestions. This can significantly improve your coding efficiency and the overall quality of your code.
+   Cuando está trabajando en un archivo específico de su base de código, **GitHub Copilot** puede tener en cuenta la información, las funciones, las clases o las variables definidas en otros archivos de su proyecto. Esto significa que no solo proporciona sugerencias basadas en el archivo actual en el que se encuentra trabajando, sino que también puede hacer referencia a otros archivos para brindarle complementos de código más precisos y relevantes. Esta función es particularmente útil cuando trabaja en proyectos grandes en los que el código se distribuye en varios archivos. La capacidad de GitHub Copilot de hacer referencia a otros archivos le permite comprender mejor el panorama general de su proyecto, lo que se traduce en sugerencias más contextualizadas. Esto puede mejorar significativamente su eficiencia de codificación y la calidad general de su código.
 
-Whether you are a seasoned developer looking to enhance your coding efficiency or a beginner seeking to improve your coding skills, this lab will provide valuable insights into how **GitHub Copilot** can be a powerful tool in your coding journey. By the end of this challenge, you aim to demonstrate to **Contoso Ltd.** how these advanced features of **GitHub Copilot** can significantly enhance coding efficiency and the overall quality of code, further reinforcing the benefits of integrating AI into the development workflow. Let's get started!
+Tanto si es un desarrollador experimentado que busca mejorar su eficiencia de codificación o un principiante que busca mejorar sus habilidades de programación, este laboratorio le proporcionará información valiosa sobre cómo **GitHub Copilot** puede ser una herramienta poderosa en su viaje de programación. Al final de este desafío, su objetivo es demostrar a **Contoso Ltd.** cómo estas características avanzadas de **GitHub Copilot** pueden mejorar significativamente la eficiencia de codificación y la calidad general del código, reforzando aún más los beneficios de integrar la IA en el flujo de trabajo de desarrollo. ¡Comencemos!
 
-## Prerequisites
+## Requisitos previos
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado por CloudLabs:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [GitHub account](https://github.com/)
-- [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
-- Create a new folder named **DemoApp** in **C:/users/azureuser**.
+- [Cuenta de GitHub](https://github.com/)
+- [Extensión GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) instalada en VS Code.
+- Cree una nueva carpeta denominada **DemoApp** en **C:/users/azureuser**.
 
-## Challenge Objectives:
+## Objetivos del Desafío:
 
-1. **Utilize the GitHub Copilot Workspace in the existing Contact Database Application:**
+1. **Utilizar GitHub Copilot Workspace en la aplicación de Base de Datos de Contactos existente:**
 
-   - Understand and explore how the Workspace feature works.
+   - Entienda y explore cómo funciona la función Workspace.
 
-   - Give some prompts to the workspace agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating new functionality, identifying issues in any file, and more.
-     >**Hint:** Use **@workspace**, **@vscode** and **@terminal** file references for the prompts.
+   - Proporcione algunos prompts al agente workspace en su espacio de trabajo de VS Code y revise sus salidas, como preguntar cosas relevantes relacionadas con su espacio de trabajo actual, generar nuevas funcionalidades, identificar problemas en cualquier archivo y más.
+     >**Sugerencia:** Use las referencias de archivo **@workspace**, **@vscode** y **@terminal** para los prompts.
 
-2. **Utilize the GitHub Copilot Workspace to create a new React app named Expense Tracker:**
+2. **Utilizar GitHub Copilot Workspace para crear una nueva aplicación React llamada Expense Tracker:**
 
-   - Create the fundamental workspace structure from scratch using the **GitHub Copilot Workspace** feature in `C:/users/azureuser/DemoApp`.
-     >**Hint:** Ask Copilot to create a workspace for a new Expense Tracker React application with all the necessary files and code.
+   - Cree la estructura fundamental del espacio de trabajo desde cero usando la característica **GitHub Copilot Workspace** en `C:/users/azureuser/DemoApp`.
+     >**Sugerencia:** Solicite a Copilot que cree un espacio de trabajo para una nueva aplicación React llamada Expense Tracker con todos los archivos y el código necesarios.
 
-   - Develop the individual components required in the Expense Tracker app outline using **GitHub Copilot's** transformative capabilities.
-     >**Hint:** Use **@workspace** file reference to add functionality to all the files.
+   - Desarrolle los componentes individuales necesarios en el esquema de la aplicación Expense Tracker utilizando las capacidades de transformación de **GitHub Copilot**.
+     >**Sugerencia:** Utilice la referencia de archivo **@workspace** para agregar funcionalidad a todos los archivos.
 
-   - Debug all the possible errors coming out while running the Expense tracker app using the GitHub Copilot Workspace.
+   - Depure todos los posibles errores que surjan al ejecutar la aplicación Expense Tracker utilizando GitHub Copilot Workspace.
 
-   - Run the application on your local system successfully. The application should be similar to the below example:
+   - Ejecute la aplicación en su sistema local correctamente. La aplicación debería ser similar al siguiente ejemplo:
 
       ![](../../media/app-working.png)
 
@@ -55,34 +55,34 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
 
-3. **Utilize the capabilities of file referencing:**
+3. **Utilizar las capacidades de referencia de archivos:**
 
-   - Understand how GitHub Copilot references files in your documents and how it helps with code flow.
+   - Entienda cómo GitHub Copilot hace referencia a los archivos en sus documentos y cómo ayuda con el flujo de código.
 
-   - Provide some prompts that require GitHub Copilot to reference multiple files in your multi-file project and analyze the references properly, i.e., provide such prompts that describe the uses of the **index.js** file in the **Expense Tracker** application you built earlier.
+   - Proporcione algunos prompts que requieran que GitHub Copilot haga referencia a múltiples archivos en su proyecto de varios archivos y analice las referencias correctamente, es decir, proporcione prompts que describan los usos del archivo **index.js** en la aplicación **Expense Tracker** que construyó con anterioridad.
 
-   - Provide such a prompt using file references that integrate the **Date** field in the **ExpenseForm** document in your **Expense Tracker Application** and display it in the **ExpenseItem**, and then you will be able to sort the expenses by date in the **ExpenseList** component.
+   - Proporcione dicho prompt utilizando referencias de archivos que integren el campo **Date** en el documento **ExpenseForm** en su **Aplicación Expense Tracker** y lo muestren en **ExpenseItem**, y entonces podrá ordenar los gastos por fecha en el componente **ExpenseList**.
 
-      The output should be similar to what is given below:
+      El resultado debería ser similar al que se muestra a continuación:
 
       ![](../../media/app-working-date.png)
 
-## Success Criteria:
+## Criterios de Éxito:
 
-- Make sure you understand the functioning of the GitHub Copilot Workspace and File Referencing.
+- Asegúrese de que comprende el funcionamiento de GitHub Copilot Workspace y la referencia de archivos.
 
-- Make sure you successfully provided the relevant prompts to test the working of the workspace agent and file referencing.
+- Asegúrese de haber proporcionado correctamente los prompts pertinentes para probar el funcionamiento del agente del espacio de trabajo y la referencia de archivos.
 
-- Verify that the Expense tracker application is running properly.
+- Compruebe que la aplicación Expense Tracker se esté ejecutando correctamente.
 
-- Verify the outputs generated by your prompts and their accuracy.
+- Verifique las salidas generadas por sus prompts y su precisión.
 
-- Verify that the date component is added to your application and working properly.
+- Verifique que el componente de fecha se haya agregado a su aplicación y esté funcionando correctamente.
 
-## Additional Resources:
+## Recursos Adicionales:
 
-- Refer [here](https://githubnext.com/projects/copilot-workspace/) for more information.
+- Consulte [aquí](https://githubnext.com/projects/copilot-workspace/) para obtener más información.
 
-## Conclusion
+## Conclusión
 
-In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace and File Referencing** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.
+En este desafío, ha adquirido una comprensión más profunda de cómo funcionan **Github Copilot Workspace y Referencias a Archivos** y cómo pueden mejorar su proceso de programación. Mediante el uso eficaz de estas características, puede mejorar significativamente su eficiencia de codificación y la calidad general de su código. Tanto si es un desarrollador experimentado como un principiante, estos conocimientos seguramente serán de gran utilidad en su proceso de programación.

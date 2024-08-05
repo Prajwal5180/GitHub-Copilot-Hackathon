@@ -1,94 +1,94 @@
-# Challenge 1: Getting Started with GitHub Copilot
+# Desafío 1: Primeros Pasos con GitHub Copilot
 
-### Estimated Time: 45 minutes
+### Tiempo Estimado: 45 minutos
 
-## Introduction
+## Introducción
 
-As a software developer at **Contoso Ltd.**, a leading software development company, you are tasked with researching and implementing innovative tools and technologies to enhance the company's coding process and productivity. The company is particularly interested in solutions that can improve code efficiency, streamline the development process, and enhance collaboration among its globally distributed teams.
+Como desarrollador de software en **Contoso Ltd.**, una empresa líder en desarrollo de software, tiene la tarea de investigar e implementar herramientas y tecnologías innovadoras para mejorar el proceso de codificación y la productividad de la compañía. La empresa está particularmente interesada en soluciones que puedan mejorar la eficiencia del código, agilizar el proceso de desarrollo y mejorar la colaboración entre sus equipos distribuidos globalmente.
 
-**Contoso Ltd.** has identified **GitHub Copilot**, an AI-powered coding assistant, as a potential solution and enrolled you in a challenge series to explore and understand its capabilities. Your mission is to get started with **GitHub Copilot**, setting it up in your coding environment, exploring its features, and using it for code generation and suggestions. **GitHub Copilot** is a groundbreaking AI-powered coding companion seamlessly integrated into **Visual Studio Code**, designed to enhance your coding experience. By leveraging machine learning, Copilot assists developers in crafting code by intelligently suggesting completions and generating contextually relevant code snippets.
+**Contoso Ltd.** ha identificado **GitHub Copilot**, un asistente de programación impulsado por IA, como una posible solución y lo ha inscrito a usted en una serie de desafíos para explorar y comprender sus capacidades. Su misión es comenzar a utilizar **GitHub Copilot**, configurarlo en su entorno de programación, explorar sus características y usarlo para generar código y hacer sugerencias. **GitHub Copilot** es un innovador asistente de programación con tecnología de IA que se integra perfectamente en **Visual Studio Code** y está diseñado para mejorar su experiencia de codificación. Aprovechando los algoritmos de machine learning, Copilot ayuda a los desarrolladores en la creación de código sugiriendo de forma inteligente finalizaciones y generando fragmentos de código contextualmente relevantes.
 
-Imagine navigating a complex coding project and encountering puzzles that demand meticulous attention to detail. **GitHub Copilot** steps in as your coding ally, offering insightful suggestions and autocompletion tailored to the coding context. This not only boosts coding efficiency but also serves as a valuable learning tool, providing a deeper understanding of coding structures and patterns.
+Imagine que tiene que abordar un complejo proyecto de programación y se encuentra con problemas que exigen una atención meticulosa a los detalles. **GitHub Copilot** se convierte en su aliado en la programación, ofreciéndole sugerencias útiles y funciones de autocompletado adaptadas al contexto de codificación. Esto no solo mejora la eficiencia de la programación, sino que también sirve como una valiosa herramienta de aprendizaje, ya que proporciona una comprensión más profunda de las estructuras y los patrones de codificación.
 
-You will experiment with **GitHub Copilot** in various coding scenarios, such as creating a Python/JavaScript-based calculator and an application that fetches weather data from APIs. You will also leverage GitHub Copilot to refactor given code snippets and debug intentionally flawed code, thereby understanding the process of code improvement and effective debugging. Moreover, you will explore the integration of **GitHub Copilot** with GitHub Codespaces, a feature that extends the collaborative potential of your coding environment. This will allow you to understand how Copilot can be utilized in a collaborative coding environment, enabling teams to work seamlessly on projects regardless of geographical boundaries.
+Experimentará con **GitHub Copilot** en varios escenarios de programación, como la creación de una calculadora basada en Python/JavaScript y una aplicación que obtiene datos meteorológicos usando APIs. También aprovechará GitHub Copilot para refactorizar fragmentos de código determinados y para depurar código intencionadamente defectuoso, lo que le permitirá comprender el proceso de mejora del código y la depuración eficaz. Además, explorará la integración de **GitHub Copilot** con GitHub Codespaces, una característica que amplía el potencial colaborativo de su entorno de programación. Esto le permitirá comprender cómo Copilot puede ser utilizado en un ambiente de codificación colaborativo, permitiendo a los equipos trabajar sin problemas en proyectos independientemente de los límites geográficos.
 
-In this challenge series, you'll dive into **GitHub Copilot's** capabilities, starting with the setup and exploration of its features. From collaborative coding with GitHub Codespaces to experimenting with Copilot's suggestions and creating code for various tasks, you'll embark on a journey to harness the full potential of this revolutionary coding assistant. By the end of this challenge, you aim to demonstrate how **GitHub Copilot** can be effectively used to enhance coding productivity, improve code quality, and streamline the software development process at **Contoso Ltd**.
+En esta serie de desafíos, se sumergirá en las capacidades de **GitHub Copilot**, comenzando por la configuración y la exploración de sus funciones. Desde la programación colaborativa con GitHub Codespaces hasta la experimentación con las sugerencias de Copilot y la creación de código para varias tareas, se embarcará en un viaje para aprovechar todo el potencial de este revolucionario asistente de programación. Al finalizar este desafío, su objetivo será demostrar cómo se puede usar **GitHub Copilot** eficazmente para aumentar la productividad de la codificación, mejorar la calidad del código y optimizar el proceso de desarrollo de software en **Contoso Ltd**.
 
-## Prerequisites
+## Requisitos previos
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado por CloudLabs:
 
-> **Note**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
+> **Nota**: Los requisitos previos ya están configurados en el ambiente proporcionado por CloudLabs. Si está utilizando su computadora personal o portátil, asegúrese de que todos los requisitos previos necesarios estén instalados para completar este hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [GitHub account](https://github.com/)
-- Python and NodeJs modules are installed in your Lab-VM in the directory **C:\Program Files**.
+- [Cuenta de GitHub](https://github.com/)
+- Los módulos de Python y NodeJs están instalados en su Lab-VM en el directorio **C:\Program Files**.
 
-## Login to GitHub
+## Iniciar sesión en GitHub
 
-1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
+1. En el escritorio de LABVM, busque **Microsoft Edge** **(1)**, haga clic en el navegador **Microsoft Edge** **(2)**.
 
    ![](../../media/Edge.png)
 
-1. Navigate to GitHub login page using the provided URL below:
+1. Navegue a la página de inicio de sesión de GitHub usando la URL que se proporciona a continuación:
    ```
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+1. En la pestaña **Sign in to GitHub**, verá la pantalla de inicio de sesión. En esa pantalla, ingrese el siguiente **correo electrónico** **(1)** y **contraseña** **(2)**. Luego, haga clic en **Sign in** **(3)**.
 
-   >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+   >**Nota**: Para obtener las credenciales de GitHub, diríjase a la pestaña **Detalles del Ambiente** y haga clic en la opción **Credenciales de GitHub** para ver los pares clave-valor de **GitHub UserEmail** y **GitHub Password**. Puede usar los botones de copia que se encuentran debajo de la columna de acciones para que los valores se copien al instante. Como alternativa, se sugiere copiar los valores en un bloc de notas para facilitar el acceso.
    
    ![](../../media/github-login.png)
           
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+1. A continuación, para obtener el código de autenticación, inicie sesión en Outlook (https://outlook.office365.com/mail/) con las credenciales de Git dentro de la pestaña Ambiente del paso anterior. Una vez que haya iniciado sesión en Outlook, busque el correo electrónico reciente que contiene el código de verificación. Ingresa el código de verificación y haga clic en **Verify**.
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+   >**Nota:** El correo electrónico que contiene el código de verificación a veces puede colarse en las carpetas de archivo/spam dentro de Outlook.
 
    ![](../../media/authgit.png)
 
-## Challenge Objectives:
+## Objetivos del Desafío:
 
-1. **Setup GitHub Copilot in VS Code:**
-   - Install the GitHub Copilot extension from the VS Code Marketplace.
-   - Configure the extension settings to suit your preferences.
+1. **Configurar GitHub Copilot en VS Code:**
+   - Instale la extensión GitHub Copilot desde VS Code Marketplace.
+   - Configure los ajustes de la extensión que se adapten a sus preferencias.
 
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
    <validation step="74421c5f-2301-4e21-a3a9-f1926fb28142" />
 
-2. **Login with a GitHub account:**
-   - Login to GitHub within Visual Studio Code using the provided GitHub credentials. You can find these credentials under **Environment > GitHub Credentials** tab.
-   - On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
-   - To verify your GitHub account login, sign in to **Outlook** in the Lab VM through in a Private window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
-   - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
+2. **Iniciar sesión con una cuenta de GitHub:**
+   - Inicie sesión en GitHub dentro de Visual Studio Code con las credenciales de GitHub proporcionadas. Puede encontrar estas credenciales en la pestaña **Ambiente > Credenciales de GitHub**.
+   - En la página de inicio de sesión de GitHub, ingrese sus credenciales de GitHub y haga clic en **Sign in**.
+   - Para verificar el inicio de sesión de su cuenta de GitHub, inicie sesión en **Outlook** en la Máquina Virtual del Laboratorio a través de una ventana privada (https://outlook.office365.com/mail/) con sus credenciales de GitHub, busque el correo electrónico que contiene el código de verificación y seleccione **Verify**.
+   - Haga clic en Authorize Visual-Studio-Code para proporcionar permisos adicionales a GitHub para VS Code.
 
-3. **Using GitHub Codespaces with Copilot:**
-   - Create a Codespace for your GitHub repository.
-     >**Note:** Navigate to **https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace. You will use this repository in Challenge 02.
-   - Understand how Copilot can be utilized in a collaborative coding environment.
-   - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
+3. **Usar GitHub Codespaces con Copilot:**
+   - Cree un Codespace para su repositorio de GitHub.
+     >**Nota:** Navegue al repositorio **https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application** y bifurque (haga fork) este repositorio en la cuenta de GitHub proporcionada por CloudLabs para crear un nuevo Codespace. Utilizará este repositorio en el Desafío 02.
+   - Comprenda cómo se puede utilizar Copilot en un entorno de programación colaborativa.
+   - Utilice GitHub Codespaces para enviar/confirmar los archivos locales de VS Code a GitHub en los próximos desafíos.
 
-4. **Explore GitHub Copilot Features:**
-   - Experiment with Copilot in various coding scenarios.
-   - Use Copilot's suggestions to speed up your code-writing process.
-     >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
+4. **Explorar las Características de GitHub Copilot:**
+   - Experimente con Copilot en varios escenarios de codificación.
+   - Utilice las sugerencias de Copilot para acelerar su proceso de escritura de código.
+     >**Sugerencia:** Acceda a la ventana GitHub Copilot Suggestions con el atajo **Ctrl+Enter** en VS Code.
 
-5. **Code Generation with Copilot and Copilot Chat:**
-   - Create Python/JS-based code to build a calculator.
-      - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
-      - Save the files as *calculator.py / calculator.js* at **C:\Users\azureuser**.
-      - Experiment with different mathematical operations and user interactions.
-   - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
-      - Sign up for the OpenWeatherMap website (https://openweathermap.org/).
-      - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
-      - Save the files as *weather_script.py / weather_script.js* at **C:\Users\azureuser**.
+5. **Generar Código con Copilot y Copilot Chat:**
+   - Cree código basado en Python/JS para construir una calculadora.
+      - Utilice GitHub Copilot para generar código Python o JavaScript que cree una calculadora básica.
+      - Guarde los archivos como *calculator.py / calculator.js* en **C:\Users\azureuser**.
+      - Experimente con diferentes operaciones matemáticas e interacciones de usuario.
+   - Cree una aplicación basada en Python/JS para obtener datos meteorológicos de las APIs de OpenWeatherMap.
+      - Regístrese en el sitio web de OpenWeatherMap (https://openweathermap.org/).
+      - Aproveche Copilot para generar código Python/JS que interactúe con las APIs meteorológicas para recuperar datos del clima.
+      - Guarde los archivos como *weather_script.py / weather_script.js* en **C:\Users\azureuser**.
 
    <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
-6. **Code Refactoring & Debugging:**
-   - Refactor given code snippets using Copilot, understanding the process of code improvement.
-     >**Hint:** Utilize GitHub Copilot's **Refactor** feature.
+6. **Refactorizar y Depurar Código:**
+   - Refactorice fragmentos de código dados utilizando Copilot, entendiendo el proceso de mejora del código.
+     >**Sugerencia:** Utilice la función **Refactor** de GitHub Copilot.
 
       ```
       #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
@@ -129,8 +129,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       if __name__ == "__main__":
          main()
       ```
-   - Debug code effectively with Copilot's assistance, addressing and fixing identified issues.
-     >**Hint:** Utilize GitHub Copilot's **Fix This** feature.
+   - Depure código de manera eficaz con la ayuda de Copilot, abordando y solucionando los problemas identificados.
+     >**Sugerencia:** Utilice la función **Corregir esto** de GitHub Copilot.
 
       ```
       # Intentionally flawed Python program
@@ -151,20 +151,20 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       ```
 
-## Success Criteria:
+## Criterios de Éxito:
 
-- Verify that GitHub Copilot is successfully installed and configured in Visual Studio Code and logged in.
-- Successfully explored GitHub Codespaces integration and understood its collaboration features.
-- Successfully tried out Copilot in coding scenarios, experiencing its code generation capabilities.
-- Verify that Python/JS code for a calculator and an app to get weather data using Copilot were created and run successfully.
-- Verify that your chosen piece of code is refactored successfully, with improved readability and overall quality.
-- Verify that a piece of code with intentional errors is fixed successfully using Copilot's suggestions.
+- Compruebe que GitHub Copilot se haya instalado y configurado correctamente en Visual Studio Code y que se haya iniciado sesión.
+- Explore con éxito la integración de GitHub Codespaces y comprenda sus funciones de colaboración.
+- Pruebe con éxito Copilot en escenarios de programación, experimentando sus capacidades de generación de código.
+- Verifique que el código Python/JS para una calculadora y una aplicación para obtener datos meteorológicos con Copilot se hayan creado y ejecutado correctamente.
+- Verifique que el fragmento de código elegido se haya refactorizado correctamente, mejorando la legibilidad y la calidad general.
+- Compruebe que un fragmento de código con errores intencionales se haya corregido correctamente utilizando las sugerencias de Copilot.
 
-## Additional Resources:
+## Recursos Adicionales:
 
-- [GitHub Copilot Documentation](https://github.com/github/copilot-docs)
-- [GitHub Codespaces Documentation](https://docs.github.com/en/codespaces)
+- [Documentación de GitHub Copilot](https://github.com/github/copilot-docs)
+- [Documentación de GitHub Codespaces](https://docs.github.com/en/codespaces)
 
-### Conclusion
+### Conclusión
 
-In this challenge, you successfully set up GitHub Copilot in Visual Studio Code, configured extension settings, and logged in with your GitHub account. You were also successful in creating Python/JS code for a calculator and an app to fetch weather data from OpenWeatherMap APIs. Additionally, you refined your coding skills by refactoring code snippets and debugging with Copilot's assistance.
+En este desafío, ha configurado con éxito GitHub Copilot en Visual Studio Code, ha configurado los ajustes de la extensión y ha iniciado sesión con su cuenta de GitHub. También ha logrado crear código Python/JS para una calculadora y una aplicación para obtener datos meteorológicos de las APIs de OpenWeatherMap. Además, ha perfeccionado sus habilidades de programación refactorizando fragmentos de código y depurando con la ayuda de Copilot.
