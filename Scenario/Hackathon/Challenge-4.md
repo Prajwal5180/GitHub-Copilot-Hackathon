@@ -47,7 +47,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Debug all the possible errors coming out while running the Expense tracker app using the GitHub Copilot Workspace.
 
-   - Run the application on your local system successfully. The application should be similar to the below example:
+   - Run the application on your local system on port **3000** successfully. The application should be similar to the below example:
 
       ![](../../media/app-working.png)
 
