@@ -12,18 +12,18 @@ In this challenge, you will utilize **GitHub Copilot** to streamline the develop
 
 By completing this challenge, you aim to demonstrate to Contoso Ltd. how **GitHub Copilot** can streamline the development of ARM templates, automate build and testing processes with GitHub Actions, and generate insightful documentation. This will further highlight the value of integrating AI into the development workflow, following the successful development of the Contact Database application in the previous challenge.
 
-## Prerequisites
+## Pré-requisitos
 
 Make sure you have the following from the CloudLabs-provided integrated environment:
 
-> **Note**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
+> **Nota**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
 - Make sure to deploy the web app in the existing resource group named **GitHub-Copilot-Challenges**.
 
-## Accessing Azure Portal
+## Aceder ao Azure Portal
 
 1. To access the Azure portal, open a private/incognito window in your browser and navigate to **[Azure Portal](https://portal.azure.com)**.
 
@@ -80,7 +80,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
      
    - Create an MD file in your **MyMvcApp-Contact-Database-Application** GitHub repository as a **README.md** file on the **master** branch. This will act as a guide in creating an ARM template to deploy the app and the GitHub actions pipeline workflow file.
      
-## Success Criteria:
+## Critério de Sucesso:
 
 - Verify that the web app from Azure App Services containing your application code is present in Azure.
 - Verify that the Github action pipeline was created successfully.
@@ -96,7 +96,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
  
 Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format for the **Validate GitHub directory** validation step.
 
-## Conclusion
+## Conclusão
 
 In this challenge,  you've demonstrated how AI can significantly aid in the development and deployment of applications, specifically through the use of GitHub Copilot. Not only did you develop a fully functional Contact Database application in the previous challenge, but you also effectively deployed it to Azure using an ARM template generated with the help of GitHub Copilot. You've utilized GitHub Copilot to streamline the creation of the ARM template, which is a powerful example of Infrastructure as Code (IaC), and also automated the build and testing process of your code by creating a GitHub Actions pipeline, with GitHub Copilot assisting in generating the necessary scripts. Furthermore, you've produced comprehensive and accurate documentation for this challenge, serving as a valuable guide for future projects.
 

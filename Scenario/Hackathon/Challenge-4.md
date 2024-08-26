@@ -19,7 +19,7 @@ In this challenge, you are specifically tasked with exploring and utilizing the 
 
 Whether you are a seasoned developer looking to enhance your coding efficiency or a beginner seeking to improve your coding skills, this lab will provide valuable insights into how **GitHub Copilot** can be a powerful tool in your coding journey. By the end of this challenge, you aim to demonstrate to **Contoso Ltd.** how these advanced features of **GitHub Copilot** can significantly enhance coding efficiency and the overall quality of code, further reinforcing the benefits of integrating AI into the development workflow. Let's get started!
 
-## Prerequisites
+## Pré-requisitos
 
 Make sure you have the following from the CloudLabs-provided integrated environment:
 
@@ -28,7 +28,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
 - Create a new folder named **DemoApp** in **C:/users/azureuser**.
 
-## Challenge Objectives:
+## Objectivos do Desafio:
 
 1. **Utilize the GitHub Copilot Workspace in the existing Contact Database Application:**
 
@@ -67,7 +67,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       ![](../../media/app-working-date.png)
 
-## Success Criteria:
+## Critério de Sucesso:
 
 - Make sure you understand the functioning of the GitHub Copilot Workspace and File Referencing.
 
@@ -79,10 +79,10 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 - Verify that the date component is added to your application and working properly.
 
-## Additional Resources:
+## Recursos Adicionais:
 
 - Refer [here](https://githubnext.com/projects/copilot-workspace/) for more information.
 
-## Conclusion
+## Conclusão
 
 In this challenge, you have gained a deeper understanding of how **Github Copilot Workspace and File Referencing** function and how they can enhance your coding process. By effectively using these features, you can significantly improve your coding efficiency and the overall quality of your code. Whether you're a seasoned developer or a beginner, these insights will surely be valuable in your coding journey.

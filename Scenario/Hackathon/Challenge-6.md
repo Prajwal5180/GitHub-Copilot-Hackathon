@@ -4,48 +4,49 @@
 
 ## Introdução
 
-At **Contoso Ltd.**, a leading software development company, you are given the task of exploring the capabilities of **GitHub Copilot**, an AI-powered coding assistant, and leveraging them in the company's software development process. The company believes that integrating AI into the development process can significantly enhance the efficiency and productivity of the development teams.
+Na **Contoso Ltd.**, uma empresa líder em desenvolvimento de software, você recebeu a tarefa de explorar as capacidades do **GitHub Copilot**, um assistente de escrita de código com inteligência artificial, e aproveitá-las no processo de desenvolvimento de software da empresa. A empresa acredita que a integração da IA no processo de desenvolvimento pode aumentar significativamente a eficiência e a produtividade das equipes de desenvolvimento.
 
-**Contoso Ltd.** is managing a large-scale infrastructure, which involves many repetitive tasks such as system monitoring, automation, configuration management, and more. To handle these tasks efficiently, the IT department has to create a considerable number of scripts. However, creating these scripts manually is time-consuming and prone to errors. You, as a system administrator at **Contoso Ltd.**, are tasked with automating these tasks using scripts. To make your job easier and more efficient, you decide to leverage **GitHub Copilot**, an AI-powered code completion tool, to generate the necessary scripts.
+**Contoso Ltd.**. gerencia uma infraestrutura em grande escala, que envolve muitas tarefas repetitivas, como monitorização de sistemas, automação, gerenciamento de configuração e outras tarefas. Para lidar com essas tarefas de forma eficiente, o departamento de TI precisa criar uma quantidade considerável de scripts. No entanto, criar esses scripts manualmente é demorado e sujeito a erros. Como administrador de sistemas na **Contoso Ltd.**, você foi encarregado de automatizar essas tarefas usando scripts. Para facilitar e tornar seu trabalho mais eficiente, você decide utilizar o **GitHub Copilot**, uma ferramenta de autocompletação de código com inteligência artificial, para gerar os scripts necessários.
 
-**GitHub Copilot** is an AI-powered code completion tool that assists Sysadmins in automating tasks and creating scripts efficiently. Leveraging machine learning, Copilot suggests context-aware code snippets, streamlining the process of writing sysadmin scripts. You will also use Copilot's debugging support to identify and resolve any issues present in the generated scripts, ensuring they work correctly. By the end of this challenge, you will not only automate a significant portion of your tasks but will also learn to create efficient scripts with the help of AI, greatly reducing the time and effort required.
+O **GitHub Copilot** é uma ferramenta de autocompletação de código com IA que auxilia os administradores de sistemas na automação de tarefas e criação de scripts de forma eficiente. Utilizando aprendizado de máquina, o Copilot sugere trechos de código contextualizados, simplificando o processo de escrita de scripts de administração de sistemas. Você também usará o suporte de depuração do Copilot para identificar e resolver quaisquer problemas presentes nos scripts gerados, garantindo que funcionem corretamente. Ao final deste desafio, você não apenas automatizará uma parte significativa das suas tarefas, mas também aprenderá a criar scripts eficientes com a ajuda da IA, reduzindo consideravelmente o tempo e o esforço necessários.
 
-## Prerequisites
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+## Pré-requisitos
 
-> **Note**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
+Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
+
+> **Note**: Os pré-requisitos já estão configurados no ambiente fornecido pelo CloudLabs. Se você estiver usando seu computador pessoal ou laptop, certifique-se de que todos os pré-requisitos necessários estão instalados para completar este hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [GitHub account](https://github.com/)
-- [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
-- A **Linux VM** to execute the bash scripts and a **Windows VM** running (use your Windows Lab-VM to execute the PowerShell scripts).
+- [Conta de GitHub](https://github.com/)
+- [Extenção GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) instalada no VS Code.
+- Uma **VM Linux** para executar os scripts bash e uma **VM Windows** a correr (pode utilizar o seu Windows Lab-VM para executar os scripts de PowerShell).
 
-## Challenge Objectives:
+## Objectivos do Desafio:
 
-1. **Generate Sysadmin scripts:**
+1. **Gerar Scripts de Sysadmin:**
 
-   - Generate a sysadmin resource monitoring bash script using GitHub Copilot for CPU and memory usage for a Linux VM.
+   - Gere um script de monitorização de recursos de sysadmin em bash usando o GitHub Copilot para CPU e uso de memória em uma VM Linux.
 
-   - Generate a sysadmin monitoring PowerShell script using GitHub Copilot for disk usage for a Windows VM.
-     >**Hint:** Utilize GitHub Copilot Chat to generate the above sysadmin resource monitoring scripts.
+   - Gere um script de monitorização de sysadmin em PowerShell usando o GitHub Copilot para uso de disco em uma VM Windows.
+     >**Dica:** Utilize o GitHub Copilot Chat para gerar os scripts de monitorização de recursos de sysadmin acima.
 
-3. **Refactor or debug the generated scripts:**
+3. **Refatorar e debug dos scripts gerados:**
 
-   - Apply Copilot's suggestions for code refactoring, leading to improved readability and maintainability of the scripts.
+   - Aplique as sugestões do Copilot para refatoração de código, melhorando a legibilidade e a manutenção dos scripts.
 
-   - Effectively use Copilot's debugging support to identify and resolve any issues present in the generated scripts.
+   - Utilize efetivamente o suporte à debug do Copilot para identificar e resolver quaisquer problemas presentes nos scripts gerados..
 
-5. **Execute the scripts:**
+5. **Executar os scripts:**
 
-   - Execute and test out the generated scripts in your environment, and view the results.
+   - Execute e teste os scripts gerados em seu ambiente e visualize os resultados.
 
-## Success Criteria:
+## Critério de Sucesso:
 
-- Verify that Sysdamin scripts for both Linux & Windows VMs are generated successfully using GitHub Copilot.
-- Verify that the generated scripts are refactored or debugged successfully.
-- Make sure the scripts are executed successfully, and the results are verified.
+- Verifique se os scripts de sysadmin para VMs Linux e Windows foram gerados com sucesso usando o GitHub Copilot.
+- Verifique se os scripts gerados foram refatorados ou efetuado debug com sucesso.
+- Certifique-se de que os scripts foram executados com sucesso e que os resultados foram verificados.
 
-## Conclusion
+## Conclusão
 
-In this challenge, you successfully utilized GitHub Copilot to generate sysadmin monitoring scripts for Linux & Windows VMs, enhanced the scripts using GitHub Copilot's suggestions and inline chat, and verified that the generated scripts executed successfully.
+Neste desafio, você utilizou com sucesso o GitHub Copilot para gerar scripts de monitorização de sysadmin para VMs Linux e Windows, melhorou os scripts usando as sugestões e o chat integrado do GitHub Copilot e verificou que os scripts gerados foram executados com sucesso.

@@ -10,7 +10,7 @@ In this challenge, you, as a developer at **Contoso Ltd.**, will leverage **GitH
 
 By the end of this exercise, you will have a well-documented project that can be easily understood and maintained by other developers at **Contoso Ltd**. This scenario illustrates how **GitHub Copilot** can expedite and simplify the documentation process, thereby improving the efficiency and maintainability of software projects.
 
-## Prerequisites
+## Pré-requisitos
 
 Make sure you have the following from the CloudLabs-provided integrated environment:
 
@@ -19,7 +19,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
 - Fork the GitHub repo [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) to your GitHub provided account and clone it in VS Code in your environment.
 
-## Challenge Objectives:
+## Objectivos do Desafio:
 
 1. **Generate documentation with Copilot:**
 
@@ -48,7 +48,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Make use of GitHub Copilot to generate markdown documentation to deploy a VNet in Azure.
 
-## Success Criteria:
+## Critério de Sucesso:
 
 - Verify that the markdown documentation for the backend app is generated successfully using GitHub Copilot chat.
 - Verify that the requirements needed for the backend app are listed at the beginning of the *app/backend/requirements.txt* file by using the GitHub Copilot Generate Docs feature.
@@ -56,10 +56,10 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - Make sure that the README.md documentation is enhanced and refined through GitHub Copilot Suggestions.
 - Explore the various documentation styles that GitHub Copilot provides.
 
-## Additional Resources:
+## Recursos Adicionais:
 
 - Refer to [this link](https://learn.microsoft.com/en-us/shows/introduction-to-github-copilot/how-to-write-documentation-with-copilot-suggestions-5-of-6) for more information.
 
-## Conclusion
+## Conclusão
 
 In this challenge, you've utilized GitHub Copilot to generate comments and markdown documentation for the backend app through GitHub Copilot features. You have also enhanced and refined your newly generated markdown documentation for the backend app through GitHub Copilot Suggestions. Further, you explored the various documentation styles that GitHub Copilot provides by generating markdown documents to deploy a VNet in Azure and a Javadoc to create a calculator from scratch.
