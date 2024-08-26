@@ -1,8 +1,8 @@
-# Challenge 4: Using GitHub Copilot workspace and file reference
+# Desafio 4: Usar GitHub Copilot workspace and referêencia a arquivos
 
-### Estimated Time: 60 minutes
+### Tempo Estimado: 60 minutos
 
-## Introduction
+## Introdução
 
 As a software developer at **Contoso Ltd.**, a leading software development company, you are always looking for ways to enhance your coding efficiency and the overall quality of your code. After successfully exploring the basic features of **GitHub Copilot** and using it to develop and deploy an application to Azure, you now turn your focus to some of the advanced features of this AI-powered coding assistant.
 

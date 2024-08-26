@@ -1,8 +1,8 @@
-# Challenge 1: Getting Started with GitHub Copilot
+# Desafio 1: Primeiros passos com o GitHub Copilot
 
-### Estimated Time: 45 minutes
+### Tempo Estimado: 45 minutos
 
-## Introduction
+## Introdução
 
 As a software developer at **Contoso Ltd.**, a leading software development company, you are tasked with researching and implementing innovative tools and technologies to enhance the company's coding process and productivity. The company is particularly interested in solutions that can improve code efficiency, streamline the development process, and enhance collaboration among its globally distributed teams.
 
@@ -14,17 +14,17 @@ You will experiment with **GitHub Copilot** in various coding scenarios, such as
 
 In this challenge series, you'll dive into **GitHub Copilot's** capabilities, starting with the setup and exploration of its features. From collaborative coding with GitHub Codespaces to experimenting with Copilot's suggestions and creating code for various tasks, you'll embark on a journey to harness the full potential of this revolutionary coding assistant. By the end of this challenge, you aim to demonstrate how **GitHub Copilot** can be effectively used to enhance coding productivity, improve code quality, and streamline the software development process at **Contoso Ltd**.
 
-## Prerequisites
+## Pré-requisitos
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
-> **Note**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
+> **Nota**: Os pré-requisitos já estão configurados no ambiente fornecido pelo CloudLabs. Se você estiver usando seu computador pessoal ou laptop, certifique-se de que todos os pré-requisitos necessários estejam instalados para completar este hackathon.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
-- Python and NodeJs modules are installed in your Lab-VM in the directory **C:\Program Files**.
+- Módulos Python e NodeJs estão instalados em seu Lab-VM no diretório **C:\Program Files**.
 
-## Login to GitHub
+## Login no GitHub
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 

@@ -1,8 +1,8 @@
-# Challenge 6: Generate Scripts using GitHub Copilot
+# Desafio 6: Gerar Scripts usando GitHub Copilot
 
-### Estimated Time: 45 minutes
+### Tempo Estimado: 45 minutos
 
-## Introduction
+## Introdução
 
 At **Contoso Ltd.**, a leading software development company, you are given the task of exploring the capabilities of **GitHub Copilot**, an AI-powered coding assistant, and leveraging them in the company's software development process. The company believes that integrating AI into the development process can significantly enhance the efficiency and productivity of the development teams.
 

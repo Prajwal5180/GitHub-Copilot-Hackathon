@@ -1,8 +1,8 @@
-# Challenge 3: Deploy the App to Azure
+# Desafio 3: Deployment de applicações para Azure
 
-### Estimated Time: 60 minutes
+### Tempo Estimado: 60 minutos
 
-## Introduction
+## Introdução
 
 In the previous challenge, you successfully developed a fully functional **MyMvcApp CRUD Application**, developed mainly with the assistance of **GitHub Copilot**, and also gained valuable insights into how AI can be seamlessly integrated into the development workflow.
 

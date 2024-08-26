@@ -1,8 +1,8 @@
-# Challenge 2: Develop an App with GitHub Copilot
+# Desafio 2: Criar uma applicação com GitHub Copilot
 
-### Estimated Time: 60 mins
+### Tempo Estimado: 60 minutos
   
-## Introduction  
+## Introdução  
 
 At **Contoso Ltd.**, a leading software development company, you, as a **software developer**, are given the task of exploring the capabilities of **GitHub Copilot**, an AI-powered coding assistant, and leveraging them in the company's software development process. The company believes that integrating AI into the development process can significantly enhance the efficiency and productivity of the development teams.
 
