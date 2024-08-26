@@ -14,7 +14,7 @@ By completing this challenge, you aim to demonstrate to Contoso Ltd. how **GitHu
 
 ## Pré-requisitos
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 > **Nota**: Prerequisites are already set up in the CloudLabs provided environment. If you're using your personal computer or laptop, please make sure that all necessary prerequisites are installed to complete this hackathon.
 

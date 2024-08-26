@@ -14,12 +14,12 @@ By the end of this challenge, your goal is to have a fully functional **MyMvcApp
   
 ## Pré-requisitos
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 - Basic understanding of the C# programming language.  
 - GitHub account.
-- Create a folder named **GitHub Copilot** in **C:\azureuser**.
-- Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
+- Crie uma pasta com o nome **GitHub Copilot** em **C:\azureuser**.
+- Execute os comandos abaixo no prompt de comando para criar uma nova pasta chamada **MyMvcApp.Tests** em **C:\azureuser\GitHub Copilot** para gerar os unit test cases.
 
   ```
   cd "C:\azureuser\GitHub Copilot"
@@ -28,7 +28,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
   dotnet new xunit -n MyMvcApp.Tests
   ```
 
-## Setting Up Visual Studio Code
+## Configurar o Visual Studio Code
 
 1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment Details > Licenses** tab.
 

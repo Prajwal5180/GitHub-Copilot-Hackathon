@@ -12,7 +12,7 @@ By the end of this exercise, you will have a well-documented project that can be
 
 ## Pré-requisitos
 
-Make sure you have the following from the CloudLabs-provided integrated environment:
+Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
