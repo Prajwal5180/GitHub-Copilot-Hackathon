@@ -1,8 +1,8 @@
-# Challenge 5: Create Documentation using GitHub Copilot
+# Desafio 5: Criar Documentação com GitHub Copilot
 
-### Estimated Time: 45 minutes
+### Tempo Estimado: 45 minutos
 
-## Introduction
+## Introdução
 
 **Contoso Ltd.**, a leading software development company, is working on a significant software development project. You have previously developed an application that integrates several complex features and functionality. However, the project lacks comprehensive documentation, making it difficult for new team members to understand the code and contribute effectively. The project leads recognized this issue and decided to leverage GitHub Copilot to generate documentation and make the project more accessible and maintainable.
 
