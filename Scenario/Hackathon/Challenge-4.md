@@ -82,7 +82,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 ## Recursos Adicionais:
 
-- Consulte  [aqui](https://githubnext.com/projects/copilot-workspace/) para mais informações.
+- Consulte [aqui](https://githubnext.com/projects/copilot-workspace/) para mais informações.
 
 ## Conclusão
 
