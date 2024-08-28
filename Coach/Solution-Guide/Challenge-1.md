@@ -1,4 +1,4 @@
-# Challenge 1: Getting Started with GitHub Copilot - Solution Guide
+# Desafio 1: Primeiros passos com o GitHub Copilot - Guia da Solução
 
 ## Task 1: Setup Github Copilot in VS Code
 

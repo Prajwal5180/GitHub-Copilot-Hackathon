@@ -1,4 +1,4 @@
-# Challenge 2: Develop an App with GitHub Copilot - Solution Guide
+# Desafio 2: Criar uma applicação com GitHub Copilot - Guia da Solução
 
 ## Task 1: Develop an App
 
