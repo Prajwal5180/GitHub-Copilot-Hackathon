@@ -81,7 +81,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
       - Utilize o GitHub Copilot para gerar código em Python ou JavaScript que cria uma calculadora básica.
       - Salve os arquivos como *calculator.py / calculator.js* em **C:\Users\azureuser**.
       - Experimente diferentes operações matemáticas e interações com o usuário.
-   - CCrie um aplicativo baseado em Python/JS para obter dados meteorológicos das APIs do OpenWeatherMap.
+   - Crie um aplicativo baseado em Python/JS para obter dados meteorológicos das APIs do OpenWeatherMap.
       - Inscreva-se no site do OpenWeatherMap (https://openweathermap.org/).
       - Utilize o Copilot para gerar código Python/JS que interage com as APIs de clima para recuperar dados meteorológicos.
       - Salve os arquivos como *weather_script.py / weather_script.js* em **C:\Users\azureuser**.
@@ -131,8 +131,8 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
       if __name__ == "__main__":
          main()
       ```
-   - Debug code effectively with Copilot's assistance, addressing and fixing identified issues.
-     >**Hint:** Utilize GitHub Copilot's **Fix This** feature.
+   - Faça Debug no código de forma eficaz com a assistência do Copilot, abordando e corrigindo os problemas identificados.
+     >**Dica:** Utilize a funcionalidade **Fix This** do GitHub Coliplot.
 
       ```
       # Intentionally flawed Python program
