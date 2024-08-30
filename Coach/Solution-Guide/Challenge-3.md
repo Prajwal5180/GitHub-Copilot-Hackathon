@@ -181,19 +181,19 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 ## Task 2: Gerar um workflow de GitHub Action usando o Deployment Center de Azure App Service do portal do Azure
 
-In this task, you'll generate a GitHub Action workflow pipeline using the Deployment Center from the Web App in the Azure portal.
+Nesta tarefa, você criará um workflow de GitHub Action usando o Deployment Center da Web App no portal do Azure.
 
-1. Navigate to your web app service, and under the **Deployment** settings, select **Deployment Center**.
+1. Navegue até o serviço do seu app service, e nas configurações de **Deployment**, selecione **Deployment Center**.
 
    ![](../../media/challenge3-deployment-center.png)
 
-1. Specify the following settings to generate a GitHub Action workflow YAML file and click **Save**:
+1. Especifique as seguintes configurações para gerar um arquivo YAML relativo ao workflow de GitHub Action e clique **Save**:
 
    * **Source**: GitHub
-   * **Signed in as**: Your GitHub Account
-   * **Organization**: Your GitHub Organization
-   * **Repository**: Your Github Repository (**MyMvcApp-Contact-Database-Application**)
-   * **Branch**: Your GitHub Repository Branch
+   * **Signed in as**: A sua conta de GitHub Account
+   * **Organization**: A sua organização de GitHub
+   * **Repository**: O seu repositório de Github (**MyMvcApp-Contact-Database-Application**)
+   * **Branch**: O seu Branch
    * **Runtime stack**: .NET
    * **Version**: v8.0
    * **Authentication type**: Basic authentication
@@ -202,49 +202,50 @@ In this task, you'll generate a GitHub Action workflow pipeline using the Deploy
 
    ![](../../media/challenge3-deployment-center-02.png)
 
-1. You can also view your workflow configuration by clicking on the **Preview file** button.
+1. Você também pode visualizar a configuração do seu workflow clicando no botão **Preview file**.
 
-1. Navigate to your GitHub repository, and under the **Actions** tab, you'll notice that the build has started for your web app. 
+1. Navegue até o seu repositório do GitHub e, na tab **Actions**, você verá que a build da susa web app web foi iniciada.
 
    ![](../../media/challenge3-github-build.png)
 
-1. The workflow will fail with the **build** error stating that the process completed with exit code 1 due to the undefined path issue in your workflow YAML file.
+1. O workflow falhará com um erro de **build**, indicando que o processo foi concluído com o exit code 1 devido a um problema de caminho indefinido no arquivo YAML do seu workflow.
 
    ![](../../media/challenge3-github-build-fail.png)
 
    ![](../../media/challenge3-github-build-fail-error.png)
 
-1. Now let us navigate to the workflow YAML file by editing the file and defining the paths for the steps **dotnet publish** and **Upload artifact for deployment job**.
+1. Agora, vamos navegar até o arquivo YAML do workflow, e editar o arquivo e definindo os caminhos para os passos **dotnet publish** e **Upload artifact for deployment job**.
+Now let us navigate to the workflow YAML file by editing the file and defining the paths for the steps **dotnet publish** and **Upload artifact for deployment job**.
 
    ![](../../media/challenge3-github-workflow-edit.png)
 
-1. Locate the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file and replace the **${{env.DOTNET_ROOT}}/myapp** paths with **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** and click on **Commit changes**.
+1. Localize os passos **dotnet publish** e **Upload artifact for deployment job** no seu arquivo de workflow e substitua os caminhos **${{env.DOTNET_ROOT}}/myapp** por **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** e clique em **Commit changes**.
 
    ![](../../media/challenge3-github-workflow-edit-01.png)
 
    ![](../../media/challenge3-github-workflow-edit-02.png)
 
-1. Navigate back to the **Actions** tab, you'll notice that the build has restarted for your web app after defining the paths. Wait for the workflow build to succeed.
+1. Volte para a tab **Actions**. Você notará que a build da sua web app reiniciou após a definição dos caminhos. Aguarde até que a build do workflow seja concluída com sucesso.
 
    ![](../../media/challenge3-github-build-succeed.png)
 
 ## Task 3: Coloque a aplicação a funcionar no Azure
 
-In this task, you'll verify that the GitHub action pipeline build has succeeded, the workflow file has been created, and your  web app is working as expected on Azure.
+Nesta tarefa, você verificará se a build do pipeline do GitHub Action foi concluída com sucesso, se o arquivo de workflow foi criado e se sua  web app está funcionando conforme o esperado no Azure.
 
-1. In your GitHub repository Actions setting, verify that the pipeline build of both jobs has succeeded **(1)**.
+1. Nas configurações de Actions do seu repositório GitHub, verifique se a build do pipeline de ambos os jobs foi concluída com sucesso **(1)**.
 
    ![](../../media/challenge3-github-build-verify.png)
 
-1. Verify that your web app is working as expected by navigating to the web application **(2)** in a different tab.
+1. Verifique se a sua web app está funcionando conforme o esperado navegando até a web application **(2)** em uma nova tab.
 
    ![](../../media/challenge3-web-app-001.png)
 
-1. Also, verify that your workflow file has been created in a new directory **.github/workflows**.
+1. Além disso, verifique se seu arquivo de workflow foi criado em um novo diretório **.github/workflows**.
 
    ![](../../media/challenge3-github-workflows.png)
 
-1. Your GitHub workflow file will be in the below format:
+1. Seu arquivo de workflow do GitHub estará no formato abaixo:
 
    ```
    # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
@@ -305,19 +306,19 @@ In this task, you'll verify that the GitHub action pipeline build has succeeded,
              publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA47AEBAC2C64100A420A4304676DAF5 }}
    ```
 
-1. You can also verify the workings of your web app by navigating to the Azure portal, App Service, in the Overview setting and clicking on the **Default Domain**.
+1. Você também pode verificar o funcionamento da sua web app navegando até o portal do Azure, App Service, Overview e clicando em **Default Domain**.
 
    ![](../../media/challenge3-default-domain.png)
 
 ## Task 4: Gerar documentação com Copilot para o aplicativo
 
-In this task, you'll utilize GitHub Copilot to generate documentation specific to this challenge, which will include the ARM template and GitHub action workflow file to deploy the web app to Azure.
+Nesta tarefa, você usará o GitHub Copilot para gerar uma documentação específica para este desafio, que incluirá o template ARM e o arquivo de workflow do GitHub Action para implementar a web app no Azure.
 
-1. In your GitHub Copilot Chat window, ask the GitHub Copilot to generate documentation that specifies the ARM template deployment and GitHub action workflow file to deploy the web app to Azure for your workspace.
+1. Na janela de Chat do GitHub Copilot, peça ao GitHub Copilot para gerar a documentação que especifique o deployment do template ARM e o arquivo de workflow do GitHub Action para implementar a web app no Azure para o seu workspace.
 
    * @workspace generates documentation that will include the ARM template deployment process and GitHub action workflow file in the .github/workflows directory to deploy the web app to Azure.
 
-1. You'll notice that the GitHub Copilot generates brief documentation about your workspace's ARM template deployment to Azure, and the workings of the workflow file and a few config files.
+1. Você notará que o GitHub Copilot gera uma breve documentação sobre o deployment do template ARM do seu workspace para o Azure, o funcionamento do arquivo de workflow e alguns arquivos de configuração.
 
    ```
    # Deployment of Web Application to Azure
