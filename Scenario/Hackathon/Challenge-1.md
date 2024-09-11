@@ -55,8 +55,6 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
-   <validation step="74421c5f-2301-4e21-a3a9-f1926fb28142" />
-
 2. **Iniciar sesión con una cuenta de GitHub:**
    - Inicie sesión en GitHub dentro de Visual Studio Code con las credenciales de GitHub proporcionadas. Puede encontrar estas credenciales en la pestaña **Ambiente > Credenciales de GitHub**.
    - En la página de inicio de sesión de GitHub, ingrese sus credenciales de GitHub y haga clic en **Sign in**.
