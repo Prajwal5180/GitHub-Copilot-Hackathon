@@ -57,8 +57,6 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
-   <validation step="74421c5f-2301-4e21-a3a9-f1926fb28142" />
-
 2. **Login com uma conta do GitHub:**
    - Faça login no GitHub dentro do Visual Studio Code usando as credenciais do GitHub fornecidas. Você pode encontrar essas credenciais em **Environment > GitHub Credentials**.
    - Na página de login do GitHub, insira suas credenciais do GitHub e clique em **Sign in**.
