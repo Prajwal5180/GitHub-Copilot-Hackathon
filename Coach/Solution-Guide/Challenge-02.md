@@ -347,8 +347,10 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 ### Utilize GitHub Copilot Chat for Feature Development:
   
 1. Select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
-  
+
+
    ![](../../media/Copilotopen.png)
+
 
 ### Ask GitHub Copilot Chat for Feature Implementation:
    
