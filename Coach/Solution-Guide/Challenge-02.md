@@ -51,29 +51,31 @@
 
 1. Install **Nuget Gallery** and **C# Dev Kit**
 
-   ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+   ![](../../media/NuGet.png)
+
+   ![](../../media/CAPP.png)
 
 ### Implement Methods using GitHub Copilot
  
 1. Navigate to the `UserController.cs` file within the `Controllers` folder.
  
-    ![](../../media/ABC.png)
+   ![](../../media/ABC.png)
  
 #### Scenario 1
  
 1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
  
-    ![](../../media/Ex1.png)
+   ![](../../media/Ex1.png)
  
-    ![](../../media/Exx2.png)
+   ![](../../media/Exx2.png)
  
 1. From the context menu, choose the **Copilot** option and click on **Fix This**
  
-    ![](../../media/exxx3.png)
+   ![](../../media/exxx3.png)
  
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
  
-    ![](../../media/Exxxx4.png)
+   ![](../../media/Exxxx4.png)
  
 #### Scenario 2
  
@@ -126,11 +128,11 @@
 
 1. In the opened web browser, locate the "Create New" button and click on it.
 
-    ![](../../media/crud1.7.png)
+   ![](../../media/crud1.7.png)
 
 1. Fill in the required fields for Name and Email in the form provided. Click on the "Create" button to submit the form and create a new contact.
 
-    ![](../../media/crud1.8.png)
+   ![](../../media/crud1.8.png)
 
 ### Edit a Contact
 
@@ -138,11 +140,11 @@
 
 1. Find the contact you created in the list and locate the "Edit" button associated with it. Click on the "Edit" button.
 
-    ![](../../media/crud1.9.png)
+   ![](../../media/crud1.9.png)
 
 1. Modify the existing details (Name or Email) as desired. Save the changes by clicking on the "Save" button.
 
-    ![](../../media/crud1.10.png)
+   ![](../../media/crud1.10.png)
 
 ### Verify Details of a Contact
 
@@ -150,11 +152,11 @@
 
 1. Locate the contact whose details you want to verify. Click on the "Details" button associated with that contact.
 
-    ![](../../media/crud1.11.png)
+   ![](../../media/crud1.11.png)
 
 1. Verify that the displayed details match the information you entered earlier.
 
-    ![](../../media/crud1.12.png)
+   ![](../../media/crud1.12.png)
 
 ### Delete a Contact
 
@@ -162,15 +164,15 @@
 
 1. Click on the "Delete" button associated with that contact.
 
-    ![](../../media/crud1.13.png)
+   ![](../../media/crud1.13.png)
 
 1. A confirmation dialog will appear asking if you're sure you want to delete the contact. Confirm the action.
 
-    ![](../../media/crud1.14.png)
+   ![](../../media/crud1.14.png)
 
 1. Ensure that the contact is removed from the list after deletion.
 
-    ![](../../media/crud1.15.png)
+   ![](../../media/crud1.15.png)
 
 By following these steps meticulously, you can thoroughly test the CRUD (Create, Read, Update, Delete) functionalities of the application and ensure its proper functioning.
 
@@ -180,18 +182,19 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 1. Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
 
-    ```
-     cd C:\azureuser\GitHub Copilot
-    ```
-    ```
-    dotnet new xunit -n MyMvcApp.Tests
-    ```
+   ```
+   cd C:\azureuser\GitHub Copilot
+   ```
+
+   ```
+   dotnet new xunit -n MyMvcApp.Tests
+   ```
 
 1. In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
 
-    ```
-    dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
-    ```
+   ```
+   dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+   ```
 
 1. Locate the **MyMvcApp.Tests** folder in the Solution Explorer and rename the **UnitTest1.cs** file to **UserControllerTests.cs**.
   
@@ -306,7 +309,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
     }
    ```
 
-    ![](../../media/Testfilegene.png)
+   ![](../../media/Testfilegene.png)
     
 1. Right click on the current project and open in Integrated terminal.
 
@@ -318,85 +321,85 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
    dotnet test
    ```
 
-    ![](../../media/RunGene.png)
+   ![](../../media/RunGene.png)
 
 
 # Task 3: Develop and Test Features
 
 ### Utilize GitHub Copilot Chat for Feature Development:
   
-   1. Select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
+1. Select "GitHub Copilot Chat" to open the GitHub Copilot Chat window.
   
-        ![](../../media/Copilotopen.png)
+   ![](../../media/Copilotopen.png)
 
 ### Ask GitHub Copilot Chat for Feature Implementation:
    
-   1. Initiate a conversation with GitHub Copilot Chat by asking, "How can we add a search feature/functionality to our application?"
+1. Initiate a conversation with GitHub Copilot Chat by asking, "How can we add a search feature/functionality to our application?"
 
-        ![](../../media/copilotchat.png)
+   ![](../../media/copilotchat.png)
 
-   1. Based on the response generated by GitHub Copilot, proceed with implementing the suggested code.
+1. Based on the response generated by GitHub Copilot, proceed with implementing the suggested code.
   
-   1. In this case, GitHub Copilot suggested adding a new method to accept a search string as a parameter and filter the user list based on the search string before passing it to the view.
+1. In this case, GitHub Copilot suggested adding a new method to accept a search string as a parameter and filter the user list based on the search string before passing it to the view.
 
-        ![](../../media/Copilotanswer.png)
+   ![](../../media/Copilotanswer.png)
 
-   1. Copy and paste the provided code snippet into the `UserController.cs` file within the appropriate action method, typically the `Index` method. In this code, if a searchString is provided, the user list is filtered to only include users whose names contain the searchString. If no searchString is provided, all users are returned.
+1. Copy and paste the provided code snippet into the `UserController.cs` file within the appropriate action method, typically the `Index` method. In this code, if a searchString is provided, the user list is filtered to only include users whose names contain the searchString. If no searchString is provided, all users are returned.
 
-        ```
-        // GET: User
-        public ActionResult Index(string searchString)
-        {
-            var users = from u in userlist
-            select u;
-         if (!String.IsNullOrEmpty(searchString))
-        {
-            users = users.Where(s => s.Name.Contains(searchString));
-        }
-          return View(users.ToList());
-        }
-        
-        ```
+   ```
+   // GET: User
+   public ActionResult Index(string searchString)
+   {
+       var users = from u in userlist
+       select u;
+    if (!String.IsNullOrEmpty(searchString))
+   {
+       users = users.Where(s => s.Name.Contains(searchString));
+   }
+     return View(users.ToList());
+   }
+  
+   ```
 
-        ![](../../media/Addsearch.png)
+   ![](../../media/Addsearch.png)
 
-   1. GitHub Copilot also suggested modifying the `Index.cshtml` file located in the path **Views\User\Index.cshtml** to include a form for the search string.
+1. GitHub Copilot also suggested modifying the `Index.cshtml` file located in the path **Views\User\Index.cshtml** to include a form for the search string.
 
-   1. Copy and paste the provided code snippet found in the copilot chat into the `Index.cshtml` file. This form sends a GET request to the Index action method, passing the search string as a query string parameter.
+1. Copy and paste the provided code snippet found in the copilot chat into the `Index.cshtml` file. This form sends a GET request to the Index action method, passing the search string as a query string parameter.
 
-        ```
-          @using (Html.BeginForm("Index", "User", FormMethod.Get))
-        {
-           <p>
-            Find by name: @Html.TextBox("searchString") 
-            <input type="submit" value="Search" />
-           </p>
-         }
-        ```
+   ```
+   @using (Html.BeginForm("Index", "User", FormMethod.Get))
+   {
+      <p>
+       Find by name: @Html.TextBox("searchString") 
+       <input type="submit" value="Search" />
+      </p>
+    }
+   ```
 
-       ![](../../media/Indexcode.png)
+   ![](../../media/Indexcode.png)
 
 ### Save Changes and Run the Application:
 
-   1. Save both the `UserController.cs` and `Index.cshtml` files after making the necessary changes.
+1. Save both the `UserController.cs` and `Index.cshtml` files after making the necessary changes.
 
-   1. Run the application by click on Terminal and by the command **dotnet run**. This action starts the application on localhost in a web browser.
+1. Run the application by click on Terminal and by the command **dotnet run**. This action starts the application on localhost in a web browser.
 
-        ![](../../media/runsearch.png)
+   ![](../../media/runsearch.png)
 
 ### Test the Search Functionality:
 
-   1. Add a couple of contact entries to the application by clicking on the "Create New" button and filling in the Name and Email fields.
+1. Add a couple of contact entries to the application by clicking on the "Create New" button and filling in the Name and Email fields.
 
-        ![](../../media/crud4.6.png)
+   ![](../../media/crud4.6.png)
 
-   1. Once contacts are added, test the search functionality by typing a contact name in the search field that was previously added. Click on the "Search" button to execute the search.
+1. Once contacts are added, test the search functionality by typing a contact name in the search field that was previously added. Click on the "Search" button to execute the search.
 
-        ![](../../media/crud4.07.png)
+   ![](../../media/crud4.07.png)
 
-   1. If the feature was implemented properly, you should be able to see the searched contact in the results.
+1. If the feature was implemented properly, you should be able to see the searched contact in the results.
 
-        ![](../../media/crud4.8.png)
+   ![](../../media/crud4.8.png)
 
 By following these steps, you can effectively utilize GitHub Copilot to implement and test new features in your application, enhancing its functionality and usability.
 
