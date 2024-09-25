@@ -58,38 +58,53 @@
 ### Implement Methods using GitHub Copilot
  
 1. Navigate to the `UserController.cs` file within the `Controllers` folder.
+
  
    ![](../../media/ABC.png)
+
  
 #### Scenario 1
  
 1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
+
  
    ![](../../media/Ex1.png)
+
  
    ![](../../media/Exx2.png)
+
  
 1. From the context menu, choose the **Copilot** option and click on **Fix This**
+
  
    ![](../../media/exxx3.png)
+
  
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+
  
    ![](../../media/Exxxx4.png)
+
  
 #### Scenario 2
  
 1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
+
  
    ![](../../media/Ex1.png)
+
  
 1. From the context menu, choose the **Copilot** option and click on **Start in Editor**
+
    
    ![](../../media/Startedit.png)
+
      
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
+
  
    ![](../../media/accept.png)
+
  
 #### Scenario 3
  
@@ -97,9 +112,12 @@
  
 1. Open GitHub Copilot chat and ask Copilot to **Generate the code for UserController.cs file**
  
+
    ![](../../media/result.png)
+
  
 1. Copy the code and replace it in the UserController.cs file's code.
+
  
 1. Following these steps will allow you to efficiently utilize GitHub Copilot to generate code for each empty method in the UserController.cs file.
 
