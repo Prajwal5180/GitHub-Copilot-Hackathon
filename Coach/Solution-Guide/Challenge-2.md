@@ -53,7 +53,9 @@
 
 - Install **Nuget Gallery** and **C# Dev Kit**
 
-  ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+  - Click on extensions on the left hand side.
+  - Search for Nueget Gallery and C# Dev Kit
+  - Click on install.
 
 - Run the below command on the console.
 
