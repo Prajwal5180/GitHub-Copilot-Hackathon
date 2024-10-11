@@ -50,7 +50,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Challenge Objectives:
 
 1. **Setup GitHub Copilot in VS Code:**
-   - Install the GitHub Copilot extension from the VS Code Marketplace.
+   - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot** and click on **install**
    - Configure the extension settings to suit your preferences.
 
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
