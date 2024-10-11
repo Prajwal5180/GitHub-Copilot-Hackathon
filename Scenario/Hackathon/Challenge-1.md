@@ -128,7 +128,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
          main()
       ```
    - Debug code effectively with Copilot's assistance, addressing and fixing identified issues.
-     >**Hint:** Utilize GitHub Copilot's **Fix This** feature.
+     >**Hint:** Utilize GitHub Copilot's **Fix** feature.
 
       ```
       # Intentionally flawed Python program
