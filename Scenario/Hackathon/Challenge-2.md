@@ -32,11 +32,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment Details > Licenses** tab.
 
-2. Navigate to the below GitHub link and fork the repository into the CloudLabs-provided GitHub account.
-
-   ```
-   https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application
-   ```
+2. Navigate to the already forked GitHub repository [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) as performed in Challenge 01.
 
    > **Note:** You have already forked the provided GitHub repository in Challenge 01.
    
@@ -52,7 +48,10 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
       ```
 
+7. In your Visual Studio Code, navigate to **Extentions** and install **Nuget Gallery** and **C# Dev Kit**.
+
 ## Challenge Objectives  
+
 1. **Develop an app:** 
 
       - You will be creating a CRUD application named **MyMvcApp**, a C# application, with the help of **Github Copilot**, which will let the users save the contact details of people as per requirements and also carry out the basic functions like editing their details, deleting their profiles, and so on. You will be provided with the skeleton of the application already, but you will need to build the functionalities inside the **UserController.cs** file by yourself. Your task is to complete these methods by utilizing GitHub Copilot to generate the necessary code, guided by the comments provided in the file.
