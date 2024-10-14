@@ -50,7 +50,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 ## Challenge Objectives:
 
 1. **Setup GitHub Copilot in VS Code:**
-   - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot** and click on **install**
+   - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot** and click on **Install**
    - Configure the extension settings to suit your preferences.
 
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
@@ -75,12 +75,13 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 5. **Code Generation with Copilot and Copilot Chat:**
    - Create Python/JS-based code to build a calculator.
       - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
-      - Save the files as *calculator.py / calculator.js* at **C:\Users\azureuser**.
+      - Save the files as *calculator.py / calculator.js* at **C:\LabFiles**.
       - Experiment with different mathematical operations and user interactions.
    - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
       - Sign up for the OpenWeatherMap website (https://openweathermap.org/).
+        >**NOTE:** If you are already registered for an OpenWeatherMap account, kindly continue to use the same account.
       - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
-      - Save the files as *weather_script.py / weather_script.js* at **C:\Users\azureuser**.
+      - Save the files as *weather_script.py / weather_script.js* at **C:\LabFiles**.
 
    <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
