@@ -57,16 +57,20 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
 
-3. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
+2. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
    
    - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **MyMvcApp-Contact-Database-Application** GitHub repository to start the workflow pipeline to deploy your Web app to Azure.
      >**Note:** The build will fail due to the undefined path in your workflow YAML file.
   
    - Specify the path as **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** for the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file.
 
+     ![](../../media/challenge3-github-workflow-edit.png)
+
+     ![](../../media/challenge3-github-workflow-edit-01.png)
+
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
-5. **Get the app working on Azure:**
+3. **Get the app working on Azure:**
    
    - Verify that the GitHub Actions pipeline build has succeeded and the app is working as expected through the Web App.
   
@@ -74,7 +78,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
      
    - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
   
-7. **Generate documentation with Copilot for the app:**
+4. **Generate documentation with Copilot for the app:**
    
    - Use GitHub Copilot to assist you in generating detailed and accurate documentation specifically for this challenge.
      
