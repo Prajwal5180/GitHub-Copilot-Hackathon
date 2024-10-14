@@ -31,16 +31,18 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. **Utilize the GitHub Copilot Workspace in the existing Contact Database Application:**
 
-   - Create a new folder named **DemoApp** in **C:/users/azureuser**
-
-   - Launch a new VS Code window after creating the demoapp folder.
-
    - Understand and explore how the Workspace feature works.
+  
+   - Use the same VS Code window which was created in Challenge 01 for the [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) GitHub repository.
 
    - Give some prompts to the workspace agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating new functionality, identifying issues in any file, and more.
      >**Hint:** Use **@workspace**, **@vscode** and **@terminal** file references for the prompts.
 
 2. **Utilize the GitHub Copilot Workspace to create a new React app named Expense Tracker:**
+
+   - Create a new folder named **DemoApp** in **C:/users/azureuser**
+
+   - Launch a new Visual Studio Code window and open the **DemoApp** folder inside the VS Code.
 
    - Create the fundamental workspace structure from scratch using the **GitHub Copilot Workspace** feature in `C:/users/azureuser/DemoApp`.
      >**Hint:** Ask Copilot to create a workspace for a new Expense Tracker React application with all the necessary files and code.
@@ -52,7 +54,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Run the application on your local system on port **3000** successfully. The application should be similar to the below example:
 
-     > **Hint:** Use @workspace reference in GitHub Copilot chat window on how to run the app (expense tracker)
+     > **Hint:** Use @workspace reference in GitHub Copilot chat window on how to run the app (expense tracker).
 
       ![](../../media/app-working.png)
 
