@@ -52,6 +52,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
    - Run the application on your local system on port **3000** successfully. The application should be similar to the below example:
 
+     > **Hint:** Use @workspace reference in GitHub Copilot chat window on how to run the app (expense tracker)
+
       ![](../../media/app-working.png)
 
    <validation step="76e12adb-fdce-4aea-a013-b0f721a72995" />
