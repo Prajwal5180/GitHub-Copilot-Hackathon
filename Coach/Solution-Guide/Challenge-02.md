@@ -47,7 +47,9 @@
 
 1. Install **Nuget Gallery** and **C# Dev Kit**
 
-   ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+ - Click on the extension on the left hand side
+ - Search for Nuget Gallery and C# Dev Kit
+ - Click on install, post this the extensions should be installed.
 
 ### Implement Methods using GitHub Copilot
  
