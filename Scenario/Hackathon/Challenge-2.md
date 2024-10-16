@@ -58,7 +58,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
       - Creará una aplicación CRUD llamada **MyMvcApp**, una aplicación C#, con la ayuda de **Github Copilot**, que permitirá a los usuarios guardar los datos de contacto de las personas de acuerdo a los requisitos y también llevar a cabo funciones básicas, tales como editar sus datos, eliminar sus perfiles, etc. Se le proporcionará el esqueleto de la aplicación, pero deberá crear las funcionalidades dentro del archivo **UserController.cs** por su cuenta. Su tarea es completar estos métodos utilizando GitHub Copilot para generar el código necesario, guiado por los comentarios proporcionados en el archivo.
 
       - Explore la capacidad de Copilot para comprender su contexto y proporcionar sugerencias de código relevantes.
-        >**Sugerencia:** Utilice las funciones **Iniciar en el Editor**, **Corregir esto** y **Chat de GitHub Copilot** de GitHub Copilot para desarrollar el código necesario.
+        >**Sugerencia:** Utilice las funciones Iniciar en el Editor, Corregir esto y Chat de GitHub Copilot de GitHub Copilot para desarrollar el código necesario
 
       - Pruebe la aplicación a fondo y asegúrese de que todas las funcionalidades funcionen como se espera.
   
