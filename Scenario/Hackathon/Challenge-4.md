@@ -26,9 +26,10 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub account](https://github.com/)
 - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed in VS Code.
-- Create a new folder named **DemoApp** in **C:/users/azureuser**.
 
 ## Objectivos do Desafio:
+
+1. Crie uma nova pasta chamada DemoApp em C:/users/azureuser
 
 1. **Utilize o GitHub Copilot Workspace no aplicativo de Banco de Dados de Contatos existente:**
 
@@ -37,7 +38,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
    - Forneça alguns prompts ao agente do workspace no seu ambiente VS Code e revise suas saídas, como perguntar sobre coisas relevantes relacionadas ao seu workspace atual, gerar novas funcionalidades, identificar problemas em qualquer arquivo e mais.
      >**Dica:** Use referências de arquivos **@workspace**, **@vscode** e **@terminal** para os prompts.
 
-2. **Utilize o GitHub Copilot Workspace para criar um novo aplicativo React chamado Expense Tracker:**
+1. **Utilize o GitHub Copilot Workspace para criar um novo aplicativo React chamado Expense Tracker:**
 
    - Crie a estrutura fundamental do workspace do zero usando o recurso **GitHub Copilot Workspace** em `C:/users/azureuser/DemoApp`.
      >**Dica:** Peça ao Copilot para criar um workspace para um novo aplicativo React Expense Tracker com todos os arquivos e código necessários.
@@ -55,7 +56,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
    <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
 
-3. **Utilize as capacidades de file referencing:**
+1. **Utilize as capacidades de file referencing:**
 
    - Entenda como o GitHub Copilot referencia arquivos em seus documentos e como isso ajuda no fluxo de código.
 
