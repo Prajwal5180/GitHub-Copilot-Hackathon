@@ -55,6 +55,8 @@
  - Search for Nuget Gallery and C# Dev Kit
  - Click on install, post this the extensions should be installed.
 
+![](../../media/NuGet.png)  ![](../../media/CAPP.png)
+
 ### Implement Methods using GitHub Copilot
  
 1. Navigate to the `UserController.cs` file within the `Controllers` folder.
