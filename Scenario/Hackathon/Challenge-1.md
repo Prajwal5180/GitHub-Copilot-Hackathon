@@ -128,7 +128,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
          main()
       ```
    - Depure código de manera eficaz con la ayuda de Copilot, abordando y solucionando los problemas identificados.
-     >**Sugerencia:** Utilice la función **Corregir esto** de GitHub Copilot.
+     >**Sugerencia:** Utilice la función Corregir de GitHub Copilot.
 
       ```
       # Intentionally flawed Python program

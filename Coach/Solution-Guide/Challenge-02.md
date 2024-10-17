@@ -47,6 +47,10 @@
 
 1. Install **Nuget Gallery** and **C# Dev Kit**
 
+- Haga clic en extensiones en el lado izquierdo.
+- Busque Nueget Gallery y C# Dev Kit.
+- Haga clic en instalar.
+
    ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
 
 ### Implement Methods using GitHub Copilot
