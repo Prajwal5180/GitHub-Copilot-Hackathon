@@ -53,6 +53,10 @@
 
 - Instale **Nuget Gallery** e **C# Dev Kit**
 
+1. Clique em extensões no lado esquerdo
+1. Procure por Nueget Gallery e C# Dev Kit
+1. Clique em instalar.
+
   ![](../../media/NuGet.png)  ![](../../media/CAPP.png)
 
 - Execute o comando abaixo na consola

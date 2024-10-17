@@ -130,7 +130,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
          main()
       ```
    - Faça Debug no código de forma eficaz com a assistência do Copilot, abordando e corrigindo os problemas identificados.
-     >**Dica:** Utilize a funcionalidade **Fix This** do GitHub Coliplot.
+     >**Dica:** Utilize a funcionalidade **Fix** do GitHub Coliplot.
 
       ```
       # Intentionally flawed Python program
