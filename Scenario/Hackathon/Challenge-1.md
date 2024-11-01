@@ -68,25 +68,29 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
 4. **Explore GitHub Copilot Features:**
-   - Experiment with Copilot in various coding scenarios.
-   - Use Copilot's suggestions to speed up your code-writing process.
+   - Experiment with providing specific context or constraints in your comments. This helps Copilot generate more tailored code snippets that fit your unique coding style or project requirements.
+   - Use Copilot to help you think through edge cases by asking it to generate code for scenarios that might not be immediately obvious. This can enhance your problem-solving skills and ensure your code handles various inputs effectively.
      >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
 
 5. **Code Generation with Copilot and Copilot Chat:**
    - Create Python/JS-based code to build a calculator.
-      - Utilize GitHub Copilot to generate Python or JavaScript code that creates a basic calculator.
-      - Save the files as *calculator.py / calculator.js* at **C:\LabFiles**.
-      - Experiment with different mathematical operations and user interactions.
+      - Utilize GitHub Copilot to assist in generating the code. Start by typing a comment like `# Create a basic calculator` to prompt Copilot to suggest code snippets. 
+      - Implement various mathematical operations, such as addition, subtraction, multiplication, and division, as well as user interactions to take input and display results.
+      - Once you’ve written the code, save the file as ***calculator.py*** if you’re using Python, or ***calculator.js*** if you’re using JavaScript, and place it in the directory **C:\LabFiles** locally. This organized storage will help you manage your files efficiently.
+      - Feel free to experiment with additional features, like handling multiple calculations or improving the user interface.
+        
    - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
-      - Sign up for the OpenWeatherMap website (https://openweathermap.org/).
+      - First, sign up for an account on the OpenWeatherMap website (https://openweathermap.org/).
         >**NOTE:** If you are already registered for an OpenWeatherMap account, kindly continue to use the same account.
-      - Leverage Copilot to generate Python/JS code that interacts with weather APIs to retrieve weather data.
-      - Save the files as *weather_script.py / weather_script.js* at **C:\LabFiles**.
+      - Use GitHub Copilot to generate code that connects to the OpenWeatherMap API. Begin by writing a comment like # Fetch weather data from OpenWeatherMap API, which will help Copilot understand your goal and provide relevant code snippets.
+      - Ensure that the code includes functionality for making API requests and processing the retrieved data to display weather information like temperature, humidity, and weather conditions.
+      - Save this file as ***weather_script.py*** for Python or ***weather_script.js*** for JavaScript, and also store it in the **C:\LabFiles** directory locally.
+      - Test the app by entering different locations to see how it retrieves and presents weather data.
 
    <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
 6. **Code Refactoring & Debugging:**
-   - Refactor given code snippets using Copilot, understanding the process of code improvement.
+   - Refactor given code snippets using Copilot, understanding the process of code improvement. Copy and paste the below poorly written code in VS Code to refactor.
      >**Hint:** Utilize GitHub Copilot's **Refactor** feature.
 
       ```
@@ -128,7 +132,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       if __name__ == "__main__":
          main()
       ```
-   - Debug code effectively with Copilot's assistance, addressing and fixing identified issues.
+   - Debug code effectively with Copilot's assistance, addressing and fixing identified issues. Copy and paste the below code in VS Code to debug.
      >**Hint:** Utilize GitHub Copilot's **Fix** feature.
 
       ```
