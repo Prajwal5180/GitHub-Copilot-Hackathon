@@ -10,9 +10,9 @@ In this task, you will be utilizing the GitHub Copilot Workspace to enhance codi
 
     ![](../../media/vscode-launch.png)
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
+1. Next to the search bar, select the **Copilot** icon. You will be provided with the **GitHub Copilot** welcome chat window.
 
-    ![](../../media/file1.png)
+    ![](../../media/githubchat.png)
 
 1. In the textbox, enter **@** and select **Workspace** to start working with the **GitHub Copilot Workspace** agent.
 
@@ -72,7 +72,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
 1. From the left pane, select the **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
 
-    ![](../../media/vscode-copilot-chat.png)
+    ![](../../media/githubchat.png)
 
 1. In the textbox, enter **@** and select **Workspace** to start working with the **Github Copilot Workspace** agent.
 
@@ -146,7 +146,7 @@ In this task, you will be utilizing the **GitHub Copilot File Referencing** capa
 
 1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
 
-    ![](../../media/vscode-copilot-chat.png)
+    ![](../../media/githubchat.png)
 
 1. In the textbox, enter **@** and select **Workspace** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
@@ -184,7 +184,7 @@ To do so, follow the below steps:
 
 1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
 
-    ![](../../media/vscode-copilot-chat.png)
+    ![](../../media/githubchat.png)
 
 1. In the textbox, enter **@** and select **Workspace** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
