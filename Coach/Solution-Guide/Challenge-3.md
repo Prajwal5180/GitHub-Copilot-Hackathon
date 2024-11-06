@@ -26,7 +26,8 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 1. In your GitHub Copilot Chat window, ask the GitHub Copilot to generate an ARM template to deploy a web app with the necessary resources defined (basic/free pricing plan, basic authentication enabled, and GitHub actions setting disabled).
 
-   ![](../../media/challenge3-generate-arm.png)
+   ![](../../media/codechat.png)
+
 
 1. GitHub Copilt will generate a basic ARM template (which might not be accurate). Copy and paste the ARM template in a new file named **deploy.json**, and utilize GitHub Copilot Suggestions and Chat to refactor the template to your specifications. Your ARM template must resemble what is given below, with the resources and specifications.
 
@@ -362,7 +363,7 @@ In this task, you'll utilize GitHub Copilot to generate documentation specific t
    This file contains the configuration for the web application when it is in release mode.
    ```
 
-   ![](../../media/challenge3-copilot-doc-generate.png)
+   ![](../../media/workspace.png)
 
 
 
