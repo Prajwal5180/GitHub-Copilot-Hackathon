@@ -32,9 +32,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment Details > Licenses** tab.
 
-2. Navigate to the already forked GitHub repository [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) as performed in Challenge 01.
-
-   > **Note:** You have already forked the provided GitHub repository in Challenge 01.
+2. Navigate to the GitHub repository [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) and fork this repository using the CloudLabs-provided GitHub account.
    
 3. Clone the forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
 
