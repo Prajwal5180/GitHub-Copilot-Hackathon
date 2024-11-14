@@ -62,8 +62,8 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
 
 3. **Using GitHub Codespaces with Copilot:**
-   - Create a Codespace for your GitHub repository.
-     >**Note:** Navigate to **https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace. You will use this repository in Challenge 02.
+   - Create a Codespace for your GitHub repository. Navigate to **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace.
+   - Clone the above forked repository into Visual Studio Code using the CloudLabs-provided GitHub account..
    - Understand how Copilot can be utilized in a collaborative coding environment.
    - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
@@ -76,7 +76,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Create Python/JS-based code to build a calculator.
       - Utilize GitHub Copilot to assist in generating the code. Start by typing a comment like `# Create a basic calculator` to prompt Copilot to suggest code snippets. 
       - Implement various mathematical operations, such as addition, subtraction, multiplication, and division, as well as user interactions to take input and display results.
-      - Once you’ve written the code, save the file as ***calculator.py*** if you’re using Python, or ***calculator.js*** if you’re using JavaScript, and place it in the directory **C:\LabFiles** locally. This organized storage will help you manage your files efficiently.
+      - Once you’ve written the code, save the file as ***calculator.py*** if you’re using Python, or ***calculator.js*** if you’re using JavaScript, and push it to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
       - Feel free to experiment with additional features, like handling multiple calculations or improving the user interface.
         
    - Create a Python/JS-based app to get weather data from OpenWeatherMap APIs.
@@ -84,75 +84,17 @@ Make sure you have the following from the CloudLabs-provided integrated environm
         >**NOTE:** If you are already registered for an OpenWeatherMap account, kindly continue to use the same account.
       - Use GitHub Copilot to generate code that connects to the OpenWeatherMap API. Begin by writing a comment like # Fetch weather data from OpenWeatherMap API, which will help Copilot understand your goal and provide relevant code snippets.
       - Ensure that the code includes functionality for making API requests and processing the retrieved data to display weather information like temperature, humidity, and weather conditions.
-      - Save this file as ***weather_script.py*** for Python or ***weather_script.js*** for JavaScript, and also store it in the **C:\LabFiles** directory locally.
+      - Save this file as ***weather_script.py*** for Python or ***weather_script.js*** for JavaScript, and push it to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
       - Test the app by entering different locations to see how it retrieves and presents weather data.
 
    <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
 6. **Code Refactoring & Debugging:**
-   - Refactor given code snippets using Copilot, understanding the process of code improvement. Copy and paste the below poorly written code in VS Code to refactor.
+   - Refactor the `sum_elements.py` code from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository using Copilot, understanding the process of code improvement.
      >**Hint:** Utilize GitHub Copilot's **Refactor** feature.
 
-      ```
-      #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
-      
-      MAX = 100
-
-      def calculate_sum(arr):
-         result = 0
-         for num in arr:
-            result += num
-         return result
-
-      def main():
-         try:
-            n = int(input("Enter the number of elements (1-100): "))
-            if not 1 <= n <= MAX:
-                  print("Invalid input. Please provide a digit ranging from 1 to 100.")
-                  exit(1)
-
-            arr = []
-
-            print(f"Enter {n} integers:")
-            for _ in range(n):
-                  try:
-                     arr.append(int(input()))
-                  except ValueError:
-                     print("Invalid input. Please enter valid integers.")
-                     exit(1)
-
-            total = calculate_sum(arr)
-
-            print("Sum of the numbers:", total)
-
-         except KeyboardInterrupt:
-            print("\nProgram terminated by user.")
-            exit(1)
-
-      if __name__ == "__main__":
-         main()
-      ```
-   - Debug code effectively with Copilot's assistance, addressing and fixing identified issues. Copy and paste the below code in VS Code to debug.
+   - Debug the `card_draw.py` code effectively from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository with Copilot's assistance, addressing and fixing identified issues. 
      >**Hint:** Utilize GitHub Copilot's **Fix** feature.
-
-      ```
-      # Intentionally flawed Python program
-
-      # importing modules
-      import itertools, random
-
-      # make a deck of cards
-      deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
-
-      # shuffle the cards
-      random.shuffle(deck)
-
-      # draw five cards
-      print("You got:")
-      for i in range(5)
-         print(deck[i][0], "of", deck[i][1]
-
-      ```
 
 ## Success Criteria:
 
