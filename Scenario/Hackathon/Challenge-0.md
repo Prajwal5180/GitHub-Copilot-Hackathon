@@ -58,20 +58,20 @@ Enterprise owners can allow some or all organizations in the enterprise to acces
 | Unlimited messages and interactions            |             ✓	             |      ✓                 |    ✓  |
 | Context-aware coding support and explanations   |             ✓	             |      ✓                 |    ✓  |
 | Debugging and security remediation assistance |             ✓	             |         ✓                 |    ✓  |
-| Conversations tailored to your organization’s repositories  |     ✕	             |   ✕	 |    ✓  |
+| Conversations tailored to your organization’s repositories  |     ✓	             |   ✓	 |    ✓  |
 | Answers based on your organization’s knowledge base |             ✕	             |   ✕	 |    ✓  |
-| Access to knowledge from top open source repositories |             ✕	             |    ✕	 |    ✓  |
-| Pull request diff analysis         |             ✕	             |   ✕	 |    ✓  |
-| Web search powered by Bing (beta)  |             ✕	             |   ✕	 |    ✓  |
+| Access to knowledge from top open source repositories |             ✓	             |    ✓	 |    ✓  |
+| Summaries for pull requests, issues, and discussions         |             ✓	             |   ✓	 |    ✓  |
+| Web search powered by Bing |             ✓	             |   ✓	 |    ✓  |
 | Real time code suggestions |             ✓	             |               ✓                 |    ✓  |
 | Comments to code |             ✓	             |               ✓                 |    ✓  |
 | Fine-tuned models (coming soon as add-on) |             ✕	             |   ✕	 |    ✓  |
 | Inline chat and prompt suggestions |             ✓	             |               ✓                 |    ✓  |
 | Slash commands and context variables |             ✓	             |               ✓                 |    ✓  |
 | Commit message generation |             ✓	             |               ✓                 |    ✓  |
-| Pull request description and summarization |             ✕	             |   ✕	 |    ✓  |
+| Copilot Workspace for pull request |             ✓	             |   ✓	 |    ✓  |
 | IDE, CLI and GitHub Mobile |             ✓	             |               ✓                 |    ✓  |
-| GitHub.com |             ✕	             |   ✕	 |    ✓  |
+| GitHub.com |             ✓	             |   ✓	 |    ✓  |
 | Public code filter |             ✓	             |               ✓                 |    ✓  |
 | User management |             ✕	             |  ✓                 |    ✓  |
 | Data excluded from training by default |             ✕	             |  ✓                 |    ✓  |
