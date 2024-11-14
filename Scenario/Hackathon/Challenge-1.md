@@ -63,7 +63,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 3. **Using GitHub Codespaces with Copilot:**
    - Create a Codespace for your GitHub repository. Navigate to **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace.
-   - Clone the above GitHub repository in your VS Code.
+   - Clone the above forked repository into Visual Studio Code using the CloudLabs-provided GitHub account..
    - Understand how Copilot can be utilized in a collaborative coding environment.
    - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
