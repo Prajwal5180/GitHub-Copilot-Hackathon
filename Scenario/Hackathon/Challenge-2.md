@@ -22,7 +22,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\Users\azureuser\GitHub Copilot** for generating unit test cases.
 
   ```
-  cd "C:\azureuser\GitHub Copilot"
+  cd "C:\Users\azureuser\GitHub Copilot"
   ```
   ```
   dotnet new xunit -n MyMvcApp.Tests
@@ -30,7 +30,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 ## Setting Up Visual Studio Code
 
-1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment Details > Licenses** tab.
+1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment > GitHub Credentials** tab.
 
 2. Navigate to the GitHub repository [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) and fork this repository using the CloudLabs-provided GitHub account.
    
