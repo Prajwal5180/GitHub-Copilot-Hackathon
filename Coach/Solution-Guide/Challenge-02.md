@@ -30,7 +30,7 @@
 
    ![](../../media/CloneURL.png)
 
-1. Select the **GitHub Copilot** folder in **C:\azureuser** as the repository destination.
+1. Select the **GitHub Copilot** folder in **C:\Users\azureuser** as the repository destination.
 
    ![](../../media/Folder.png)
 
@@ -40,10 +40,6 @@
 
 
 ### Setting Up Visual Studio Code
-
-1. In the Visual Studio Code select the **Extensions option**, search for **GitHub Copilot** and click **Install**.
-
-1. Wait for the GitHub Copilot extension to download completely (this might take a few minutes) and close the Visual Studio Code Extension.
 
 1. Navigate to **Extentions**. 
 
@@ -198,12 +194,12 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 # Task 2: Generate Unit Test Cases
 
-1. Create a folder named **GitHub Copilot** in **C:\azureuser**.
+1. Create a folder named **GitHub Copilot** in **C:\Users\azureuser**.
 
-1. Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
+1. Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\Users\azureuser\GitHub Copilot** for generating unit test cases.
 
    ```
-   cd C:\azureuser\GitHub Copilot
+   cd C:\Users\azureuser\GitHub Copilot
    ```
 
    ```
