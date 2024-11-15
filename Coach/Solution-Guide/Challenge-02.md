@@ -72,10 +72,10 @@
    ![](../../media/Exx2.png)
 
  
-1. From the context menu, choose the **Copilot** option and click on **Fix This**
+1. From the context menu, choose the **Copilot** option and click on **Fix**
 
  
-   ![](../../media/exxx3.png)
+   ![](../../media/github-hack-copilot-2.png)
 
  
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
@@ -92,10 +92,10 @@
    ![](../../media/Ex1.png)
 
  
-1. From the context menu, choose the **Copilot** option and click on **Start in Editor**
+1. From the context menu, choose the **Copilot** option and click on **Editor Inline chat**
 
    
-   ![](../../media/Startedit.png)
+   ![](../../media/github-hack-copilot-3.png)
 
      
 1. GitHub Copilot will generate a code suggestion based on the context of the method. Review the suggestion provided by GitHub Copilot, and you can choose to accept or discard the suggestion based on its relevance to your requirements.
