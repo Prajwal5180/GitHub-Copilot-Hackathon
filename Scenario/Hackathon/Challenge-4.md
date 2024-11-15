@@ -40,11 +40,11 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 2. **Utilize the GitHub Copilot Workspace to create a new React app named Expense Tracker:**
 
-   - Create a new folder named **DemoApp** in **C:/users/azureuser**
+   - Create a new folder named **DemoApp** in **C:/Users/azureuser**
 
    - Launch a new Visual Studio Code window and open the **DemoApp** folder inside the VS Code.
 
-   - Create the fundamental workspace structure from scratch using the **GitHub Copilot Workspace** feature in `C:/users/azureuser/DemoApp`.
+   - Create the fundamental workspace structure from scratch using the **GitHub Copilot Workspace** feature in `C:/Users/azureuser/DemoApp`.
      >**Hint:** Ask Copilot to create a workspace for a new Expense Tracker React application with all the necessary files and code.
 
    - Develop the individual components required in the Expense Tracker app outline using **GitHub Copilot's** transformative capabilities.
