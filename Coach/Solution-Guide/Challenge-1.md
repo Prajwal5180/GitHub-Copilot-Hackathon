@@ -40,9 +40,7 @@ In this task, you'll be signing in to your GitHub account through the GitHub Cop
 
 In this task, you'll create a new codespace for your GitHub repository and use the GitHub Codespaces extension to commit and push changes directly from VS Code to your chosen GitHub repository.
 
-1. On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
-
-   ![](../../media/signingit.png)
+1. Fork the **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repo On the home page of your repository, click the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
 1. Click the **Codespaces (1)** tab on the box that pops up, and then click the **Create codespace on main (2)** button.
 
@@ -269,6 +267,8 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
    > **Note:** Enter the name of the city before running tests through JS.
 
 1. Run tests for the files by entering different cities to verify that the weather data is being fetched from the weather APIs.
+
+1. Push the files to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
 
 ## Task 6: Code Refactoring & Debugging
 
