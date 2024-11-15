@@ -18,11 +18,11 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 - Basic understanding of the C# programming language.  
 - GitHub account.
-- Create a folder named **GitHub Copilot** in **C:\azureuser**.
-- Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\azureuser\GitHub Copilot** for generating unit test cases.
+- Create a folder named **GitHub Copilot** in **C:\Users\azureuser**.
+- Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\Users\azureuser\GitHub Copilot** for generating unit test cases.
 
   ```
-  cd "C:\azureuser\GitHub Copilot"
+  cd "C:\Users\azureuser\GitHub Copilot"
   ```
   ```
   dotnet new xunit -n MyMvcApp.Tests
@@ -30,23 +30,19 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 ## Setting Up Visual Studio Code
 
-1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment Details > Licenses** tab.
+1. Sign in to Visual Studio Code using your GitHub User credentials from the **Environment > GitHub Credentials** tab.
 
 2. Navigate to the GitHub repository [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) and fork this repository using the CloudLabs-provided GitHub account.
    
 3. Clone the forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
 
-4. Open Visual Studio Code, navigate to **Extensions**, search for **GitHub Copilot** and click on **Install**.
-
-5. Wait for the GitHub Copilot extension to download completely (this might take a few minutes).
-
-6. In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
+4. In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
 
       ```
       dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
       ```
 
-7. In your Visual Studio Code, navigate to **Extentions** and install **Nuget Gallery** and **C# Dev Kit**.
+5. In your Visual Studio Code, navigate to **Extentions** and install **Nuget Gallery** and **C# Dev Kit**.
 
 ## Challenge Objectives  
 

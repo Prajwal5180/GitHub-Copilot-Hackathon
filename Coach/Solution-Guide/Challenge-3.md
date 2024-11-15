@@ -14,7 +14,7 @@
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Maybe Later** to skip the tour.
+1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
    
 1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the Navigate panel to see the resource groups.
   
@@ -173,7 +173,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 1. Enter the specifications to deploy your web app. Make sure to deploy the web app in the existing resource group named **GitHub-Copilot-Challenges**.
 
-1. Once you have specified all the parameters, click **Review and Create**, and **Create**.
+1. Once you have specified all the parameters, click **Review + Create**, and **Create**.
 
 1. Wait for the deployment to succeed and verify that your web app service and app service plan resources exist in the resource group.
 
