@@ -40,6 +40,6 @@ Para su comodidad, puede abrir la guía de laboratorio en una ventana separada s
  
 1. Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
  
-    ![](../../media/github-hack-getting-6.png)
+    ![](../../media/new-github-copilot-hack-spn-06.png)
  
 Ahora ya está todo listo para explorar el poderoso mundo de la tecnología. No dude en comunicarse si tiene alguna pregunta en el camino. ¡Disfruta de tu taller!
