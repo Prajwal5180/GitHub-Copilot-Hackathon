@@ -14,7 +14,7 @@
 
 1. Si ve la ventana emergente **¡Tiene recomendaciones gratuitas de Azure Advisor!**, cierre la ventana para continuar con el laboratorio.
 
-1. Si aparece una ventana emergente **Bienvenido a Microsoft Azure**, haga clic en **Quizás más tarde** para omitir el recorrido.
+1. Si aparece una ventana emergente **Bienvenido a Microsoft Azure**, haga clic en **Cancelar** para omitir el recorrido.
    
 1. Ahora verá el Panel de Azure Portal. Haga clic en **Grupos de recursos** en el panel Navegar para ver los grupos de recursos.
   
@@ -172,7 +172,7 @@ En esta tarea, generará una plantilla ARM para desplegar una aplicación web en
 
 1. Ingrese las especificaciones para desplegar su aplicación web. Asegúrese de implementar la aplicación web en el grupo de recursos existente llamado **GitHub-Copilot-Challenges**.
 
-1. Una vez que haya especificado todos los parámetros, haga clic en **Revisar y crear** y, luego, en **Crear**.
+1. Una vez que haya especificado todos los parámetros, haga clic en **Revisar + crear** y, luego, en **Crear**.
 
 1. Espere a que la implementación se realice correctamente y compruebe que los recursos App Service Plan y Web App Service existan en el grupo de recursos.
 
