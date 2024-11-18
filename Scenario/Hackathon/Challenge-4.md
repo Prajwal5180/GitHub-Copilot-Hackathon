@@ -26,7 +26,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Cuenta de GitHub](https://github.com/)
 - [Extensión GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) instalada en VS Code.
-- Cree una nueva carpeta denominada **DemoApp** en **C:/users/azureuser**.
+- Cree una nueva carpeta denominada **DemoApp** en **C:/Users/azureuser**.
 
 ## Objetivos del Desafío:
 
@@ -39,7 +39,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 
 2. **Utilizar GitHub Copilot Workspace para crear una nueva aplicación React llamada Expense Tracker:**
 
-   - Cree la estructura fundamental del espacio de trabajo desde cero usando la característica **GitHub Copilot Workspace** en `C:/users/azureuser/DemoApp`.
+   - Cree la estructura fundamental del espacio de trabajo desde cero usando la característica **GitHub Copilot Workspace** en `C:/Users/azureuser/DemoApp`.
      >**Sugerencia:** Solicite a Copilot que cree un espacio de trabajo para una nueva aplicación React llamada Expense Tracker con todos los archivos y el código necesarios.
 
    - Desarrolle los componentes individuales necesarios en el esquema de la aplicación Expense Tracker utilizando las capacidades de transformación de **GitHub Copilot**.

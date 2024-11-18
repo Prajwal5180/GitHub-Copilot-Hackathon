@@ -58,20 +58,20 @@ Los propietarios de empresas pueden permitir que algunas o todas las organizacio
 | Mensajes e interacciones ilimitados             |             ✓	             |      ✓                 |    ✓  |
 | Soporte y explicaciones de codificación en función del contexto   |             ✓	             |      ✓                 |    ✓  |
 | Asistencia en depuración y corrección de seguridad |             ✓	             |         ✓                 |    ✓  |
-| Conversaciones adaptadas a los repositorios de su organización  |     ✕	             |   ✕	 |    ✓  |
+| Conversaciones adaptadas a los repositorios de su organización  |     ✓	             |   ✓	 |    ✓  |
 | Respuestas basadas en la base de conocimientos de su organización |             ✕	             |   ✕	 |    ✓  |
-| Acceso al conocimiento de los principales repositorios de código abierto |             ✕	             |    ✕	 |    ✓  |
-| Análisis de diferencias en las solicitudes de incorporación de cambios         |             ✕	             |   ✕	 |    ✓  |
-| Búsqueda web con tecnología de Bing (beta)  |             ✕	             |   ✕	 |    ✓  |
+| Acceso al conocimiento de los principales repositorios de código abierto |             ✓	             |    ✓	 |    ✓  |
+| Acceso al conocimiento de los principales repositorios de código abierto         |             ✓	             |   ✓	 |    ✓  |
+| Búsqueda web con tecnología de Bing  |             ✓	             |   ✓	 |    ✓  |
 | Sugerencias de código en tiempo real |             ✓	             |               ✓                 |    ✓  |
 | Comentarios a código  |             ✓	             |               ✓                 |    ✓  |
 | Modelos ajustados (próximamente como complemento) |             ✕	             |   ✕	 |    ✓  |
 | Chat en línea y sugerencias de prompt  |             ✓	             |               ✓                 |    ✓  |
 | Comandos de barra y variables contextuales |             ✓	             |               ✓                 |    ✓  |
 | Generación de mensajes de confirmación |             ✓	             |               ✓                 |    ✓  |
-| Descripción y resumen de la solicitud de incorporación de cambios |             ✕	             |   ✕	 |    ✓  |
+| Espacio de trabajo Copilot para solicitud de extracción |             ✓	             |   ✓	 |    ✓  |
 | IDE, CLI y GitHub Mobile |             ✓	             |               ✓                 |    ✓  |
-| GitHub.com |             ✕	             |   ✕	 |    ✓  |
+| GitHub.com |             ✓	             |   ✓	 |    ✓  |
 | Filtro de código público |             ✓	             |               ✓                 |    ✓  |
 | Administración de usuarios |             ✕	             |  ✓                 |    ✓  |
 | Datos excluidos del entrenamiento de forma predeterminada |             ✕	             |  ✓                 |    ✓  |

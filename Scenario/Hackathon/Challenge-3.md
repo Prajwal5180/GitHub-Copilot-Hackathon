@@ -39,7 +39,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 
 1. Si ve la ventana emergente **¡Tiene recomendaciones gratuitas de Azure Advisor!**, cierre la ventana para continuar con el laboratorio.
 
-1. Si aparece una ventana emergente **Bienvenido a Microsoft Azure**, haga clic en **Quizás más tarde** para omitir la visita guiada.
+1. Si aparece una ventana emergente **Bienvenido a Microsoft Azure**, haga clic en **Cancelar** para omitir la visita guiada.
    
 1. Ahora verá el Panel del Portal de Azure. Haga clic en **Grupos de recursos** en el panel Navegar para ver los grupos de recursos.
   

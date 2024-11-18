@@ -18,11 +18,11 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 
 - Conocimientos básicos del lenguaje de programación C#.
 - Cuenta de GitHub.
-- Cree una carpeta denominada **GitHub Copilot** en **C:\azureuser**.
-- Ejecute los siguientes comandos en el símbolo del sistema para crear una nueva carpeta llamada **MyMvcApp.Tests** en **C:\azureuser\GitHub Copilot** para generar casos de pruebas unitarias.
+- Cree una carpeta denominada **GitHub Copilot** en **C:\Users\azureuser**.
+- Ejecute los siguientes comandos en el símbolo del sistema para crear una nueva carpeta llamada **MyMvcApp.Tests** en **C:\Users\azureuser\GitHub Copilot** para generar casos de pruebas unitarias.
 
   ```
-  cd "C:\azureuser\GitHub Copilot"
+  cd "C:\Users\azureuser\GitHub Copilot"
   ```
   ```
   dotnet new xunit -n MyMvcApp.Tests
@@ -30,7 +30,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 
 ## Configurando Visual Studio Code
 
-1. Inicie sesión en Visual Studio Code con sus credenciales de Usuario de GitHub desde la pestaña **Detalles del Ambiente > Licencias**.
+1. Inicie sesión en Visual Studio Code con sus credenciales de Usuario de GitHub desde la pestaña **Ambiente > Credenciales de GitHub**.
 
 2. Navegue hasta el siguiente enlace de GitHub y bifurque (haga fork) el repositorio en la cuenta de GitHub proporcionada por CloudLabs.
 
@@ -42,11 +42,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
    
 3. Clone el repositorio bifurcado en Visual Studio Code con la cuenta de GitHub proporcionada por CloudLabs.
 
-4. En Visual Studio Code, diríjase a **Extensiones**, busque **GitHub Copilot** y haga clic en **Instalar**.
-
-5. Espere a que la extensión GitHub Copilot se descargue por completo (esto puede tardar unos minutos).
-
-6. En Visual Studio Code, busque la carpeta **MyMvcApp.Tests** en el Explorador de soluciones, haga clic derecho y seleccione **Abrir en terminal integrado**. Ejecute el siguiente comando en la terminal para agregar el paquete dotnet.
+4. En Visual Studio Code, busque la carpeta **MyMvcApp.Tests** en el Explorador de soluciones, haga clic derecho y seleccione **Abrir en terminal integrado**. Ejecute el siguiente comando en la terminal para agregar el paquete dotnet.
 
       ```
       dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
