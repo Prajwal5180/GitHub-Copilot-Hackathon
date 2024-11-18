@@ -58,20 +58,20 @@ Os responsáveis pela Enterprise podem permitir que algumas ou todas as organiza
 | Mensagens e interações Ilimitadas            |             ✓	             |      ✓                 |    ✓  |
 | Suporte a codigo e explicações com contexto   |             ✓	             |      ✓                 |    ✓  |
 | Assistência em depuração e remediação de segurança |             ✓	             |         ✓                 |    ✓  |
-| Conversas adaptadas aos repositórios da sua organização  |     ✕	             |   ✕	 |    ✓  |
+| Conversas adaptadas aos repositórios da sua organização  |     ✓	             |   ✓	 |    ✓  |
 | Respostas baseadas na base de conhecimento da sua organização |             ✕	             |   ✕	 |    ✓  |
-| Acesso ao conhecimento dos principais repositórios de código aberto |             ✕	             |    ✕	 |    ✓  |
-| Análise de diferenças em pull requests         |             ✕	             |   ✕	 |    ✓  |
-| Pesquisa na web com Bing (beta)  |             ✕	             |   ✕	 |    ✓  |
+| Acesso ao conhecimento dos principais repositórios de código aberto |             ✓	             |    ✓	 |    ✓  |
+| Resumos de pull requests, problemas e discussões   |             ✓	             |   ✓	 |    ✓  |
+| Pesquisa na web com Bing  |             ✓	             |   ✓	 |    ✓  |
 | Sugestões de código em tempo real |             ✓	             |               ✓                 |    ✓  |
 | Comentários no código |             ✓	             |               ✓                 |    ✓  |
 | Modelos ajustados (em breve como add-on) |             ✕	             |   ✕	 |    ✓  |
 | Sugestões de chat e prompts embutidos |             ✓	             |               ✓                 |    ✓  |
 | Comandos de barra e variáveis de contexto |             ✓	             |               ✓                 |    ✓  |
 | Geração de mensagens de commit |             ✓	             |               ✓                 |    ✓  |
-| Descrição e resumo de pull requests |             ✕	             |   ✕	 |    ✓  |
+| Copilot Workspace para solicitação pull |             ✓	             |   ✓	 |    ✓  |
 | IDE, CLI e GitHub Mobile |             ✓	             |               ✓                 |    ✓  |
-| GitHub.com |             ✕	             |   ✕	 |    ✓  |
+| GitHub.com |             ✓	             |   ✓	 |    ✓  |
 | Filtro de código público |             ✓	             |               ✓                 |    ✓  |
 | Gerenciamento de usuários |             ✕	             |  ✓                 |    ✓  |
 | Dados excluídos do treinamento por padrão |             ✕	             |  ✓                 |    ✓  |
