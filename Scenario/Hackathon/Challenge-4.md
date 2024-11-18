@@ -32,7 +32,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 1. **Utilize the GitHub Copilot Workspace in the existing Contact Database Application:**
 
    - Understand and explore how the Workspace feature works.
-  
+
    - Use the same VS Code window which was created in Challenge 01 for the [CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application](https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application) GitHub repository.
 
    - Give some prompts to the workspace agent in your VS Code workspace and review its outputs, like asking relevant things related to your current workspace, generating new functionality, identifying issues in any file, and more.
@@ -58,9 +58,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       ![](../../media/app-working.png)
 
-   <validation step="76e12adb-fdce-4aea-a013-b0f721a72995" />
+      <validation step="76e12adb-fdce-4aea-a013-b0f721a72995" />
 
-   <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
+      <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
 
 3. **Utilize the capabilities of file referencing:**
 
