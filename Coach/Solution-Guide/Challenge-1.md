@@ -40,9 +40,7 @@ En esta tarea, iniciará sesión en su cuenta de GitHub a través de la extensi�
 
 En esta tarea, creará un nuevo codespace para su repositorio de GitHub y usará la extensión GitHub Codespaces para confirmar y enviar cambios directamente desde VS Code al repositorio de GitHub que haya seleccionado.
 
-1. En la página de inicio de su repositorio, haga clic en la pestaña **Code** **(1)** ubicada en la parte superior izquierda de la pantalla. Haga clic en el botón **Code** **(2)** ubicado a la mitad de la página.
-
-   ![](../../media/signingit.png)
+1. Bifurque el repositorio https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring. En la página de inicio de su repositorio, haga clic en la pestaña **Código (1)** ubicada en la parte superior izquierda de la pantalla. Haga clic en el botón **Código (2)** ubicado en el medio de la página.
 
 1. Haga clic en la pestaña **Codespaces (1)** en el cuadro emergente y luego haga clic en el botón **Create codespace on main (2)**.
 
@@ -269,6 +267,8 @@ En esta tarea, creará un código Python/JS para construir una calculadora y usa
    > **Nota:** Ingrese el nombre de la ciudad antes de ejecutar las pruebas en JS.
 
 1. Ejecute pruebas para los archivos introduciendo diferentes ciudades para verificar que los datos de clima se obtengan de las APIs meteorológicas.
+
+1. Envíe los archivos a su repositorio de GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring**.
 
 ## Tarea 6: Refactorizar y Depurar Código
 
