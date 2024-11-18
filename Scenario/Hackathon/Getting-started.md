@@ -27,7 +27,7 @@ Para entender melhor os recursos e credenciais do seu laboratório, navegue até
  
 ## Utilizando o recurso de janela dividida
  
-Por conveniência, você pode abrir o guia de laboratório em uma janela separada selecionando o botão **Split Window** no canto superior direito.
+Por conveniência, você pode abrir o guia de laboratório em uma janela separada selecionando o botão **Janela dividida** no canto superior direito.
  
 ![](../../media/new-github-copilot-hack-por-03.png)
 
