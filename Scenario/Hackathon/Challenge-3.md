@@ -55,9 +55,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
      
    - Save the ARM template and parameters files in your **MyMvcApp CRUD Application** GitHub repository as **deploy.json** and **deploy.parameters.json** files on the **master** branch.
 
-      <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
+   <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
 
-2. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
+1. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
 
    - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **MyMvcApp-Contact-Database-Application** GitHub repository to start the workflow pipeline to deploy your Web app to Azure.
      >**Note:** The build will fail due to the undefined path in your workflow YAML file.
@@ -68,12 +68,11 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
      ![](../../media/challenge3-github-workflow-edit-01.png)
 
-      <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
+   <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
 3. **Get the app working on Azure:**
 
    - Verify that the GitHub Actions pipeline build has succeeded and the app is working as expected through the Web App.
-
 
      ![](../../media/challenge3-web-app-001.png)
 
