@@ -6,14 +6,14 @@
 
 Una vez que esté listo para sumergirse, su máquina virtual y su guía de laboratorio estarán al alcance de su mano en su navegador web.
 
-![](../../media/github-hack-getting-1.png)
+![](../../media/new-github-copilot-hack-spn-05.png)
 
 ## Accediendo a tus credenciales de GitHub
 
-Una vez que esté en la pestaña **Entorno**, haga clic en la opción **Credenciales de GitHub** para obtener las credenciales de usuario de GitHub.
+Una vez que esté en la pestaña **Ambiente**, haga clic en la opción **GitHub Credentials** para obtener las credenciales de usuario de GitHub.
 Las credenciales también se enviarán por correo electrónico a su dirección de correo electrónico registrada.
 
-![](../../media/github-hack-getting-2.png)
+![](../../media/new-github-copilot-hack-spn-01.png)
 
 ### Guía de laboratorio y máquina virtual
  
@@ -21,21 +21,21 @@ Su máquina virtual es su caballo de batalla durante todo el taller. La guía de
 
 ## Explorando los recursos de su laboratorio
  
-Para comprender mejor los recursos y las credenciales de su laboratorio, navegue hasta la pestaña **Entorno**.
+Para comprender mejor los recursos y las credenciales de su laboratorio, navegue hasta la pestaña **Ambiente**.
  
-![](../../media/github-hack-getting-3.png)
+![](../../media/new-github-copilot-hack-spn-02.png)
  
 ## Utilizando la función de ventana dividida
  
 Para su comodidad, puede abrir la guía de laboratorio en una ventana separada seleccionando el botón **Dividir ventana** en la esquina superior derecha.
  
-![](../../media/github-hack-getting-4.png)
+![](../../media/new-github-copilot-hack-spn-03.png)
  
 ## Administrar su máquina virtual
  
 1. No dude en iniciar, detener o reiniciar su máquina virtual según sea necesario desde la pestaña **Recursos**. ¡Tu experiencia está en tus manos!
  
-    ![](../../media/github-hack-getting-5.png)
+    ![](../../media/new-github-copilot-hack-spn-04.png)
 
  
 1. Haga clic en **Siguiente** en la esquina inferior derecha para embarcarse en su viaje al laboratorio.
