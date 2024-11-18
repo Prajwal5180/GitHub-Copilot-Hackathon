@@ -14,7 +14,7 @@
 
 1. Se você vir o pop-up **You have free Azure Advisor recommendations!**, feche a janela para continuar o laboratório.
 
-1. Se aparecer uma janela pop-up **Welcome to Microsoft Azure**, clique em **Maybe Later** para pular o tour.
+1. Se aparecer uma janela pop-up **Welcome to Microsoft Azure**, clique em **Cancel** para pular o tour.
    
 1. Agora você verá o Painel do Portal do Azure. Clique em **Resource groups** no painel de navegação para ver os resource groups.
   
@@ -172,7 +172,7 @@ In this task, you'll be generating an ARM template to deploy a web application t
 
 1. Insira as especificações para implementar o seu aplicativo web. Certifique-se de implementar o aplicativo web no resource group existente chamado **GitHub-Copilot-Challenges**.
 
-1. Depois de especificar todos os parâmetros, clique em **Review and Create**, e depois em **Create**.
+1. Depois de especificar todos os parâmetros, clique em **Review + Create**, e depois em **Create**.
 
    ![](../../media/challenge3-custom-deploy-verify.png) 
 1. Aguarde o final da implementação com sucesso e verifique se os recursos Web App e App Service Plan existem no resource group.
