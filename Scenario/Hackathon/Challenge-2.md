@@ -18,11 +18,11 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 - Basic understanding of the C# programming language.  
 - GitHub account.
-- Crie uma pasta com o nome **GitHub Copilot** em **C:\azureuser**.
-- Execute os comandos abaixo no prompt de comando para criar uma nova pasta chamada **MyMvcApp.Tests** em **C:\azureuser\GitHub Copilot** para gerar os unit test cases.
+- Crie uma pasta com o nome **GitHub Copilot** em **C:\Users\azureuser**.
+- Execute os comandos abaixo no prompt de comando para criar uma nova pasta chamada **MyMvcApp.Tests** em **C:\Users\azureuser\GitHub Copilot** para gerar os unit test cases.
 
   ```
-  cd "C:\azureuser\GitHub Copilot"
+  cd "C:\Users\azureuser\GitHub Copilot"
   ```
   ```
   dotnet new xunit -n MyMvcApp.Tests
@@ -30,7 +30,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 ## Configurar o Visual Studio Code
 
-1. Faça login no Visual Studio Code usando suas credenciais de usuário do GitHub a partir da tab **Environment Details > Licenses**.
+1. Faça login no Visual Studio Code usando suas credenciais de usuário do GitHub a partir da tab **Environment > GitHub Credentials**.
 
 2. Navegue até o link do GitHub abaixo e faça um fork do repositório para a conta GitHub fornecida pelo CloudLabs.
 
@@ -42,11 +42,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
    
 3. Clone o repositório em que anteriormente efetuou um fork no Visual Studio Code usando a conta GitHub fornecida pelo CloudLabs. 
 
-4. No Visual Studio Code, abra a opção **Extensions**, pesquise por **GitHub Copilot** e clique em **Install**.
-
-5. Aguarde a conclusão do download da extensão GitHub Copilot (isso pode levar alguns minutos).
-
-6. No Visual Studio Code, localize a pasta **MyMvcApp.Tests** no Solution Explorer, clique com o botão direito e selecione **Open in integrated terminal**. Execute o comando abaixo no terminal para adicionar o pacote dotnet.
+4. No Visual Studio Code, localize a pasta **MyMvcApp.Tests** no Solution Explorer, clique com o botão direito e selecione **Open in integrated terminal**. Execute o comando abaixo no terminal para adicionar o pacote dotnet.
 
       ```
       dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform

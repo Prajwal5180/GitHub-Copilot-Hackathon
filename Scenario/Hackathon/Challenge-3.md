@@ -37,11 +37,11 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 1. **Ignore** o registro MFA se o pop-up aparecer enquanto faz login no portal do Azure.
 
-1. Se você vir o pop-up **Stay Signed in?** clique em Não.
+1. Se você vir o pop-up **Stay Signed in?** clique em **Não**.
 
 1. Se você vir o pop-up **You have free Azure Advisor recommendations!**, feche a janela para continuar o laboratório.
 
-1. Se aparecer uma janela pop-up **Welcome to Microsoft Azure**, clique em **Maybe Later** para pular o tour.
+1. Se aparecer uma janela pop-up **Welcome to Microsoft Azure**, clique em **Cancel** para pular o tour.
    
 1. Agora você verá o Painel do Portal do Azure. Clique em **Resource groups** no painel de navegação para ver os resource groups.
   

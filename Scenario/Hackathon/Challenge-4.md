@@ -29,7 +29,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 ## Objectivos do Desafio:
 
-1. Crie uma nova pasta chamada DemoApp em C:/users/azureuser
+1. Crie uma nova pasta chamada DemoApp em C:/Users/azureuser
 
 1. **Utilize o GitHub Copilot Workspace no aplicativo de Banco de Dados de Contatos existente:**
 
@@ -40,7 +40,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 1. **Utilize o GitHub Copilot Workspace para criar um novo aplicativo React chamado Expense Tracker:**
 
-   - Crie a estrutura fundamental do workspace do zero usando o recurso **GitHub Copilot Workspace** em `C:/users/azureuser/DemoApp`.
+   - Crie a estrutura fundamental do workspace do zero usando o recurso **GitHub Copilot Workspace** em `C:/Users/azureuser/DemoApp`.
      >**Dica:** Peça ao Copilot para criar um workspace para um novo aplicativo React Expense Tracker com todos os arquivos e código necessários.
 
    - Desenvolva os componentes individuais necessários no esboço do aplicativo Expense Tracker usando as capacidades transformadoras do **GitHub Copilot** .
