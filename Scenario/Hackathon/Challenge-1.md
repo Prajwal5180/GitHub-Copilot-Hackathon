@@ -65,7 +65,8 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 3. **Utilizar GitHub Codespaces com Copilot:**
    - Crie um Codespace para o seu repositório GitHub.
-     >**Nota:** Navegue até o repositório **https://github.com/CloudLabsAI-Azure/MyMvcApp-Contact-Databse-Application** e faça um fork deste repositório para a conta GitHub fornecida pelo CloudLabs para criar um novo codespace. Você usará este repositório no Desafio 02.   
+     >**Nota:** Navegue al repositorio **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** y bifurque (haga fork) este repositorio en la cuenta de GitHub proporcionada por CloudLabs para crear un nuevo Codespace.
+   - Clone o repositório bifurcado acima no Visual Studio Code usando a conta GitHub fornecida pelo CloudLabs.   
    - Entenda como o Copilot pode ser utilizado em um ambiente de codificação colaborativo.
    - Use o GitHub Codespaces para fazer push/commit dos arquivos locais do VS Code para o GitHub nos próximos desafios.
 
@@ -77,79 +78,22 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 5. **Geração de Código com Copilot e Copilot Chat:**
    - Crie código baseado em Python/JS para construir uma calculadora.
       - Utilize o GitHub Copilot para gerar código em Python ou JavaScript que cria uma calculadora básica.
-      - Salve os arquivos como *calculator.py / calculator.js* em **C:\Users\azureuser**.
+      - Depois de escrever o código, salve o arquivo como calculator.py se estiver usando Python, ou calculator.js se estiver usando JavaScript, e envie-o para seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring**.
       - Experimente diferentes operações matemáticas e interações com o usuário.
    - Crie um aplicativo baseado em Python/JS para obter dados meteorológicos das APIs do OpenWeatherMap.
       - Inscreva-se no site do OpenWeatherMap (https://openweathermap.org/).
       - Utilize o Copilot para gerar código Python/JS que interage com as APIs de clima para recuperar dados meteorológicos.
-      - Salve os arquivos como *weather_script.py / weather_script.js* em **C:\Users\azureuser**.
+      - Salve este arquivo como weather_script.py para Python ou weather_script.js para JavaScript e envie-o para seu repositório GitHub bifurcado do CloudLabsAI-Azure/Code-Generation-Refactoring.
 
    <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
 6. **Refactoring & Debugging de Código:**
-   - Refatore trechos de código fornecidos usando o Copilot, compreendendo o processo de melhoria de código.
-     >**Dica:** Utilize a funcionalidade **Refactor** do GitHub Copilot.
 
-      ```
-      #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
-      
-      MAX = 100
+   - Refatore o código `sum_elements.py` do seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** usando o Copilot, entendendo o processo de melhoria do código.
+     >**Sugerencia:** Utilice la función Refactor de GitHub Copilot.
 
-      def calculate_sum(arr):
-         result = 0
-         for num in arr:
-            result += num
-         return result
-
-      def main():
-         try:
-            n = int(input("Enter the number of elements (1-100): "))
-            if not 1 <= n <= MAX:
-                  print("Invalid input. Please provide a digit ranging from 1 to 100.")
-                  exit(1)
-
-            arr = []
-
-            print(f"Enter {n} integers:")
-            for _ in range(n):
-                  try:
-                     arr.append(int(input()))
-                  except ValueError:
-                     print("Invalid input. Please enter valid integers.")
-                     exit(1)
-
-            total = calculate_sum(arr)
-
-            print("Sum of the numbers:", total)
-
-         except KeyboardInterrupt:
-            print("\nProgram terminated by user.")
-            exit(1)
-
-      if __name__ == "__main__":
-         main()
-      ```
-   - Faça Debug no código de forma eficaz com a assistência do Copilot, abordando e corrigindo os problemas identificados.
-     >**Dica:** Utilize a funcionalidade **Fix** do GitHub Coliplot.
-
-      ```
-      # Intentionally flawed Python program
-
-      # importing modules
-      import itertools, random
-
-      # make a deck of cards
-      deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
-
-      # shuffle the cards
-      random.shuffle(deck)
-
-      # draw five cards
-      print("You got:")
-      for i in range(5)
-         print(deck[i][0], "of", deck[i][1]
-
-      ```
+   - Depure o código `card_draw.py` de maneira eficaz a partir de seu repositório GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** com a ajuda do Copilot, abordando e corrigindo problemas identificados.
+      >**Sugerencia:** Utilice la función Corregir de GitHub Copilot.
 
 ## Critério de Sucesso:
 
