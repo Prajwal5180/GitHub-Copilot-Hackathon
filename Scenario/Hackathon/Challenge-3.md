@@ -29,7 +29,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 1. On the **Sign in to Microsoft Azure** tab, you will see a login screen. Enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
-        
+
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
@@ -40,9 +40,9 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, click **Cancel** to skip the tour.
-   
+
 1. Now you will see the Azure Portal Dashboard. Click on **Resource groups** from the Navigate panel to see the resource groups.
-  
+
 1. Confirm you have a resource group **GitHub-Copilot-Challenges** present, as shown in the below screenshot. You need to use the **GitHub-Copilot-Challenges** resource group throughout this challenge.
 
 ## Challenge Objectives:
@@ -55,35 +55,36 @@ Make sure you have the following from the CloudLabs-provided integrated environm
      
    - Save the ARM template and parameters files in your **MyMvcApp CRUD Application** GitHub repository as **deploy.json** and **deploy.parameters.json** files on the **master** branch.
 
-   <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
+      <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
 
 2. **Generate a GitHub action workflow using the Deployment Center from the Web App in the Azure portal:**
-   
+
    - Deploy and build workflow code from your Web App **Deployment Center** for the GitHub source **MyMvcApp-Contact-Database-Application** GitHub repository to start the workflow pipeline to deploy your Web app to Azure.
      >**Note:** The build will fail due to the undefined path in your workflow YAML file.
-  
+
    - Specify the path as **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** for the steps **dotnet publish** and **Upload artifact for deployment job** in your workflow file.
 
      ![](../../media/challenge3-github-workflow-edit.png)
 
      ![](../../media/challenge3-github-workflow-edit-01.png)
 
-   <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
+      <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
 3. **Get the app working on Azure:**
-   
+
    - Verify that the GitHub Actions pipeline build has succeeded and the app is working as expected through the Web App.
-  
+
+
      ![](../../media/challenge3-web-app-001.png)
-     
+
    - Verify that the deployed resources match the specifications outlined in your ARM template and that the application is working from the Azure Web App's **Default Domain**.
-  
+
 4. **Generate documentation with Copilot for the app:**
-   
+
    - Use GitHub Copilot to assist you in generating detailed and accurate documentation specifically for this challenge.
-     
+
    - Create an MD file in your **MyMvcApp-Contact-Database-Application** GitHub repository as a **README.md** file on the **master** branch. This will act as a guide in creating an ARM template to deploy the app and the GitHub actions pipeline workflow file.
-     
+
 ## Success Criteria:
 
 - Verify that the web app from Azure App Services containing your application code is present in Azure.
@@ -97,7 +98,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - If you encounter any challenges or have questions, refer to the [GitHub Copilot Documentation](https://github.com/github/copilot-docs) for guidance.
 
 ### Challenge Validation
- 
+
 Provide the GitHub Username parameter in the **github-cloudlabsuser-XXXX** format for the **Validate GitHub directory** validation step.
 
 ## Conclusion

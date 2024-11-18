@@ -31,18 +31,18 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Generate comments for the ***app/backend/approaches/approach.py*** file through GitHub Copilot **Start in Editor** feature.
      >**Hint:** Access the GitHub Copilot Start in Editor feature by **Ctrl+I** shortcut in your VS Code.
 
-   <validation step="96b4e044-86fc-4209-9733-e422716a27d7" />
+    <validation step="96b4e044-86fc-4209-9733-e422716a27d7" />
 
-3. **Enhance and refine documentation:**
+2. **Enhance and refine documentation:**
 
    - Enhance the **README.md** markdown documentation generated in the previous challenge utilizing GitHub Copilot Suggestions.
      >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
 
    - Use the appropriate suggestions, which will refine the documentation.
 
-   <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
+    <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
 
-5. **Explore Various Documentation Styles:**
+3. **Explore Various Documentation Styles:**
 
    - Utilize GitHub Copilot to generate a Javadoc to create a calculator.
 

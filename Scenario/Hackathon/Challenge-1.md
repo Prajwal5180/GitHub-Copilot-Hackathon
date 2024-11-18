@@ -53,7 +53,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    - Open Visual Studio Code, Navigate to **Extensions**, search for **Github Copilot** and click on **Install**
    - Configure the extension settings to suit your preferences.
 
-   <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
+      <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
 2. **Login with a GitHub account:**
    - Login to GitHub within Visual Studio Code using the provided GitHub credentials. You can find these credentials under **Environment > GitHub Credentials** tab.
@@ -87,7 +87,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Save this file as ***weather_script.py*** for Python or ***weather_script.js*** for JavaScript, and push it to your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository.
       - Test the app by entering different locations to see how it retrieves and presents weather data.
 
-   <validation step="b5244888-2b42-4686-b326-465182a86561" />
+      <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
 6. **Code Refactoring & Debugging:**
    - Refactor the `sum_elements.py` code from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository using Copilot, understanding the process of code improvement.
