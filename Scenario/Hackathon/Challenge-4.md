@@ -31,19 +31,19 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 1. Crie uma nova pasta chamada DemoApp em C:/Users/azureuser
 
-1. **Utilize o GitHub Copilot Workspace no aplicativo de Banco de Dados de Contatos existente:**
+2. **Utilize o GitHub Copilot Workspace no aplicativo de Banco de Dados de Contatos existente:**
 
    - Entenda e explore como o recurso Workspace funciona.
 
    - Forneça alguns prompts ao agente do workspace no seu ambiente VS Code e revise suas saídas, como perguntar sobre coisas relevantes relacionadas ao seu workspace atual, gerar novas funcionalidades, identificar problemas em qualquer arquivo e mais.
      >**Dica:** Use referências de arquivos **@workspace**, **@vscode** e **@terminal** para os prompts.
 
-1. **Utilize o GitHub Copilot Workspace para criar um novo aplicativo React chamado Expense Tracker:**
+3. **Utilize o GitHub Copilot Workspace para criar um novo aplicativo React chamado Expense Tracker:**
 
    - Crie a estrutura fundamental do workspace do zero usando o recurso **GitHub Copilot Workspace** em `C:/Users/azureuser/DemoApp`.
      >**Dica:** Peça ao Copilot para criar um workspace para um novo aplicativo React Expense Tracker com todos os arquivos e código necessários.
 
-   - Desenvolva os componentes individuais necessários no esboço do aplicativo Expense Tracker usando as capacidades transformadoras do **GitHub Copilot** .
+   - Desenvolva os componentes individuais necessários no esboço do aplicativo Expense Tracker usando as capacidades transformadoras do **GitHub Copilot**.
      >**Dica:** Use a referência de arquivo **@workspace** para adicionar funcionalidades a todos os arquivos.
 
    - Debug todos os possíveis erros que surgirem ao executar o aplicativo Expense Tracker usando o GitHub Copilot Workspace.
@@ -56,13 +56,13 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
    <validation step="2458065d-db29-4909-a6a8-6be48c96d04b" />
 
-1. **Utilize as capacidades de file referencing:**
+4. **Utilize as capacidades de file referencing:**
 
-   - Entenda como o GitHub Copilot referencia arquivos em seus documentos e como isso ajuda no fluxo de código.
+      - Entenda como o GitHub Copilot referencia arquivos em seus documentos e como isso ajuda no fluxo de código.
 
-   - Forneça alguns prompts que exijam que o GitHub Copilot referencie múltiplos arquivos no seu projeto com vários arquivos e analise as referências corretamente, ou seja, forneça prompts que descrevam os usos do arquivo **index.js** no aplicativo **Expense Tracker** que você construiu anteriormente.
+      - Forneça alguns prompts que exijam que o GitHub Copilot referencie múltiplos arquivos no seu projeto com vários arquivos e analise as referências corretamente, ou seja, forneça prompts que descrevam os usos do arquivo **index.js** no aplicativo **Expense Tracker** que você construiu anteriormente.
 
-   - Forneça um prompt usando referências de arquivos que integre o campo **Date** no documento **ExpenseForm** do seu **Expense Tracker Application** e exiba-o no **ExpenseItem**, e então permita que você classifique as despesas por data no componente **ExpenseList**.
+      - Forneça um prompt usando referências de arquivos que integre o campo **Date** no documento **ExpenseForm** do seu **Expense Tracker Application** e exiba-o no **ExpenseItem**, e então permita que você classifique as despesas por data no componente **ExpenseList**.
 
       O output deve ser semelhante ao exemplo abaixo:
 
@@ -79,7 +79,6 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 - Verifique os resultados gerados pelos seus prompts e sua precisão.
 
 - Verifique se o componente de data foi adicionado ao seu aplicativo e está funcionando corretamente.
-
 
 ## Recursos Adicionais:
 
