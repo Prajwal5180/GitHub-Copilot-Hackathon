@@ -33,20 +33,20 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
    <validation step="96b4e044-86fc-4209-9733-e422716a27d7" />
 
-3. **Melhorar e refinar a documentação:**
+2. **Melhorar e refinar a documentação:**
 
-   - Melhore a documentação em markdown **README.md** gerada no desafio anterior, utilizando as Sugestões do GitHub Copilot.
-     >**Dica:** Acesse a janela de Sugestões do GitHub Copilot usando o atalho **Ctrl+Enter** no VS Code.
+      - Melhore a documentação em markdown **README.md** gerada no desafio anterior, utilizando as Sugestões do GitHub Copilot.
+        >**Dica:** Acesse a janela de Sugestões do GitHub Copilot usando o atalho **Ctrl+Enter** no VS Code.
 
-   - Use as sugestões apropriadas para refinar a documentação.
+      - Use as sugestões apropriadas para refinar a documentação.
 
    <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
 
-5. **Explorar Vários Estilos de Documentação:**
+3. **Explorar Vários Estilos de Documentação:**
 
-   - Utilize o GitHub Copilot para gerar um Javadoc para criar uma calculadora.
+      - Utilize o GitHub Copilot para gerar um Javadoc para criar uma calculadora.
 
-   - Utilize o GitHub Copilot para gerar documentação em markdown para implantar uma VNet no Azure.
+      - Utilize o GitHub Copilot para gerar documentação em markdown para implantar uma VNet no Azure.
 
 ## Critério de Sucesso:
 
@@ -62,4 +62,4 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 ## Conclusão
 
-Neste desafio, você utilizou o GitHub Copilot para gerar comentários e documentação em formato markdown para o aplicativo backend através dos recursos do GitHub Copilot. Você também melhorou sua nova documentação em markdown gerada para o aplicativo backend utilizando as sugestões do GitHub Copilot. Além disso, você explorou os vários estilos de documentação que o GitHub Copilot oferece, gerando documentos em markdown para implementar uma VNet no Azure e um Javadoc para criar uma calculadora do zero
+Neste desafio, você utilizou o GitHub Copilot para gerar comentários e documentação em formato markdown para o aplicativo backend através dos recursos do GitHub Copilot. Você também melhorou sua nova documentação em markdown gerada para o aplicativo backend utilizando as sugestões do GitHub Copilot. Além disso, você explorou os vários estilos de documentação que o GitHub Copilot oferece, gerando documentos em markdown para implementar uma VNet no Azure e um Javadoc para criar uma calculadora do zero.
