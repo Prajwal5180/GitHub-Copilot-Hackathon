@@ -64,7 +64,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
       - Forneça um prompt usando referências de arquivos que integre o campo **Date** no documento **ExpenseForm** do seu **Expense Tracker Application** e exiba-o no **ExpenseItem**, e então permita que você classifique as despesas por data no componente **ExpenseList**.
 
-      O output deve ser semelhante ao exemplo abaixo:
+      - output deve ser semelhante ao exemplo abaixo:
 
       ![](../../media/app-working-date.png)
 
