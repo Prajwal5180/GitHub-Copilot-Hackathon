@@ -33,16 +33,17 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
    ![](../../media/Edge.png)
 
 1. Navegue até a página de login do GitHub usando o URL fornecido abaixo:
+
    ```
    https://github.com/login
    ```
-   
-1. Na aba **Sign in to GitHub**, você verá a tela de login. Nessa tela, insira o seguinte email **email** **(1)** e a password **password** **(2)**. Em seguida, clique em **Sign in** **(3)**. 
 
-   >**Nota**:Para obter as credenciais do GitHub, navegue até a aba **Environment Details** e clique na opção **GitHub Credentials** para visualizar os pares de chave-valor do **GitHub UserEmail**, w **GitHub Password**. Você pode usar os botões de copiar na coluna de ações para ter os valores copiados instantaneamente. Alternativamente, é sugerido copiar os valores para um bloco de notas para fácil acessibilidade. 
+1. Na aba **Sign in to GitHub**, você verá a tela de login. Nessa tela, insira o seguinte email **email** **(1)** e a password **password** **(2)**. Em seguida, clique em **Sign in** **(3)**.
+
+   >**Nota**:Para obter as credenciais do GitHub, navegue até a aba **Environment Details** e clique na opção **GitHub Credentials** para visualizar os pares de chave-valor do **GitHub UserEmail**, w **GitHub Password**. Você pode usar os botões de copiar na coluna de ações para ter os valores copiados instantaneamente. Alternativamente, é sugerido copiar os valores para um bloco de notas para fácil acessibilidade.
 
    ![](../../media/github-login.png)
-          .
+
 1. Em seguida, para obter o código de autenticação, faça login no Outlook (https://outlook.office365.com/mail/) com as credenciais do GitHub fornecidas na aba Environment da etapa anterior. Após fazer login no Outlook, encontre o email recente contendo o código de verificação. Insira o código de verificação e clique em **Verify**.
 
    >**Nota:** O email contendo o código de verificação pode, às vezes, ir parar nas pastas de arquivamento/spam do seu Outlook.
@@ -66,7 +67,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 3. **Utilizar GitHub Codespaces com Copilot:**
    - Crie um Codespace para o seu repositório GitHub.
      >**Nota:** Navegue al repositorio **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** y bifurque (haga fork) este repositorio en la cuenta de GitHub proporcionada por CloudLabs para crear un nuevo Codespace.
-   - Clone o repositório bifurcado acima no Visual Studio Code usando a conta GitHub fornecida pelo CloudLabs.   
+   - Clone o repositório bifurcado acima no Visual Studio Code usando a conta GitHub fornecida pelo CloudLabs.
    - Entenda como o Copilot pode ser utilizado em um ambiente de codificação colaborativo.
    - Use o GitHub Codespaces para fazer push/commit dos arquivos locais do VS Code para o GitHub nos próximos desafios.
 
