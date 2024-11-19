@@ -35,18 +35,18 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 
 2. **Mejorar y refinar la documentación:**
 
-   - Mejore la documentación de Markdown **README.md** generada en el desafío anterior utilizando GitHub Copilot Suggestions.
-     >**Sugerencia:** Acceda a la ventana GitHub Copilot Suggestions con el atajo **Ctrl+Enter** en VS Code.
+      - Mejore la documentación de Markdown **README.md** generada en el desafío anterior utilizando GitHub Copilot Suggestions.
+        >**Sugerencia:** Acceda a la ventana GitHub Copilot Suggestions con el atajo **Ctrl+Enter** en VS Code.
 
-   - Utilice las sugerencias adecuadas, las cuales refinarán la documentación.
+      - Utilice las sugerencias adecuadas, las cuales refinarán la documentación.
 
    <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
 
 3. **Explore Varios Estilos de Documentación:**
 
-   - Utilice GitHub Copilot para generar un Javadoc para crear una calculadora.
+      - Utilice GitHub Copilot para generar un Javadoc para crear una calculadora.
 
-   - Utilice GitHub Copilot para generar documentación de Markdown para implementar una VNet en Azure.
+      - Utilice GitHub Copilot para generar documentación de Markdown para implementar una VNet en Azure.
 
 ## Criterios de Éxito:
 
