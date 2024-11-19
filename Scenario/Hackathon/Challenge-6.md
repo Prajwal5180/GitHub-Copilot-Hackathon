@@ -31,13 +31,13 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
    - Gere um script de monitorização de sysadmin em PowerShell usando o GitHub Copilot para uso de disco em uma VM Windows.
      >**Dica:** Utilize o GitHub Copilot Chat para gerar os scripts de monitorização de recursos de sysadmin acima.
 
-3. **Refatorar e debug dos scripts gerados:**
+2. **Refatorar e debug dos scripts gerados:**
 
    - Aplique as sugestões do Copilot para refatoração de código, melhorando a legibilidade e a manutenção dos scripts.
 
    - Utilize efetivamente o suporte à debug do Copilot para identificar e resolver quaisquer problemas presentes nos scripts gerados..
 
-5. **Executar os scripts:**
+3. **Executar os scripts:**
 
    - Execute e teste os scripts gerados em seu ambiente e visualize os resultados.
 
