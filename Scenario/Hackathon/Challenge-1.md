@@ -50,46 +50,46 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 ## Objetivos del Desafío:
 
 1. **Configurar GitHub Copilot en VS Code:**
-   - Instale la extensión GitHub Copilot desde VS Code Marketplace.
-   - Configure los ajustes de la extensión que se adapten a sus preferencias.
+      - Instale la extensión GitHub Copilot desde VS Code Marketplace.
+      - Configure los ajustes de la extensión que se adapten a sus preferencias.
 
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
 2. **Iniciar sesión con una cuenta de GitHub:**
-   - Inicie sesión en GitHub dentro de Visual Studio Code con las credenciales de GitHub proporcionadas. Puede encontrar estas credenciales en la pestaña **Ambiente > Credenciales de GitHub**.
-   - En la página de inicio de sesión de GitHub, ingrese sus credenciales de GitHub y haga clic en **Sign in**.
-   - Para verificar el inicio de sesión de su cuenta de GitHub, inicie sesión en **Outlook** en la Máquina Virtual del Laboratorio a través de una ventana privada (https://outlook.office365.com/mail/) con sus credenciales de GitHub, busque el correo electrónico que contiene el código de verificación y seleccione **Verify**.
-   - Haga clic en Authorize Visual-Studio-Code para proporcionar permisos adicionales a GitHub para VS Code.
+      - Inicie sesión en GitHub dentro de Visual Studio Code con las credenciales de GitHub proporcionadas. Puede encontrar estas credenciales en la pestaña **Ambiente > Credenciales de GitHub**.
+      - En la página de inicio de sesión de GitHub, ingrese sus credenciales de GitHub y haga clic en **Sign in**.
+      - Para verificar el inicio de sesión de su cuenta de GitHub, inicie sesión en **Outlook** en la Máquina Virtual del Laboratorio a través de una ventana privada (https://outlook.office365.com/mail/) con sus credenciales de GitHub, busque el correo electrónico que contiene el código de verificación y seleccione **Verify**.
+      - Haga clic en Authorize Visual-Studio-Code para proporcionar permisos adicionales a GitHub para VS Code.
 
 3. **Usar GitHub Codespaces con Copilot:**
-   - Crea un Codespace para tu repositorio de GitHub. Vaya al repositorio **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** y bifurque este repositorio en la cuenta de GitHub proporcionada por CloudLabs para crear un nuevo espacio de código.
-   - Clona el repositorio de GitHub anterior en tu código VS.
-   - Comprenda cómo se puede utilizar Copilot en un entorno de programación colaborativa.
-   - Utilice GitHub Codespaces para enviar/confirmar los archivos locales de VS Code a GitHub en los próximos desafíos.
+      - Crea un Codespace para tu repositorio de GitHub. Vaya al repositorio **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** y bifurque este repositorio en la cuenta de GitHub proporcionada por CloudLabs para crear un nuevo espacio de código.
+      - Clona el repositorio de GitHub anterior en tu código VS.
+      - Comprenda cómo se puede utilizar Copilot en un entorno de programación colaborativa.
+      - Utilice GitHub Codespaces para enviar/confirmar los archivos locales de VS Code a GitHub en los próximos desafíos.
 
 4. **Explorar las Características de GitHub Copilot:**
-   - Experimente con Copilot en varios escenarios de codificación.
-   - Utilice las sugerencias de Copilot para acelerar su proceso de escritura de código.
-     >**Sugerencia:** Acceda a la ventana GitHub Copilot Suggestions con el atajo **Ctrl+Enter** en VS Code.
+      - Experimente con Copilot en varios escenarios de codificación.
+      - Utilice las sugerencias de Copilot para acelerar su proceso de escritura de código.
+        >**Sugerencia:** Acceda a la ventana GitHub Copilot Suggestions con el atajo **Ctrl+Enter** en VS Code.
 
 5. **Generar Código con Copilot y Copilot Chat:**
-   - Cree código basado en Python/JS para construir una calculadora.
-      - Utilice GitHub Copilot para generar código Python o JavaScript que cree una calculadora básica.
-      - Una vez que haya escrito el código, guarde el archivo como ***calculator.py*** si usa Python, o ***calculator.js*** si usa JavaScript, y envíelo a su bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** repositorio GitHub.
-      - Experimente con diferentes operaciones matemáticas e interacciones de usuario.
-   - Cree una aplicación basada en Python/JS para obtener datos meteorológicos de las APIs de OpenWeatherMap.
-      - Regístrese en el sitio web de OpenWeatherMap (https://openweathermap.org/).
-      - Aproveche Copilot para generar código Python/JS que interactúe con las APIs meteorológicas para recuperar datos del clima.
-      - Guarde este archivo como ***weather_script.py*** para Python o ***weather_script.js*** para JavaScript y envíelo a su repositorio bifurcado de GitHub **CloudLabsAI-Azure/Code-Generation-Refactoring**.
+      - Cree código basado en Python/JS para construir una calculadora.
+         - Utilice GitHub Copilot para generar código Python o JavaScript que cree una calculadora básica.
+         - Una vez que haya escrito el código, guarde el archivo como ***calculator.py*** si usa Python, o ***calculator.js*** si usa JavaScript, y envíelo a su bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** repositorio GitHub.
+         - Experimente con diferentes operaciones matemáticas e interacciones de usuario.
+      - Cree una aplicación basada en Python/JS para obtener datos meteorológicos de las APIs de OpenWeatherMap.
+         - Regístrese en el sitio web de OpenWeatherMap (https://openweathermap.org/).
+         - Aproveche Copilot para generar código Python/JS que interactúe con las APIs meteorológicas para recuperar datos del clima.
+         - Guarde este archivo como ***weather_script.py*** para Python o ***weather_script.js*** para JavaScript y envíelo a su repositorio bifurcado de GitHub **CloudLabsAI-Azure/Code-Generation-Refactoring**.
 
    <validation step="b5244888-2b42-4686-b326-465182a86561" />
 
 6. **Refactorizar y Depurar Código:**
-   - Refactorice el código `sum_elements.py` de su repositorio GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** usando Copilot, entendiendo el proceso de mejora del código.
-     >**Sugerencia:** Utilice la función **Refactor** de GitHub Copilot.
+      - Refactorice el código `sum_elements.py` de su repositorio GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** usando Copilot, entendiendo el proceso de mejora del código.
+        >**Sugerencia:** Utilice la función **Refactor** de GitHub Copilot.
 
-   - Depure el código `card_draw.py` de manera efectiva desde su repositorio GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** con la ayuda de Copilot, abordando y solucionando problemas identificados. 
-     >**Sugerencia:** Utilice la función **Reparar** de GitHub Copilot.
+      - Depure el código `card_draw.py` de manera efectiva desde su repositorio GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** con la ayuda de Copilot, abordando y solucionando problemas identificados. 
+        >**Sugerencia:** Utilice la función **Reparar** de GitHub Copilot.
 
 ## Criterios de Éxito:
 
