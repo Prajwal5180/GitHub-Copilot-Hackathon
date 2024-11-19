@@ -48,38 +48,38 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 ## Objetivos del Desafío:
 
 1. **Desarrollar una plantilla ARM para implementar una aplicación en Azure:**
-   
-   - Utilice GitHub Copilot para generar la estructura inicial de una plantilla ARM para desplegar la **Aplicación CRUD MyMvcApp** en Azure.
-     
-   - Defina los recursos de Azure necesarios en la plantilla ARM, es decir, una **Aplicación web** presente en **Azure App Services** necesaria para implementar la aplicación.
-     
-   - Guarde la plantilla ARM y los archivos de parámetros en el repositorio de GitHub de la **Aplicación CRUD MyMvcApp** como **deploy.json** y **deploy.parameters.json** en la rama **master**.
+
+      - Utilice GitHub Copilot para generar la estructura inicial de una plantilla ARM para desplegar la **Aplicación CRUD MyMvcApp** en Azure.
+
+      - Defina los recursos de Azure necesarios en la plantilla ARM, es decir, una **Aplicación web** presente en **Azure App Services** necesaria para implementar la aplicación.
+
+      - Guarde la plantilla ARM y los archivos de parámetros en el repositorio de GitHub de la **Aplicación CRUD MyMvcApp** como **deploy.json** y **deploy.parameters.json** en la rama **master**.
 
    <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
 
 2. **Generar un flujo de trabajo de GitHub Actions mediante el Centro de Implementación desde la Aplicación Web en el portal de Azure:**
-   
-   - Implemente y construya el código del flujo de trabajo desde el **Centro de Implementación** de su Aplicación Web para el repositorio fuente de GitHub **MyMvcApp-Contact-Database-Application** para iniciar la canalización del flujo de trabajo a fin de desplegar su Aplicación Web en Azure.
-     >**Nota:** build fallará debido a una ruta no definida en el archivo YAML del flujo de trabajo.
-  
-   - Especifique la ruta como **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** para los pasos **dotnet publish** y **Upload artifact for deployment job** en su archivo de flujo de trabajo.
+
+      - Implemente y construya el código del flujo de trabajo desde el **Centro de Implementación** de su Aplicación Web para el repositorio fuente de GitHub **MyMvcApp-Contact-Database-Application** para iniciar la canalización del flujo de trabajo a fin de desplegar su Aplicación Web en Azure.
+       >**Nota:** build fallará debido a una ruta no definida en el archivo YAML del flujo de trabajo.
+
+      - Especifique la ruta como **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** para los pasos **dotnet publish** y **Upload artifact for deployment job** en su archivo de flujo de trabajo.
 
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
 3. **Conseguir que la aplicación funcione en Azure:**
-   
-   - Verifique que el pipeline de construcción de GitHub Actions se haya realizado correctamente y que la aplicación esté funcionando como se esperaba a través de la Aplicación Web.
-  
+
+      - Verifique que el pipeline de construcción de GitHub Actions se haya realizado correctamente y que la aplicación esté funcionando como se esperaba a través de la Aplicación Web.
+
      ![](../../media/challenge3-web-app-001.png)
-     
-   - Verifique que los recursos implementados coincidan con las especificaciones descritas en su plantilla ARM y que la aplicación esté funcionando desde el **Dominio predeterminado** de la Aplicación Web de Azure.
-  
+
+      - Verifique que los recursos implementados coincidan con las especificaciones descritas en su plantilla ARM y que la aplicación esté funcionando desde el **Dominio predeterminado** de la Aplicación Web de Azure.
+
 4. **Generar documentación con Copilot para la aplicación:**
-   
-   - Utilice GitHub Copilot para ayudarle a generar documentación detallada y precisa específicamente para este desafío.
-     
-   - Cree un archivo **README.md** en su repositorio de GitHub **MyMvcApp-Contact-Database-Application** en la rama **master**. Esto servirá de guía para crear una plantilla ARM para implementar la aplicación y el archivo de flujo de trabajo del pipeline de GitHub Actions.
-     
+
+      - Utilice GitHub Copilot para ayudarle a generar documentación detallada y precisa específicamente para este desafío.
+
+      - Cree un archivo **README.md** en su repositorio de GitHub **MyMvcApp-Contact-Database-Application** en la rama **master**. Esto servirá de guía para crear una plantilla ARM para implementar la aplicación y el archivo de flujo de trabajo del pipeline de GitHub Actions.
+
 ## Criterios de Éxito:
 
 - Compruebe que la aplicación web de Azure App Services que contiene el código de su aplicación esté presente en Azure.
@@ -93,7 +93,7 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 - Si encuentra algún problema o tiene alguna pregunta, consulte la [Documentación de GitHub Copilot](https://github.com/github/copilot-docs) para obtener orientación.
 
 ### Validación del Desafío
- 
+
 Proporcione el parámetro de Nombre de Usuario de GitHub en el formato **github-cloudlabsuser-XXXX** para el paso de validación **Validate GitHub directory**.
 
 ## ConclusiÓn
