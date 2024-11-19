@@ -35,18 +35,18 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 2. **Enhance and refine documentation:**
 
-   - Enhance the **README.md** markdown documentation generated in the previous challenge utilizing GitHub Copilot Suggestions.
-     >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
+      - Enhance the **README.md** markdown documentation generated in the previous challenge utilizing GitHub Copilot Suggestions.
+        >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
 
-   - Use the appropriate suggestions, which will refine the documentation.
+      - Use the appropriate suggestions, which will refine the documentation.
 
     <validation step="f42aa485-2434-4ae5-b2e5-475b215cae63" />
 
 3. **Explore Various Documentation Styles:**
 
-   - Utilize GitHub Copilot to generate a Javadoc to create a calculator.
+      - Utilize GitHub Copilot to generate a Javadoc to create a calculator.
 
-   - Make use of GitHub Copilot to generate markdown documentation to deploy a VNet in Azure.
+      - Make use of GitHub Copilot to generate markdown documentation to deploy a VNet in Azure.
 
 ## Success Criteria:
 
