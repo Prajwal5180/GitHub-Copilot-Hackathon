@@ -57,11 +57,11 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 
 3. **Utilizar las capacidades de referencia de archivos:**
 
-   - Entienda cómo GitHub Copilot hace referencia a los archivos en sus documentos y cómo ayuda con el flujo de código.
+      - Entienda cómo GitHub Copilot hace referencia a los archivos en sus documentos y cómo ayuda con el flujo de código.
 
-   - Proporcione algunos prompts que requieran que GitHub Copilot haga referencia a múltiples archivos en su proyecto de varios archivos y analice las referencias correctamente, es decir, proporcione prompts que describan los usos del archivo **index.js** en la aplicación **Expense Tracker** que construyó con anterioridad.
+      - Proporcione algunos prompts que requieran que GitHub Copilot haga referencia a múltiples archivos en su proyecto de varios archivos y analice las referencias correctamente, es decir, proporcione prompts que describan los usos del archivo **index.js** en la aplicación **Expense Tracker** que construyó con anterioridad.
 
-   - Proporcione dicho prompt utilizando referencias de archivos que integren el campo **Date** en el documento **ExpenseForm** en su **Aplicación Expense Tracker** y lo muestren en **ExpenseItem**, y entonces podrá ordenar los gastos por fecha en el componente **ExpenseList**.
+      - Proporcione dicho prompt utilizando referencias de archivos que integren el campo **Date** en el documento **ExpenseForm** en su **Aplicación Expense Tracker** y lo muestren en **ExpenseItem**, y entonces podrá ordenar los gastos por fecha en el componente **ExpenseList**.
 
       El resultado debería ser similar al que se muestra a continuación:
 
