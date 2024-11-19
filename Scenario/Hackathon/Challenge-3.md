@@ -29,7 +29,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 1. Para acessar o portal do Azure, abra uma janela privada/incógnita no seu browser e navegue até **[Azure Portal](https://portal.azure.com)**.
 
-1.Na aba **Sign in to Microsoft Azure**, você verá uma tela de login. Insira o seguinte e-mail/nome de usuário e clique **Next**. 
+1. Na aba **Sign in to Microsoft Azure**, você verá uma tela de login. Insira o seguinte e-mail/nome de usuário e clique **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
         
 1. Agora insira a seguinte senha e clique em **Sign in**.
@@ -59,29 +59,29 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
    <validation step="93dbb711-57a3-462c-8ffe-699f1208865e" />
 
-3. **Gerar um workflow de GitHub Action usando o Deployment Center de Azure App Service do portal do Azure:**
+2. **Gerar um workflow de GitHub Action usando o Deployment Center de Azure App Service do portal do Azure:**
    
-   - Implemente e construa o workflow através do **Deployment Center** da sua Web App usando o repositório de GitHub **MyMvcApp-Contact-Database-Application** para iniciar o pipeline que implantará a applicação em Azure.
-     >**Nota:** A construção falhará devido ao caminho indefinido no seu arquivo YAML do workflow.
+      - Implemente e construa o workflow através do **Deployment Center** da sua Web App usando o repositório de GitHub **MyMvcApp-Contact-Database-Application** para iniciar o pipeline que implantará a applicação em Azure.
+       >**Nota:** A construção falhará devido ao caminho indefinido no seu arquivo YAML do workflow.
   
-   - Especifique o caminho como **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** para os passos **dotnet publish** e **Upload artifact for deployment job** no seu workflow de GitHub Actions.
+      - Especifique o caminho como **D:\a\MyMvcApp-Contact-Databse-Application\MyMvcApp-Contact-Databse-Application\bin\Release\net8.0\MyMvcApp** para os passos **dotnet publish** e **Upload artifact for deployment job** no seu workflow de GitHub Actions.
 
    <validation step="019351e9-84ff-4623-a26c-66afe706bf66" />
 
-5. **Coloque a aplicação a funcionar no Azure:**
+3. **Coloque a aplicação a funcionar no Azure:**
    
-   - Verifique se a construção do pipeline do GitHub Actions foi bem-sucedida e se o aplicativo está funcionando conforme o esperado através da Web App.
+      - Verifique se a construção do pipeline do GitHub Actions foi bem-sucedida e se o aplicativo está funcionando conforme o esperado através da Web App.
   
      ![](../../media/challenge3-web-app-001.png)
      
-   - Verifique se os recursos implantados correspondem às especificações descritas no seu template ARM e se o aplicativo está funcionando no **Default Domain** da Azure Web App.
-  
-7. **Gerar documentação com Copilot para o aplicativo:**
+      - Verifique se os recursos implantados correspondem às especificações descritas no seu template ARM e se o aplicativo está funcionando no **Default Domain** da Azure Web App.
+
+4. **Gerar documentação com Copilot para o aplicativo:**
    
-   - Utilize o GitHub Copilot para ajudar na geração de documentação detalhada e precisa especificamente para este desafio.
+      - Utilize o GitHub Copilot para ajudar na geração de documentação detalhada e precisa especificamente para este desafio.
      
-   - Crie um arquivo MD no seu repositório **MyMvcApp-Contact-Database-Application** no GitHub como um arquivo **README.md** na branch **master**. Este arquivo servirá como um guia para a criação do template ARM para implantar o aplicativo e o arquivo de fluxo de trabalho do pipeline do GitHub Actions.
-     
+      - Crie um arquivo MD no seu repositório **MyMvcApp-Contact-Database-Application** no GitHub como um arquivo **README.md** na branch **master**. Este arquivo servirá como um guia para a criação do template ARM para implantar o aplicativo e o arquivo de fluxo de trabalho do pipeline do GitHub Actions.
+
 ## Critério de Sucesso:
 
 - Verifique se a web app de Azure App Services contendo o código do seu aplicativo está presente no Azure.
@@ -95,9 +95,8 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 - Se você encontrar algum desafio ou tiver dúvidas, consulte a [Documentação do GitHub Copilot](https://github.com/github/copilot-docs) para obter orientações.
 
 ### Validação do Desafio
- 
-Forneca o username da conta de GitHub no formato **github-cloudlabsuser-XXXX** para o pass de validação **Validate GitHub directory**.
 
+Forneca o username da conta de GitHub no formato **github-cloudlabsuser-XXXX** para o pass de validação **Validate GitHub directory**.
 
 ## Conclusão
 
