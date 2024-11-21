@@ -72,52 +72,21 @@ In this task, you'll create a new codespace for your GitHub repository and use t
 
 1. You can now edit your GitHub repository files, commit, and push the changes directly to GitHub through VS Code.
 
-## Task 4: Explore GitHub Copilot Features
+## Task 4: Copilot Function Test
 
-In this task, you'll explore various GitHub Copilot features through a simple Python script that defines a function to calculate the factorial of a number.
+In this task, you will evaluate the functionality of GitHub Copilot by generating a simple code snippet using Copilot Chat.
 
-1. Below is a simple Python script that defines a function to calculate the factorial of a number. Let's use this to explore the GitHub Copilot features.
+1. Create a file with any name of your choice.
+1. Press Ctrl + I to prompt GitHub Copilot to write code for you.
+1. When the Copilot mini window appears, request Copilot to generate a simple Python code.
 
-   ```
-   def factorial(n):
-       if n == 0:
-           return 1
-       else:
-           return n * factorial(n-1)
+   ![](../../media/checkpy.png)
 
-   choice = int(input("Enter a number to calculate its factorial: "))
-   print(f"The factorial of {choice} is {factorial(choice)}")
-   ```
+1. A basic "Hello World" code will be generated. Click "Accept" to insert it into the newly created file.
 
-1. Select the entire code, right-click, and view the **Copilot** features.
+   ![](../../media/checkpy1.png)
 
-   ![](../../media/CopilotFeatures.png)
-
-1. **Start in Editor (1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
-
-1. **Explain This (2)** feature gives a detailed explanation of how the code works and its functionality.
-
-   ![](../../media/copilot-features-explain.png)
-
-1. **Fix This (3)** feature proposes a fix for the problems in the selected code.
-
-   ![](../../media/copilot-features-fix.png)
-
-1. **Generate Docs (4)** feature generates documentation or comments about the selected code.
-
-   ![](../../media/copilot-features-docs.png)
-
-1. **Generate Tests (5)** feature generates unit tests for the selected code. In this case, the GitHub Copilot generates a test case Python script, after which you can execute the script and view the results.
-
-   ![](../../media/copilot-features-tests.png)
-
-   ![](../../media/copilot-features-tests-cmd.png)
-
-1. You can also ask how to do something in the terminal, ask about VS Code, and ask about your workspace simply by entering **@** special character in your GitHub Copilot Chat window.
-
-   ![](../../media/copilot-features-chat.png)
-
-1. GitHub Copilot also assists you in scaffolding code for a new workspace, generating a new Jupyter notebook, and various types of documentation like Markdown and Javadoc.
+This confirms that the Copilot functionality is working properly.
 
 ## Task 5: Code Generation with Copilot and Copilot Chat
 
@@ -402,4 +371,51 @@ In this task, you'll be refactoring and debugging the poorly written Python code
    ```
 
 1. Save the file and run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
+
+## Task 7: Explore GitHub Copilot Features
+
+In this task, you'll explore various GitHub Copilot features through a simple Python script that defines a function to calculate the factorial of a number.
+
+1. Below is a simple Python script that defines a function to calculate the factorial of a number. Let's use this to explore the GitHub Copilot features.
+
+   ```
+   def factorial(n):
+       if n == 0:
+           return 1
+       else:
+           return n * factorial(n-1)
+
+   choice = int(input("Enter a number to calculate its factorial: "))
+   print(f"The factorial of {choice} is {factorial(choice)}")
+   ```
+
+1. Select the entire code, right-click, and view the **Copilot** features.
+
+   ![](../../media/CopilotFeatures.png)
+
+1. **Start in Editor (1)** feature allows you to ask questions or provide feedback directly within your code editor while using the GitHub Copilot.
+
+1. **Explain This (2)** feature gives a detailed explanation of how the code works and its functionality.
+
+   ![](../../media/copilot-features-explain.png)
+
+1. **Fix This (3)** feature proposes a fix for the problems in the selected code.
+
+   ![](../../media/copilot-features-fix.png)
+
+1. **Generate Docs (4)** feature generates documentation or comments about the selected code.
+
+   ![](../../media/copilot-features-docs.png)
+
+1. **Generate Tests (5)** feature generates unit tests for the selected code. In this case, the GitHub Copilot generates a test case Python script, after which you can execute the script and view the results.
+
+   ![](../../media/copilot-features-tests.png)
+
+   ![](../../media/copilot-features-tests-cmd.png)
+
+1. You can also ask how to do something in the terminal, ask about VS Code, and ask about your workspace simply by entering **@** special character in your GitHub Copilot Chat window.
+
+   ![](../../media/copilot-features-chat.png)
+
+1. GitHub Copilot also assists you in scaffolding code for a new workspace, generating a new Jupyter notebook, and various types of documentation like Markdown and Javadoc.
 
