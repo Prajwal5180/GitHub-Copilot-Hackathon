@@ -67,10 +67,25 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       - Understand how Copilot can be utilized in a collaborative coding environment.
       - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
-4. **Explore GitHub Copilot Features:**
-      - Experiment with providing specific context or constraints in your comments. This helps Copilot generate more tailored code snippets that fit your unique coding style or project requirements.
-      - Use Copilot to help you think through edge cases by asking it to generate code for scenarios that might not be immediately obvious. This can enhance your problem-solving skills and ensure your code handles various inputs effectively.
-        >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
+4. **Copilot Function Test:**
+     
+   - Create a New Python File:
+
+      - Open Visual Studio Code and create a new file named hello.py.
+
+   - Utilising GitHub Copilot:
+   
+     - Press Ctrl + I to prompt GitHub Copilot for code suggestions.
+     - In the Copilot mini window, type "Generate a basic Hello World program in Python.
+     - Review the generated code, which should look like: 
+
+     ```
+       print("Hello, World!")
+     ```
+
+     - Click Accept to insert the code into your file.
+
+     > **Hint**: Access the GitHub Copilot Suggestions window by pressing Ctrl + Enter in Visual Studio Code.
 
 5. **Code Generation with Copilot and Copilot Chat:**
       - Create Python/JS-based code to build a calculator.
@@ -95,6 +110,11 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
       - Debug the `card_draw.py` code effectively from your forked **CloudLabsAI-Azure/Code-Generation-Refactoring** GitHub repository with Copilot's assistance, addressing and fixing identified issues. 
         >**Hint:** Utilize GitHub Copilot's **Fix** feature.
+
+7. **Explore GitHub Copilot Features:**
+      - Experiment with providing specific context or constraints in your comments. This helps Copilot generate more tailored code snippets that fit your unique coding style or project requirements.
+      - Use Copilot to help you think through edge cases by asking it to generate code for scenarios that might not be immediately obvious. This can enhance your problem-solving skills and ensure your code handles various inputs effectively.
+        >**Hint:** Access the GitHub Copilot Suggestions window by **Ctrl+Enter** shortcut in your VS Code.
 
 ## Success Criteria:
 
