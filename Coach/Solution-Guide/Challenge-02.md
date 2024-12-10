@@ -219,7 +219,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 1. Run the below command in terminal to add your **MyMvcApp.csproj** project as a reference to generate unit test cases for `UserController.cs`.
 
    ```
-   dotnet add reference ../MyMvcApp-Contact-Databse-Application\MyMvcApp.csproj
+   dotnet add reference ../MyMvcApp-Contact-Database-Application\MyMvcApp.csproj
    ```
 
    ![](../../media/prom.png)
