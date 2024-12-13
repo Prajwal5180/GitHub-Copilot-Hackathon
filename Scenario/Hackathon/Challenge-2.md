@@ -19,14 +19,6 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 - Basic understanding of the C# programming language.  
 - GitHub account.
 - Create a folder named **GitHub Copilot** in **C:\Users\azureuser**.
-- Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\Users\azureuser\GitHub Copilot** for generating unit test cases.
-
-  ```
-  cd "C:\Users\azureuser\GitHub Copilot"
-  ```
-  ```
-  dotnet new xunit -n MyMvcApp.Tests
-  ```
 
 ## Setting Up Visual Studio Code
 
@@ -36,13 +28,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    
 3. Clone the forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
 
-4. In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
-
-      ```
-      dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
-      ```
-
-5. In your Visual Studio Code, navigate to **Extentions** and install **Nuget Gallery** and **C# Dev Kit**.
+4. In your Visual Studio Code, navigate to **Extentions** and install **Nuget Gallery** and **C# Dev Kit**.
 
 ## Challenge Objectives  
 
@@ -63,6 +49,21 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 
 2. **Generate unit test case scripts and validate them**:
 
+      - Run the below commands in command prompt to create a new folder named **MyMvcApp.Tests** in **C:\Users\azureuser\GitHub Copilot** for generating unit test cases.
+
+        ```
+        cd "C:\Users\azureuser\GitHub Copilot"
+        ```
+        ```
+        dotnet new xunit -n MyMvcApp.Tests
+        ```
+
+      - In your Visual Studio Code, locate the **MyMvcApp.Tests** folder in the Solution Explorer, right click and select **Open in integrated terminal**. Run the below command in the terminal to add the dotnet package.
+
+        ```
+        dotnet add package Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+        ```
+        
       - For each of the features in the **MyMvcApp** you built inside the **UserController.cs** file, generate unit test cases for the **UserControllerTests.cs** file by using **xunit** by utilizing **Github Copilot**.
         >**Hint:** Rename the **UnitTest1.cs** file to **UserControllerTests.cs** after creating the **MyMvcApp.Test** folder.
 
