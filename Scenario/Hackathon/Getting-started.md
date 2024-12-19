@@ -30,6 +30,12 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 ![](../../media/new-github-copilot-hack-04.png)
 
+## Lab Guide Zoom In/Zoom Out
+ 
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+![](../../media/zoom-feature.png)
+
 ## Managing Your Virtual Machine
 
 1. Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
