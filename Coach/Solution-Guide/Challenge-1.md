@@ -243,58 +243,22 @@ En esta tarea, creará un código Python/JS para construir una calculadora y usa
 
 1. Envíe los archivos a su repositorio de GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring**.
 
-## Tarea 6: Refactorizar y Depurar Código
+Aquí tienes la traducción al español:  
 
-En esta tarea, refactorizará y depurará códigos de Python mal escritos utilizando GitHub Copilot y probará algunos escenarios.
+---  
 
-1. Copie el siguiente código en un nuevo archivo en VS Code.
+## Tarea 6: Refactorización y Depuración de Código con GitHub Copilot  
 
-   ```
-   #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
-      
-   MAX = 100
+En esta tarea, refactorizarás y depurarás códigos de Python mal escritos utilizando GitHub Copilot y probarás algunos escenarios.  
 
-   def calculate_sum(arr):
-         result = 0
-         for num in arr:
-            result += num
-         return result
+1. Abre el archivo **sum_elements.py** haciendo doble clic en él.  
 
-   def main():
-         try:
-            n = int(input("Enter the number of elements (1-100): "))
-            if not 1 <= n <= MAX:
-                  print("Invalid input. Please provide a digit ranging from 1 to 100.")
-                  exit(1)
+1. Selecciona todo el código, haz clic derecho y selecciona **Refactorizar**, luego elige *Modificar usando Copilot* y solicita a Copilot que refactorice el código seleccionado.  
 
-            arr = []
+1. Notarás que GitHub Copilot ha refactorizado y corregido el código.  
 
-            print(f"Enter {n} integers:")
-            for _ in range(n):
-                  try:
-                     arr.append(int(input()))
-                  except ValueError:
-                     print("Invalid input. Please enter valid integers.")
-                     exit(1)
-
-            total = calculate_sum(arr)
-
-            print("Sum of the numbers:", total)
-
-         except KeyboardInterrupt:
-            print("\nProgram terminated by user.")
-            exit(1)
-
-   if __name__ == "__main__":
-         main()
-   ```
-
-1. Seleccione todo el código, haga clic derecho y haga clic en **Refactor** usando Copilot, y pida a Copilot que refactorice el código seleccionado.
-
-1. Notará que GitHub Copilot ha refactorizado y corregido el código.
-
-   ```
-   #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
+   ```python
+   # Un ejemplo mal escrito de un programa en Python. Solicita al usuario el número de elementos a sumar, toma esos números enteros como entrada y maneja algunos casos de error básicos.
 
    MAX = 100
 
@@ -303,77 +267,58 @@ En esta tarea, refactorizará y depurará códigos de Python mal escritos utiliz
 
    def main():
       try:
-         n = int(input("Enter the number of elements (1-100): "))
+         n = int(input("Ingrese el número de elementos (1-100): "))
          if not 1 <= n <= MAX:
-            print("Invalid input. Please provide a digit ranging from 1 to 100.")
+            print("Entrada no válida. Por favor, proporcione un número del 1 al 100.")
             exit(1)
 
          arr = []
 
-         print(f"Enter {n} integers:")
+         print(f"Ingrese {n} números enteros:")
          for _ in range(n):
             try:
                arr.append(int(input()))
             except ValueError:
-               print("Invalid input. Please enter valid integers.")
+               print("Entrada no válida. Por favor, ingrese números enteros válidos.")
                exit(1)
 
          total = calculate_sum(arr)
 
-         print("Sum of the numbers:", total)
+         print("Suma de los números:", total)
 
       except KeyboardInterrupt:
-         print("\nProgram terminated by user.")
+         print("\nPrograma terminado por el usuario.")
          exit(1)
 
    if __name__ == "__main__":
       main()
    ```
 
-1. Guarde el archivo y ejecute algunos casos de prueba para verificar que el código refactorizado por GitHub Copilot sea correcto.
+1. Acepta los cambios, guarda el archivo y ejecuta algunos casos de prueba para verificar que el código refactorizado por GitHub Copilot sea preciso.  
 
-1. Copie el siguiente código en un nuevo archivo en VS Code.
+1. Abre el archivo **card_draw.py** haciendo doble clic en él.  
 
-   ```
-   # Intentionally flawed Python program
+1. Selecciona todo el código, haz clic derecho y haz clic en **Copilot**, luego selecciona **Fix** para depurar el código seleccionado.  
 
-   # importing modules
-   import itertools, random
+1. Notarás que GitHub Copilot ha depurado y corregido el código.  
 
-   # make a deck of cards
-   deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
+   ```python
+   # Programa de Python con errores intencionales
 
-   # shuffle the cards
-   random.shuffle(deck)
-
-   # draw five cards
-   print("You got:")
-   for i in range(5)
-      print(deck[i][0], "of", deck[i][1]
-   ```
-
-1. Seleccione todo el código, haga clic derecho y seleccione **Copilot**, y luego haga clic en **Corregir esto** para depurar el código seleccionado.
-
-1. Notará que GitHub Copilot ha depurado y corregido el código.
-
-   ```
-   # Intentionally flawed Python program
-
-   # importing modules
+   # Importación de módulos
    import itertools
    import random
 
-   # make a deck of cards
-   deck = list(itertools.product(range(1, 14), ['Spade', 'Heart', 'Diamond', 'Club']))
+   # Crear una baraja de cartas
+   deck = list(itertools.product(range(1, 14), ['Espadas', 'Corazones', 'Diamantes', 'Tréboles']))
 
-   # shuffle the cards
+   # Barajar las cartas
    random.shuffle(deck)
 
-   # draw five cards
-   print("You got:")
+   # Robar cinco cartas
+   print("Has obtenido:")
    for i in range(5):
-      print(deck[i][0], "of", deck[i][1])
+      print(deck[i][0], "de", deck[i][1])
    ```
 
-1. Guarde el archivo y ejecute algunos casos de prueba para verificar que el código depurado por GitHub Copilot funciona como se espera.
-
+1. Acepta los cambios, guarda el archivo y ejecuta algunos casos de prueba para verificar que el código depurado por GitHub Copilot funcione como se espera.  
