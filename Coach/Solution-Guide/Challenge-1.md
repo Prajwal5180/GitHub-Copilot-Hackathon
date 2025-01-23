@@ -201,7 +201,7 @@ En esta tarea, creará un código Python/JS para construir una calculadora y usa
    Create a Python/JS based app to get weather data from weather APIs
    ```
 
-   ![](../../media/copilot-weather-api.png)
+   ![](../../media/ghc1.png)
 
 1. Observe cómo GitHub Copilot crea código para obtener datos meteorológicos de las APIs de clima tanto en el lenguaje Python como en JS.
 
