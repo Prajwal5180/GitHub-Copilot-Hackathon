@@ -248,48 +248,9 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 In this task, you'll be refactoring and debugging the poorly written Python codes using GitHub Copilot and testing out a few scenarios.
 
-1. Copy the below code into a new file in VS Code.
+1. Open the **sum_elements.py** file by double-clicking on it.
 
-   ```
-   #A poorly written example of a program in Python. It prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases
-      
-   MAX = 100
-
-   def calculate_sum(arr):
-         result = 0
-         for num in arr:
-            result += num
-         return result
-
-   def main():
-         try:
-            n = int(input("Enter the number of elements (1-100): "))
-            if not 1 <= n <= MAX:
-                  print("Invalid input. Please provide a digit ranging from 1 to 100.")
-                  exit(1)
-
-            arr = []
-
-            print(f"Enter {n} integers:")
-            for _ in range(n):
-                  try:
-                     arr.append(int(input()))
-                  except ValueError:
-                     print("Invalid input. Please enter valid integers.")
-                     exit(1)
-
-            total = calculate_sum(arr)
-
-            print("Sum of the numbers:", total)
-
-         except KeyboardInterrupt:
-            print("\nProgram terminated by user.")
-            exit(1)
-
-   if __name__ == "__main__":
-         main()
-   ```
-1. Select the entire code, right-click, and click **Refactor** using Copilot, and ask the Copilot to refactor the selected code.
+1. Select the entire code, right-click, and click **Refactor** and select *Modify using copilot*, and ask the Copilot to refactor the selected code.
 
 1. You'll notice that GitHub Copilot has refactored and fixed the code.
 
@@ -330,27 +291,9 @@ In this task, you'll be refactoring and debugging the poorly written Python code
       main()
    ```
 
-1. Save the file and run a few test cases to verify that the code refactored by GitHub Copilot is accurate.
+1. Accept the changes and Save the file and run a few test cases to verify that the code refactored by GitHub Copilot is accurate.
 
-1. Copy the below code in a new file in VS Code.
-
-   ```
-   # Intentionally flawed Python program
-
-   # importing modules
-   import itertools, random
-
-   # make a deck of cards
-   deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
-
-   # shuffle the cards
-   random.shuffle(deck)
-
-   # draw five cards
-   print("You got:")
-   for i in range(5)
-      print(deck[i][0], "of", deck[i][1]
-   ```
+1. Open the **card_draw.py** file by double-clicking on it.
 
 1. Select the entire code, right-click and click **Copilot**, and then click **Fix** to debug the selected code.
 
@@ -375,7 +318,7 @@ In this task, you'll be refactoring and debugging the poorly written Python code
       print(deck[i][0], "of", deck[i][1])
    ```
 
-1. Save the file and run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
+1. Accept the changes and Save the file and run a few test cases to verify that the code debugged by GitHub Copilot is working as expected.
 
 ## Task 7: Explore GitHub Copilot Features
 
