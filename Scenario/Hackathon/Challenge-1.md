@@ -67,10 +67,19 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
       - Comprenda cómo se puede utilizar Copilot en un entorno de programación colaborativa.
       - Utilice GitHub Codespaces para enviar/confirmar los archivos locales de VS Code a GitHub en los próximos desafíos.
 
-4. **Explorar las Características de GitHub Copilot:**
-      - Experimente con Copilot en varios escenarios de codificación.
-      - Utilice las sugerencias de Copilot para acelerar su proceso de escritura de código.
-        >**Sugerencia:** Acceda a la ventana GitHub Copilot Suggestions con el atajo **Ctrl+Enter** en VS Code.
+4. **Prueba de Función de Copilot:**   
+   - Crear un Nuevo Archivo Python:
+     - Abre Visual Studio Code y crea un nuevo archivo llamado hello.py.
+   - Utilizando GitHub Copilot:
+     - Presiona Ctrl + I para solicitar sugerencias de código a GitHub Copilot.
+     - En la ventana mini de Copilot, escribe:
+     - "Generar un programa básico de Hola Mundo en Python."
+     - Revisa el código generado, que debería verse así:
+     ```
+     print("Hello, World!")
+     ```
+     - Haz clic en Aceptar para insertar el código en tu archivo.
+     >**Sugerencia:** Accede a la ventana de Sugerencias de GitHub Copilot presionando Ctrl + Enter en Visual Studio Code.
 
 5. **Generar Código con Copilot y Copilot Chat:**
       - Cree código basado en Python/JS para construir una calculadora.
@@ -90,6 +99,11 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
 
       - Depure el código `card_draw.py` de manera efectiva desde su repositorio GitHub bifurcado **CloudLabsAI-Azure/Code-Generation-Refactoring** con la ayuda de Copilot, abordando y solucionando problemas identificados. 
         >**Sugerencia:** Utilice la función **Reparar** de GitHub Copilot.
+
+7. **Explorar las Características de GitHub Copilot:**
+      - Experimente con Copilot en varios escenarios de codificación.
+      - Utilice las sugerencias de Copilot para acelerar su proceso de escritura de código.
+        >**Sugerencia:** Acceda a la ventana GitHub Copilot Suggestions con el atajo **Ctrl+Enter** en VS Code.
 
 ## Criterios de Éxito:
 
