@@ -114,5 +114,7 @@ When access to Copilot has been enabled, features such as the ability to use Cop
 
 - [Say hello to GitHub Copilot Enterprise!](https://www.youtube.com/watch?v=vUX5u_4B2AM)
 - [GitHub Copilot - KB Ghost](https://spektrasystems.sharepoint.com/:v:/s/CloudLabs-Services/EZzDsP1I9uVNirVAGKJ34sABMA02runzrXX1Bcc6DzUdbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sWSj9W)
+- https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/
+- https://github.com/features/copilot/tutorials
 
   >**Note**: You can go thourgh the above videos to watch & learn, which covers Introduction to GitHub Copilot Enterprise and it's features. In this Hackathon, you will be using GitHub Copilot Business.
