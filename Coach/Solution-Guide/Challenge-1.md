@@ -192,11 +192,15 @@ In this task, you'll create a Python/JS code to build a calculator and use OpenW
 
 1. Run tests for the files by experimenting with different operations to verify the working of the calculator.
 
-1. To get the weather data from weather APIs, first sign in to the OpenWeatherMap API website (https://openweathermap.org/), and on the dropdown of your user profile in the top right, click **My API keys**.
+1. To access weather data using the OpenWeatherMap API, sign in to your account on their website: [https://openweathermap.org/](https://openweathermap.org/).
 
-1. You can either use the default API key or create a new one to get the weather data using code.
+   ![](../../media/signinapi.png)
 
-1. To create a new OpenWeather account, the user fills in their username (1), email address (2), password (3 and 4), agrees to the terms by checking the required boxes (5 and 6), completes the CAPTCHA (7), and finally clicks the 'Create Account' button (8).
+1. Create a new one to get the weather data using code by click on Create an Account.
+
+   ![](../../media/createaaccount.png)
+
+1. To create a new OpenWeather account, the user fills in their username **(1)**, email address **(2)**, password **(3 and 4)**, agrees to the terms by checking the required boxes **(5 and 6)**, completes the CAPTCHA **(7)**, and finally clicks the 'Create Account' button **(8)**.
 
    ![](../../media/weather-api-keys1.png)
 
