@@ -60,7 +60,6 @@
  
    ![](../../media/ABC.png)
 
- 
 #### Scenario 1
  
 1. Use GitHub Copilot to generate code for each empty method in the `UserController.cs`file. To generate code for each empty method using GitHub Copilot, Select or highlight the lines of the empty method, and then right-click on the highlighted lines to open the context menu.
