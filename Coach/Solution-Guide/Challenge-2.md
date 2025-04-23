@@ -12,17 +12,17 @@
 
     ![](../../media/Repo-info.png)
 
-- Fork the repository into the CloudLabs provided GitHub account.
+- Fork the repository into the CloudLabs-provided GitHub account.
 
     ![](../../media/Fork-repo.png)
 
-### Open Visual Studio and Clone Repository
+### Open Visual Studio and Clone the Repository
 
-- Launch Visual Studio and click on ""Clone Git repository".
+- Launch Visual Studio and click on "Clone Git repository".
 
    ![](../../media/Clone-Git-repo.png)
 
-- Enter the Git Repository URL and click enter
+- Enter the Git Repository URL and click Enter
 
     ![](../../media/URL-Repo.png)
 
@@ -34,6 +34,8 @@
 ### Setting Up Visual Studio 2022
 
 - In the Visual Studio, navigate and click on the **GitHub Copilot** option located at the top right and select **Install Copilot**.
+
+    >**Note:** If **GitHub Copilot** forlder is not availble then create a new.
 
 - In the Visual Studio Installer pane, make sure that the **GitHub Copilot** is selected and click **Install**. This will close the Visual Studio application.
 
@@ -154,7 +156,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
 # Task 2: Generate Unit Test Cases
 
-- To generate unit test cases, we need to add a new project. In the solution explorer, right-click on the Solution.
+- To generate unit test cases, we need to add a new project. In the Solution Explorer, right-click on the Solution.
 
     ![](../../media/crud3.1.png)
 
@@ -162,7 +164,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
     ![](../../media/crud3.2.png)
 
-- Now search for Unit test in the search box select the Unit Test Project (.Net Framework) and then click on Next.
+- Now search for Unit test in the search box, select the Unit Test Project (.Net Framework) and then click on Next.
 
     ![](../../media/crud3.3.png)
 
@@ -188,7 +190,7 @@ By following these steps meticulously, you can thoroughly test the CRUD (Create,
 
     ![](../../media/crud3.8.png)
 
-- Now copy the code provided by Github Copilot by clicking on the copy icon.
+- Now, copy the code provided by Github Copilot by clicking on the copy icon.
 
     ![](../../media/crud3.9.png)
 
