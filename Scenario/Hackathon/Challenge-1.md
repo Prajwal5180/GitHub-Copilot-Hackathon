@@ -35,17 +35,25 @@ Make sure you have the following from the CloudLabs-provided integrated environm
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
-
-   >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, provide the following **Username or email address**: **odl-user-<inject key="DeploymentID" enableCopy="false"/>_clabs** **(1)**. Then click on **Sign in with your identity provider** **(2)**. 
    
-   ![](../../media/github-login.png)
+   ![](../../media/github-hack-may-ch1-1.png)
           
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+1. You will be redirected to **Single-Sign on** page, click on **Continue** button here.
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+   ![](../../media/github-hack-may-ch1-2.png)
 
-   ![](../../media/authgit.png)
+1. On the **Sign in** tab you will see a login screen, enter the following email/username and then click on **Next**. 
+   * Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
+   
+     ![](./images/overview-1.png) 
+     
+1. Now enter the following password and click on **Sign in**.
+   * Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
+   
+     ![](./images/overview-2.png) 
+
+1. If you see the pop-up **Stay Signed in?**, click **Yes**.
 
 ## Challenge Objectives:
 
@@ -56,14 +64,15 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
 2. **Login with a GitHub account:**
-      - Login to GitHub within Visual Studio Code using the provided GitHub credentials. You can find these credentials under **Environment > GitHub Credentials** tab.
-      - On the GitHub sign-in page, enter your GitHub credentials and click on **Sign in**.
-      - To verify your GitHub account login, sign in to **Outlook** in the Lab VM through in a Private window (https://outlook.office365.com/mail/) using your GitHub credentials, locate the email containing the verification code, and select **Verify**.
-      - Click on Authorize Visual-Studio-Code to provide additional permissions to GitHub for VS Code.
+      - Login to GitHub within Visual Studio Code using the provided GitHub credentials.
+      - Since you are already logged into GitHub in your browser, you just need to authorize Visual Studio Code to access your GitHub account.
+      - Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for VS Code.
 
 3. **Using GitHub Codespaces with Copilot:**
       - Create a Codespace for your GitHub repository. Navigate to **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** repository and fork this repository into the CloudLabs-provided GitHub account to create a new codespace.
       - Clone the above forked repository into Visual Studio Code using the CloudLabs-provided GitHub account.
+      - Click the **+ icon** in the upper-right corner of GitHub and select **Import repository** from the dropdown menu.
+      - Enter the URL of the repository you want to import. Set the **Owner** to **Cloudlabs-Enterprises**, and name the repository **Code-Generation-Refactoring-<inject key="DeploymentID" enableCopy="false"/>**. Once done, start the import process.
       - Understand how Copilot can be utilized in a collaborative coding environment.
       - Use the GitHub Codespaces to push/commit the local files from VS Code to GitHub in the next challenges.
 
