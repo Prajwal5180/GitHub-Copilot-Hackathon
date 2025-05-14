@@ -30,7 +30,7 @@ Certifique-se de ter o seguinte no ambiente integrado fornecido pelo CloudLabs:
 
 ## Configurar o Visual Studio Code
 
-1. Faça login no Visual Studio Code usando suas credenciais de usuário do GitHub a partir da tab **Environment > GitHub Credentials**.
+1. Entre no Visual Studio Code utilizando as suas credenciais de utilizador do GitHub.
 
 2. Navegue até o link do GitHub abaixo e faça um fork do repositório para a conta GitHub fornecida pelo CloudLabs.
 
