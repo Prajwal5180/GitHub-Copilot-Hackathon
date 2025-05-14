@@ -46,12 +46,12 @@ Make sure you have the following from the CloudLabs-provided integrated environm
 1. On the **Sign in** tab you will see a login screen, enter the following email/username and then click on **Next**. 
    * Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
    
-     ![](./images/overview-1.png) 
+      ![](../../media/github-hack-may-ch1-3.png)
      
 1. Now enter the following password and click on **Sign in**.
    * Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
    
-     ![](./images/overview-2.png) 
+      ![](../../media/github-hack-may-ch1-4.png)
 
 1. If you see the pop-up **Stay Signed in?**, click **Yes**.
 
@@ -64,7 +64,7 @@ Make sure you have the following from the CloudLabs-provided integrated environm
       <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
 2. **Login with a GitHub account:**
-      - Login to GitHub within Visual Studio Code using the provided GitHub credentials.
+      - Login to GitHub within Visual Studio Code using the provided GitHub credentials provided in **Login to GitHub** section above.
       - Since you are already logged into GitHub in your browser, you just need to authorize Visual Studio Code to access your GitHub account.
       - Click on **Authorize Visual-Studio-Code** to provide additional permissions to GitHub for VS Code.
 
