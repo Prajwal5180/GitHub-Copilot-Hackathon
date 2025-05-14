@@ -35,17 +35,28 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
    https://github.com/login
    ```
    
-1. En la pestaña **Sign in to GitHub**, verá la pantalla de inicio de sesión. En esa pantalla, ingrese el siguiente **correo electrónico** **(1)** y **contraseña** **(2)**. Luego, haga clic en **Sign in** **(3)**.
+1. En la pestaña **Sign in to GitHub**, verá la pantalla de inicio de sesión. En ella, introduzca el siguiente **nombre de usuario o dirección de correo electrónico**: **odl-user-<inject key="DeploymentID" enableCopy="false"/>_clabs** **(1)**. A continuación, haga clic en **Sign in with your identity provider** **(2)**.
 
-   >**Nota**: Para obtener las credenciales de GitHub, diríjase a la pestaña **Detalles del Ambiente** y haga clic en la opción **Credenciales de GitHub** para ver los pares clave-valor de **GitHub UserEmail** y **GitHub Password**. Puede usar los botones de copia que se encuentran debajo de la columna de acciones para que los valores se copien al instante. Como alternativa, se sugiere copiar los valores en un bloc de notas para facilitar el acceso.
+   ![](../../media/github-hack-may-ch1-1.png)
+
+1. Serás redirigido a la página de **Inicio de sesión único**, haz clic en el botón **Continue** aquí.
+
+   ![](../../media/github-hack-may-ch1-2.png)
+
+1. En la pestaña **Sign in** verá una pantalla de inicio de sesión, ingrese el siguiente correo electrónico/nombre de usuario y luego haga clic en **Next**.
+
+   * Email/Username: **<inject key="AzureAdUserEmail" enableCopy="true"/>** 
    
-   ![](../../media/github-login.png)
-          
-1. A continuación, para obtener el código de autenticación, inicie sesión en Outlook (https://outlook.office365.com/mail/) con las credenciales de Git dentro de la pestaña Ambiente del paso anterior. Una vez que haya iniciado sesión en Outlook, busque el correo electrónico reciente que contiene el código de verificación. Ingresa el código de verificación y haga clic en **Verify**.
+      ![](../../media/github-hack-may-ch1-3.png)
 
-   >**Nota:** El correo electrónico que contiene el código de verificación a veces puede colarse en las carpetas de archivo/spam dentro de Outlook.
+1. Ahora ingrese la siguiente contraseña y haga clic en **Sign in**.
 
-   ![](../../media/authgit.png)
+   * Password: **<inject key="AzureAdUserPassword" enableCopy="true"/>**
+   
+      ![](../../media/github-hack-may-ch1-4.png)
+
+1. Si ve la ventana emergente **Stay Signed in?**, haga clic en **Yes**.
+
 
 ## Objetivos del Desafío:
 
@@ -56,14 +67,15 @@ Asegúrese de que dispone de lo siguiente del ambiente integrado proporcionado p
    <validation step="afc73673-26ad-4c49-b013-4632e09d8634" />
 
 2. **Iniciar sesión con una cuenta de GitHub:**
-      - Inicie sesión en GitHub dentro de Visual Studio Code con las credenciales de GitHub proporcionadas. Puede encontrar estas credenciales en la pestaña **Ambiente > Credenciales de GitHub**.
-      - En la página de inicio de sesión de GitHub, ingrese sus credenciales de GitHub y haga clic en **Sign in**.
-      - Para verificar el inicio de sesión de su cuenta de GitHub, inicie sesión en **Outlook** en la Máquina Virtual del Laboratorio a través de una ventana privada (https://outlook.office365.com/mail/) con sus credenciales de GitHub, busque el correo electrónico que contiene el código de verificación y seleccione **Verify**.
-      - Haga clic en Authorize Visual-Studio-Code para proporcionar permisos adicionales a GitHub para VS Code.
+      - Inicie sesión en GitHub dentro de Visual Studio Code usando las credenciales de GitHub proporcionadas en la sección **Iniciar sesión en GitHub** más arriba.
+      - Como ya ha iniciado sesión en GitHub en su navegador, solo necesita autorizar a Visual Studio Code para acceder a su cuenta de GitHub.
+      - Haga clic en **Authorize Visual-Studio-Code** para proporcionar permisos adicionales a GitHub para VS Code.
 
 3. **Usar GitHub Codespaces con Copilot:**
       - Crea un Codespace para tu repositorio de GitHub. Vaya al repositorio **https://github.com/CloudLabsAI-Azure/Code-Generation-Refactoring** y bifurque este repositorio en la cuenta de GitHub proporcionada por CloudLabs para crear un nuevo espacio de código.
       - Clona el repositorio de GitHub anterior en tu código VS.
+      - Haz clic en el **icono +** en la esquina superior derecha de GitHub y selecciona **Importar repositorio** en el menú desplegable.
+      - Introduce la URL del repositorio que quieres importar. Establece **Cloudlabs-Enterprises** como **Propietario** y nómbralo **Code-Generation-Refactoring-<inject key="DeploymentID" enableCopy="false"/>**. Una vez hecho esto, inicia el proceso de importación.
       - Comprenda cómo se puede utilizar Copilot en un entorno de programación colaborativa.
       - Utilice GitHub Codespaces para enviar/confirmar los archivos locales de VS Code a GitHub en los próximos desafíos.
 
